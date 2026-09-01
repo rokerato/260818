@@ -918,12 +918,12 @@
   }
  },
  {
-  "url": "https://map.naver.com/p/api/search/allSearch?query=%EC%97%90%EB%B2%84%EB%9E%9C%EB%93%9C+%EB%A7%A4%EC%A7%81%EB%9E%9C%EB%93%9C&type=all&searchCoord=126.97825%3B37.566551&boundary=&sscode=svc.mapv5.search&token=ewkB-lbzmVVrE_ue3ioGtmLXENtwS-wHEMDd0TaI5ZU%3D",
+  "url": "https://map.naver.com/p/api/search/allSearch?query=%EC%97%90%EB%B2%84%EB%9E%9C%EB%93%9C+%EB%A7%A4%EC%A7%81%EB%9E%9C%EB%93%9C&type=all&searchCoord=126.97825%3B37.566551&boundary=&sscode=svc.mapv5.search&token=6b8jvnWHyLWFiMhOi-QtcdJ_IPb0pjLx7SaSoPj0E9o%3D",
   "body": {
    "result": {
     "type": "all",
     "metaInfo": {
-     "pageId": "3cd36ace-fdb5-418b-bf8d-c84e3792507f",
+     "pageId": "c9ae7bea-2dd5-4e0c-8c96-a6649195f856",
      "sessionId": null,
      "rcode": "09140103",
      "searchedQuery": "에버랜드 매직랜드",

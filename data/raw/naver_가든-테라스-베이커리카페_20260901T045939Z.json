@@ -1,0 +1,23 @@
+{
+  "platform": "naver",
+  "target": {
+    "name": "가든 테라스(베이커리카페)",
+    "url": null,
+    "place_id": "1531667896",
+    "category": "cafe"
+  },
+  "resolved": {
+    "place_id": "1531667896",
+    "place_url": "https://pcmap.place.naver.com/cafe/1531667896/review/visitor",
+    "place_name": "가든 테라스(베이커리카페)"
+  },
+  "started_at": "2026-09-01T05:39:33+00:00",
+  "finished_at": "2026-09-01T05:39:49+00:00",
+  "duplicates_removed": 0,
+  "failures": [
+    "no reviews found via graphql interception or DOM fallback"
+  ],
+  "review_count": 0,
+  "reviews": [],
+  "raw_responses": []
+}

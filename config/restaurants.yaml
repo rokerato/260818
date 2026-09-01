@@ -46,13 +46,6 @@ restaurants:
   naver_category:
   - 양식
   - 멕시코,남미음식
-- name: 홀랜드빌리지
-  place_id: '1081318402'
-  category: restaurant
-  address: 경기도 용인시 처인구 포곡읍 에버랜드로 199 삼성에버랜드
-  naver_category:
-  - 음식점
-  - 양식
 - name: 쿠치나마리오
   place_id: '1401139141'
   category: restaurant
@@ -60,6 +53,13 @@ restaurants:
   naver_category:
   - 음식점
   - 이탈리아음식
+- name: 홀랜드빌리지
+  place_id: '1081318402'
+  category: restaurant
+  address: 경기도 용인시 처인구 포곡읍 에버랜드로 199 삼성에버랜드
+  naver_category:
+  - 음식점
+  - 양식
 - name: 스노우피크 카페앤다이닝
   place_id: '1451740778'
   category: restaurant
@@ -74,13 +74,6 @@ restaurants:
   naver_category:
   - 음식점
   - 양식
-- name: 멜팅소울 캐리비안베이점
-  place_id: '1679236775'
-  category: restaurant
-  address: 경기도 용인시 처인구 포곡읍 에버랜드로 199 캐리비안베이 야외풀 매장
-  naver_category:
-  - 음식점
-  - 햄버거
 - name: 가든테라스
   place_id: '1839013733'
   category: restaurant
@@ -88,6 +81,13 @@ restaurants:
   naver_category:
   - 음식점
   - 양식
+- name: 멜팅소울 캐리비안베이점
+  place_id: '1679236775'
+  category: restaurant
+  address: 경기도 용인시 처인구 포곡읍 에버랜드로 199 캐리비안베이 야외풀 매장
+  naver_category:
+  - 음식점
+  - 햄버거
 - name: 버거카페유럽
   place_id: '1681363676'
   category: restaurant
@@ -137,13 +137,6 @@ restaurants:
   naver_category:
   - 음식점
   - 카페,디저트
-- name: 포메인 에버랜드직영점
-  place_id: '1182555323'
-  category: restaurant
-  address: 경기도 용인시 처인구 포곡읍 에버랜드로 199
-  naver_category:
-  - 음식점
-  - 베트남음식
 - name: 솥내음 용인 에버랜드점
   place_id: '1413421949'
   category: restaurant
@@ -151,17 +144,24 @@ restaurants:
   naver_category:
   - 음식점
   - 한식
-- name: 커피빈 용인에버랜드점
-  place_id: '1131675496'
-  category: cafe
-  address: 경기도 용인시 처인구 포곡읍 에버랜드로 199 삼성에버랜드
+- name: 포메인 에버랜드직영점
+  place_id: '1182555323'
+  category: restaurant
+  address: 경기도 용인시 처인구 포곡읍 에버랜드로 199
   naver_category:
-  - 카페,디저트
-  - 카페
+  - 음식점
+  - 베트남음식
 - name: 스타벅스 용인에버랜드점
   place_id: '1660460217'
   category: cafe
   address: 경기도 용인시 처인구 포곡읍 에버랜드로 199
+  naver_category:
+  - 카페,디저트
+  - 카페
+- name: 커피빈 용인에버랜드점
+  place_id: '1131675496'
+  category: cafe
+  address: 경기도 용인시 처인구 포곡읍 에버랜드로 199 삼성에버랜드
   naver_category:
   - 카페,디저트
   - 카페
@@ -200,6 +200,13 @@ restaurants:
   naver_category:
   - 음식점
   - 카페,디저트
+- name: 오리엔탈스테이션
+  place_id: '19285948'
+  category: restaurant
+  address: 경기도 용인시 처인구 포곡읍 에버랜드로 199 삼성에버랜드
+  naver_category:
+  - 음식점
+  - 푸드코트
 - name: 앤티앤스 에버랜드점
   place_id: '1310732110'
   category: cafe
@@ -214,10 +221,3 @@ restaurants:
   naver_category:
   - 카페,디저트
   - 베이커리
-- name: 스낵 버스터
-  place_id: '1468050513'
-  category: restaurant
-  address: 경기도 용인시 처인구 포곡읍 에버랜드로 199
-  naver_category:
-  - 분식
-  - 종합분식

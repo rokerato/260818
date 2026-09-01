@@ -918,12 +918,12 @@
   }
  },
  {
-  "url": "https://map.naver.com/p/api/search/allSearch?query=%EC%97%90%EB%B2%84%EB%9E%9C%EB%93%9C+%EB%A0%88%EC%8A%A4%ED%86%A0%EB%9E%91&type=all&searchCoord=126.97825%3B37.566551&boundary=&sscode=svc.mapv5.search&token=ztpIWb7PpOUOn7mVnABSg53o4m5tOlaZKBZTAQNBeTE%3D",
+  "url": "https://map.naver.com/p/api/search/allSearch?query=%EC%97%90%EB%B2%84%EB%9E%9C%EB%93%9C+%EB%A0%88%EC%8A%A4%ED%86%A0%EB%9E%91&type=all&searchCoord=126.97825%3B37.566551&boundary=&sscode=svc.mapv5.search&token=pK8VPWRyc3wN7CUwe71ROx9Fqjdx2opQgQOV74c0wbE%3D",
   "body": {
    "result": {
     "type": "place",
     "metaInfo": {
-     "pageId": "ba05f96b-c6f6-435a-8eb8-b412fe09396e",
+     "pageId": "d16977a9-3b9d-4494-9e2d-58e140c050c1",
      "sessionId": null,
      "rcode": "09140103",
      "searchedQuery": "에버랜드 레스토랑",
@@ -994,7 +994,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011156",
+        "requestTime": "202609011353",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -1144,7 +1144,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011156",
+        "requestTime": "202609011353",
         "status": {
          "code": 0,
          "text": "",
@@ -1302,7 +1302,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011156",
+        "requestTime": "202609011353",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -1515,7 +1515,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011156",
+        "requestTime": "202609011353",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -1664,7 +1664,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011156",
+        "requestTime": "202609011353",
         "status": {
          "code": 6,
          "text": "영업 종료",
@@ -1825,7 +1825,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011156",
+        "requestTime": "202609011353",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -1974,7 +1974,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011156",
+        "requestTime": "202609011353",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -2116,6 +2116,153 @@
       {
        "index": "7",
        "rank": "8",
+       "id": "1401139141",
+       "name": "쿠치나마리오",
+       "tel": "",
+       "isCallLink": false,
+       "virtualTel": "",
+       "virtualTelDisplay": "",
+       "ppc": "0",
+       "category": [
+        "음식점",
+        "이탈리아음식"
+       ],
+       "categoryPath": [
+        [
+         "220036",
+         "220044",
+         "220127",
+         "220913"
+        ],
+        [
+         "222117",
+         "222121",
+         "1003373",
+         "1003374"
+        ]
+       ],
+       "rcode": "0246125027",
+       "businessStatus": {
+        "requestTime": "202609011353",
+        "status": {
+         "code": 2,
+         "text": "영업 중",
+         "emphasis": false,
+         "description": "영업중",
+         "detailInfo": "16:00에 브레이크타임"
+        },
+        "businessHours": "202609011100~202609012050",
+        "breakTime": "202609011600~202609011700",
+        "lastOrder": "202609012020"
+       },
+       "naviInfoText": null,
+       "naviInfo": null,
+       "address": "경기도 용인시 처인구 포곡읍 전대리 310",
+       "roadAddress": "경기도 용인시 처인구 포곡읍 에버랜드로 199",
+       "abbrAddress": "전대리 310",
+       "shortAddress": [
+        "경기 용인시 처인구 포곡읍",
+        "에버랜드로 199"
+       ],
+       "display": "쿠치나마리오",
+       "telDisplay": "",
+       "context": [],
+       "reviewCount": 192,
+       "placeReviewCount": 646,
+       "ktCallMd": "93987ac4ce40cbae58dd5e57a2bcd8cc",
+       "coupon": "0",
+       "thumUrl": "http://blogfiles.naver.net/MjAyMzExMDFfMjU1/MDAxNjk4Nzk3MDk1NzMz.vgJMpjmhLnLo81kz5lFYo0ZaEXo8PTnBEyVxW4Horwog.8s9cIj-s-kyYN9m_MYT6AmKiI93MWpWkwdMVkU1PUiYg.JPEG.artknitting/DSC%A3%DF6944.JPG#900x601",
+       "thumUrls": [],
+       "type": "s",
+       "isSite": "1",
+       "posExact": "1",
+       "x": "127.1994000",
+       "y": "37.2907452",
+       "itemLevel": "12",
+       "isAdultBusiness": false,
+       "streetPanorama": {
+        "id": "L62YFKn1DjywVDzSCbLnTA==",
+        "pan": "-67.53",
+        "tilt": "10.00",
+        "lng": "127.1995006",
+        "lat": "37.2907429",
+        "fov": "80"
+       },
+       "skyPanorama": {
+        "id": "gHbAG3S5At0VOeQCgjusqg==",
+        "pan": "90.92",
+        "tilt": "-30.00",
+        "lng": "127.1985710",
+        "lat": "37.2907580",
+        "fov": "124"
+       },
+       "insidePanorama": null,
+       "interiorPanorama": null,
+       "indoorPanorama": null,
+       "theme": null,
+       "poiInfo": {
+        "relation": null,
+        "hasRelation": false,
+        "road": {
+         "poiShapeType": "1",
+         "shapeKey": null,
+         "boundary": null,
+         "detail": null
+        },
+        "hasRoad": false,
+        "land": null,
+        "hasLand": false,
+        "polygon": null,
+        "hasPolygon": false
+       },
+       "homePage": "",
+       "description": "",
+       "entranceCoords": null,
+       "isPollingPlace": false,
+       "bizhourInfo": "영업 중",
+       "menuInfo": "고르곤졸라 21,300 | 베이컨크림파스타 18,300 | 뽀모도로 19,300 | 감베리오일파스타 19,900 | 뽈로 샐러드 16,900 | 머쉬룸 베이컨 피자 변동가격(업주문의) | 마르게리타 피자 22,900 | 하즈&하프 피자 변동가격(업주문의)",
+       "petrolInfo": null,
+       "couponUrl": null,
+       "couponUrlMobile": null,
+       "hasCardBenefit": false,
+       "menuExist": "1",
+       "hasNaverBooking": false,
+       "naverBookingUrl": null,
+       "naverEasyOrderUrl": null,
+       "hasNaverSmartOrder": false,
+       "reservationLabel": {
+        "standard": false,
+        "preOrder": false,
+        "table": false,
+        "takeout": false
+       },
+       "reservation": {
+        "benefit": ""
+       },
+       "hasBroadcastInfo": false,
+       "broadcastInfo": null,
+       "shopWindowInfo": null,
+       "hasNPay": false,
+       "carWash": "0",
+       "parkingPrice": null,
+       "card": null,
+       "distance": "36388.89",
+       "marker": "nres://marker/00079-00145",
+       "markerSelected": "nres://marker/00079-00309",
+       "markerId": "220913",
+       "microReview": [],
+       "michelinGuide": null,
+       "indoor": null,
+       "markerLabel": null,
+       "subway": null,
+       "evChargerVendor": null,
+       "evChargerPublic": null,
+       "evChargerParking": null,
+       "evChargerInfo": null
+      },
+      {
+       "index": "8",
+       "rank": "9",
        "id": "1081318402",
        "name": "홀랜드빌리지",
        "tel": "",
@@ -2142,7 +2289,7 @@
        ],
        "rcode": "0246125026",
        "businessStatus": {
-        "requestTime": "202609011156",
+        "requestTime": "202609011353",
         "status": {
          "code": 0,
          "text": "",
@@ -2263,153 +2410,6 @@
        "evChargerInfo": null
       },
       {
-       "index": "8",
-       "rank": "9",
-       "id": "1401139141",
-       "name": "쿠치나마리오",
-       "tel": "",
-       "isCallLink": false,
-       "virtualTel": "",
-       "virtualTelDisplay": "",
-       "ppc": "0",
-       "category": [
-        "음식점",
-        "이탈리아음식"
-       ],
-       "categoryPath": [
-        [
-         "220036",
-         "220044",
-         "220127",
-         "220913"
-        ],
-        [
-         "222117",
-         "222121",
-         "1003373",
-         "1003374"
-        ]
-       ],
-       "rcode": "0246125027",
-       "businessStatus": {
-        "requestTime": "202609011156",
-        "status": {
-         "code": 2,
-         "text": "영업 중",
-         "emphasis": false,
-         "description": "영업중",
-         "detailInfo": "16:00에 브레이크타임"
-        },
-        "businessHours": "202609011100~202609012050",
-        "breakTime": "202609011600~202609011700",
-        "lastOrder": "202609012020"
-       },
-       "naviInfoText": null,
-       "naviInfo": null,
-       "address": "경기도 용인시 처인구 포곡읍 전대리 310",
-       "roadAddress": "경기도 용인시 처인구 포곡읍 에버랜드로 199",
-       "abbrAddress": "전대리 310",
-       "shortAddress": [
-        "경기 용인시 처인구 포곡읍",
-        "에버랜드로 199"
-       ],
-       "display": "쿠치나마리오",
-       "telDisplay": "",
-       "context": [],
-       "reviewCount": 192,
-       "placeReviewCount": 646,
-       "ktCallMd": "93987ac4ce40cbae58dd5e57a2bcd8cc",
-       "coupon": "0",
-       "thumUrl": "http://blogfiles.naver.net/MjAyMzExMDFfMjU1/MDAxNjk4Nzk3MDk1NzMz.vgJMpjmhLnLo81kz5lFYo0ZaEXo8PTnBEyVxW4Horwog.8s9cIj-s-kyYN9m_MYT6AmKiI93MWpWkwdMVkU1PUiYg.JPEG.artknitting/DSC%A3%DF6944.JPG#900x601",
-       "thumUrls": [],
-       "type": "s",
-       "isSite": "1",
-       "posExact": "1",
-       "x": "127.1994000",
-       "y": "37.2907452",
-       "itemLevel": "12",
-       "isAdultBusiness": false,
-       "streetPanorama": {
-        "id": "L62YFKn1DjywVDzSCbLnTA==",
-        "pan": "-67.53",
-        "tilt": "10.00",
-        "lng": "127.1995006",
-        "lat": "37.2907429",
-        "fov": "80"
-       },
-       "skyPanorama": {
-        "id": "gHbAG3S5At0VOeQCgjusqg==",
-        "pan": "90.92",
-        "tilt": "-30.00",
-        "lng": "127.1985710",
-        "lat": "37.2907580",
-        "fov": "124"
-       },
-       "insidePanorama": null,
-       "interiorPanorama": null,
-       "indoorPanorama": null,
-       "theme": null,
-       "poiInfo": {
-        "relation": null,
-        "hasRelation": false,
-        "road": {
-         "poiShapeType": "1",
-         "shapeKey": null,
-         "boundary": null,
-         "detail": null
-        },
-        "hasRoad": false,
-        "land": null,
-        "hasLand": false,
-        "polygon": null,
-        "hasPolygon": false
-       },
-       "homePage": "",
-       "description": "",
-       "entranceCoords": null,
-       "isPollingPlace": false,
-       "bizhourInfo": "영업 중",
-       "menuInfo": "고르곤졸라 21,300 | 베이컨크림파스타 18,300 | 뽀모도로 19,300 | 감베리오일파스타 19,900 | 뽈로 샐러드 16,900 | 머쉬룸 베이컨 피자 변동가격(업주문의) | 마르게리타 피자 22,900 | 하즈&하프 피자 변동가격(업주문의)",
-       "petrolInfo": null,
-       "couponUrl": null,
-       "couponUrlMobile": null,
-       "hasCardBenefit": false,
-       "menuExist": "1",
-       "hasNaverBooking": false,
-       "naverBookingUrl": null,
-       "naverEasyOrderUrl": null,
-       "hasNaverSmartOrder": false,
-       "reservationLabel": {
-        "standard": false,
-        "preOrder": false,
-        "table": false,
-        "takeout": false
-       },
-       "reservation": {
-        "benefit": ""
-       },
-       "hasBroadcastInfo": false,
-       "broadcastInfo": null,
-       "shopWindowInfo": null,
-       "hasNPay": false,
-       "carWash": "0",
-       "parkingPrice": null,
-       "card": null,
-       "distance": "36388.89",
-       "marker": "nres://marker/00079-00145",
-       "markerSelected": "nres://marker/00079-00309",
-       "markerId": "220913",
-       "microReview": [],
-       "michelinGuide": null,
-       "indoor": null,
-       "markerLabel": null,
-       "subway": null,
-       "evChargerVendor": null,
-       "evChargerPublic": null,
-       "evChargerParking": null,
-       "evChargerInfo": null
-      },
-      {
        "index": "9",
        "rank": "10",
        "id": "1451740778",
@@ -2432,7 +2432,7 @@
        ],
        "rcode": "0246125028",
        "businessStatus": {
-        "requestTime": "202609011156",
+        "requestTime": "202609011353",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -2598,7 +2598,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011156",
+        "requestTime": "202609011353",
         "status": {
          "code": 0,
          "text": "",
@@ -2721,154 +2721,6 @@
       {
        "index": "11",
        "rank": "12",
-       "id": "1679236775",
-       "name": "멜팅소울 캐리비안베이점",
-       "tel": "0507-1308-0618",
-       "isCallLink": false,
-       "virtualTel": "0507-1308-0618",
-       "virtualTelDisplay": "0507-1308-0618",
-       "ppc": "1",
-       "category": [
-        "음식점",
-        "햄버거"
-       ],
-       "categoryPath": [
-        [
-         "220036",
-         "220044",
-         "220138",
-         "221004"
-        ]
-       ],
-       "rcode": "0246125027",
-       "businessStatus": {
-        "requestTime": "202609011156",
-        "status": {
-         "code": 2,
-         "text": "영업 중",
-         "emphasis": false,
-         "description": "영업중",
-         "detailInfo": "18:00에 라스트오더"
-        },
-        "businessHours": "202609011000~202609011830",
-        "breakTime": "",
-        "lastOrder": "202609011800"
-       },
-       "naviInfoText": null,
-       "naviInfo": null,
-       "address": "경기도 용인시 처인구 포곡읍 전대리 310 캐리비안베이 야외풀 매장",
-       "roadAddress": "경기도 용인시 처인구 포곡읍 에버랜드로 199 캐리비안베이 야외풀 매장",
-       "abbrAddress": "전대리 310 캐리비안베이 야외풀 매장",
-       "shortAddress": [
-        "경기 용인시 처인구 포곡읍",
-        "에버랜드로 199",
-        "캐리비안베이 야외풀 매장"
-       ],
-       "display": "멜팅소울 캐리비안베이점",
-       "telDisplay": "0507-1308-0618",
-       "context": [],
-       "reviewCount": 77,
-       "placeReviewCount": 47,
-       "ktCallMd": "0a60d527f0411b95e8aaf18d151f419c",
-       "coupon": "0",
-       "thumUrl": "https://ldb-phinf.pstatic.net/20260519_58/1779174126812BUbHN_JPEG/2026-%B8%E1%C6%C3%BC%D2%BF%EF-%C7%C3%B7%B9%C0%CC%BD%BA%B4%EB%C7%A5%C0%CC%B9%CC%C1%F6.jpg",
-       "thumUrls": [
-        "https://ldb-phinf.pstatic.net/20260519_58/1779174126812BUbHN_JPEG/2026-%B8%E1%C6%C3%BC%D2%BF%EF-%C7%C3%B7%B9%C0%CC%BD%BA%B4%EB%C7%A5%C0%CC%B9%CC%C1%F6.jpg",
-        "https://ldb-phinf.pstatic.net/20240516_148/1715822879172hDhqY_JPEG/%C7%CA%B8%E1%C6%C3%BC%D2%BF%EF%C7%C1%B7%CEweb1_%B4%EB%C1%F6_1_%B4%EB%C1%F6_1.jpg",
-        "https://ldb-phinf.pstatic.net/20230601_299/1685597996269cO9N0_JPEG/%B8%E1%C6%C3%BC%D2%BF%EF_%C8%AB%BA%B8%C0%CC%B9%CC%C1%F6123123_%B4%EB%C1%F6_1_%BB%E7%BA%BB_14.jpg"
-       ],
-       "type": "s",
-       "isSite": "1",
-       "posExact": "1",
-       "x": "127.2021326",
-       "y": "37.2967633",
-       "itemLevel": "12",
-       "isAdultBusiness": false,
-       "streetPanorama": {
-        "id": "14+50ZS4GvNWKsu3+4P3XA==",
-        "pan": "87.58",
-        "tilt": "10.00",
-        "lng": "127.2020000",
-        "lat": "37.2967576",
-        "fov": "120"
-       },
-       "skyPanorama": {
-        "id": "DmvL5D9ppX27eVkV1xcifQ==",
-        "pan": "158.01",
-        "tilt": "-30.00",
-        "lng": "127.2018420",
-        "lat": "37.2974800",
-        "fov": "124"
-       },
-       "insidePanorama": null,
-       "interiorPanorama": null,
-       "indoorPanorama": null,
-       "theme": null,
-       "poiInfo": {
-        "relation": null,
-        "hasRelation": false,
-        "road": {
-         "poiShapeType": "1",
-         "shapeKey": null,
-         "boundary": null,
-         "detail": null
-        },
-        "hasRoad": false,
-        "land": null,
-        "hasLand": false,
-        "polygon": null,
-        "hasPolygon": false
-       },
-       "homePage": "https://meltingsoul.co.kr/",
-       "description": "",
-       "entranceCoords": null,
-       "isPollingPlace": false,
-       "bizhourInfo": "영업 중",
-       "menuInfo": "(캐비)미트박스 17,100 | (캐비) 비치버거 16,200 | (캐비) 더블새우버거 13,100 | (캐비) 싱글버거 11,700 | (캐비) 치킨버거 11,400 | (캐비) 프렌치프라이즈 5,700 | (캐비) 치즈 프라이즈 6,700 | (캐비) 고구마 프라이즈 7,200 | 고구마 치즈 6,600 | (캐비) 치킨텐더 7,200 | 코카콜라 4,000 | 코카콜라제로 4,000 | 스프라이트 4,000 | 스프라이트제로 4,000 | 미닛메이드 4,000 | 다이아몬드 생수 2,000 | 하이네켄 6,000 | 하이네켄0.0 6,000",
-       "petrolInfo": null,
-       "couponUrl": null,
-       "couponUrlMobile": null,
-       "hasCardBenefit": false,
-       "menuExist": "1",
-       "hasNaverBooking": false,
-       "naverBookingUrl": null,
-       "naverEasyOrderUrl": null,
-       "hasNaverSmartOrder": false,
-       "reservationLabel": {
-        "standard": false,
-        "preOrder": false,
-        "table": false,
-        "takeout": false
-       },
-       "reservation": {
-        "benefit": ""
-       },
-       "hasBroadcastInfo": false,
-       "broadcastInfo": null,
-       "shopWindowInfo": null,
-       "hasNPay": false,
-       "carWash": "0",
-       "parkingPrice": null,
-       "card": null,
-       "distance": "35957.35",
-       "marker": "nres://marker/00079-00145",
-       "markerSelected": "nres://marker/00079-00309",
-       "markerId": "221004",
-       "microReview": [
-        "물놀이 후 즐기는 수제버거의 행복"
-       ],
-       "michelinGuide": null,
-       "indoor": null,
-       "markerLabel": null,
-       "subway": null,
-       "evChargerVendor": null,
-       "evChargerPublic": null,
-       "evChargerParking": null,
-       "evChargerInfo": null
-      },
-      {
-       "index": "12",
-       "rank": "13",
        "id": "1839013733",
        "name": "가든테라스",
        "tel": "",
@@ -2889,7 +2741,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011156",
+        "requestTime": "202609011353",
         "status": {
          "code": 0,
          "text": "",
@@ -3020,6 +2872,154 @@
        "evChargerInfo": null
       },
       {
+       "index": "12",
+       "rank": "13",
+       "id": "1679236775",
+       "name": "멜팅소울 캐리비안베이점",
+       "tel": "0507-1308-0618",
+       "isCallLink": false,
+       "virtualTel": "0507-1308-0618",
+       "virtualTelDisplay": "0507-1308-0618",
+       "ppc": "1",
+       "category": [
+        "음식점",
+        "햄버거"
+       ],
+       "categoryPath": [
+        [
+         "220036",
+         "220044",
+         "220138",
+         "221004"
+        ]
+       ],
+       "rcode": "0246125027",
+       "businessStatus": {
+        "requestTime": "202609011353",
+        "status": {
+         "code": 2,
+         "text": "영업 중",
+         "emphasis": false,
+         "description": "영업중",
+         "detailInfo": "18:00에 라스트오더"
+        },
+        "businessHours": "202609011000~202609011830",
+        "breakTime": "",
+        "lastOrder": "202609011800"
+       },
+       "naviInfoText": null,
+       "naviInfo": null,
+       "address": "경기도 용인시 처인구 포곡읍 전대리 310 캐리비안베이 야외풀 매장",
+       "roadAddress": "경기도 용인시 처인구 포곡읍 에버랜드로 199 캐리비안베이 야외풀 매장",
+       "abbrAddress": "전대리 310 캐리비안베이 야외풀 매장",
+       "shortAddress": [
+        "경기 용인시 처인구 포곡읍",
+        "에버랜드로 199",
+        "캐리비안베이 야외풀 매장"
+       ],
+       "display": "멜팅소울 캐리비안베이점",
+       "telDisplay": "0507-1308-0618",
+       "context": [],
+       "reviewCount": 77,
+       "placeReviewCount": 47,
+       "ktCallMd": "0a60d527f0411b95e8aaf18d151f419c",
+       "coupon": "0",
+       "thumUrl": "https://ldb-phinf.pstatic.net/20260519_58/1779174126812BUbHN_JPEG/2026-%B8%E1%C6%C3%BC%D2%BF%EF-%C7%C3%B7%B9%C0%CC%BD%BA%B4%EB%C7%A5%C0%CC%B9%CC%C1%F6.jpg",
+       "thumUrls": [
+        "https://ldb-phinf.pstatic.net/20260519_58/1779174126812BUbHN_JPEG/2026-%B8%E1%C6%C3%BC%D2%BF%EF-%C7%C3%B7%B9%C0%CC%BD%BA%B4%EB%C7%A5%C0%CC%B9%CC%C1%F6.jpg",
+        "https://ldb-phinf.pstatic.net/20240516_148/1715822879172hDhqY_JPEG/%C7%CA%B8%E1%C6%C3%BC%D2%BF%EF%C7%C1%B7%CEweb1_%B4%EB%C1%F6_1_%B4%EB%C1%F6_1.jpg",
+        "https://ldb-phinf.pstatic.net/20230601_299/1685597996269cO9N0_JPEG/%B8%E1%C6%C3%BC%D2%BF%EF_%C8%AB%BA%B8%C0%CC%B9%CC%C1%F6123123_%B4%EB%C1%F6_1_%BB%E7%BA%BB_14.jpg"
+       ],
+       "type": "s",
+       "isSite": "1",
+       "posExact": "1",
+       "x": "127.2021326",
+       "y": "37.2967633",
+       "itemLevel": "12",
+       "isAdultBusiness": false,
+       "streetPanorama": {
+        "id": "14+50ZS4GvNWKsu3+4P3XA==",
+        "pan": "87.58",
+        "tilt": "10.00",
+        "lng": "127.2020000",
+        "lat": "37.2967576",
+        "fov": "120"
+       },
+       "skyPanorama": {
+        "id": "DmvL5D9ppX27eVkV1xcifQ==",
+        "pan": "158.01",
+        "tilt": "-30.00",
+        "lng": "127.2018420",
+        "lat": "37.2974800",
+        "fov": "124"
+       },
+       "insidePanorama": null,
+       "interiorPanorama": null,
+       "indoorPanorama": null,
+       "theme": null,
+       "poiInfo": {
+        "relation": null,
+        "hasRelation": false,
+        "road": {
+         "poiShapeType": "1",
+         "shapeKey": null,
+         "boundary": null,
+         "detail": null
+        },
+        "hasRoad": false,
+        "land": null,
+        "hasLand": false,
+        "polygon": null,
+        "hasPolygon": false
+       },
+       "homePage": "https://meltingsoul.co.kr/",
+       "description": "",
+       "entranceCoords": null,
+       "isPollingPlace": false,
+       "bizhourInfo": "영업 중",
+       "menuInfo": "(캐비)미트박스 17,100 | (캐비) 비치버거 16,200 | (캐비) 더블새우버거 13,100 | (캐비) 싱글버거 11,700 | (캐비) 치킨버거 11,400 | (캐비) 프렌치프라이즈 5,700 | (캐비) 치즈 프라이즈 6,700 | (캐비) 고구마 프라이즈 7,200 | 고구마 치즈 6,600 | (캐비) 치킨텐더 7,200 | 코카콜라 4,000 | 코카콜라제로 4,000 | 스프라이트 4,000 | 스프라이트제로 4,000 | 미닛메이드 4,000 | 다이아몬드 생수 2,000 | 하이네켄 6,000 | 하이네켄0.0 6,000",
+       "petrolInfo": null,
+       "couponUrl": null,
+       "couponUrlMobile": null,
+       "hasCardBenefit": false,
+       "menuExist": "1",
+       "hasNaverBooking": false,
+       "naverBookingUrl": null,
+       "naverEasyOrderUrl": null,
+       "hasNaverSmartOrder": false,
+       "reservationLabel": {
+        "standard": false,
+        "preOrder": false,
+        "table": false,
+        "takeout": false
+       },
+       "reservation": {
+        "benefit": ""
+       },
+       "hasBroadcastInfo": false,
+       "broadcastInfo": null,
+       "shopWindowInfo": null,
+       "hasNPay": false,
+       "carWash": "0",
+       "parkingPrice": null,
+       "card": null,
+       "distance": "35957.35",
+       "marker": "nres://marker/00079-00145",
+       "markerSelected": "nres://marker/00079-00309",
+       "markerId": "221004",
+       "microReview": [
+        "물놀이 후 즐기는 수제버거의 행복"
+       ],
+       "michelinGuide": null,
+       "indoor": null,
+       "markerLabel": null,
+       "subway": null,
+       "evChargerVendor": null,
+       "evChargerPublic": null,
+       "evChargerParking": null,
+       "evChargerInfo": null
+      },
+      {
        "index": "13",
        "rank": "14",
        "id": "1681363676",
@@ -3049,7 +3049,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011156",
+        "requestTime": "202609011353",
         "status": {
          "code": 0,
          "text": "",
@@ -3209,7 +3209,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011156",
+        "requestTime": "202609011353",
         "status": {
          "code": 0,
          "text": "",
@@ -3356,7 +3356,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011156",
+        "requestTime": "202609011353",
         "status": {
          "code": 0,
          "text": "",
@@ -3504,7 +3504,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011156",
+        "requestTime": "202609011353",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -3648,7 +3648,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011156",
+        "requestTime": "202609011353",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -3800,7 +3800,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011156",
+        "requestTime": "202609011353",
         "status": {
          "code": 0,
          "text": "",
@@ -3947,7 +3947,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011156",
+        "requestTime": "202609011353",
         "status": {
          "code": 2,
          "text": "영업 중",

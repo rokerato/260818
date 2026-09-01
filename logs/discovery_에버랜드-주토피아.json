@@ -918,12 +918,12 @@
   }
  },
  {
-  "url": "https://map.naver.com/p/api/search/allSearch?query=%EC%97%90%EB%B2%84%EB%9E%9C%EB%93%9C+%EC%A3%BC%ED%86%A0%ED%94%BC%EC%95%84&type=all&searchCoord=126.97825%3B37.566551&boundary=&sscode=svc.mapv5.search&token=5iVV3FF8kaLiyeSXvABAdFvNAcVhMohNAkTPEvCgfME%3D",
+  "url": "https://map.naver.com/p/api/search/allSearch?query=%EC%97%90%EB%B2%84%EB%9E%9C%EB%93%9C+%EC%A3%BC%ED%86%A0%ED%94%BC%EC%95%84&type=all&searchCoord=126.97825%3B37.566551&boundary=&sscode=svc.mapv5.search&token=rMC2XqXThADT7IrByQMUeTbMvwwVxpBvq_VYFgULkv8%3D",
   "body": {
    "result": {
     "type": "place",
     "metaInfo": {
-     "pageId": "18cd03f1-9152-4aeb-baf6-d38f832c9dcb",
+     "pageId": "bdfda7b1-c674-411a-952d-25d183c6fb94",
      "sessionId": null,
      "rcode": "09140103",
      "searchedQuery": "에버랜드 주토피아",
@@ -995,7 +995,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011201",
+        "requestTime": "202609011359",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -1157,7 +1157,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011201",
+        "requestTime": "202609011359",
         "status": {
          "code": 0,
          "text": "",
@@ -1329,7 +1329,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011201",
+        "requestTime": "202609011359",
         "status": {
          "code": 0,
          "text": "",
@@ -1458,153 +1458,6 @@
       {
        "index": "3",
        "rank": "4",
-       "id": "19286092",
-       "name": "알버트스페이스센터",
-       "tel": "",
-       "isCallLink": false,
-       "virtualTel": "",
-       "virtualTelDisplay": "",
-       "ppc": "0",
-       "category": [
-        "놀이기구"
-       ],
-       "categoryPath": [
-        [
-         "222117",
-         "222121",
-         "1000209",
-         "1001032"
-        ],
-        [
-         "222117",
-         "222121",
-         "1003373",
-         "1003450",
-         "1003382"
-        ]
-       ],
-       "rcode": "0246125027",
-       "businessStatus": {
-        "requestTime": "202609011201",
-        "status": {
-         "code": 2,
-         "text": "영업 중",
-         "emphasis": false,
-         "description": "영업중",
-         "detailInfo": "17:30에 영업종료"
-        },
-        "businessHours": "202609011000~202609011730",
-        "breakTime": "",
-        "lastOrder": ""
-       },
-       "naviInfoText": null,
-       "naviInfo": null,
-       "address": "경기도 용인시 처인구 포곡읍 전대리 310",
-       "roadAddress": "경기도 용인시 처인구 포곡읍 에버랜드로 199",
-       "abbrAddress": "전대리 310",
-       "shortAddress": [
-        "경기 용인시 처인구 포곡읍",
-        "에버랜드로 199"
-       ],
-       "display": "알버트스페이스센터",
-       "telDisplay": "",
-       "context": [],
-       "reviewCount": 22,
-       "placeReviewCount": 13,
-       "ktCallMd": "7ae59c2895bd98538458291da7643ccd",
-       "coupon": "0",
-       "thumUrl": "http://blogfiles.naver.net/MjAyMjAxMTNfMTIw/MDAxNjQyMDc2Nzk2NTgy.8N7mgqOM2h1VLGFUlEQxgfjWr7DNZ-O7mC8NPqlojXgg.JC9uK0eIkQBVCEOLkhlSUKhjoi5UeUrDDwWh6UNYfgcg.JPEG.west__hyeon/IMG_7572.jpg#900x1200",
-       "thumUrls": [],
-       "type": "s",
-       "isSite": "1",
-       "posExact": "1",
-       "x": "127.2038279",
-       "y": "37.2926799",
-       "itemLevel": "12",
-       "isAdultBusiness": false,
-       "streetPanorama": {
-        "id": "XHQNhH3XKgoHDgBXnNsbAg==",
-        "pan": "-24.24",
-        "tilt": "12.72",
-        "lng": "127.2040191",
-        "lat": "37.2926239",
-        "fov": "80"
-       },
-       "skyPanorama": {
-        "id": "oKPbLWsXpV8K99jJfkncxw==",
-        "pan": "7.41",
-        "tilt": "-30.00",
-        "lng": "127.2037620",
-        "lat": "37.2921730",
-        "fov": "124"
-       },
-       "insidePanorama": null,
-       "interiorPanorama": null,
-       "indoorPanorama": null,
-       "theme": null,
-       "poiInfo": {
-        "relation": null,
-        "hasRelation": false,
-        "road": {
-         "poiShapeType": "1",
-         "shapeKey": null,
-         "boundary": null,
-         "detail": null
-        },
-        "hasRoad": false,
-        "land": null,
-        "hasLand": false,
-        "polygon": null,
-        "hasPolygon": false
-       },
-       "homePage": "",
-       "description": "",
-       "entranceCoords": null,
-       "isPollingPlace": false,
-       "bizhourInfo": "영업 중",
-       "menuInfo": null,
-       "petrolInfo": null,
-       "couponUrl": null,
-       "couponUrlMobile": null,
-       "hasCardBenefit": false,
-       "menuExist": "0",
-       "hasNaverBooking": false,
-       "naverBookingUrl": null,
-       "naverEasyOrderUrl": null,
-       "hasNaverSmartOrder": false,
-       "reservationLabel": {
-        "standard": false,
-        "preOrder": false,
-        "table": false,
-        "takeout": false
-       },
-       "reservation": {
-        "benefit": ""
-       },
-       "hasBroadcastInfo": false,
-       "broadcastInfo": null,
-       "shopWindowInfo": null,
-       "hasNPay": false,
-       "carWash": "0",
-       "parkingPrice": null,
-       "card": null,
-       "distance": "36419.79",
-       "marker": "nres://marker/00079-00145",
-       "markerSelected": "nres://marker/00079-00309",
-       "markerId": "1001032",
-       "microReview": [],
-       "michelinGuide": null,
-       "indoor": null,
-       "markerLabel": null,
-       "subway": null,
-       "evChargerVendor": null,
-       "evChargerPublic": null,
-       "evChargerParking": null,
-       "evChargerInfo": null
-      },
-      {
-       "index": "4",
-       "rank": "5",
        "id": "31875106",
        "name": "버드파라다이스",
        "tel": "",
@@ -1626,7 +1479,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011201",
+        "requestTime": "202609011359",
         "status": {
          "code": 0,
          "text": "",
@@ -1744,6 +1597,153 @@
        "evChargerInfo": null
       },
       {
+       "index": "4",
+       "rank": "5",
+       "id": "19286092",
+       "name": "알버트스페이스센터",
+       "tel": "",
+       "isCallLink": false,
+       "virtualTel": "",
+       "virtualTelDisplay": "",
+       "ppc": "0",
+       "category": [
+        "놀이기구"
+       ],
+       "categoryPath": [
+        [
+         "222117",
+         "222121",
+         "1000209",
+         "1001032"
+        ],
+        [
+         "222117",
+         "222121",
+         "1003373",
+         "1003450",
+         "1003382"
+        ]
+       ],
+       "rcode": "0246125027",
+       "businessStatus": {
+        "requestTime": "202609011359",
+        "status": {
+         "code": 2,
+         "text": "영업 중",
+         "emphasis": false,
+         "description": "영업중",
+         "detailInfo": "17:30에 영업종료"
+        },
+        "businessHours": "202609011000~202609011730",
+        "breakTime": "",
+        "lastOrder": ""
+       },
+       "naviInfoText": null,
+       "naviInfo": null,
+       "address": "경기도 용인시 처인구 포곡읍 전대리 310",
+       "roadAddress": "경기도 용인시 처인구 포곡읍 에버랜드로 199",
+       "abbrAddress": "전대리 310",
+       "shortAddress": [
+        "경기 용인시 처인구 포곡읍",
+        "에버랜드로 199"
+       ],
+       "display": "알버트스페이스센터",
+       "telDisplay": "",
+       "context": [],
+       "reviewCount": 22,
+       "placeReviewCount": 13,
+       "ktCallMd": "7ae59c2895bd98538458291da7643ccd",
+       "coupon": "0",
+       "thumUrl": "http://blogfiles.naver.net/MjAyMjAxMTNfMTIw/MDAxNjQyMDc2Nzk2NTgy.8N7mgqOM2h1VLGFUlEQxgfjWr7DNZ-O7mC8NPqlojXgg.JC9uK0eIkQBVCEOLkhlSUKhjoi5UeUrDDwWh6UNYfgcg.JPEG.west__hyeon/IMG_7572.jpg#900x1200",
+       "thumUrls": [],
+       "type": "s",
+       "isSite": "1",
+       "posExact": "1",
+       "x": "127.2038279",
+       "y": "37.2926799",
+       "itemLevel": "12",
+       "isAdultBusiness": false,
+       "streetPanorama": {
+        "id": "XHQNhH3XKgoHDgBXnNsbAg==",
+        "pan": "-24.24",
+        "tilt": "12.72",
+        "lng": "127.2040191",
+        "lat": "37.2926239",
+        "fov": "80"
+       },
+       "skyPanorama": {
+        "id": "oKPbLWsXpV8K99jJfkncxw==",
+        "pan": "7.41",
+        "tilt": "-30.00",
+        "lng": "127.2037620",
+        "lat": "37.2921730",
+        "fov": "124"
+       },
+       "insidePanorama": null,
+       "interiorPanorama": null,
+       "indoorPanorama": null,
+       "theme": null,
+       "poiInfo": {
+        "relation": null,
+        "hasRelation": false,
+        "road": {
+         "poiShapeType": "1",
+         "shapeKey": null,
+         "boundary": null,
+         "detail": null
+        },
+        "hasRoad": false,
+        "land": null,
+        "hasLand": false,
+        "polygon": null,
+        "hasPolygon": false
+       },
+       "homePage": "",
+       "description": "",
+       "entranceCoords": null,
+       "isPollingPlace": false,
+       "bizhourInfo": "영업 중",
+       "menuInfo": null,
+       "petrolInfo": null,
+       "couponUrl": null,
+       "couponUrlMobile": null,
+       "hasCardBenefit": false,
+       "menuExist": "0",
+       "hasNaverBooking": false,
+       "naverBookingUrl": null,
+       "naverEasyOrderUrl": null,
+       "hasNaverSmartOrder": false,
+       "reservationLabel": {
+        "standard": false,
+        "preOrder": false,
+        "table": false,
+        "takeout": false
+       },
+       "reservation": {
+        "benefit": ""
+       },
+       "hasBroadcastInfo": false,
+       "broadcastInfo": null,
+       "shopWindowInfo": null,
+       "hasNPay": false,
+       "carWash": "0",
+       "parkingPrice": null,
+       "card": null,
+       "distance": "36419.79",
+       "marker": "nres://marker/00079-00145",
+       "markerSelected": "nres://marker/00079-00309",
+       "markerId": "1001032",
+       "microReview": [],
+       "michelinGuide": null,
+       "indoor": null,
+       "markerLabel": null,
+       "subway": null,
+       "evChargerVendor": null,
+       "evChargerPublic": null,
+       "evChargerParking": null,
+       "evChargerInfo": null
+      },
+      {
        "index": "5",
        "rank": "6",
        "id": "19286019",
@@ -1767,7 +1767,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011201",
+        "requestTime": "202609011359",
         "status": {
          "code": 0,
          "text": "",
@@ -1918,7 +1918,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011201",
+        "requestTime": "202609011359",
         "status": {
          "code": 0,
          "text": "",
@@ -2083,7 +2083,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011201",
+        "requestTime": "202609011359",
         "status": {
          "code": 0,
          "text": "",
@@ -2227,7 +2227,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011201",
+        "requestTime": "202609011359",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -2394,7 +2394,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011201",
+        "requestTime": "202609011359",
         "status": {
          "code": 0,
          "text": "",
@@ -2541,7 +2541,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011201",
+        "requestTime": "202609011359",
         "status": {
          "code": 0,
          "text": "",
@@ -2662,148 +2662,6 @@
       {
        "index": "11",
        "rank": "12",
-       "id": "19286021",
-       "name": "타이거밸리",
-       "tel": "",
-       "isCallLink": false,
-       "virtualTel": "",
-       "virtualTelDisplay": "",
-       "ppc": "0",
-       "category": [
-        "에버랜드 주토피아"
-       ],
-       "categoryPath": [
-        [
-         "222117",
-         "222121",
-         "1003373",
-         "1003450",
-         "1003382"
-        ]
-       ],
-       "rcode": "0246125027",
-       "businessStatus": {
-        "requestTime": "202609011201",
-        "status": {
-         "code": 0,
-         "text": "",
-         "emphasis": false,
-         "description": "정보 없음",
-         "detailInfo": ""
-        },
-        "businessHours": "",
-        "breakTime": "",
-        "lastOrder": ""
-       },
-       "naviInfoText": null,
-       "naviInfo": null,
-       "address": "경기도 용인시 처인구 포곡읍 전대리 310 삼성에버랜드",
-       "roadAddress": "경기도 용인시 처인구 포곡읍 에버랜드로 199 삼성에버랜드",
-       "abbrAddress": "전대리 310 삼성에버랜드",
-       "shortAddress": [
-        "경기 용인시 처인구 포곡읍",
-        "에버랜드로 199",
-        "삼성에버랜드"
-       ],
-       "display": "타이거밸리",
-       "telDisplay": "",
-       "context": [],
-       "reviewCount": 79,
-       "placeReviewCount": 15,
-       "ktCallMd": "d8f34715236ff947db898ae3210c4aa2",
-       "coupon": "0",
-       "thumUrl": "http://blogfiles.naver.net/MjAyNDAyMDdfMTM5/MDAxNzA3MjY5MDMwOTEz.-5Lvgy7pQCAGVHc24PC4lcwg-qPGwHz4u0rFM0JFM7Qg.RetIgkEMRK2q9fEigINzzv25dACKGENnYxgOpypkX0Qg.JPEG.phmphm1211/KakaoTalk_20240205_101043752_06.jpg#3000x4000",
-       "thumUrls": [],
-       "type": "s",
-       "isSite": "1",
-       "posExact": "1",
-       "x": "127.2049154",
-       "y": "37.2932096",
-       "itemLevel": "12",
-       "isAdultBusiness": false,
-       "streetPanorama": {
-        "id": "xFXRNZ+MQGZE11JD3nXDXA==",
-        "pan": "130.89",
-        "tilt": "2.32",
-        "lng": "127.2045874",
-        "lat": "37.2932424",
-        "fov": "53"
-       },
-       "skyPanorama": {
-        "id": "X0XYQ5FHgnjCkhsyLpuY3g==",
-        "pan": "-129.14",
-        "tilt": "-30.00",
-        "lng": "127.2054170",
-        "lat": "37.2936170",
-        "fov": "124"
-       },
-       "insidePanorama": null,
-       "interiorPanorama": null,
-       "indoorPanorama": null,
-       "theme": null,
-       "poiInfo": {
-        "relation": null,
-        "hasRelation": false,
-        "road": {
-         "poiShapeType": "1",
-         "shapeKey": null,
-         "boundary": null,
-         "detail": null
-        },
-        "hasRoad": false,
-        "land": null,
-        "hasLand": false,
-        "polygon": null,
-        "hasPolygon": false
-       },
-       "homePage": "",
-       "description": "",
-       "entranceCoords": null,
-       "isPollingPlace": false,
-       "bizhourInfo": "",
-       "menuInfo": null,
-       "petrolInfo": null,
-       "couponUrl": null,
-       "couponUrlMobile": null,
-       "hasCardBenefit": false,
-       "menuExist": "0",
-       "hasNaverBooking": false,
-       "naverBookingUrl": null,
-       "naverEasyOrderUrl": null,
-       "hasNaverSmartOrder": false,
-       "reservationLabel": {
-        "standard": false,
-        "preOrder": false,
-        "table": false,
-        "takeout": false
-       },
-       "reservation": {
-        "benefit": ""
-       },
-       "hasBroadcastInfo": false,
-       "broadcastInfo": null,
-       "shopWindowInfo": null,
-       "hasNPay": false,
-       "carWash": "0",
-       "parkingPrice": null,
-       "card": null,
-       "distance": "36422.82",
-       "marker": "nres://marker/00079-00145",
-       "markerSelected": "nres://marker/00079-00309",
-       "markerId": "1003382",
-       "microReview": [],
-       "michelinGuide": null,
-       "indoor": null,
-       "markerLabel": null,
-       "subway": null,
-       "evChargerVendor": null,
-       "evChargerPublic": null,
-       "evChargerParking": null,
-       "evChargerInfo": null
-      },
-      {
-       "index": "12",
-       "rank": "13",
        "id": "1276550133",
        "name": "애니멀원더월드",
        "tel": "",
@@ -2831,7 +2689,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011201",
+        "requestTime": "202609011359",
         "status": {
          "code": 0,
          "text": "",
@@ -2961,6 +2819,148 @@
        "evChargerInfo": null
       },
       {
+       "index": "12",
+       "rank": "13",
+       "id": "19286021",
+       "name": "타이거밸리",
+       "tel": "",
+       "isCallLink": false,
+       "virtualTel": "",
+       "virtualTelDisplay": "",
+       "ppc": "0",
+       "category": [
+        "에버랜드 주토피아"
+       ],
+       "categoryPath": [
+        [
+         "222117",
+         "222121",
+         "1003373",
+         "1003450",
+         "1003382"
+        ]
+       ],
+       "rcode": "0246125027",
+       "businessStatus": {
+        "requestTime": "202609011359",
+        "status": {
+         "code": 0,
+         "text": "",
+         "emphasis": false,
+         "description": "정보 없음",
+         "detailInfo": ""
+        },
+        "businessHours": "",
+        "breakTime": "",
+        "lastOrder": ""
+       },
+       "naviInfoText": null,
+       "naviInfo": null,
+       "address": "경기도 용인시 처인구 포곡읍 전대리 310 삼성에버랜드",
+       "roadAddress": "경기도 용인시 처인구 포곡읍 에버랜드로 199 삼성에버랜드",
+       "abbrAddress": "전대리 310 삼성에버랜드",
+       "shortAddress": [
+        "경기 용인시 처인구 포곡읍",
+        "에버랜드로 199",
+        "삼성에버랜드"
+       ],
+       "display": "타이거밸리",
+       "telDisplay": "",
+       "context": [],
+       "reviewCount": 79,
+       "placeReviewCount": 15,
+       "ktCallMd": "d8f34715236ff947db898ae3210c4aa2",
+       "coupon": "0",
+       "thumUrl": "http://blogfiles.naver.net/MjAyNDAyMDdfMTM5/MDAxNzA3MjY5MDMwOTEz.-5Lvgy7pQCAGVHc24PC4lcwg-qPGwHz4u0rFM0JFM7Qg.RetIgkEMRK2q9fEigINzzv25dACKGENnYxgOpypkX0Qg.JPEG.phmphm1211/KakaoTalk_20240205_101043752_06.jpg#3000x4000",
+       "thumUrls": [],
+       "type": "s",
+       "isSite": "1",
+       "posExact": "1",
+       "x": "127.2049154",
+       "y": "37.2932096",
+       "itemLevel": "12",
+       "isAdultBusiness": false,
+       "streetPanorama": {
+        "id": "xFXRNZ+MQGZE11JD3nXDXA==",
+        "pan": "130.89",
+        "tilt": "2.32",
+        "lng": "127.2045874",
+        "lat": "37.2932424",
+        "fov": "53"
+       },
+       "skyPanorama": {
+        "id": "X0XYQ5FHgnjCkhsyLpuY3g==",
+        "pan": "-129.14",
+        "tilt": "-30.00",
+        "lng": "127.2054170",
+        "lat": "37.2936170",
+        "fov": "124"
+       },
+       "insidePanorama": null,
+       "interiorPanorama": null,
+       "indoorPanorama": null,
+       "theme": null,
+       "poiInfo": {
+        "relation": null,
+        "hasRelation": false,
+        "road": {
+         "poiShapeType": "1",
+         "shapeKey": null,
+         "boundary": null,
+         "detail": null
+        },
+        "hasRoad": false,
+        "land": null,
+        "hasLand": false,
+        "polygon": null,
+        "hasPolygon": false
+       },
+       "homePage": "",
+       "description": "",
+       "entranceCoords": null,
+       "isPollingPlace": false,
+       "bizhourInfo": "",
+       "menuInfo": null,
+       "petrolInfo": null,
+       "couponUrl": null,
+       "couponUrlMobile": null,
+       "hasCardBenefit": false,
+       "menuExist": "0",
+       "hasNaverBooking": false,
+       "naverBookingUrl": null,
+       "naverEasyOrderUrl": null,
+       "hasNaverSmartOrder": false,
+       "reservationLabel": {
+        "standard": false,
+        "preOrder": false,
+        "table": false,
+        "takeout": false
+       },
+       "reservation": {
+        "benefit": ""
+       },
+       "hasBroadcastInfo": false,
+       "broadcastInfo": null,
+       "shopWindowInfo": null,
+       "hasNPay": false,
+       "carWash": "0",
+       "parkingPrice": null,
+       "card": null,
+       "distance": "36422.82",
+       "marker": "nres://marker/00079-00145",
+       "markerSelected": "nres://marker/00079-00309",
+       "markerId": "1003382",
+       "microReview": [],
+       "michelinGuide": null,
+       "indoor": null,
+       "markerLabel": null,
+       "subway": null,
+       "evChargerVendor": null,
+       "evChargerPublic": null,
+       "evChargerParking": null,
+       "evChargerInfo": null
+      },
+      {
        "index": "13",
        "rank": "14",
        "id": "19286083",
@@ -2990,7 +2990,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011201",
+        "requestTime": "202609011359",
         "status": {
          "code": 0,
          "text": "",
@@ -3113,6 +3113,147 @@
       {
        "index": "14",
        "rank": "15",
+       "id": "1782949119",
+       "name": "슈퍼윙스 애니멀톡",
+       "tel": "031-320-5000",
+       "isCallLink": false,
+       "virtualTel": "",
+       "virtualTelDisplay": "",
+       "ppc": "1",
+       "category": [
+        "에버랜드 주토피아"
+       ],
+       "categoryPath": [
+        [
+         "222117",
+         "222121",
+         "1003373",
+         "1003450",
+         "1003382"
+        ]
+       ],
+       "rcode": "0246125027",
+       "businessStatus": {
+        "requestTime": "202609011359",
+        "status": {
+         "code": 0,
+         "text": "",
+         "emphasis": false,
+         "description": "정보 없음",
+         "detailInfo": ""
+        },
+        "businessHours": "",
+        "breakTime": "",
+        "lastOrder": ""
+       },
+       "naviInfoText": null,
+       "naviInfo": null,
+       "address": "경기도 용인시 처인구 포곡읍 전대리 310",
+       "roadAddress": "경기도 용인시 처인구 포곡읍 에버랜드로 199",
+       "abbrAddress": "전대리 310",
+       "shortAddress": [
+        "경기 용인시 처인구 포곡읍",
+        "에버랜드로 199"
+       ],
+       "display": "슈퍼윙스 애니멀톡",
+       "telDisplay": "031-320-5000",
+       "context": [],
+       "reviewCount": 3,
+       "placeReviewCount": 0,
+       "ktCallMd": "50305418a6dd5bf7adc2a35bf8b28e17",
+       "coupon": "0",
+       "thumUrl": null,
+       "thumUrls": [],
+       "type": "s",
+       "isSite": "1",
+       "posExact": "1",
+       "x": "127.2013221",
+       "y": "37.2933272",
+       "itemLevel": "12",
+       "isAdultBusiness": false,
+       "streetPanorama": {
+        "id": "o3MKIWcO2T6mtY6rhxW13g==",
+        "pan": "-25.61",
+        "tilt": "10.00",
+        "lng": "127.2015161",
+        "lat": "37.2929223",
+        "fov": "120"
+       },
+       "skyPanorama": {
+        "id": "znJSWPlLXApqqtxwim4YKA==",
+        "pan": "-117.48",
+        "tilt": "-30.00",
+        "lng": "127.2019250",
+        "lat": "37.2936400",
+        "fov": "124"
+       },
+       "insidePanorama": null,
+       "interiorPanorama": null,
+       "indoorPanorama": null,
+       "theme": null,
+       "poiInfo": {
+        "relation": null,
+        "hasRelation": false,
+        "road": {
+         "poiShapeType": "1",
+         "shapeKey": null,
+         "boundary": null,
+         "detail": null
+        },
+        "hasRoad": false,
+        "land": null,
+        "hasLand": false,
+        "polygon": null,
+        "hasPolygon": false
+       },
+       "homePage": "",
+       "description": "",
+       "entranceCoords": null,
+       "isPollingPlace": false,
+       "bizhourInfo": "",
+       "menuInfo": null,
+       "petrolInfo": null,
+       "couponUrl": null,
+       "couponUrlMobile": null,
+       "hasCardBenefit": false,
+       "menuExist": "0",
+       "hasNaverBooking": false,
+       "naverBookingUrl": null,
+       "naverEasyOrderUrl": null,
+       "hasNaverSmartOrder": false,
+       "reservationLabel": {
+        "standard": false,
+        "preOrder": false,
+        "table": false,
+        "takeout": false
+       },
+       "reservation": {
+        "benefit": ""
+       },
+       "hasBroadcastInfo": false,
+       "broadcastInfo": null,
+       "shopWindowInfo": null,
+       "hasNPay": false,
+       "carWash": "0",
+       "parkingPrice": null,
+       "card": null,
+       "distance": "36238.02",
+       "marker": "nres://marker/00079-00145",
+       "markerSelected": "nres://marker/00079-00309",
+       "markerId": "1003382",
+       "microReview": [],
+       "michelinGuide": null,
+       "indoor": null,
+       "markerLabel": null,
+       "subway": null,
+       "evChargerVendor": null,
+       "evChargerPublic": null,
+       "evChargerParking": null,
+       "evChargerInfo": null
+      },
+      {
+       "index": "15",
+       "rank": "16",
        "id": "36940432",
        "name": "펭귄아일랜드",
        "tel": "",
@@ -3140,7 +3281,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011201",
+        "requestTime": "202609011359",
         "status": {
          "code": 0,
          "text": "",
@@ -3259,147 +3400,6 @@
        "evChargerInfo": null
       },
       {
-       "index": "15",
-       "rank": "16",
-       "id": "1782949119",
-       "name": "슈퍼윙스 애니멀톡",
-       "tel": "031-320-5000",
-       "isCallLink": false,
-       "virtualTel": "",
-       "virtualTelDisplay": "",
-       "ppc": "1",
-       "category": [
-        "에버랜드 주토피아"
-       ],
-       "categoryPath": [
-        [
-         "222117",
-         "222121",
-         "1003373",
-         "1003450",
-         "1003382"
-        ]
-       ],
-       "rcode": "0246125027",
-       "businessStatus": {
-        "requestTime": "202609011201",
-        "status": {
-         "code": 0,
-         "text": "",
-         "emphasis": false,
-         "description": "정보 없음",
-         "detailInfo": ""
-        },
-        "businessHours": "",
-        "breakTime": "",
-        "lastOrder": ""
-       },
-       "naviInfoText": null,
-       "naviInfo": null,
-       "address": "경기도 용인시 처인구 포곡읍 전대리 310",
-       "roadAddress": "경기도 용인시 처인구 포곡읍 에버랜드로 199",
-       "abbrAddress": "전대리 310",
-       "shortAddress": [
-        "경기 용인시 처인구 포곡읍",
-        "에버랜드로 199"
-       ],
-       "display": "슈퍼윙스 애니멀톡",
-       "telDisplay": "031-320-5000",
-       "context": [],
-       "reviewCount": 3,
-       "placeReviewCount": 0,
-       "ktCallMd": "50305418a6dd5bf7adc2a35bf8b28e17",
-       "coupon": "0",
-       "thumUrl": null,
-       "thumUrls": [],
-       "type": "s",
-       "isSite": "1",
-       "posExact": "1",
-       "x": "127.2013221",
-       "y": "37.2933272",
-       "itemLevel": "12",
-       "isAdultBusiness": false,
-       "streetPanorama": {
-        "id": "o3MKIWcO2T6mtY6rhxW13g==",
-        "pan": "-25.61",
-        "tilt": "10.00",
-        "lng": "127.2015161",
-        "lat": "37.2929223",
-        "fov": "120"
-       },
-       "skyPanorama": {
-        "id": "znJSWPlLXApqqtxwim4YKA==",
-        "pan": "-117.48",
-        "tilt": "-30.00",
-        "lng": "127.2019250",
-        "lat": "37.2936400",
-        "fov": "124"
-       },
-       "insidePanorama": null,
-       "interiorPanorama": null,
-       "indoorPanorama": null,
-       "theme": null,
-       "poiInfo": {
-        "relation": null,
-        "hasRelation": false,
-        "road": {
-         "poiShapeType": "1",
-         "shapeKey": null,
-         "boundary": null,
-         "detail": null
-        },
-        "hasRoad": false,
-        "land": null,
-        "hasLand": false,
-        "polygon": null,
-        "hasPolygon": false
-       },
-       "homePage": "",
-       "description": "",
-       "entranceCoords": null,
-       "isPollingPlace": false,
-       "bizhourInfo": "",
-       "menuInfo": null,
-       "petrolInfo": null,
-       "couponUrl": null,
-       "couponUrlMobile": null,
-       "hasCardBenefit": false,
-       "menuExist": "0",
-       "hasNaverBooking": false,
-       "naverBookingUrl": null,
-       "naverEasyOrderUrl": null,
-       "hasNaverSmartOrder": false,
-       "reservationLabel": {
-        "standard": false,
-        "preOrder": false,
-        "table": false,
-        "takeout": false
-       },
-       "reservation": {
-        "benefit": ""
-       },
-       "hasBroadcastInfo": false,
-       "broadcastInfo": null,
-       "shopWindowInfo": null,
-       "hasNPay": false,
-       "carWash": "0",
-       "parkingPrice": null,
-       "card": null,
-       "distance": "36238.02",
-       "marker": "nres://marker/00079-00145",
-       "markerSelected": "nres://marker/00079-00309",
-       "markerId": "1003382",
-       "microReview": [],
-       "michelinGuide": null,
-       "indoor": null,
-       "markerLabel": null,
-       "subway": null,
-       "evChargerVendor": null,
-       "evChargerPublic": null,
-       "evChargerParking": null,
-       "evChargerInfo": null
-      },
-      {
        "index": "16",
        "rank": "17",
        "id": "1936462702",
@@ -3423,7 +3423,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011201",
+        "requestTime": "202609011359",
         "status": {
          "code": 0,
          "text": "",
@@ -3564,7 +3564,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011201",
+        "requestTime": "202609011359",
         "status": {
          "code": 0,
          "text": "",
@@ -3705,7 +3705,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011201",
+        "requestTime": "202609011359",
         "status": {
          "code": 0,
          "text": "",

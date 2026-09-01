@@ -918,12 +918,12 @@
   }
  },
  {
-  "url": "https://map.naver.com/p/api/search/allSearch?query=%EC%97%90%EB%B2%84%EB%9E%9C%EB%93%9C+%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC&type=all&searchCoord=126.97825%3B37.566551&boundary=&sscode=svc.mapv5.search&token=u4QI8GL4pt6TDAi7M8fTdtxUOnJ-eHIFvp0jDdsr4wg%3D",
+  "url": "https://map.naver.com/p/api/search/allSearch?query=%EC%97%90%EB%B2%84%EB%9E%9C%EB%93%9C+%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC&type=all&searchCoord=126.97825%3B37.566551&boundary=&sscode=svc.mapv5.search&token=_hCK7Rlt0YNnS7Rwze9cXs508UwxfMm6Kkea8V7gdFk%3D",
   "body": {
    "result": {
     "type": "place",
     "metaInfo": {
-     "pageId": "f18f3cdd-9bcd-4fcb-92bc-bb71606bfb7b",
+     "pageId": "9b9da85b-e2de-4b29-af98-68378fc5e96e",
      "sessionId": null,
      "rcode": "09140103",
      "searchedQuery": "에버랜드 베이커리",
@@ -993,7 +993,7 @@
        ],
        "rcode": "0246125028",
        "businessStatus": {
-        "requestTime": "202609011158",
+        "requestTime": "202609011356",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -1160,7 +1160,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011158",
+        "requestTime": "202609011356",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -1325,7 +1325,7 @@
        ],
        "rcode": "0246125028",
        "businessStatus": {
-        "requestTime": "202609011158",
+        "requestTime": "202609011356",
         "status": {
          "code": 9,
          "text": "오늘 휴무",
@@ -1495,7 +1495,7 @@
        ],
        "rcode": "0246125028",
        "businessStatus": {
-        "requestTime": "202609011158",
+        "requestTime": "202609011356",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -1661,7 +1661,7 @@
        ],
        "rcode": "0246125028",
        "businessStatus": {
-        "requestTime": "202609011158",
+        "requestTime": "202609011356",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -1823,7 +1823,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011158",
+        "requestTime": "202609011356",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -1991,7 +1991,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011158",
+        "requestTime": "202609011356",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -2133,147 +2133,6 @@
       {
        "index": "7",
        "rank": "8",
-       "id": "1310732110",
-       "name": "앤티앤스 에버랜드점",
-       "tel": "",
-       "isCallLink": false,
-       "virtualTel": "",
-       "virtualTelDisplay": "",
-       "ppc": "0",
-       "category": [
-        "카페,디저트",
-        "베이커리"
-       ],
-       "categoryPath": [
-        [
-         "220036",
-         "220052",
-         "220564",
-         "230873"
-        ]
-       ],
-       "rcode": "0246125027",
-       "businessStatus": {
-        "requestTime": "202609011158",
-        "status": {
-         "code": 2,
-         "text": "영업 중",
-         "emphasis": false,
-         "description": "영업중",
-         "detailInfo": "19:00에 영업종료"
-        },
-        "businessHours": "202609011100~202609011900",
-        "breakTime": "",
-        "lastOrder": ""
-       },
-       "naviInfoText": null,
-       "naviInfo": null,
-       "address": "경기도 용인시 처인구 포곡읍 전대리 310",
-       "roadAddress": "경기도 용인시 처인구 포곡읍 에버랜드로 199",
-       "abbrAddress": "전대리 310",
-       "shortAddress": [
-        "경기 용인시 처인구 포곡읍",
-        "에버랜드로 199"
-       ],
-       "display": "앤티앤스 <b>에버랜드</b>점",
-       "telDisplay": "",
-       "context": [],
-       "reviewCount": 13,
-       "placeReviewCount": 595,
-       "ktCallMd": "9eadf44334df15a0bd6d961cc80871f2",
-       "coupon": "0",
-       "thumUrl": null,
-       "thumUrls": [],
-       "type": "s",
-       "isSite": "1",
-       "posExact": "1",
-       "x": "127.2014294",
-       "y": "37.2911355",
-       "itemLevel": "12",
-       "isAdultBusiness": false,
-       "streetPanorama": {
-        "id": "DDXLx1/Ei6y20sWlA87TCQ==",
-        "pan": "147.42",
-        "tilt": "10.00",
-        "lng": "127.2013930",
-        "lat": "37.2911925",
-        "fov": "120"
-       },
-       "skyPanorama": {
-        "id": "dXHUdomDbezDzne7Qp+uqQ==",
-        "pan": "-63.44",
-        "tilt": "-30.00",
-        "lng": "127.2020380",
-        "lat": "37.2908310",
-        "fov": "124"
-       },
-       "insidePanorama": null,
-       "interiorPanorama": null,
-       "indoorPanorama": null,
-       "theme": null,
-       "poiInfo": {
-        "relation": null,
-        "hasRelation": false,
-        "road": {
-         "poiShapeType": "1",
-         "shapeKey": null,
-         "boundary": null,
-         "detail": null
-        },
-        "hasRoad": false,
-        "land": null,
-        "hasLand": false,
-        "polygon": null,
-        "hasPolygon": false
-       },
-       "homePage": "",
-       "description": "",
-       "entranceCoords": null,
-       "isPollingPlace": false,
-       "bizhourInfo": "영업 중",
-       "menuInfo": "오리지널 스틱 5,100 | 크림치즈 스틱 5,800 | 아몬드 크림치즈 스틱 6,200 | 핫도그 프레즐 6,300 | 할라피뇨 치즈 핫도그 6,700 | 체다치즈 딥 1,500 | 핫살사 치즈 딥 1,500 | 레몬에이드 6,000 | 블루큐라소 6,000 | 스트로베리 레몬에이드 6,000 | 청포도 레몬에이드 6,000 | 자몽 레몬에이드 6,000 | 아메리카노 5,000 | 아이스 아메리카노 5,500",
-       "petrolInfo": null,
-       "couponUrl": null,
-       "couponUrlMobile": null,
-       "hasCardBenefit": false,
-       "menuExist": "1",
-       "hasNaverBooking": false,
-       "naverBookingUrl": null,
-       "naverEasyOrderUrl": null,
-       "hasNaverSmartOrder": false,
-       "reservationLabel": {
-        "standard": false,
-        "preOrder": false,
-        "table": false,
-        "takeout": false
-       },
-       "reservation": {
-        "benefit": ""
-       },
-       "hasBroadcastInfo": false,
-       "broadcastInfo": null,
-       "shopWindowInfo": null,
-       "hasNPay": false,
-       "carWash": "0",
-       "parkingPrice": null,
-       "card": null,
-       "distance": "36448.05",
-       "marker": "nres://marker/00079-00145",
-       "markerSelected": "nres://marker/00079-00309",
-       "markerId": "230873",
-       "microReview": [],
-       "michelinGuide": null,
-       "indoor": null,
-       "markerLabel": null,
-       "subway": null,
-       "evChargerVendor": null,
-       "evChargerPublic": null,
-       "evChargerParking": null,
-       "evChargerInfo": null
-      },
-      {
-       "index": "8",
-       "rank": "9",
        "id": "19286117",
        "name": "그린베이커리",
        "tel": "0507-1333-9274",
@@ -2300,7 +2159,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011158",
+        "requestTime": "202609011356",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -2439,6 +2298,147 @@
        "evChargerInfo": null
       },
       {
+       "index": "8",
+       "rank": "9",
+       "id": "1310732110",
+       "name": "앤티앤스 에버랜드점",
+       "tel": "",
+       "isCallLink": false,
+       "virtualTel": "",
+       "virtualTelDisplay": "",
+       "ppc": "0",
+       "category": [
+        "카페,디저트",
+        "베이커리"
+       ],
+       "categoryPath": [
+        [
+         "220036",
+         "220052",
+         "220564",
+         "230873"
+        ]
+       ],
+       "rcode": "0246125027",
+       "businessStatus": {
+        "requestTime": "202609011356",
+        "status": {
+         "code": 2,
+         "text": "영업 중",
+         "emphasis": false,
+         "description": "영업중",
+         "detailInfo": "19:00에 영업종료"
+        },
+        "businessHours": "202609011100~202609011900",
+        "breakTime": "",
+        "lastOrder": ""
+       },
+       "naviInfoText": null,
+       "naviInfo": null,
+       "address": "경기도 용인시 처인구 포곡읍 전대리 310",
+       "roadAddress": "경기도 용인시 처인구 포곡읍 에버랜드로 199",
+       "abbrAddress": "전대리 310",
+       "shortAddress": [
+        "경기 용인시 처인구 포곡읍",
+        "에버랜드로 199"
+       ],
+       "display": "앤티앤스 <b>에버랜드</b>점",
+       "telDisplay": "",
+       "context": [],
+       "reviewCount": 13,
+       "placeReviewCount": 595,
+       "ktCallMd": "9eadf44334df15a0bd6d961cc80871f2",
+       "coupon": "0",
+       "thumUrl": null,
+       "thumUrls": [],
+       "type": "s",
+       "isSite": "1",
+       "posExact": "1",
+       "x": "127.2014294",
+       "y": "37.2911355",
+       "itemLevel": "12",
+       "isAdultBusiness": false,
+       "streetPanorama": {
+        "id": "DDXLx1/Ei6y20sWlA87TCQ==",
+        "pan": "147.42",
+        "tilt": "10.00",
+        "lng": "127.2013930",
+        "lat": "37.2911925",
+        "fov": "120"
+       },
+       "skyPanorama": {
+        "id": "dXHUdomDbezDzne7Qp+uqQ==",
+        "pan": "-63.44",
+        "tilt": "-30.00",
+        "lng": "127.2020380",
+        "lat": "37.2908310",
+        "fov": "124"
+       },
+       "insidePanorama": null,
+       "interiorPanorama": null,
+       "indoorPanorama": null,
+       "theme": null,
+       "poiInfo": {
+        "relation": null,
+        "hasRelation": false,
+        "road": {
+         "poiShapeType": "1",
+         "shapeKey": null,
+         "boundary": null,
+         "detail": null
+        },
+        "hasRoad": false,
+        "land": null,
+        "hasLand": false,
+        "polygon": null,
+        "hasPolygon": false
+       },
+       "homePage": "",
+       "description": "",
+       "entranceCoords": null,
+       "isPollingPlace": false,
+       "bizhourInfo": "영업 중",
+       "menuInfo": "오리지널 스틱 5,100 | 크림치즈 스틱 5,800 | 아몬드 크림치즈 스틱 6,200 | 핫도그 프레즐 6,300 | 할라피뇨 치즈 핫도그 6,700 | 체다치즈 딥 1,500 | 핫살사 치즈 딥 1,500 | 레몬에이드 6,000 | 블루큐라소 6,000 | 스트로베리 레몬에이드 6,000 | 청포도 레몬에이드 6,000 | 자몽 레몬에이드 6,000 | 아메리카노 5,000 | 아이스 아메리카노 5,500",
+       "petrolInfo": null,
+       "couponUrl": null,
+       "couponUrlMobile": null,
+       "hasCardBenefit": false,
+       "menuExist": "1",
+       "hasNaverBooking": false,
+       "naverBookingUrl": null,
+       "naverEasyOrderUrl": null,
+       "hasNaverSmartOrder": false,
+       "reservationLabel": {
+        "standard": false,
+        "preOrder": false,
+        "table": false,
+        "takeout": false
+       },
+       "reservation": {
+        "benefit": ""
+       },
+       "hasBroadcastInfo": false,
+       "broadcastInfo": null,
+       "shopWindowInfo": null,
+       "hasNPay": false,
+       "carWash": "0",
+       "parkingPrice": null,
+       "card": null,
+       "distance": "36448.05",
+       "marker": "nres://marker/00079-00145",
+       "markerSelected": "nres://marker/00079-00309",
+       "markerId": "230873",
+       "microReview": [],
+       "michelinGuide": null,
+       "indoor": null,
+       "markerLabel": null,
+       "subway": null,
+       "evChargerVendor": null,
+       "evChargerPublic": null,
+       "evChargerParking": null,
+       "evChargerInfo": null
+      },
+      {
        "index": "9",
        "rank": "10",
        "id": "31078621",
@@ -2466,7 +2466,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011158",
+        "requestTime": "202609011356",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -2631,7 +2631,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011158",
+        "requestTime": "202609011356",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -2786,7 +2786,7 @@
        ],
        "rcode": "0246125028",
        "businessStatus": {
-        "requestTime": "202609011158",
+        "requestTime": "202609011356",
         "status": {
          "code": 9,
          "text": "오늘 휴무",
@@ -2951,17 +2951,17 @@
        ],
        "rcode": "0246125024",
        "businessStatus": {
-        "requestTime": "202609011158",
+        "requestTime": "202609011356",
         "status": {
          "code": 2,
          "text": "영업 중",
          "emphasis": false,
          "description": "영업중",
-         "detailInfo": "20:00에 라스트오더"
+         "detailInfo": "20:00에 영업종료"
         },
-        "businessHours": "202609011000~202609012030",
+        "businessHours": "202609011000~202609012000",
         "breakTime": "",
-        "lastOrder": "202609012000"
+        "lastOrder": ""
        },
        "naviInfoText": null,
        "naviInfo": null,
@@ -3111,7 +3111,7 @@
        ],
        "rcode": "0246125024",
        "businessStatus": {
-        "requestTime": "202609011158",
+        "requestTime": "202609011356",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -3276,7 +3276,7 @@
        ],
        "rcode": "0246125025",
        "businessStatus": {
-        "requestTime": "202609011158",
+        "requestTime": "202609011356",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -3433,7 +3433,7 @@
        ],
        "rcode": "0246125025",
        "businessStatus": {
-        "requestTime": "202609011158",
+        "requestTime": "202609011356",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -3575,6 +3575,142 @@
       {
        "index": "16",
        "rank": "17",
+       "id": "1640471188",
+       "name": "은가비",
+       "tel": "",
+       "isCallLink": false,
+       "virtualTel": "",
+       "virtualTelDisplay": "",
+       "ppc": "0",
+       "category": [
+        "카페,디저트",
+        "카페"
+       ],
+       "categoryPath": [
+        [
+         "220036",
+         "220052",
+         "220576",
+         "221212"
+        ]
+       ],
+       "rcode": "0246125021",
+       "businessStatus": {
+        "requestTime": "202609011356",
+        "status": {
+         "code": 2,
+         "text": "영업 중",
+         "emphasis": false,
+         "description": "영업중",
+         "detailInfo": "20:00에 영업종료"
+        },
+        "businessHours": "202609010800~202609012000",
+        "breakTime": "",
+        "lastOrder": ""
+       },
+       "naviInfoText": null,
+       "naviInfo": null,
+       "address": "경기도 용인시 처인구 포곡읍 삼계리 466-3",
+       "roadAddress": "경기도 용인시 처인구 포곡읍 포곡로285번길 6-4",
+       "abbrAddress": "삼계리 466-3",
+       "shortAddress": [
+        "경기 용인시 처인구 포곡읍",
+        "포곡로285번길 6-4"
+       ],
+       "display": "은가비",
+       "telDisplay": "",
+       "context": [],
+       "reviewCount": 16,
+       "placeReviewCount": 139,
+       "ktCallMd": "48c1a973248a63d7f9c0bf1d6ee9369d",
+       "coupon": "0",
+       "thumUrl": "https://ldb-phinf.pstatic.net/20221101_13/1667286456003M91S5_JPEG/20220926_185453.jpg",
+       "thumUrls": [
+        "https://ldb-phinf.pstatic.net/20221101_13/1667286456003M91S5_JPEG/20220926_185453.jpg"
+       ],
+       "type": "s",
+       "isSite": "1",
+       "posExact": "1",
+       "x": "127.2317766",
+       "y": "37.2805789",
+       "itemLevel": "12",
+       "isAdultBusiness": false,
+       "streetPanorama": {
+        "id": "aJzvnh49drIEMETVNR72Dw==",
+        "pan": "-57.15",
+        "tilt": "10.00",
+        "lng": "127.2318422",
+        "lat": "37.2805365",
+        "fov": "120"
+       },
+       "skyPanorama": null,
+       "insidePanorama": null,
+       "interiorPanorama": null,
+       "indoorPanorama": null,
+       "theme": null,
+       "poiInfo": {
+        "relation": null,
+        "hasRelation": false,
+        "road": {
+         "poiShapeType": "1",
+         "shapeKey": null,
+         "boundary": null,
+         "detail": null
+        },
+        "hasRoad": false,
+        "land": null,
+        "hasLand": false,
+        "polygon": null,
+        "hasPolygon": false
+       },
+       "homePage": "",
+       "description": "",
+       "entranceCoords": null,
+       "isPollingPlace": false,
+       "bizhourInfo": "영업 중",
+       "menuInfo": "사과파이 3,500 | 시오빵 2,800 | 호텔식빵 4,500 | 시오앙버터 4,300 | 아메리카노 3,000 | 캐모마일 3,500",
+       "petrolInfo": null,
+       "couponUrl": null,
+       "couponUrlMobile": null,
+       "hasCardBenefit": false,
+       "menuExist": "1",
+       "hasNaverBooking": false,
+       "naverBookingUrl": null,
+       "naverEasyOrderUrl": null,
+       "hasNaverSmartOrder": false,
+       "reservationLabel": {
+        "standard": false,
+        "preOrder": false,
+        "table": false,
+        "takeout": false
+       },
+       "reservation": {
+        "benefit": ""
+       },
+       "hasBroadcastInfo": false,
+       "broadcastInfo": null,
+       "shopWindowInfo": null,
+       "hasNPay": false,
+       "carWash": "0",
+       "parkingPrice": null,
+       "card": null,
+       "distance": "38922.54",
+       "marker": "nres://marker/00079-00145",
+       "markerSelected": "nres://marker/00079-00309",
+       "markerId": "221212",
+       "microReview": [],
+       "michelinGuide": null,
+       "indoor": null,
+       "markerLabel": null,
+       "subway": null,
+       "evChargerVendor": null,
+       "evChargerPublic": null,
+       "evChargerParking": null,
+       "evChargerInfo": null
+      },
+      {
+       "index": "17",
+       "rank": "18",
        "id": "1986278874",
        "name": "달콤이",
        "tel": "0507-1400-1901",
@@ -3601,7 +3737,7 @@
        ],
        "rcode": "0246125025",
        "businessStatus": {
-        "requestTime": "202609011158",
+        "requestTime": "202609011356",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -3732,142 +3868,6 @@
        "evChargerInfo": null
       },
       {
-       "index": "17",
-       "rank": "18",
-       "id": "1640471188",
-       "name": "은가비",
-       "tel": "",
-       "isCallLink": false,
-       "virtualTel": "",
-       "virtualTelDisplay": "",
-       "ppc": "0",
-       "category": [
-        "카페,디저트",
-        "카페"
-       ],
-       "categoryPath": [
-        [
-         "220036",
-         "220052",
-         "220576",
-         "221212"
-        ]
-       ],
-       "rcode": "0246125021",
-       "businessStatus": {
-        "requestTime": "202609011158",
-        "status": {
-         "code": 2,
-         "text": "영업 중",
-         "emphasis": false,
-         "description": "영업중",
-         "detailInfo": "20:00에 영업종료"
-        },
-        "businessHours": "202609010800~202609012000",
-        "breakTime": "",
-        "lastOrder": ""
-       },
-       "naviInfoText": null,
-       "naviInfo": null,
-       "address": "경기도 용인시 처인구 포곡읍 삼계리 466-3",
-       "roadAddress": "경기도 용인시 처인구 포곡읍 포곡로285번길 6-4",
-       "abbrAddress": "삼계리 466-3",
-       "shortAddress": [
-        "경기 용인시 처인구 포곡읍",
-        "포곡로285번길 6-4"
-       ],
-       "display": "은가비",
-       "telDisplay": "",
-       "context": [],
-       "reviewCount": 16,
-       "placeReviewCount": 139,
-       "ktCallMd": "48c1a973248a63d7f9c0bf1d6ee9369d",
-       "coupon": "0",
-       "thumUrl": "https://ldb-phinf.pstatic.net/20221101_13/1667286456003M91S5_JPEG/20220926_185453.jpg",
-       "thumUrls": [
-        "https://ldb-phinf.pstatic.net/20221101_13/1667286456003M91S5_JPEG/20220926_185453.jpg"
-       ],
-       "type": "s",
-       "isSite": "1",
-       "posExact": "1",
-       "x": "127.2317766",
-       "y": "37.2805789",
-       "itemLevel": "12",
-       "isAdultBusiness": false,
-       "streetPanorama": {
-        "id": "aJzvnh49drIEMETVNR72Dw==",
-        "pan": "-57.15",
-        "tilt": "10.00",
-        "lng": "127.2318422",
-        "lat": "37.2805365",
-        "fov": "120"
-       },
-       "skyPanorama": null,
-       "insidePanorama": null,
-       "interiorPanorama": null,
-       "indoorPanorama": null,
-       "theme": null,
-       "poiInfo": {
-        "relation": null,
-        "hasRelation": false,
-        "road": {
-         "poiShapeType": "1",
-         "shapeKey": null,
-         "boundary": null,
-         "detail": null
-        },
-        "hasRoad": false,
-        "land": null,
-        "hasLand": false,
-        "polygon": null,
-        "hasPolygon": false
-       },
-       "homePage": "",
-       "description": "",
-       "entranceCoords": null,
-       "isPollingPlace": false,
-       "bizhourInfo": "영업 중",
-       "menuInfo": "사과파이 3,500 | 시오빵 2,800 | 호텔식빵 4,500 | 시오앙버터 4,300 | 아메리카노 3,000 | 캐모마일 3,500",
-       "petrolInfo": null,
-       "couponUrl": null,
-       "couponUrlMobile": null,
-       "hasCardBenefit": false,
-       "menuExist": "1",
-       "hasNaverBooking": false,
-       "naverBookingUrl": null,
-       "naverEasyOrderUrl": null,
-       "hasNaverSmartOrder": false,
-       "reservationLabel": {
-        "standard": false,
-        "preOrder": false,
-        "table": false,
-        "takeout": false
-       },
-       "reservation": {
-        "benefit": ""
-       },
-       "hasBroadcastInfo": false,
-       "broadcastInfo": null,
-       "shopWindowInfo": null,
-       "hasNPay": false,
-       "carWash": "0",
-       "parkingPrice": null,
-       "card": null,
-       "distance": "38922.54",
-       "marker": "nres://marker/00079-00145",
-       "markerSelected": "nres://marker/00079-00309",
-       "markerId": "221212",
-       "microReview": [],
-       "michelinGuide": null,
-       "indoor": null,
-       "markerLabel": null,
-       "subway": null,
-       "evChargerVendor": null,
-       "evChargerPublic": null,
-       "evChargerParking": null,
-       "evChargerInfo": null
-      },
-      {
        "index": "18",
        "rank": "19",
        "id": "1135808622",
@@ -3891,13 +3891,13 @@
        ],
        "rcode": "0246125021",
        "businessStatus": {
-        "requestTime": "202609011158",
+        "requestTime": "202609011356",
         "status": {
-         "code": 1,
-         "text": "곧 영업 시작",
+         "code": 2,
+         "text": "영업 중",
          "emphasis": false,
-         "description": "영업 시작 15분 전",
-         "detailInfo": "12:00에 영업시작"
+         "description": "영업중",
+         "detailInfo": "18:30에 라스트오더"
         },
         "businessHours": "202609011200~202609011900",
         "breakTime": "",
@@ -3975,7 +3975,7 @@
         ]
        },
        "isPollingPlace": false,
-       "bizhourInfo": "곧 영업 시작",
+       "bizhourInfo": "영업 중",
        "menuInfo": null,
        "petrolInfo": null,
        "couponUrl": null,
@@ -4041,7 +4041,7 @@
        ],
        "rcode": "0246125024",
        "businessStatus": {
-        "requestTime": "202609011158",
+        "requestTime": "202609011356",
         "status": {
          "code": 8,
          "text": "24시간 영업",

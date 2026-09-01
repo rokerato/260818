@@ -1,0 +1,23 @@
+{
+  "platform": "naver",
+  "target": {
+    "name": "오오츄",
+    "url": null,
+    "place_id": "1306053034",
+    "category": "cafe"
+  },
+  "resolved": {
+    "place_id": "1306053034",
+    "place_url": "https://pcmap.place.naver.com/cafe/1306053034/review/visitor",
+    "place_name": "오오츄"
+  },
+  "started_at": "2026-09-01T05:36:39+00:00",
+  "finished_at": "2026-09-01T05:36:56+00:00",
+  "duplicates_removed": 0,
+  "failures": [
+    "no reviews found via graphql interception or DOM fallback"
+  ],
+  "review_count": 0,
+  "reviews": [],
+  "raw_responses": []
+}

@@ -918,12 +918,12 @@
   }
  },
  {
-  "url": "https://map.naver.com/p/api/search/allSearch?query=%EC%97%90%EB%B2%84%EB%9E%9C%EB%93%9C+%EC%BB%A4%ED%94%BC&type=all&searchCoord=126.97825%3B37.566551&boundary=&sscode=svc.mapv5.search&token=ZOpDQ2vxbQF-IsRqwKVrTXPnSMixFcXXlpygXngkJ0M%3D",
+  "url": "https://map.naver.com/p/api/search/allSearch?query=%EC%97%90%EB%B2%84%EB%9E%9C%EB%93%9C+%EC%BB%A4%ED%94%BC&type=all&searchCoord=126.97825%3B37.566551&boundary=&sscode=svc.mapv5.search&token=YivYUI2W5kUsiJE7LfBYfXC5WVx5SeMM0gMWcZbQChU%3D",
   "body": {
    "result": {
     "type": "place",
     "metaInfo": {
-     "pageId": "2fa3eb0b-52f3-4ec8-a75d-b7349c26be92",
+     "pageId": "4fca56b0-567b-4f3f-b12b-1244f2adf912",
      "sessionId": null,
      "rcode": "09140103",
      "searchedQuery": "에버랜드 커피",
@@ -993,7 +993,7 @@
        ],
        "rcode": "0246125028",
        "businessStatus": {
-        "requestTime": "202609011159",
+        "requestTime": "202609011357",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -1161,7 +1161,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011159",
+        "requestTime": "202609011357",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -1308,7 +1308,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011159",
+        "requestTime": "202609011357",
         "status": {
          "code": 9,
          "text": "오늘 휴무",
@@ -1475,7 +1475,7 @@
        ],
        "rcode": "0246125028",
        "businessStatus": {
-        "requestTime": "202609011159",
+        "requestTime": "202609011357",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -1644,7 +1644,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011159",
+        "requestTime": "202609011357",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -1778,172 +1778,6 @@
       {
        "index": "5",
        "rank": "6",
-       "id": "1247138068",
-       "name": "메가MGC커피 용인에버랜드역점",
-       "tel": "031-332-2171",
-       "isCallLink": false,
-       "virtualTel": "",
-       "virtualTelDisplay": "",
-       "ppc": "1",
-       "category": [
-        "카페,디저트",
-        "카페"
-       ],
-       "categoryPath": [
-        [
-         "220036",
-         "220052",
-         "220576",
-         "231192"
-        ],
-        [
-         "1004760",
-         "1004380",
-         "1002043"
-        ]
-       ],
-       "rcode": "0246125027",
-       "businessStatus": {
-        "requestTime": "202609011159",
-        "status": {
-         "code": 2,
-         "text": "영업 중",
-         "emphasis": false,
-         "description": "영업중",
-         "detailInfo": "22:25에 라스트오더"
-        },
-        "businessHours": "202609010800~202609012230",
-        "breakTime": "",
-        "lastOrder": "202609012225"
-       },
-       "naviInfoText": null,
-       "naviInfo": null,
-       "address": "경기도 용인시 처인구 포곡읍 전대리 357-7 1층 메가엠지씨커피 용인에버랜드역점",
-       "roadAddress": "경기도 용인시 처인구 포곡읍 전대로78번길 22 1층 메가엠지씨커피 용인에버랜드역점",
-       "abbrAddress": "전대리 357-7 1층 메가엠지씨커피 용인에버랜드역점",
-       "shortAddress": [
-        "경기 용인시 처인구 포곡읍",
-        "전대로78번길 22",
-        "1층 메가엠지씨커피 용인에버랜드역점"
-       ],
-       "display": "메가MGC<b>커피</b> 용인<b>에버랜드</b>역점",
-       "telDisplay": "031-332-2171",
-       "context": [],
-       "reviewCount": 11,
-       "placeReviewCount": 628,
-       "ktCallMd": "8c7eae8e449ab7529306bf8b68d260c4",
-       "coupon": "0",
-       "thumUrl": "https://ldb-phinf.pstatic.net/20220109_229/1641733455810c78Ed_JPEG/%B8%DE%B0%A1.jpg",
-       "thumUrls": [
-        "https://ldb-phinf.pstatic.net/20220109_229/1641733455810c78Ed_JPEG/%B8%DE%B0%A1.jpg",
-        "https://ldb-phinf.pstatic.net/20220103_10/1641218108496RSuw2_JPEG/KakaoTalk_20220103_224429161.jpg",
-        "https://ldb-phinf.pstatic.net/20220103_255/1641218113389pkwWG_JPEG/KakaoTalk_20220103_224504650.jpg"
-       ],
-       "type": "s",
-       "isSite": "1",
-       "posExact": "1",
-       "x": "127.2171506",
-       "y": "37.2868147",
-       "itemLevel": "12",
-       "isAdultBusiness": false,
-       "streetPanorama": {
-        "id": "NK3f35/7GfQvWKbGic7o9g==",
-        "pan": "82.64",
-        "tilt": "5.56",
-        "lng": "127.2170595",
-        "lat": "37.2868390",
-        "fov": "90"
-       },
-       "skyPanorama": {
-        "id": "myuUiz/e5KGIbnXlnQ6TQQ==",
-        "pan": "-44.96",
-        "tilt": "-30.00",
-        "lng": "127.2176553",
-        "lat": "37.2863089",
-        "fov": "124"
-       },
-       "insidePanorama": null,
-       "interiorPanorama": null,
-       "indoorPanorama": null,
-       "theme": null,
-       "poiInfo": {
-        "relation": null,
-        "hasRelation": false,
-        "road": {
-         "poiShapeType": "1",
-         "shapeKey": null,
-         "boundary": null,
-         "detail": null
-        },
-        "hasRoad": false,
-        "land": null,
-        "hasLand": false,
-        "polygon": null,
-        "hasPolygon": false
-       },
-       "homePage": "",
-       "description": "",
-       "entranceCoords": {
-        "car": [
-         {
-          "rep": true,
-          "x": 127.217123,
-          "y": 37.286778
-         }
-        ],
-        "walk": [
-         {
-          "rep": true,
-          "x": 127.217123,
-          "y": 37.286778
-         }
-        ]
-       },
-       "isPollingPlace": false,
-       "bizhourInfo": "영업 중",
-       "menuInfo": "아메리카노 2,000 | 메가리카노 3,300 | 바닐라 아메리카노 2,700 | 헤이즐넛 아메리카노 2,700 | 꿀아메리카노 2,700 | 헛개리카노 2,400 | 왕메가헛개리카노 3,400 | 카페라떼 2,900 | 왕메가카페라떼 4,400 | 바닐라 라떼 3,400 | 헤이즐넛라떼 3,400 | 라이트 바닐라 아몬드라떼 3,900 | 카페모카 3,900 | 카푸치노 2,900 | 카라멜마끼아또 3,700 | 큐브라떼 4,200 | 연유라떼 3,900 | 디카페인 아메리카노 2,500 | 디카페인 메가리카노 4,500 | 디카페인 바닐라 아메리카노 3,700 | 디카페인 헤이즐넛 아메리카노 3,700 | 디카페인 꿀아메리카노 3,700 | 디카페인 헛개리카노 3,400 | 디카페인 왕메가헛개리카노 4,900 | 디카페인 카페라떼 3,900 | 디카페인 왕메가카페라떼 5,900 | 디카페인 바닐라라떼 4,400 | 디카페인 헤이즐넛라떼 4,400 | 디카페인 라이트 바닐라 아몬드라떼 4,900 | 디카페인 카페모카 4,900 | 디카페인 카푸치노 3,900 | 디카페인 카라멜마끼아또 4,700 | 디카페인 연유라떼 4,900 | 콜드브루 오리지널 3,500 | 콜드브루 라떼 4,000 | 콜드브루 디카페인 3,500 | 콜드브루 디카페인 라떼 4,000 | 플레인요거트스무디 3,900 | 망고요거트스무디 3,900 | 딸기요거트스무디 3,900 | 골드망고스무디 3,900 | 코코넛커피스무디 4,800 | 쿠키프라페 3,900 | 딸기쿠키프라페 3,900 | 리얼초코프라페 3,900 | 커피프라페 3,900 | 녹차프라페 3,900 | 민트프라페 3,900 | 플레인퐁크러쉬 3,900 | 딸기퐁크러쉬 3,900 | 바나나퐁크러쉬 3,900 | 초코허니퐁크러쉬 3,900 | 딸기라떼 3,700 | 오레오초코라떼 3,900 | 녹차라떼 3,500 | 고구마라떼 3,500 | 곡물라떼 3,300 | 로얄밀크티라떼 3,700 | 흑당버블라떼 3,700 | 흑당버블밀크티라떼 3,800 | 왕메가초코 4,400 | 아이스초코 3,500 | 핫초코 3,500 | 메가에이드 3,900 | 자몽에이드 3,500 | 청포도에이드 3,500 | 레몬에이드 3,500 | 블루레몬에이드 3,500 | 라임모히또 3,800 | 체리콜라 3,300 | 복숭아아이스티 3,000 | 왕메가아이스티 3,900 | 제로 복숭아 아이스티 3,000 | 딸기주스 4,000 | 딸기바나나주스 4,000 | 사과유자차 3,500 | 왕메가사과유자차 4,400 | 허니자몽블랙티 3,700 | 유자차 3,300 | 자몽차 3,300 | 레몬차 3,300 | 녹차 2,500 | 얼그레이 2,500 | 페퍼민트 2,500 | 캐모마일 2,500 | 허니브레드 4,500 | 크로크무슈 3,800 | 감자빵 3,500 | 멕시칸 미트칠리 핫도그 3,800 | 아이스 허니 와앙 슈 2,400 | 메가초코 마카롱 2,100 | 딸기요거트 마카롱 2,100 | 유니콘 프라페 마카롱 2,100 | 치즈케익 3,500 | 초코무스케익 3,500 | 티라미수케익 3,500 | 초코스모어쿠키 2,900 | 로얄 밀크티 스모어 쿠키 2,900 | 메가쿠키(초코칩) 2,000 | 메가쿠키(마카다미아) 2,000",
-       "petrolInfo": null,
-       "couponUrl": null,
-       "couponUrlMobile": null,
-       "hasCardBenefit": false,
-       "menuExist": "1",
-       "hasNaverBooking": false,
-       "naverBookingUrl": null,
-       "naverEasyOrderUrl": null,
-       "hasNaverSmartOrder": false,
-       "reservationLabel": {
-        "standard": false,
-        "preOrder": false,
-        "table": false,
-        "takeout": false
-       },
-       "reservation": {
-        "benefit": ""
-       },
-       "hasBroadcastInfo": false,
-       "broadcastInfo": null,
-       "shopWindowInfo": null,
-       "hasNPay": false,
-       "carWash": "0",
-       "parkingPrice": null,
-       "card": null,
-       "distance": "37615.93",
-       "marker": "nres://marker/00079-00145",
-       "markerSelected": "nres://marker/00079-00309",
-       "markerId": "231192",
-       "microReview": [],
-       "michelinGuide": null,
-       "indoor": null,
-       "markerLabel": null,
-       "subway": null,
-       "evChargerVendor": null,
-       "evChargerPublic": null,
-       "evChargerParking": null,
-       "evChargerInfo": null
-      },
-      {
-       "index": "6",
-       "rank": "7",
        "id": "37121790",
        "name": "허밍마마",
        "tel": "",
@@ -1969,7 +1803,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011159",
+        "requestTime": "202609011357",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -2107,8 +1941,8 @@
        "evChargerInfo": null
       },
       {
-       "index": "7",
-       "rank": "8",
+       "index": "6",
+       "rank": "7",
        "id": "1448271663",
        "name": "유운커피",
        "tel": "0507-1358-6613",
@@ -2134,7 +1968,7 @@
        ],
        "rcode": "0246125028",
        "businessStatus": {
-        "requestTime": "202609011159",
+        "requestTime": "202609011357",
         "status": {
          "code": 9,
          "text": "오늘 휴무",
@@ -2277,6 +2111,172 @@
        "evChargerInfo": null
       },
       {
+       "index": "7",
+       "rank": "8",
+       "id": "1247138068",
+       "name": "메가MGC커피 용인에버랜드역점",
+       "tel": "031-332-2171",
+       "isCallLink": false,
+       "virtualTel": "",
+       "virtualTelDisplay": "",
+       "ppc": "1",
+       "category": [
+        "카페,디저트",
+        "카페"
+       ],
+       "categoryPath": [
+        [
+         "220036",
+         "220052",
+         "220576",
+         "231192"
+        ],
+        [
+         "1004760",
+         "1004380",
+         "1002043"
+        ]
+       ],
+       "rcode": "0246125027",
+       "businessStatus": {
+        "requestTime": "202609011357",
+        "status": {
+         "code": 2,
+         "text": "영업 중",
+         "emphasis": false,
+         "description": "영업중",
+         "detailInfo": "22:25에 라스트오더"
+        },
+        "businessHours": "202609010800~202609012230",
+        "breakTime": "",
+        "lastOrder": "202609012225"
+       },
+       "naviInfoText": null,
+       "naviInfo": null,
+       "address": "경기도 용인시 처인구 포곡읍 전대리 357-7 1층 메가엠지씨커피 용인에버랜드역점",
+       "roadAddress": "경기도 용인시 처인구 포곡읍 전대로78번길 22 1층 메가엠지씨커피 용인에버랜드역점",
+       "abbrAddress": "전대리 357-7 1층 메가엠지씨커피 용인에버랜드역점",
+       "shortAddress": [
+        "경기 용인시 처인구 포곡읍",
+        "전대로78번길 22",
+        "1층 메가엠지씨커피 용인에버랜드역점"
+       ],
+       "display": "메가MGC<b>커피</b> 용인<b>에버랜드</b>역점",
+       "telDisplay": "031-332-2171",
+       "context": [],
+       "reviewCount": 11,
+       "placeReviewCount": 628,
+       "ktCallMd": "8c7eae8e449ab7529306bf8b68d260c4",
+       "coupon": "0",
+       "thumUrl": "https://ldb-phinf.pstatic.net/20220109_229/1641733455810c78Ed_JPEG/%B8%DE%B0%A1.jpg",
+       "thumUrls": [
+        "https://ldb-phinf.pstatic.net/20220109_229/1641733455810c78Ed_JPEG/%B8%DE%B0%A1.jpg",
+        "https://ldb-phinf.pstatic.net/20220103_10/1641218108496RSuw2_JPEG/KakaoTalk_20220103_224429161.jpg",
+        "https://ldb-phinf.pstatic.net/20220103_255/1641218113389pkwWG_JPEG/KakaoTalk_20220103_224504650.jpg"
+       ],
+       "type": "s",
+       "isSite": "1",
+       "posExact": "1",
+       "x": "127.2171506",
+       "y": "37.2868147",
+       "itemLevel": "12",
+       "isAdultBusiness": false,
+       "streetPanorama": {
+        "id": "NK3f35/7GfQvWKbGic7o9g==",
+        "pan": "82.64",
+        "tilt": "5.56",
+        "lng": "127.2170595",
+        "lat": "37.2868390",
+        "fov": "90"
+       },
+       "skyPanorama": {
+        "id": "myuUiz/e5KGIbnXlnQ6TQQ==",
+        "pan": "-44.96",
+        "tilt": "-30.00",
+        "lng": "127.2176553",
+        "lat": "37.2863089",
+        "fov": "124"
+       },
+       "insidePanorama": null,
+       "interiorPanorama": null,
+       "indoorPanorama": null,
+       "theme": null,
+       "poiInfo": {
+        "relation": null,
+        "hasRelation": false,
+        "road": {
+         "poiShapeType": "1",
+         "shapeKey": null,
+         "boundary": null,
+         "detail": null
+        },
+        "hasRoad": false,
+        "land": null,
+        "hasLand": false,
+        "polygon": null,
+        "hasPolygon": false
+       },
+       "homePage": "",
+       "description": "",
+       "entranceCoords": {
+        "car": [
+         {
+          "rep": true,
+          "x": 127.217123,
+          "y": 37.286778
+         }
+        ],
+        "walk": [
+         {
+          "rep": true,
+          "x": 127.217123,
+          "y": 37.286778
+         }
+        ]
+       },
+       "isPollingPlace": false,
+       "bizhourInfo": "영업 중",
+       "menuInfo": "아메리카노 2,000 | 메가리카노 3,300 | 바닐라 아메리카노 2,700 | 헤이즐넛 아메리카노 2,700 | 꿀아메리카노 2,700 | 헛개리카노 2,400 | 왕메가헛개리카노 3,400 | 카페라떼 2,900 | 왕메가카페라떼 4,400 | 바닐라 라떼 3,400 | 헤이즐넛라떼 3,400 | 라이트 바닐라 아몬드라떼 3,900 | 카페모카 3,900 | 카푸치노 2,900 | 카라멜마끼아또 3,700 | 큐브라떼 4,200 | 연유라떼 3,900 | 디카페인 아메리카노 2,500 | 디카페인 메가리카노 4,500 | 디카페인 바닐라 아메리카노 3,700 | 디카페인 헤이즐넛 아메리카노 3,700 | 디카페인 꿀아메리카노 3,700 | 디카페인 헛개리카노 3,400 | 디카페인 왕메가헛개리카노 4,900 | 디카페인 카페라떼 3,900 | 디카페인 왕메가카페라떼 5,900 | 디카페인 바닐라라떼 4,400 | 디카페인 헤이즐넛라떼 4,400 | 디카페인 라이트 바닐라 아몬드라떼 4,900 | 디카페인 카페모카 4,900 | 디카페인 카푸치노 3,900 | 디카페인 카라멜마끼아또 4,700 | 디카페인 연유라떼 4,900 | 콜드브루 오리지널 3,500 | 콜드브루 라떼 4,000 | 콜드브루 디카페인 3,500 | 콜드브루 디카페인 라떼 4,000 | 플레인요거트스무디 3,900 | 망고요거트스무디 3,900 | 딸기요거트스무디 3,900 | 골드망고스무디 3,900 | 코코넛커피스무디 4,800 | 쿠키프라페 3,900 | 딸기쿠키프라페 3,900 | 리얼초코프라페 3,900 | 커피프라페 3,900 | 녹차프라페 3,900 | 민트프라페 3,900 | 플레인퐁크러쉬 3,900 | 딸기퐁크러쉬 3,900 | 바나나퐁크러쉬 3,900 | 초코허니퐁크러쉬 3,900 | 딸기라떼 3,700 | 오레오초코라떼 3,900 | 녹차라떼 3,500 | 고구마라떼 3,500 | 곡물라떼 3,300 | 로얄밀크티라떼 3,700 | 흑당버블라떼 3,700 | 흑당버블밀크티라떼 3,800 | 왕메가초코 4,400 | 아이스초코 3,500 | 핫초코 3,500 | 메가에이드 3,900 | 자몽에이드 3,500 | 청포도에이드 3,500 | 레몬에이드 3,500 | 블루레몬에이드 3,500 | 라임모히또 3,800 | 체리콜라 3,300 | 복숭아아이스티 3,000 | 왕메가아이스티 3,900 | 제로 복숭아 아이스티 3,000 | 딸기주스 4,000 | 딸기바나나주스 4,000 | 사과유자차 3,500 | 왕메가사과유자차 4,400 | 허니자몽블랙티 3,700 | 유자차 3,300 | 자몽차 3,300 | 레몬차 3,300 | 녹차 2,500 | 얼그레이 2,500 | 페퍼민트 2,500 | 캐모마일 2,500 | 허니브레드 4,500 | 크로크무슈 3,800 | 감자빵 3,500 | 멕시칸 미트칠리 핫도그 3,800 | 아이스 허니 와앙 슈 2,400 | 메가초코 마카롱 2,100 | 딸기요거트 마카롱 2,100 | 유니콘 프라페 마카롱 2,100 | 치즈케익 3,500 | 초코무스케익 3,500 | 티라미수케익 3,500 | 초코스모어쿠키 2,900 | 로얄 밀크티 스모어 쿠키 2,900 | 메가쿠키(초코칩) 2,000 | 메가쿠키(마카다미아) 2,000",
+       "petrolInfo": null,
+       "couponUrl": null,
+       "couponUrlMobile": null,
+       "hasCardBenefit": false,
+       "menuExist": "1",
+       "hasNaverBooking": false,
+       "naverBookingUrl": null,
+       "naverEasyOrderUrl": null,
+       "hasNaverSmartOrder": false,
+       "reservationLabel": {
+        "standard": false,
+        "preOrder": false,
+        "table": false,
+        "takeout": false
+       },
+       "reservation": {
+        "benefit": ""
+       },
+       "hasBroadcastInfo": false,
+       "broadcastInfo": null,
+       "shopWindowInfo": null,
+       "hasNPay": false,
+       "carWash": "0",
+       "parkingPrice": null,
+       "card": null,
+       "distance": "37615.93",
+       "marker": "nres://marker/00079-00145",
+       "markerSelected": "nres://marker/00079-00309",
+       "markerId": "231192",
+       "microReview": [],
+       "michelinGuide": null,
+       "indoor": null,
+       "markerLabel": null,
+       "subway": null,
+       "evChargerVendor": null,
+       "evChargerPublic": null,
+       "evChargerParking": null,
+       "evChargerInfo": null
+      },
+      {
        "index": "8",
        "rank": "9",
        "id": "1785926108",
@@ -2303,7 +2303,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011159",
+        "requestTime": "202609011357",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -2469,7 +2469,7 @@
        ],
        "rcode": "0246125028",
        "businessStatus": {
-        "requestTime": "202609011159",
+        "requestTime": "202609011357",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -2632,7 +2632,7 @@
        ],
        "rcode": "0246125026",
        "businessStatus": {
-        "requestTime": "202609011159",
+        "requestTime": "202609011357",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -2846,7 +2846,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011159",
+        "requestTime": "202609011357",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -3015,7 +3015,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011159",
+        "requestTime": "202609011357",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -3181,7 +3181,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011159",
+        "requestTime": "202609011357",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -3344,7 +3344,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011159",
+        "requestTime": "202609011357",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -3493,7 +3493,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011159",
+        "requestTime": "202609011357",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -3650,7 +3650,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011159",
+        "requestTime": "202609011357",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -3817,7 +3817,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011159",
+        "requestTime": "202609011357",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -3983,7 +3983,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011159",
+        "requestTime": "202609011357",
         "status": {
          "code": 9,
          "text": "오늘 휴무",
@@ -4143,7 +4143,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011159",
+        "requestTime": "202609011357",
         "status": {
          "code": 2,
          "text": "영업 중",

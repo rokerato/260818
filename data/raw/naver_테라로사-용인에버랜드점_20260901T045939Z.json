@@ -1,0 +1,23 @@
+{
+  "platform": "naver",
+  "target": {
+    "name": "테라로사 용인에버랜드점",
+    "url": null,
+    "place_id": "2028927562",
+    "category": "cafe"
+  },
+  "resolved": {
+    "place_id": "2028927562",
+    "place_url": "https://pcmap.place.naver.com/cafe/2028927562/review/visitor",
+    "place_name": "테라로사 용인에버랜드점"
+  },
+  "started_at": "2026-09-01T05:36:23+00:00",
+  "finished_at": "2026-09-01T05:36:39+00:00",
+  "duplicates_removed": 0,
+  "failures": [
+    "no reviews found via graphql interception or DOM fallback"
+  ],
+  "review_count": 0,
+  "reviews": [],
+  "raw_responses": []
+}
