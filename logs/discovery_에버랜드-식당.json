@@ -918,12 +918,12 @@
   }
  },
  {
-  "url": "https://map.naver.com/p/api/search/allSearch?query=%EC%97%90%EB%B2%84%EB%9E%9C%EB%93%9C+%EC%8B%9D%EB%8B%B9&type=all&searchCoord=126.97825%3B37.566551&boundary=&sscode=svc.mapv5.search&token=_Fh48DH5sORyXacE2cR3kc5_YDNCnaSsZ10U9Fy-rYk%3D",
+  "url": "https://map.naver.com/p/api/search/allSearch?query=%EC%97%90%EB%B2%84%EB%9E%9C%EB%93%9C+%EC%8B%9D%EB%8B%B9&type=all&searchCoord=126.97825%3B37.566551&boundary=&sscode=svc.mapv5.search&token=04Hb89cTQyEEtVt_QbyMj1gG5ISwFbuVhBnR9Co38r4%3D",
   "body": {
    "result": {
     "type": "place",
     "metaInfo": {
-     "pageId": "f1ce02e0-c406-4aaa-a342-debcef644e38",
+     "pageId": "6182a405-2552-42e9-8ad0-12535eb70b7a",
      "sessionId": null,
      "rcode": "09140103",
      "searchedQuery": "에버랜드 식당",
@@ -1012,7 +1012,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011445",
+        "requestTime": "202609011540",
         "status": {
          "code": 4,
          "text": "브레이크타임",
@@ -1176,12 +1176,12 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011445",
+        "requestTime": "202609011540",
         "status": {
-         "code": 3,
-         "text": "곧 브레이크타임",
+         "code": 4,
+         "text": "브레이크타임",
          "emphasis": true,
-         "description": "브레이크타임 15분 전",
+         "description": "브레이크타임",
          "detailInfo": "17:00에 영업시작"
         },
         "businessHours": "202609010830~202609012030",
@@ -1272,7 +1272,7 @@
         ]
        },
        "isPollingPlace": false,
-       "bizhourInfo": "곧 브레이크타임",
+       "bizhourInfo": "브레이크타임",
        "menuInfo": "평일오전 칼국수종류 1,000 할인! 0 | 》바지락 칼국수 12,000 | 》들기름비빔 칼국수(사리추가X) 12,000 | 》닭반마리 칼국수 14,000 | 》도토리묵무침 25,000 | 》간장제육볶음 23,000 | 》해물듬뿍파전 18,000 | 추 가 메 뉴 ⤵ 0 | 》면 사 리 5,000 | 》바 지 락 7,000 | 》공 기 밥 1,000 | 》음 료 수 2,000 | 》소주/맥주/막걸리 5,000",
        "petrolInfo": null,
        "couponUrl": null,
@@ -1341,7 +1341,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011445",
+        "requestTime": "202609011540",
         "status": {
          "code": 7,
          "text": "영업 전",
@@ -1510,7 +1510,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011445",
+        "requestTime": "202609011540",
         "status": {
          "code": 9,
          "text": "오늘 휴무",
@@ -1535,7 +1535,7 @@
        "telDisplay": "031-334-1011",
        "context": [],
        "reviewCount": 961,
-       "placeReviewCount": 255,
+       "placeReviewCount": 256,
        "ktCallMd": "94942cb0d6dd0969ff91e99dbcd23166",
        "coupon": "0",
        "thumUrl": "https://ldb-phinf.pstatic.net/20220314_53/1647241279364SJ0yb_JPEG/DSC_1959.JPG",
@@ -1677,7 +1677,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011445",
+        "requestTime": "202609011540",
         "status": {
          "code": 7,
          "text": "영업 전",
@@ -1844,7 +1844,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011445",
+        "requestTime": "202609011540",
         "status": {
          "code": 9,
          "text": "오늘 휴무",
@@ -2010,7 +2010,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011445",
+        "requestTime": "202609011540",
         "status": {
          "code": 9,
          "text": "오늘 휴무",
@@ -2177,7 +2177,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011445",
+        "requestTime": "202609011540",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -2342,7 +2342,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011445",
+        "requestTime": "202609011540",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -2505,7 +2505,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011445",
+        "requestTime": "202609011540",
         "status": {
          "code": 9,
          "text": "오늘 휴무",
@@ -2669,12 +2669,12 @@
        ],
        "rcode": "0246125028",
        "businessStatus": {
-        "requestTime": "202609011445",
+        "requestTime": "202609011540",
         "status": {
-         "code": 3,
-         "text": "곧 브레이크타임",
+         "code": 4,
+         "text": "브레이크타임",
          "emphasis": true,
-         "description": "브레이크타임 15분 전",
+         "description": "브레이크타임",
          "detailInfo": "17:00에 영업시작"
         },
         "businessHours": "202609011100~202609012030",
@@ -2765,7 +2765,7 @@
         ]
        },
        "isPollingPlace": false,
-       "bizhourInfo": "곧 브레이크타임",
+       "bizhourInfo": "브레이크타임",
        "menuInfo": "생일잔치, 돌잔치 등 예약 받아요 0 | 조기영업마감 시 \"소식\"에 안내드려요 0 | 소운들밥 10,900 | 점심특선)고등어조림들밥(2인 이상) 14,900 | 점심특선)제육들밥(2인 이상) 14,900 | 어린이돈까스 9,900 | 고등어조림 한마리 20,000 | 고등어조림 반마리 10,000 | 사이드-제육볶음 小(200g)/국산 13,000 | 사이드-제육볶음 中(400g)/국산 26,000 | 사이드-제육볶음 大(600g) 38,000 | 계절메뉴) 검은콩국수 10,000 | 추가메뉴 솥밥 3,000 | 추가메뉴 찌개 5,000",
        "petrolInfo": null,
        "couponUrl": null,
@@ -2835,12 +2835,12 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011445",
+        "requestTime": "202609011540",
         "status": {
-         "code": 3,
-         "text": "곧 브레이크타임",
+         "code": 4,
+         "text": "브레이크타임",
          "emphasis": true,
-         "description": "브레이크타임 15분 전",
+         "description": "브레이크타임",
          "detailInfo": "17:00에 영업시작"
         },
         "businessHours": "202609011100~202609012100",
@@ -2916,7 +2916,7 @@
        "description": "",
        "entranceCoords": null,
        "isPollingPlace": false,
-       "bizhourInfo": "곧 브레이크타임",
+       "bizhourInfo": "브레이크타임",
        "menuInfo": "[여름한정]비빔막국수+돼지불고기 세트 15,800 | 불쭈꾸미솥밥 15,900 | 스테이크 솥밥 17,900 | 평일점심특선메뉴(한정수량) 10,000 | (한정)해물장세트_2인세트 39,000 | (한정)등뼈김치찜_2인세트 45,000 | 장어 솥밥 19,900 | 전복 솥밥 15,900 | 문어 솥밥 15,900 | 즐거운식사 0 | (한정)등뼈김치찜 39,000 | (한정)등뼈구이 42,000 | (한정)모듬해물장 35,000 | 매콤돼지불고기 솥밥 12,000 | 돼지불고기 솥밥 12,000 | 양념꼬막 솥밥 12,000 | 닭목살 솥밥 15,900 | 가지 솥밥 11,000 | 버섯솥밥 14,000 | (한정)1인 모듬해물장 25,000 | 오리솥밥 15,900 | 소고기전골 솥밥 16,900 | 문어전복전골 솥밥 16,900 | 연어장 솥밥 16,900 | 마라가지 솥밥 12,000 | 마라삼겹 솥밥 14,000 | 새우튀김 11,000 | 스테이크 로제떡볶이 12,000 | 감자전 17,000 | 계란전 4,000 | 닭껍질만두 8,900 | 해물초무침 15,000",
        "petrolInfo": null,
        "couponUrl": null,
@@ -2986,7 +2986,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011445",
+        "requestTime": "202609011540",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -3144,7 +3144,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011445",
+        "requestTime": "202609011540",
         "status": {
          "code": 7,
          "text": "영업 전",
@@ -3310,12 +3310,12 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011445",
+        "requestTime": "202609011540",
         "status": {
-         "code": 3,
-         "text": "곧 브레이크타임",
+         "code": 4,
+         "text": "브레이크타임",
          "emphasis": true,
-         "description": "브레이크타임 15분 전",
+         "description": "브레이크타임",
          "detailInfo": "17:00에 영업시작"
         },
         "businessHours": "202609010600~202609012200",
@@ -3406,7 +3406,7 @@
         ]
        },
        "isPollingPlace": false,
-       "bizhourInfo": "곧 브레이크타임",
+       "bizhourInfo": "브레이크타임",
        "menuInfo": "(특)설렁탕 17,000 | 설렁탕 13,000 | 어린이설렁탕 8,000 | 도가니탕 18,000 | 소머리 설렁탕 16,000 | 회냉면 14,000 | 물냉면 13,000 | 비빔냉면 13,000 | 갈비만두 8,000 | 육개장 12,000 | 고기 수육 60,000 | 도가니 수육 60,000 | 모듬 수육(고기+도가니) 60,000 | 수제 돈까스 13,000",
        "petrolInfo": null,
        "couponUrl": null,
@@ -3477,12 +3477,12 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011445",
+        "requestTime": "202609011540",
         "status": {
-         "code": 3,
-         "text": "곧 브레이크타임",
+         "code": 4,
+         "text": "브레이크타임",
          "emphasis": true,
-         "description": "브레이크타임 15분 전",
+         "description": "브레이크타임",
          "detailInfo": "16:00에 영업시작"
         },
         "businessHours": "202609010900~202609012330",
@@ -3571,7 +3571,7 @@
         ]
        },
        "isPollingPlace": false,
-       "bizhourInfo": "곧 브레이크타임",
+       "bizhourInfo": "브레이크타임",
        "menuInfo": "감자탕(소) 30,000 | 감자탕(중) 37,000 | 감자탕(대) 42,000 | 닭볶음탕 37,000 | 뼈해장국 10,000 | 제육정식(2인이상가능) 12,000 | 뚝불고기 11,000 | 물냉면 9,000 | 비빔냉면 9,000 | 왕만두 7,000 | 생삼겹살 16,000 | 롤삼겹살 12,000",
        "petrolInfo": null,
        "couponUrl": null,
@@ -3641,7 +3641,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011445",
+        "requestTime": "202609011540",
         "status": {
          "code": 7,
          "text": "영업 전",
@@ -3807,7 +3807,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011445",
+        "requestTime": "202609011540",
         "status": {
          "code": 7,
          "text": "영업 전",
@@ -3977,7 +3977,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011445",
+        "requestTime": "202609011540",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -4146,7 +4146,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011445",
+        "requestTime": "202609011540",
         "status": {
          "code": 7,
          "text": "영업 전",

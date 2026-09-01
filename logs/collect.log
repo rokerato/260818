@@ -1,182 +1,196 @@
-2026-09-01 05:50:12,997 WARNING everland_reviews.collectors.base | [매직타임레스토랑] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
-2026-09-01 05:51:06,800 INFO    everland_reviews.collectors.naver | [매직타임레스토랑] view 1 added 31 review(s): https://pcmap.place.naver.com/restaurant/1527871697/review/visitor
-2026-09-01 05:51:11,145 WARNING everland_reviews.collectors.base | [매직타임레스토랑] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
-2026-09-01 05:52:09,796 INFO    everland_reviews.collectors.naver | [매직타임레스토랑] view 2 added 3 review(s): https://pcmap.place.naver.com/restaurant/1527871697/review/visitor?reviewSort=recent
-2026-09-01 05:52:10,123 INFO    everland_reviews.collectors.naver | wrote debug snapshot -> logs/debug_1527871697*
-2026-09-01 05:52:10,208 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_매직타임레스토랑_20260901T055008Z.json
-2026-09-01 05:52:10,210 INFO    everland_reviews.storage | wrote 23 normalized reviews -> data/normalized/reviews_20260901T055008Z.csv
-2026-09-01 05:52:15,047 WARNING everland_reviews.collectors.base | [알파인레스토랑] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
-2026-09-01 05:53:13,004 INFO    everland_reviews.collectors.naver | [알파인레스토랑] view 1 added 29 review(s): https://pcmap.place.naver.com/restaurant/1678026825/review/visitor
-2026-09-01 05:53:23,684 WARNING everland_reviews.collectors.base | [알파인레스토랑] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
-2026-09-01 05:54:15,168 INFO    everland_reviews.collectors.naver | [알파인레스토랑] view 2 added 11 review(s): https://pcmap.place.naver.com/restaurant/1678026825/review/visitor?reviewSort=recent
-2026-09-01 05:54:15,240 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_알파인레스토랑_20260901T055008Z.json
-2026-09-01 05:54:15,242 INFO    everland_reviews.storage | wrote 54 normalized reviews -> data/normalized/reviews_20260901T055008Z.csv
-2026-09-01 05:54:19,522 WARNING everland_reviews.collectors.base | [KFC 용인에버랜드] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
-2026-09-01 05:55:12,984 INFO    everland_reviews.collectors.naver | [KFC 용인에버랜드] view 1 added 29 review(s): https://pcmap.place.naver.com/restaurant/37747059/review/visitor
-2026-09-01 05:55:17,783 WARNING everland_reviews.collectors.base | [KFC 용인에버랜드] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
-2026-09-01 05:56:10,808 INFO    everland_reviews.collectors.naver | [KFC 용인에버랜드] view 2 added 3 review(s): https://pcmap.place.naver.com/restaurant/37747059/review/visitor?reviewSort=recent
-2026-09-01 05:56:11,046 INFO    everland_reviews.collectors.naver | wrote debug snapshot -> logs/debug_37747059*
-2026-09-01 05:56:11,115 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_kfc-용인에버랜드_20260901T055008Z.json
-2026-09-01 05:56:11,117 INFO    everland_reviews.storage | wrote 77 normalized reviews -> data/normalized/reviews_20260901T055008Z.csv
-2026-09-01 05:56:15,979 WARNING everland_reviews.collectors.base | [온더보더 에버랜드점] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
-2026-09-01 05:57:09,821 INFO    everland_reviews.collectors.naver | [온더보더 에버랜드점] view 1 added 28 review(s): https://pcmap.place.naver.com/restaurant/1125315649/review/visitor
-2026-09-01 05:57:13,948 WARNING everland_reviews.collectors.base | [온더보더 에버랜드점] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
-2026-09-01 05:58:07,554 INFO    everland_reviews.collectors.naver | [온더보더 에버랜드점] view 2 added 2 review(s): https://pcmap.place.naver.com/restaurant/1125315649/review/visitor?reviewSort=recent
-2026-09-01 05:58:07,879 INFO    everland_reviews.collectors.naver | wrote debug snapshot -> logs/debug_1125315649*
-2026-09-01 05:58:07,966 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_온더보더-에버랜드점_20260901T055008Z.json
-2026-09-01 05:58:07,969 INFO    everland_reviews.storage | wrote 99 normalized reviews -> data/normalized/reviews_20260901T055008Z.csv
-2026-09-01 05:58:11,719 WARNING everland_reviews.collectors.base | [온더보더 캐리비안베이점] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
-2026-09-01 05:58:50,001 INFO    everland_reviews.collectors.naver | [온더보더 캐리비안베이점] view 1 added 1 review(s): https://pcmap.place.naver.com/restaurant/2055202614/review/visitor
-2026-09-01 05:58:53,520 WARNING everland_reviews.collectors.base | [온더보더 캐리비안베이점] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
-2026-09-01 05:59:31,302 INFO    everland_reviews.collectors.naver | [온더보더 캐리비안베이점] view 2 added 0 review(s): https://pcmap.place.naver.com/restaurant/2055202614/review/visitor?reviewSort=recent
-2026-09-01 05:59:31,451 INFO    everland_reviews.collectors.naver | wrote debug snapshot -> logs/debug_2055202614*
-2026-09-01 05:59:31,492 WARNING everland_reviews.collectors.base | [온더보더 캐리비안베이점] no reviews found via graphql interception or DOM fallback
-2026-09-01 05:59:31,496 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_온더보더-캐리비안베이점_20260901T055008Z.json
-2026-09-01 05:59:31,499 INFO    everland_reviews.storage | wrote 99 normalized reviews -> data/normalized/reviews_20260901T055008Z.csv
-2026-09-01 05:59:36,366 WARNING everland_reviews.collectors.base | [쿠치나마리오] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
-2026-09-01 06:00:34,474 INFO    everland_reviews.collectors.naver | [쿠치나마리오] view 1 added 24 review(s): https://pcmap.place.naver.com/restaurant/1401139141/review/visitor
-2026-09-01 06:00:43,469 WARNING everland_reviews.collectors.base | [쿠치나마리오] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
-2026-09-01 06:01:17,796 INFO    everland_reviews.collectors.naver | [쿠치나마리오] view 2 added 4 review(s): https://pcmap.place.naver.com/restaurant/1401139141/review/visitor?reviewSort=recent
-2026-09-01 06:01:17,878 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_쿠치나마리오_20260901T055008Z.json
-2026-09-01 06:01:17,882 INFO    everland_reviews.storage | wrote 123 normalized reviews -> data/normalized/reviews_20260901T055008Z.csv
-2026-09-01 06:01:22,294 WARNING everland_reviews.collectors.base | [홀랜드빌리지] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
-2026-09-01 06:02:16,113 INFO    everland_reviews.collectors.naver | [홀랜드빌리지] view 1 added 30 review(s): https://pcmap.place.naver.com/restaurant/1081318402/review/visitor
-2026-09-01 06:02:21,176 WARNING everland_reviews.collectors.base | [홀랜드빌리지] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
-2026-09-01 06:03:14,634 INFO    everland_reviews.collectors.naver | [홀랜드빌리지] view 2 added 2 review(s): https://pcmap.place.naver.com/restaurant/1081318402/review/visitor?reviewSort=recent
-2026-09-01 06:03:14,917 INFO    everland_reviews.collectors.naver | wrote debug snapshot -> logs/debug_1081318402*
-2026-09-01 06:03:14,997 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_홀랜드빌리지_20260901T055008Z.json
-2026-09-01 06:03:15,001 INFO    everland_reviews.storage | wrote 145 normalized reviews -> data/normalized/reviews_20260901T055008Z.csv
-2026-09-01 06:03:19,686 WARNING everland_reviews.collectors.base | [스노우피크 카페앤다이닝] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
-2026-09-01 06:04:16,876 INFO    everland_reviews.collectors.naver | [스노우피크 카페앤다이닝] view 1 added 33 review(s): https://pcmap.place.naver.com/restaurant/1451740778/review/visitor
-2026-09-01 06:04:25,596 WARNING everland_reviews.collectors.base | [스노우피크 카페앤다이닝] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
-2026-09-01 06:04:59,945 INFO    everland_reviews.collectors.naver | [스노우피크 카페앤다이닝] view 2 added 9 review(s): https://pcmap.place.naver.com/restaurant/1451740778/review/visitor?reviewSort=recent
-2026-09-01 06:05:00,043 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_스노우피크-카페앤다이닝_20260901T055008Z.json
-2026-09-01 06:05:00,048 INFO    everland_reviews.storage | wrote 174 normalized reviews -> data/normalized/reviews_20260901T055008Z.csv
-2026-09-01 06:05:04,094 WARNING everland_reviews.collectors.base | [마드리드] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
-2026-09-01 06:06:02,493 INFO    everland_reviews.collectors.naver | [마드리드] view 1 added 29 review(s): https://pcmap.place.naver.com/restaurant/1188708686/review/visitor
-2026-09-01 06:06:11,326 WARNING everland_reviews.collectors.base | [마드리드] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
-2026-09-01 06:06:45,669 INFO    everland_reviews.collectors.naver | [마드리드] view 2 added 4 review(s): https://pcmap.place.naver.com/restaurant/1188708686/review/visitor?reviewSort=recent
-2026-09-01 06:06:45,747 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_마드리드_20260901T055008Z.json
-2026-09-01 06:06:45,751 INFO    everland_reviews.storage | wrote 198 normalized reviews -> data/normalized/reviews_20260901T055008Z.csv
-2026-09-01 06:06:50,639 WARNING everland_reviews.collectors.base | [가든테라스] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
-2026-09-01 06:07:44,433 INFO    everland_reviews.collectors.naver | [가든테라스] view 1 added 32 review(s): https://pcmap.place.naver.com/restaurant/1839013733/review/visitor
-2026-09-01 06:07:48,931 WARNING everland_reviews.collectors.base | [가든테라스] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
-2026-09-01 06:08:42,324 INFO    everland_reviews.collectors.naver | [가든테라스] view 2 added 2 review(s): https://pcmap.place.naver.com/restaurant/1839013733/review/visitor?reviewSort=recent
-2026-09-01 06:08:42,600 INFO    everland_reviews.collectors.naver | wrote debug snapshot -> logs/debug_1839013733*
-2026-09-01 06:08:42,686 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_가든테라스_20260901T055008Z.json
-2026-09-01 06:08:42,691 INFO    everland_reviews.storage | wrote 220 normalized reviews -> data/normalized/reviews_20260901T055008Z.csv
-2026-09-01 06:08:46,810 WARNING everland_reviews.collectors.base | [멜팅소울 캐리비안베이점] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
-2026-09-01 06:09:40,539 INFO    everland_reviews.collectors.naver | [멜팅소울 캐리비안베이점] view 1 added 23 review(s): https://pcmap.place.naver.com/restaurant/1679236775/review/visitor
-2026-09-01 06:09:44,707 WARNING everland_reviews.collectors.base | [멜팅소울 캐리비안베이점] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
-2026-09-01 06:10:38,077 INFO    everland_reviews.collectors.naver | [멜팅소울 캐리비안베이점] view 2 added 1 review(s): https://pcmap.place.naver.com/restaurant/1679236775/review/visitor?reviewSort=recent
-2026-09-01 06:10:38,344 INFO    everland_reviews.collectors.naver | wrote debug snapshot -> logs/debug_1679236775*
-2026-09-01 06:10:38,406 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_멜팅소울-캐리비안베이점_20260901T055008Z.json
-2026-09-01 06:10:38,412 INFO    everland_reviews.storage | wrote 236 normalized reviews -> data/normalized/reviews_20260901T055008Z.csv
-2026-09-01 06:10:43,370 WARNING everland_reviews.collectors.base | [버거카페유럽] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
-2026-09-01 06:11:36,812 INFO    everland_reviews.collectors.naver | [버거카페유럽] view 1 added 30 review(s): https://pcmap.place.naver.com/restaurant/1681363676/review/visitor
-2026-09-01 06:11:40,876 WARNING everland_reviews.collectors.base | [버거카페유럽] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
-2026-09-01 06:12:34,062 INFO    everland_reviews.collectors.naver | [버거카페유럽] view 2 added 4 review(s): https://pcmap.place.naver.com/restaurant/1681363676/review/visitor?reviewSort=recent
-2026-09-01 06:12:34,290 INFO    everland_reviews.collectors.naver | wrote debug snapshot -> logs/debug_1681363676*
-2026-09-01 06:12:34,367 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_버거카페유럽_20260901T055008Z.json
-2026-09-01 06:12:34,373 INFO    everland_reviews.storage | wrote 260 normalized reviews -> data/normalized/reviews_20260901T055008Z.csv
-2026-09-01 06:12:38,916 WARNING everland_reviews.collectors.base | [버거카페 갤리언] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
-2026-09-01 06:13:37,223 INFO    everland_reviews.collectors.naver | [버거카페 갤리언] view 1 added 26 review(s): https://pcmap.place.naver.com/restaurant/1636531333/review/visitor
-2026-09-01 06:13:46,443 WARNING everland_reviews.collectors.base | [버거카페 갤리언] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
-2026-09-01 06:14:20,962 INFO    everland_reviews.collectors.naver | [버거카페 갤리언] view 2 added 4 review(s): https://pcmap.place.naver.com/restaurant/1636531333/review/visitor?reviewSort=recent
-2026-09-01 06:14:21,035 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_버거카페-갤리언_20260901T055008Z.json
-2026-09-01 06:14:21,041 INFO    everland_reviews.storage | wrote 284 normalized reviews -> data/normalized/reviews_20260901T055008Z.csv
-2026-09-01 06:14:25,237 WARNING everland_reviews.collectors.base | [라코스타] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
-2026-09-01 06:15:19,717 INFO    everland_reviews.collectors.naver | [라코스타] view 1 added 21 review(s): https://pcmap.place.naver.com/restaurant/19286170/review/visitor
-2026-09-01 06:15:24,135 WARNING everland_reviews.collectors.base | [라코스타] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
-2026-09-01 06:16:17,202 INFO    everland_reviews.collectors.naver | [라코스타] view 2 added 0 review(s): https://pcmap.place.naver.com/restaurant/19286170/review/visitor?reviewSort=recent
-2026-09-01 06:16:17,506 INFO    everland_reviews.collectors.naver | wrote debug snapshot -> logs/debug_19286170*
-2026-09-01 06:16:17,573 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_라코스타_20260901T055008Z.json
-2026-09-01 06:16:17,580 INFO    everland_reviews.storage | wrote 302 normalized reviews -> data/normalized/reviews_20260901T055008Z.csv
-2026-09-01 06:16:21,792 WARNING everland_reviews.collectors.base | [타운즈마켓레스토랑] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
-2026-09-01 06:17:15,059 INFO    everland_reviews.collectors.naver | [타운즈마켓레스토랑] view 1 added 26 review(s): https://pcmap.place.naver.com/restaurant/36940409/review/visitor
-2026-09-01 06:17:19,658 WARNING everland_reviews.collectors.base | [타운즈마켓레스토랑] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
-2026-09-01 06:18:12,558 INFO    everland_reviews.collectors.naver | [타운즈마켓레스토랑] view 2 added 6 review(s): https://pcmap.place.naver.com/restaurant/36940409/review/visitor?reviewSort=recent
-2026-09-01 06:18:12,767 INFO    everland_reviews.collectors.naver | wrote debug snapshot -> logs/debug_36940409*
-2026-09-01 06:18:12,839 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_타운즈마켓레스토랑_20260901T055008Z.json
-2026-09-01 06:18:12,846 INFO    everland_reviews.storage | wrote 328 normalized reviews -> data/normalized/reviews_20260901T055008Z.csv
-2026-09-01 06:18:17,568 WARNING everland_reviews.collectors.base | [멜팅소울 갤리언점] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
-2026-09-01 06:18:56,026 INFO    everland_reviews.collectors.naver | [멜팅소울 갤리언점] view 1 added 13 review(s): https://pcmap.place.naver.com/restaurant/2041651090/review/visitor
-2026-09-01 06:19:00,145 WARNING everland_reviews.collectors.base | [멜팅소울 갤리언점] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
-2026-09-01 06:19:38,359 INFO    everland_reviews.collectors.naver | [멜팅소울 갤리언점] view 2 added 0 review(s): https://pcmap.place.naver.com/restaurant/2041651090/review/visitor?reviewSort=recent
-2026-09-01 06:19:38,639 INFO    everland_reviews.collectors.naver | wrote debug snapshot -> logs/debug_2041651090*
-2026-09-01 06:19:38,696 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_멜팅소울-갤리언점_20260901T055008Z.json
-2026-09-01 06:19:38,703 INFO    everland_reviews.storage | wrote 334 normalized reviews -> data/normalized/reviews_20260901T055008Z.csv
-2026-09-01 06:19:43,032 WARNING everland_reviews.collectors.base | [버거카페아메리카] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
-2026-09-01 06:20:36,282 INFO    everland_reviews.collectors.naver | [버거카페아메리카] view 1 added 28 review(s): https://pcmap.place.naver.com/restaurant/1268104504/review/visitor
-2026-09-01 06:20:40,523 WARNING everland_reviews.collectors.base | [버거카페아메리카] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
-2026-09-01 06:21:33,416 INFO    everland_reviews.collectors.naver | [버거카페아메리카] view 2 added 4 review(s): https://pcmap.place.naver.com/restaurant/1268104504/review/visitor?reviewSort=recent
-2026-09-01 06:21:33,649 INFO    everland_reviews.collectors.naver | wrote debug snapshot -> logs/debug_1268104504*
-2026-09-01 06:21:33,703 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_버거카페아메리카_20260901T055008Z.json
-2026-09-01 06:21:33,711 INFO    everland_reviews.storage | wrote 358 normalized reviews -> data/normalized/reviews_20260901T055008Z.csv
-2026-09-01 06:21:48,652 INFO    everland_reviews.collectors.naver | [크레페허브 용인에버랜드점] view 1 added 13 review(s): https://pcmap.place.naver.com/restaurant/2020897270/review/visitor
-2026-09-01 06:21:52,811 WARNING everland_reviews.collectors.base | [크레페허브 용인에버랜드점] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
-2026-09-01 06:22:31,291 INFO    everland_reviews.collectors.naver | [크레페허브 용인에버랜드점] view 2 added 0 review(s): https://pcmap.place.naver.com/restaurant/2020897270/review/visitor?reviewSort=recent
-2026-09-01 06:22:31,408 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_크레페허브-용인에버랜드점_20260901T055008Z.json
-2026-09-01 06:22:31,416 INFO    everland_reviews.storage | wrote 366 normalized reviews -> data/normalized/reviews_20260901T055008Z.csv
-2026-09-01 06:22:35,769 WARNING everland_reviews.collectors.base | [솥내음 용인 에버랜드점] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
-2026-09-01 06:23:31,835 INFO    everland_reviews.collectors.naver | [솥내음 용인 에버랜드점] view 1 added 30 review(s): https://pcmap.place.naver.com/restaurant/1413421949/review/visitor
-2026-09-01 06:23:36,162 WARNING everland_reviews.collectors.base | [솥내음 용인 에버랜드점] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
-2026-09-01 06:24:29,826 INFO    everland_reviews.collectors.naver | [솥내음 용인 에버랜드점] view 2 added 11 review(s): https://pcmap.place.naver.com/restaurant/1413421949/review/visitor?reviewSort=recent
-2026-09-01 06:24:30,200 INFO    everland_reviews.collectors.naver | wrote debug snapshot -> logs/debug_1413421949*
-2026-09-01 06:24:30,320 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_솥내음-용인-에버랜드점_20260901T055008Z.json
-2026-09-01 06:24:30,329 INFO    everland_reviews.storage | wrote 397 normalized reviews -> data/normalized/reviews_20260901T055008Z.csv
-2026-09-01 06:24:35,248 WARNING everland_reviews.collectors.base | [포메인 에버랜드직영점] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
-2026-09-01 06:25:30,650 INFO    everland_reviews.collectors.naver | [포메인 에버랜드직영점] view 1 added 30 review(s): https://pcmap.place.naver.com/restaurant/1182555323/review/visitor
-2026-09-01 06:25:34,929 WARNING everland_reviews.collectors.base | [포메인 에버랜드직영점] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
-2026-09-01 06:26:28,370 INFO    everland_reviews.collectors.naver | [포메인 에버랜드직영점] view 2 added 8 review(s): https://pcmap.place.naver.com/restaurant/1182555323/review/visitor?reviewSort=recent
-2026-09-01 06:26:28,696 INFO    everland_reviews.collectors.naver | wrote debug snapshot -> logs/debug_1182555323*
-2026-09-01 06:26:28,785 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_포메인-에버랜드직영점_20260901T055008Z.json
-2026-09-01 06:26:28,795 INFO    everland_reviews.storage | wrote 425 normalized reviews -> data/normalized/reviews_20260901T055008Z.csv
-2026-09-01 06:26:33,077 WARNING everland_reviews.collectors.base | [스타벅스 용인에버랜드점] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
-2026-09-01 06:27:31,544 INFO    everland_reviews.collectors.naver | [스타벅스 용인에버랜드점] view 1 added 33 review(s): https://pcmap.place.naver.com/restaurant/1660460217/review/visitor
-2026-09-01 06:27:40,405 WARNING everland_reviews.collectors.base | [스타벅스 용인에버랜드점] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
-2026-09-01 06:28:14,717 INFO    everland_reviews.collectors.naver | [스타벅스 용인에버랜드점] view 2 added 5 review(s): https://pcmap.place.naver.com/restaurant/1660460217/review/visitor?reviewSort=recent
-2026-09-01 06:28:14,814 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_스타벅스-용인에버랜드점_20260901T055008Z.json
-2026-09-01 06:28:14,823 INFO    everland_reviews.storage | wrote 450 normalized reviews -> data/normalized/reviews_20260901T055008Z.csv
-2026-09-01 06:28:19,205 WARNING everland_reviews.collectors.base | [커피빈 용인에버랜드점] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
-2026-09-01 06:29:17,279 INFO    everland_reviews.collectors.naver | [커피빈 용인에버랜드점] view 1 added 31 review(s): https://pcmap.place.naver.com/restaurant/1131675496/review/visitor
-2026-09-01 06:29:26,645 WARNING everland_reviews.collectors.base | [커피빈 용인에버랜드점] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
-2026-09-01 06:30:00,971 INFO    everland_reviews.collectors.naver | [커피빈 용인에버랜드점] view 2 added 5 review(s): https://pcmap.place.naver.com/restaurant/1131675496/review/visitor?reviewSort=recent
-2026-09-01 06:30:01,074 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_커피빈-용인에버랜드점_20260901T055008Z.json
-2026-09-01 06:30:01,084 INFO    everland_reviews.storage | wrote 475 normalized reviews -> data/normalized/reviews_20260901T055008Z.csv
-2026-09-01 06:30:14,565 WARNING everland_reviews.collectors.base | [화이트바움] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
-2026-09-01 06:30:49,720 INFO    everland_reviews.collectors.naver | [화이트바움] view 1 added 32 review(s): https://pcmap.place.naver.com/restaurant/1559402792/review/visitor
-2026-09-01 06:30:54,046 WARNING everland_reviews.collectors.base | [화이트바움] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
-2026-09-01 06:31:47,478 INFO    everland_reviews.collectors.naver | [화이트바움] view 2 added 10 review(s): https://pcmap.place.naver.com/restaurant/1559402792/review/visitor?reviewSort=recent
-2026-09-01 06:31:47,589 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_화이트바움_20260901T055008Z.json
-2026-09-01 06:31:47,600 INFO    everland_reviews.storage | wrote 505 normalized reviews -> data/normalized/reviews_20260901T055008Z.csv
-2026-09-01 06:31:52,376 WARNING everland_reviews.collectors.base | [테라로사 용인에버랜드점] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
-2026-09-01 06:32:50,438 INFO    everland_reviews.collectors.naver | [테라로사 용인에버랜드점] view 1 added 31 review(s): https://pcmap.place.naver.com/restaurant/2028927562/review/visitor
-2026-09-01 06:32:59,484 WARNING everland_reviews.collectors.base | [테라로사 용인에버랜드점] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
-2026-09-01 06:33:33,824 INFO    everland_reviews.collectors.naver | [테라로사 용인에버랜드점] view 2 added 5 review(s): https://pcmap.place.naver.com/restaurant/2028927562/review/visitor?reviewSort=recent
-2026-09-01 06:33:33,934 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_테라로사-용인에버랜드점_20260901T055008Z.json
-2026-09-01 06:33:33,946 INFO    everland_reviews.storage | wrote 530 normalized reviews -> data/normalized/reviews_20260901T055008Z.csv
-2026-09-01 06:33:38,151 WARNING everland_reviews.collectors.base | [오오츄] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
-2026-09-01 06:34:36,439 INFO    everland_reviews.collectors.naver | [오오츄] view 1 added 28 review(s): https://pcmap.place.naver.com/restaurant/1306053034/review/visitor
-2026-09-01 06:34:50,190 WARNING everland_reviews.collectors.base | [오오츄] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
-2026-09-01 06:35:41,883 INFO    everland_reviews.collectors.naver | [오오츄] view 2 added 21 review(s): https://pcmap.place.naver.com/restaurant/1306053034/review/visitor?reviewSort=recent
-2026-09-01 06:35:42,081 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_오오츄_20260901T055008Z.json
-2026-09-01 06:35:42,093 INFO    everland_reviews.storage | wrote 571 normalized reviews -> data/normalized/reviews_20260901T055008Z.csv
-2026-09-01 06:35:42,094 WARNING everland_reviews.collectors.base | [라운지엑스 에버랜드점] skipped: run time budget (2700.0s) exhausted before this target
-2026-09-01 06:35:42,094 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_라운지엑스-에버랜드점_20260901T055008Z.json
-2026-09-01 06:35:42,106 INFO    everland_reviews.storage | wrote 571 normalized reviews -> data/normalized/reviews_20260901T055008Z.csv
-2026-09-01 06:35:42,107 WARNING everland_reviews.collectors.base | [판다월드 카페] skipped: run time budget (2700.0s) exhausted before this target
-2026-09-01 06:35:42,107 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_판다월드-카페_20260901T055008Z.json
-2026-09-01 06:35:42,119 INFO    everland_reviews.storage | wrote 571 normalized reviews -> data/normalized/reviews_20260901T055008Z.csv
-2026-09-01 06:35:42,119 WARNING everland_reviews.collectors.base | [오리엔탈스테이션] skipped: run time budget (2700.0s) exhausted before this target
-2026-09-01 06:35:42,119 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_오리엔탈스테이션_20260901T055008Z.json
-2026-09-01 06:35:42,131 INFO    everland_reviews.storage | wrote 571 normalized reviews -> data/normalized/reviews_20260901T055008Z.csv
-2026-09-01 06:35:42,131 WARNING everland_reviews.collectors.base | [앤티앤스 에버랜드점] skipped: run time budget (2700.0s) exhausted before this target
-2026-09-01 06:35:42,131 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_앤티앤스-에버랜드점_20260901T055008Z.json
-2026-09-01 06:35:42,142 INFO    everland_reviews.storage | wrote 571 normalized reviews -> data/normalized/reviews_20260901T055008Z.csv
-2026-09-01 06:35:42,143 WARNING everland_reviews.collectors.base | [가든 테라스(베이커리카페)] skipped: run time budget (2700.0s) exhausted before this target
-2026-09-01 06:35:42,143 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_가든-테라스-베이커리카페_20260901T055008Z.json
-2026-09-01 06:35:42,154 INFO    everland_reviews.storage | wrote 571 normalized reviews -> data/normalized/reviews_20260901T055008Z.csv
+2026-09-01 06:44:35,121 WARNING everland_reviews.collectors.base | [매직타임레스토랑] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 06:45:09,547 INFO    everland_reviews.collectors.naver | [매직타임레스토랑] view 1 added 31 review(s): https://pcmap.place.naver.com/restaurant/1527871697/review/visitor
+2026-09-01 06:45:14,022 WARNING everland_reviews.collectors.base | [매직타임레스토랑] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 06:46:07,410 INFO    everland_reviews.collectors.naver | [매직타임레스토랑] view 2 added 3 review(s): https://pcmap.place.naver.com/restaurant/1527871697/review/visitor?reviewSort=recent
+2026-09-01 06:46:07,521 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_매직타임레스토랑_20260901T064427Z.json
+2026-09-01 06:46:07,523 INFO    everland_reviews.storage | wrote 23 normalized reviews -> data/normalized/reviews_20260901T064427Z.csv
+2026-09-01 06:46:12,266 WARNING everland_reviews.collectors.base | [알파인레스토랑] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 06:47:05,747 INFO    everland_reviews.collectors.naver | [알파인레스토랑] view 1 added 29 review(s): https://pcmap.place.naver.com/restaurant/1678026825/review/visitor
+2026-09-01 06:47:16,339 WARNING everland_reviews.collectors.base | [알파인레스토랑] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 06:48:07,937 INFO    everland_reviews.collectors.naver | [알파인레스토랑] view 2 added 11 review(s): https://pcmap.place.naver.com/restaurant/1678026825/review/visitor?reviewSort=recent
+2026-09-01 06:48:08,051 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_알파인레스토랑_20260901T064427Z.json
+2026-09-01 06:48:08,054 INFO    everland_reviews.storage | wrote 54 normalized reviews -> data/normalized/reviews_20260901T064427Z.csv
+2026-09-01 06:48:12,515 WARNING everland_reviews.collectors.base | [KFC 용인에버랜드] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 06:49:05,792 INFO    everland_reviews.collectors.naver | [KFC 용인에버랜드] view 1 added 29 review(s): https://pcmap.place.naver.com/restaurant/37747059/review/visitor
+2026-09-01 06:49:10,285 WARNING everland_reviews.collectors.base | [KFC 용인에버랜드] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 06:50:03,339 INFO    everland_reviews.collectors.naver | [KFC 용인에버랜드] view 2 added 3 review(s): https://pcmap.place.naver.com/restaurant/37747059/review/visitor?reviewSort=recent
+2026-09-01 06:50:03,670 INFO    everland_reviews.collectors.naver | wrote debug snapshot -> logs/debug_37747059*
+2026-09-01 06:50:03,744 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_kfc-용인에버랜드_20260901T064427Z.json
+2026-09-01 06:50:03,747 INFO    everland_reviews.storage | wrote 77 normalized reviews -> data/normalized/reviews_20260901T064427Z.csv
+2026-09-01 06:50:10,417 WARNING everland_reviews.collectors.base | [온더보더 에버랜드점] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 06:50:10,417 WARNING everland_reviews.collectors.base | [온더보더 에버랜드점] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 06:50:45,293 INFO    everland_reviews.collectors.naver | [온더보더 에버랜드점] view 1 added 28 review(s): https://pcmap.place.naver.com/restaurant/1125315649/review/visitor
+2026-09-01 06:50:52,602 WARNING everland_reviews.collectors.base | [온더보더 에버랜드점] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 06:51:27,010 INFO    everland_reviews.collectors.naver | [온더보더 에버랜드점] view 2 added 2 review(s): https://pcmap.place.naver.com/restaurant/1125315649/review/visitor?reviewSort=recent
+2026-09-01 06:51:27,125 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_온더보더-에버랜드점_20260901T064427Z.json
+2026-09-01 06:51:27,128 INFO    everland_reviews.storage | wrote 99 normalized reviews -> data/normalized/reviews_20260901T064427Z.csv
+2026-09-01 06:51:31,637 WARNING everland_reviews.collectors.base | [온더보더 캐리비안베이점] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 06:52:09,595 INFO    everland_reviews.collectors.naver | [온더보더 캐리비안베이점] view 1 added 1 review(s): https://pcmap.place.naver.com/restaurant/2055202614/review/visitor
+2026-09-01 06:52:13,040 WARNING everland_reviews.collectors.base | [온더보더 캐리비안베이점] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 06:52:50,612 INFO    everland_reviews.collectors.naver | [온더보더 캐리비안베이점] view 2 added 0 review(s): https://pcmap.place.naver.com/restaurant/2055202614/review/visitor?reviewSort=recent
+2026-09-01 06:52:50,801 INFO    everland_reviews.collectors.naver | wrote debug snapshot -> logs/debug_2055202614*
+2026-09-01 06:52:50,852 WARNING everland_reviews.collectors.base | [온더보더 캐리비안베이점] no reviews found via graphql interception or DOM fallback
+2026-09-01 06:52:50,857 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_온더보더-캐리비안베이점_20260901T064427Z.json
+2026-09-01 06:52:50,860 INFO    everland_reviews.storage | wrote 99 normalized reviews -> data/normalized/reviews_20260901T064427Z.csv
+2026-09-01 06:52:55,434 WARNING everland_reviews.collectors.base | [쿠치나마리오] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 06:53:53,561 INFO    everland_reviews.collectors.naver | [쿠치나마리오] view 1 added 24 review(s): https://pcmap.place.naver.com/restaurant/1401139141/review/visitor
+2026-09-01 06:53:59,499 WARNING everland_reviews.collectors.base | [쿠치나마리오] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 06:54:53,058 INFO    everland_reviews.collectors.naver | [쿠치나마리오] view 2 added 4 review(s): https://pcmap.place.naver.com/restaurant/1401139141/review/visitor?reviewSort=recent
+2026-09-01 06:54:53,395 INFO    everland_reviews.collectors.naver | wrote debug snapshot -> logs/debug_1401139141*
+2026-09-01 06:54:53,500 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_쿠치나마리오_20260901T064427Z.json
+2026-09-01 06:54:53,504 INFO    everland_reviews.storage | wrote 123 normalized reviews -> data/normalized/reviews_20260901T064427Z.csv
+2026-09-01 06:54:58,059 WARNING everland_reviews.collectors.base | [홀랜드빌리지] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 06:55:51,726 INFO    everland_reviews.collectors.naver | [홀랜드빌리지] view 1 added 30 review(s): https://pcmap.place.naver.com/restaurant/1081318402/review/visitor
+2026-09-01 06:55:56,753 WARNING everland_reviews.collectors.base | [홀랜드빌리지] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 06:56:50,089 INFO    everland_reviews.collectors.naver | [홀랜드빌리지] view 2 added 2 review(s): https://pcmap.place.naver.com/restaurant/1081318402/review/visitor?reviewSort=recent
+2026-09-01 06:56:50,448 INFO    everland_reviews.collectors.naver | wrote debug snapshot -> logs/debug_1081318402*
+2026-09-01 06:56:50,545 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_홀랜드빌리지_20260901T064427Z.json
+2026-09-01 06:56:50,550 INFO    everland_reviews.storage | wrote 145 normalized reviews -> data/normalized/reviews_20260901T064427Z.csv
+2026-09-01 06:56:55,181 WARNING everland_reviews.collectors.base | [스노우피크 카페앤다이닝] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 06:57:50,337 INFO    everland_reviews.collectors.naver | [스노우피크 카페앤다이닝] view 1 added 33 review(s): https://pcmap.place.naver.com/restaurant/1451740778/review/visitor
+2026-09-01 06:57:57,632 WARNING everland_reviews.collectors.base | [스노우피크 카페앤다이닝] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 06:58:32,121 INFO    everland_reviews.collectors.naver | [스노우피크 카페앤다이닝] view 2 added 9 review(s): https://pcmap.place.naver.com/restaurant/1451740778/review/visitor?reviewSort=recent
+2026-09-01 06:58:32,235 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_스노우피크-카페앤다이닝_20260901T064427Z.json
+2026-09-01 06:58:32,241 INFO    everland_reviews.storage | wrote 174 normalized reviews -> data/normalized/reviews_20260901T064427Z.csv
+2026-09-01 06:58:45,652 WARNING everland_reviews.collectors.base | [마드리드] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 06:59:20,354 INFO    everland_reviews.collectors.naver | [마드리드] view 1 added 29 review(s): https://pcmap.place.naver.com/restaurant/1188708686/review/visitor
+2026-09-01 06:59:28,090 WARNING everland_reviews.collectors.base | [마드리드] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 07:00:02,484 INFO    everland_reviews.collectors.naver | [마드리드] view 2 added 4 review(s): https://pcmap.place.naver.com/restaurant/1188708686/review/visitor?reviewSort=recent
+2026-09-01 07:00:02,583 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_마드리드_20260901T064427Z.json
+2026-09-01 07:00:02,590 INFO    everland_reviews.storage | wrote 198 normalized reviews -> data/normalized/reviews_20260901T064427Z.csv
+2026-09-01 07:00:07,318 WARNING everland_reviews.collectors.base | [가든테라스] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 07:01:00,946 INFO    everland_reviews.collectors.naver | [가든테라스] view 1 added 32 review(s): https://pcmap.place.naver.com/restaurant/1839013733/review/visitor
+2026-09-01 07:01:05,587 WARNING everland_reviews.collectors.base | [가든테라스] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 07:01:58,873 INFO    everland_reviews.collectors.naver | [가든테라스] view 2 added 2 review(s): https://pcmap.place.naver.com/restaurant/1839013733/review/visitor?reviewSort=recent
+2026-09-01 07:01:59,254 INFO    everland_reviews.collectors.naver | wrote debug snapshot -> logs/debug_1839013733*
+2026-09-01 07:01:59,361 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_가든테라스_20260901T064427Z.json
+2026-09-01 07:01:59,368 INFO    everland_reviews.storage | wrote 220 normalized reviews -> data/normalized/reviews_20260901T064427Z.csv
+2026-09-01 07:02:04,234 WARNING everland_reviews.collectors.base | [멜팅소울 캐리비안베이점] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 07:03:02,245 INFO    everland_reviews.collectors.naver | [멜팅소울 캐리비안베이점] view 1 added 23 review(s): https://pcmap.place.naver.com/restaurant/1679236775/review/visitor
+2026-09-01 07:03:12,806 WARNING everland_reviews.collectors.base | [멜팅소울 캐리비안베이점] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 07:04:04,393 INFO    everland_reviews.collectors.naver | [멜팅소울 캐리비안베이점] view 2 added 10 review(s): https://pcmap.place.naver.com/restaurant/1679236775/review/visitor?reviewSort=recent
+2026-09-01 07:04:04,517 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_멜팅소울-캐리비안베이점_20260901T064427Z.json
+2026-09-01 07:04:04,524 INFO    everland_reviews.storage | wrote 245 normalized reviews -> data/normalized/reviews_20260901T064427Z.csv
+2026-09-01 07:04:08,708 WARNING everland_reviews.collectors.base | [버거카페유럽] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 07:05:01,960 INFO    everland_reviews.collectors.naver | [버거카페유럽] view 1 added 30 review(s): https://pcmap.place.naver.com/restaurant/1681363676/review/visitor
+2026-09-01 07:05:06,308 WARNING everland_reviews.collectors.base | [버거카페유럽] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 07:05:59,261 INFO    everland_reviews.collectors.naver | [버거카페유럽] view 2 added 4 review(s): https://pcmap.place.naver.com/restaurant/1681363676/review/visitor?reviewSort=recent
+2026-09-01 07:05:59,553 INFO    everland_reviews.collectors.naver | wrote debug snapshot -> logs/debug_1681363676*
+2026-09-01 07:05:59,645 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_버거카페유럽_20260901T064427Z.json
+2026-09-01 07:05:59,652 INFO    everland_reviews.storage | wrote 269 normalized reviews -> data/normalized/reviews_20260901T064427Z.csv
+2026-09-01 07:06:11,878 WARNING everland_reviews.collectors.base | [버거카페 갤리언] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 07:06:46,249 INFO    everland_reviews.collectors.naver | [버거카페 갤리언] view 1 added 26 review(s): https://pcmap.place.naver.com/restaurant/1636531333/review/visitor
+2026-09-01 07:06:50,607 WARNING everland_reviews.collectors.base | [버거카페 갤리언] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 07:07:43,820 INFO    everland_reviews.collectors.naver | [버거카페 갤리언] view 2 added 4 review(s): https://pcmap.place.naver.com/restaurant/1636531333/review/visitor?reviewSort=recent
+2026-09-01 07:07:43,900 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_버거카페-갤리언_20260901T064427Z.json
+2026-09-01 07:07:43,909 INFO    everland_reviews.storage | wrote 293 normalized reviews -> data/normalized/reviews_20260901T064427Z.csv
+2026-09-01 07:07:51,267 WARNING everland_reviews.collectors.base | [라코스타] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 07:08:25,639 INFO    everland_reviews.collectors.naver | [라코스타] view 1 added 21 review(s): https://pcmap.place.naver.com/restaurant/19286170/review/visitor
+2026-09-01 07:08:29,633 WARNING everland_reviews.collectors.base | [라코스타] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 07:09:22,698 INFO    everland_reviews.collectors.naver | [라코스타] view 2 added 0 review(s): https://pcmap.place.naver.com/restaurant/19286170/review/visitor?reviewSort=recent
+2026-09-01 07:09:22,779 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_라코스타_20260901T064427Z.json
+2026-09-01 07:09:22,787 INFO    everland_reviews.storage | wrote 311 normalized reviews -> data/normalized/reviews_20260901T064427Z.csv
+2026-09-01 07:09:27,228 WARNING everland_reviews.collectors.base | [타운즈마켓레스토랑] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 07:10:20,369 INFO    everland_reviews.collectors.naver | [타운즈마켓레스토랑] view 1 added 26 review(s): https://pcmap.place.naver.com/restaurant/36940409/review/visitor
+2026-09-01 07:10:24,700 WARNING everland_reviews.collectors.base | [타운즈마켓레스토랑] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 07:11:17,423 INFO    everland_reviews.collectors.naver | [타운즈마켓레스토랑] view 2 added 6 review(s): https://pcmap.place.naver.com/restaurant/36940409/review/visitor?reviewSort=recent
+2026-09-01 07:11:17,695 INFO    everland_reviews.collectors.naver | wrote debug snapshot -> logs/debug_36940409*
+2026-09-01 07:11:17,782 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_타운즈마켓레스토랑_20260901T064427Z.json
+2026-09-01 07:11:17,791 INFO    everland_reviews.storage | wrote 337 normalized reviews -> data/normalized/reviews_20260901T064427Z.csv
+2026-09-01 07:11:29,419 INFO    everland_reviews.collectors.naver | [멜팅소울 갤리언점] view 1 added 13 review(s): https://pcmap.place.naver.com/restaurant/2041651090/review/visitor
+2026-09-01 07:11:40,666 INFO    everland_reviews.collectors.naver | [멜팅소울 갤리언점] view 2 added 0 review(s): https://pcmap.place.naver.com/restaurant/2041651090/review/visitor?reviewSort=recent
+2026-09-01 07:11:40,746 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_멜팅소울-갤리언점_20260901T064427Z.json
+2026-09-01 07:11:40,755 INFO    everland_reviews.storage | wrote 343 normalized reviews -> data/normalized/reviews_20260901T064427Z.csv
+2026-09-01 07:11:45,099 WARNING everland_reviews.collectors.base | [버거카페아메리카] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 07:12:38,223 INFO    everland_reviews.collectors.naver | [버거카페아메리카] view 1 added 28 review(s): https://pcmap.place.naver.com/restaurant/1268104504/review/visitor
+2026-09-01 07:12:42,250 WARNING everland_reviews.collectors.base | [버거카페아메리카] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 07:13:34,985 INFO    everland_reviews.collectors.naver | [버거카페아메리카] view 2 added 4 review(s): https://pcmap.place.naver.com/restaurant/1268104504/review/visitor?reviewSort=recent
+2026-09-01 07:13:35,269 INFO    everland_reviews.collectors.naver | wrote debug snapshot -> logs/debug_1268104504*
+2026-09-01 07:13:35,358 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_버거카페아메리카_20260901T064427Z.json
+2026-09-01 07:13:35,368 INFO    everland_reviews.storage | wrote 367 normalized reviews -> data/normalized/reviews_20260901T064427Z.csv
+2026-09-01 07:13:40,503 WARNING everland_reviews.collectors.base | [크레페허브 용인에버랜드점] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 07:14:20,525 INFO    everland_reviews.collectors.naver | [크레페허브 용인에버랜드점] view 1 added 13 review(s): https://pcmap.place.naver.com/restaurant/2020897270/review/visitor
+2026-09-01 07:14:24,781 WARNING everland_reviews.collectors.base | [크레페허브 용인에버랜드점] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 07:15:02,763 INFO    everland_reviews.collectors.naver | [크레페허브 용인에버랜드점] view 2 added 0 review(s): https://pcmap.place.naver.com/restaurant/2020897270/review/visitor?reviewSort=recent
+2026-09-01 07:15:03,102 INFO    everland_reviews.collectors.naver | wrote debug snapshot -> logs/debug_2020897270*
+2026-09-01 07:15:03,191 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_크레페허브-용인에버랜드점_20260901T064427Z.json
+2026-09-01 07:15:03,201 INFO    everland_reviews.storage | wrote 375 normalized reviews -> data/normalized/reviews_20260901T064427Z.csv
+2026-09-01 07:15:08,055 WARNING everland_reviews.collectors.base | [솥내음 용인 에버랜드점] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 07:16:05,918 INFO    everland_reviews.collectors.naver | [솥내음 용인 에버랜드점] view 1 added 30 review(s): https://pcmap.place.naver.com/restaurant/1413421949/review/visitor
+2026-09-01 07:16:11,717 WARNING everland_reviews.collectors.base | [솥내음 용인 에버랜드점] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 07:17:05,274 INFO    everland_reviews.collectors.naver | [솥내음 용인 에버랜드점] view 2 added 11 review(s): https://pcmap.place.naver.com/restaurant/1413421949/review/visitor?reviewSort=recent
+2026-09-01 07:17:05,727 INFO    everland_reviews.collectors.naver | wrote debug snapshot -> logs/debug_1413421949*
+2026-09-01 07:17:05,855 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_솥내음-용인-에버랜드점_20260901T064427Z.json
+2026-09-01 07:17:05,866 INFO    everland_reviews.storage | wrote 406 normalized reviews -> data/normalized/reviews_20260901T064427Z.csv
+2026-09-01 07:17:22,136 WARNING everland_reviews.collectors.base | [포메인 에버랜드직영점] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 07:17:56,683 INFO    everland_reviews.collectors.naver | [포메인 에버랜드직영점] view 1 added 40 review(s): https://pcmap.place.naver.com/restaurant/1182555323/review/visitor
+2026-09-01 07:18:06,393 WARNING everland_reviews.collectors.base | [포메인 에버랜드직영점] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 07:18:58,048 INFO    everland_reviews.collectors.naver | [포메인 에버랜드직영점] view 2 added 8 review(s): https://pcmap.place.naver.com/restaurant/1182555323/review/visitor?reviewSort=recent
+2026-09-01 07:18:58,178 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_포메인-에버랜드직영점_20260901T064427Z.json
+2026-09-01 07:18:58,190 INFO    everland_reviews.storage | wrote 444 normalized reviews -> data/normalized/reviews_20260901T064427Z.csv
+2026-09-01 07:19:02,849 WARNING everland_reviews.collectors.base | [스타벅스 용인에버랜드점] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 07:20:01,002 INFO    everland_reviews.collectors.naver | [스타벅스 용인에버랜드점] view 1 added 33 review(s): https://pcmap.place.naver.com/restaurant/1660460217/review/visitor
+2026-09-01 07:20:06,420 WARNING everland_reviews.collectors.base | [스타벅스 용인에버랜드점] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 07:21:00,190 INFO    everland_reviews.collectors.naver | [스타벅스 용인에버랜드점] view 2 added 5 review(s): https://pcmap.place.naver.com/restaurant/1660460217/review/visitor?reviewSort=recent
+2026-09-01 07:21:00,529 INFO    everland_reviews.collectors.naver | wrote debug snapshot -> logs/debug_1660460217*
+2026-09-01 07:21:00,633 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_스타벅스-용인에버랜드점_20260901T064427Z.json
+2026-09-01 07:21:00,645 INFO    everland_reviews.storage | wrote 469 normalized reviews -> data/normalized/reviews_20260901T064427Z.csv
+2026-09-01 07:21:05,326 WARNING everland_reviews.collectors.base | [커피빈 용인에버랜드점] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 07:22:03,326 INFO    everland_reviews.collectors.naver | [커피빈 용인에버랜드점] view 1 added 31 review(s): https://pcmap.place.naver.com/restaurant/1131675496/review/visitor
+2026-09-01 07:22:09,153 WARNING everland_reviews.collectors.base | [커피빈 용인에버랜드점] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 07:23:02,654 INFO    everland_reviews.collectors.naver | [커피빈 용인에버랜드점] view 2 added 5 review(s): https://pcmap.place.naver.com/restaurant/1131675496/review/visitor?reviewSort=recent
+2026-09-01 07:23:03,085 INFO    everland_reviews.collectors.naver | wrote debug snapshot -> logs/debug_1131675496*
+2026-09-01 07:23:03,200 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_커피빈-용인에버랜드점_20260901T064427Z.json
+2026-09-01 07:23:03,213 INFO    everland_reviews.storage | wrote 494 normalized reviews -> data/normalized/reviews_20260901T064427Z.csv
+2026-09-01 07:23:16,444 WARNING everland_reviews.collectors.base | [화이트바움] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 07:23:51,305 INFO    everland_reviews.collectors.naver | [화이트바움] view 1 added 32 review(s): https://pcmap.place.naver.com/restaurant/1559402792/review/visitor
+2026-09-01 07:23:56,786 WARNING everland_reviews.collectors.base | [화이트바움] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 07:24:50,085 INFO    everland_reviews.collectors.naver | [화이트바움] view 2 added 10 review(s): https://pcmap.place.naver.com/restaurant/1559402792/review/visitor?reviewSort=recent
+2026-09-01 07:24:50,203 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_화이트바움_20260901T064427Z.json
+2026-09-01 07:24:50,218 INFO    everland_reviews.storage | wrote 524 normalized reviews -> data/normalized/reviews_20260901T064427Z.csv
+2026-09-01 07:24:55,034 WARNING everland_reviews.collectors.base | [테라로사 용인에버랜드점] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 07:25:53,118 INFO    everland_reviews.collectors.naver | [테라로사 용인에버랜드점] view 1 added 31 review(s): https://pcmap.place.naver.com/restaurant/2028927562/review/visitor
+2026-09-01 07:25:58,827 WARNING everland_reviews.collectors.base | [테라로사 용인에버랜드점] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 07:26:52,648 INFO    everland_reviews.collectors.naver | [테라로사 용인에버랜드점] view 2 added 5 review(s): https://pcmap.place.naver.com/restaurant/2028927562/review/visitor?reviewSort=recent
+2026-09-01 07:26:53,023 INFO    everland_reviews.collectors.naver | wrote debug snapshot -> logs/debug_2028927562*
+2026-09-01 07:26:53,138 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_테라로사-용인에버랜드점_20260901T064427Z.json
+2026-09-01 07:26:53,153 INFO    everland_reviews.storage | wrote 549 normalized reviews -> data/normalized/reviews_20260901T064427Z.csv
+2026-09-01 07:26:57,581 WARNING everland_reviews.collectors.base | [오오츄] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 07:27:55,984 INFO    everland_reviews.collectors.naver | [오오츄] view 1 added 28 review(s): https://pcmap.place.naver.com/restaurant/1306053034/review/visitor
+2026-09-01 07:28:09,671 WARNING everland_reviews.collectors.base | [오오츄] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 07:29:01,403 INFO    everland_reviews.collectors.naver | [오오츄] view 2 added 21 review(s): https://pcmap.place.naver.com/restaurant/1306053034/review/visitor?reviewSort=recent
+2026-09-01 07:29:01,586 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_오오츄_20260901T064427Z.json
+2026-09-01 07:29:01,602 INFO    everland_reviews.storage | wrote 590 normalized reviews -> data/normalized/reviews_20260901T064427Z.csv
+2026-09-01 07:29:14,608 WARNING everland_reviews.collectors.base | [라운지엑스 에버랜드점] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 07:29:49,963 INFO    everland_reviews.collectors.naver | [라운지엑스 에버랜드점] view 1 added 28 review(s): https://pcmap.place.naver.com/restaurant/1796607378/review/visitor
+2026-09-01 07:29:55,628 WARNING everland_reviews.collectors.base | [라운지엑스 에버랜드점] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 07:30:48,911 INFO    everland_reviews.collectors.naver | [라운지엑스 에버랜드점] view 2 added 6 review(s): https://pcmap.place.naver.com/restaurant/1796607378/review/visitor?reviewSort=recent
+2026-09-01 07:30:48,999 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_라운지엑스-에버랜드점_20260901T064427Z.json
+2026-09-01 07:30:49,016 INFO    everland_reviews.storage | wrote 616 normalized reviews -> data/normalized/reviews_20260901T064427Z.csv
+2026-09-01 07:30:53,494 WARNING everland_reviews.collectors.base | [판다월드 카페] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 07:31:51,551 INFO    everland_reviews.collectors.naver | [판다월드 카페] view 1 added 25 review(s): https://pcmap.place.naver.com/restaurant/1441236437/review/visitor
+2026-09-01 07:31:57,765 WARNING everland_reviews.collectors.base | [판다월드 카페] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 07:32:51,228 INFO    everland_reviews.collectors.naver | [판다월드 카페] view 2 added 2 review(s): https://pcmap.place.naver.com/restaurant/1441236437/review/visitor?reviewSort=recent
+2026-09-01 07:32:51,658 INFO    everland_reviews.collectors.naver | wrote debug snapshot -> logs/debug_1441236437*
+2026-09-01 07:32:51,764 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_판다월드-카페_20260901T064427Z.json
+2026-09-01 07:32:51,781 INFO    everland_reviews.storage | wrote 638 normalized reviews -> data/normalized/reviews_20260901T064427Z.csv
+2026-09-01 07:33:04,928 WARNING everland_reviews.collectors.base | [오리엔탈스테이션] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 07:33:40,088 INFO    everland_reviews.collectors.naver | [오리엔탈스테이션] view 1 added 28 review(s): https://pcmap.place.naver.com/restaurant/19285948/review/visitor
+2026-09-01 07:33:48,116 WARNING everland_reviews.collectors.base | [오리엔탈스테이션] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 07:34:22,517 INFO    everland_reviews.collectors.naver | [오리엔탈스테이션] view 2 added 5 review(s): https://pcmap.place.naver.com/restaurant/19285948/review/visitor?reviewSort=recent
+2026-09-01 07:34:22,642 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_오리엔탈스테이션_20260901T064427Z.json
+2026-09-01 07:34:22,660 INFO    everland_reviews.storage | wrote 663 normalized reviews -> data/normalized/reviews_20260901T064427Z.csv
+2026-09-01 07:34:27,446 WARNING everland_reviews.collectors.base | [스낵 버스터] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 07:35:25,393 INFO    everland_reviews.collectors.naver | [스낵 버스터] view 1 added 27 review(s): https://pcmap.place.naver.com/restaurant/1468050513/review/visitor
+2026-09-01 07:35:34,281 WARNING everland_reviews.collectors.base | [스낵 버스터] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 07:36:08,745 INFO    everland_reviews.collectors.naver | [스낵 버스터] view 2 added 6 review(s): https://pcmap.place.naver.com/restaurant/1468050513/review/visitor?reviewSort=recent
+2026-09-01 07:36:08,894 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_스낵-버스터_20260901T064427Z.json
+2026-09-01 07:36:08,913 INFO    everland_reviews.storage | wrote 689 normalized reviews -> data/normalized/reviews_20260901T064427Z.csv
+2026-09-01 07:36:24,351 INFO    everland_reviews.collectors.naver | [로스트밸리 스낵] view 1 added 28 review(s): https://pcmap.place.naver.com/restaurant/1881660605/review/visitor
+2026-09-01 07:36:28,549 WARNING everland_reviews.collectors.base | [로스트밸리 스낵] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 07:37:21,645 INFO    everland_reviews.collectors.naver | [로스트밸리 스낵] view 2 added 0 review(s): https://pcmap.place.naver.com/restaurant/1881660605/review/visitor?reviewSort=recent
+2026-09-01 07:37:21,718 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_로스트밸리-스낵_20260901T064427Z.json
+2026-09-01 07:37:21,737 INFO    everland_reviews.storage | wrote 715 normalized reviews -> data/normalized/reviews_20260901T064427Z.csv
 
 Restaurant: 매직타임레스토랑
 Reviews collected: 23
@@ -214,7 +228,8 @@ Reviews with text: 11
 Reviews with rating: 9
 Reviews with date: 11
 Duplicate reviews removed: 18
-Collection failures: 2
+Collection failures: 3
+  - unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
   - unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
   - unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
 
@@ -280,11 +295,11 @@ Collection failures: 2
   - unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
 
 Restaurant: 멜팅소울 캐리비안베이점
-Reviews collected: 16
-Reviews with text: 11
+Reviews collected: 25
+Reviews with text: 20
 Reviews with rating: 4
-Reviews with date: 11
-Duplicate reviews removed: 14
+Reviews with date: 20
+Duplicate reviews removed: 15
 Collection failures: 2
   - unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
   - unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
@@ -335,9 +350,7 @@ Reviews with text: 5
 Reviews with rating: 4
 Reviews with date: 5
 Duplicate reviews removed: 6
-Collection failures: 2
-  - unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
-  - unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+Collection failures: 0
 
 Restaurant: 버거카페아메리카
 Reviews collected: 24
@@ -355,7 +368,8 @@ Reviews with text: 7
 Reviews with rating: 8
 Reviews with date: 7
 Duplicate reviews removed: 8
-Collection failures: 1
+Collection failures: 2
+  - unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
   - unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
 
 Restaurant: 솥내음 용인 에버랜드점
@@ -369,11 +383,11 @@ Collection failures: 2
   - unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
 
 Restaurant: 포메인 에버랜드직영점
-Reviews collected: 28
-Reviews with text: 14
-Reviews with rating: 14
-Reviews with date: 15
-Duplicate reviews removed: 12
+Reviews collected: 38
+Reviews with text: 24
+Reviews with rating: 17
+Reviews with date: 25
+Duplicate reviews removed: 22
 Collection failures: 2
   - unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
   - unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
@@ -429,82 +443,86 @@ Collection failures: 2
   - unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
 
 Restaurant: 라운지엑스 에버랜드점
-Reviews collected: 0
-Reviews with text: 0
-Reviews with rating: 0
-Reviews with date: 0
-Duplicate reviews removed: 0
-Collection failures: 1
-  - skipped: run time budget (2700.0s) exhausted before this target
+Reviews collected: 26
+Reviews with text: 10
+Reviews with rating: 2
+Reviews with date: 12
+Duplicate reviews removed: 14
+Collection failures: 2
+  - unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+  - unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
 
 Restaurant: 판다월드 카페
-Reviews collected: 0
-Reviews with text: 0
-Reviews with rating: 0
-Reviews with date: 0
-Duplicate reviews removed: 0
-Collection failures: 1
-  - skipped: run time budget (2700.0s) exhausted before this target
+Reviews collected: 22
+Reviews with text: 11
+Reviews with rating: 2
+Reviews with date: 12
+Duplicate reviews removed: 18
+Collection failures: 2
+  - unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+  - unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
 
 Restaurant: 오리엔탈스테이션
-Reviews collected: 0
-Reviews with text: 0
+Reviews collected: 25
+Reviews with text: 12
 Reviews with rating: 0
-Reviews with date: 0
-Duplicate reviews removed: 0
-Collection failures: 1
-  - skipped: run time budget (2700.0s) exhausted before this target
+Reviews with date: 12
+Duplicate reviews removed: 15
+Collection failures: 2
+  - unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+  - unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
 
-Restaurant: 앤티앤스 에버랜드점
-Reviews collected: 0
-Reviews with text: 0
-Reviews with rating: 0
-Reviews with date: 0
-Duplicate reviews removed: 0
-Collection failures: 1
-  - skipped: run time budget (2700.0s) exhausted before this target
+Restaurant: 스낵 버스터
+Reviews collected: 26
+Reviews with text: 14
+Reviews with rating: 1
+Reviews with date: 14
+Duplicate reviews removed: 14
+Collection failures: 2
+  - unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+  - unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
 
-Restaurant: 가든 테라스(베이커리카페)
-Reviews collected: 0
-Reviews with text: 0
-Reviews with rating: 0
-Reviews with date: 0
-Duplicate reviews removed: 0
+Restaurant: 로스트밸리 스낵
+Reviews collected: 26
+Reviews with text: 24
+Reviews with rating: 3
+Reviews with date: 24
+Duplicate reviews removed: 12
 Collection failures: 1
-  - skipped: run time budget (2700.0s) exhausted before this target
+  - unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
 
 ============================================================
 Overall
 Restaurants processed: 30
-Restaurants with at least one review: 24
-Reviews collected: 571
-Reviews with text: 311
-Reviews with rating: 219
-Reviews with date: 327
-Duplicate reviews removed: 353
-Collection failures: 55
+Restaurants with at least one review: 29
+Reviews collected: 715
+Reviews with text: 401
+Reviews with rating: 230
+Reviews with date: 420
+Duplicate reviews removed: 437
+Collection failures: 59
 
 Field availability across the collected dataset:
-  platform                  571 / 571  (100.0%)
-  place_name                571 / 571  (100.0%)
-  place_id                  571 / 571  (100.0%)
-  place_url                 571 / 571  (100.0%)
-  review_id                 571 / 571  (100.0%)
-  reviewer_name             571 / 571  (100.0%)
-  reviewer_profile_id       571 / 571  (100.0%)
-  reviewer_profile_url      571 / 571  (100.0%)
-  rating                    219 / 571  ( 38.4%)
-  review_text               311 / 571  ( 54.5%)
-  review_date               327 / 571  ( 57.3%)
-  visit_date                571 / 571  (100.0%)
-  visit_count               571 / 571  (100.0%)
-  review_image_count        260 / 571  ( 45.5%)
-  review_image_urls         260 / 571  ( 45.5%)
-  helpful_count             571 / 571  (100.0%)
-  keywords                  557 / 571  ( 97.5%)
-  menus                       0 / 571  (  0.0%)
-  verified_visit            571 / 571  (100.0%)
-  collected_at              571 / 571  (100.0%)
-  raw_ref                   571 / 571  (100.0%)
+  platform                  715 / 715  (100.0%)
+  place_name                715 / 715  (100.0%)
+  place_id                  715 / 715  (100.0%)
+  place_url                 715 / 715  (100.0%)
+  review_id                 715 / 715  (100.0%)
+  reviewer_name             715 / 715  (100.0%)
+  reviewer_profile_id       715 / 715  (100.0%)
+  reviewer_profile_url      715 / 715  (100.0%)
+  rating                    230 / 715  ( 32.2%)
+  review_text               401 / 715  ( 56.1%)
+  review_date               420 / 715  ( 58.7%)
+  visit_date                715 / 715  (100.0%)
+  visit_count               715 / 715  (100.0%)
+  review_image_count        319 / 715  ( 44.6%)
+  review_image_urls         319 / 715  ( 44.6%)
+  helpful_count             715 / 715  (100.0%)
+  keywords                  669 / 715  ( 93.6%)
+  menus                       0 / 715  (  0.0%)
+  verified_visit            715 / 715  (100.0%)
+  collected_at              715 / 715  (100.0%)
+  raw_ref                   715 / 715  (100.0%)
 
-Normalized CSV: data/normalized/reviews_20260901T055008Z.csv
+Normalized CSV: data/normalized/reviews_20260901T064427Z.csv

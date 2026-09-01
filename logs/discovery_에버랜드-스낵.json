@@ -918,12 +918,12 @@
   }
  },
  {
-  "url": "https://map.naver.com/p/api/search/allSearch?query=%EC%97%90%EB%B2%84%EB%9E%9C%EB%93%9C+%EC%8A%A4%EB%82%B5&type=all&searchCoord=126.97825%3B37.566551&boundary=&sscode=svc.mapv5.search&token=D6WaFy0M1PoLavzH2JfzUG94AdVDdoUMp8E72frQjKQ%3D",
+  "url": "https://map.naver.com/p/api/search/allSearch?query=%EC%97%90%EB%B2%84%EB%9E%9C%EB%93%9C+%EC%8A%A4%EB%82%B5&type=all&searchCoord=126.97825%3B37.566551&boundary=&sscode=svc.mapv5.search&token=SC2ZMG79hnuSQlaVhgpztt3ydy2n6lSE4XOe8eNElgE%3D",
   "body": {
    "result": {
     "type": "place",
     "metaInfo": {
-     "pageId": "3a6ab685-3acd-4393-804f-7f6cca37b975",
+     "pageId": "9e24bf0f-1918-4173-b5df-0d14b2a0533c",
      "sessionId": null,
      "rcode": "09140103",
      "searchedQuery": "에버랜드 스낵",
@@ -994,7 +994,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011447",
+        "requestTime": "202609011541",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -1139,7 +1139,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011447",
+        "requestTime": "202609011541",
         "status": {
          "code": 0,
          "text": "",
@@ -1285,7 +1285,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011447",
+        "requestTime": "202609011541",
         "status": {
          "code": 0,
          "text": "",
@@ -1427,7 +1427,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011447",
+        "requestTime": "202609011541",
         "status": {
          "code": 0,
          "text": "",
@@ -1574,7 +1574,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011447",
+        "requestTime": "202609011541",
         "status": {
          "code": 0,
          "text": "",
@@ -1723,7 +1723,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011447",
+        "requestTime": "202609011541",
         "status": {
          "code": 0,
          "text": "",
@@ -1871,7 +1871,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011447",
+        "requestTime": "202609011541",
         "status": {
          "code": 0,
          "text": "",
@@ -2017,7 +2017,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011447",
+        "requestTime": "202609011541",
         "status": {
          "code": 0,
          "text": "",
@@ -2159,7 +2159,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011447",
+        "requestTime": "202609011541",
         "status": {
          "code": 0,
          "text": "",
@@ -2301,7 +2301,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011447",
+        "requestTime": "202609011541",
         "status": {
          "code": 0,
          "text": "",
@@ -2444,7 +2444,7 @@
        ],
        "rcode": "0246125026",
        "businessStatus": {
-        "requestTime": "202609011447",
+        "requestTime": "202609011541",
         "status": {
          "code": 0,
          "text": "",

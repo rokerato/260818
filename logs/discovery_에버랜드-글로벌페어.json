@@ -918,12 +918,12 @@
   }
  },
  {
-  "url": "https://map.naver.com/p/api/search/allSearch?query=%EC%97%90%EB%B2%84%EB%9E%9C%EB%93%9C+%EA%B8%80%EB%A1%9C%EB%B2%8C%ED%8E%98%EC%96%B4&type=all&searchCoord=126.97825%3B37.566551&boundary=&sscode=svc.mapv5.search&token=839Q5Z3MnZi0cjNq2J9t5GOZdm-r3p9ZjY6fhPTlu_s%3D",
+  "url": "https://map.naver.com/p/api/search/allSearch?query=%EC%97%90%EB%B2%84%EB%9E%9C%EB%93%9C+%EA%B8%80%EB%A1%9C%EB%B2%8C%ED%8E%98%EC%96%B4&type=all&searchCoord=126.97825%3B37.566551&boundary=&sscode=svc.mapv5.search&token=WvzpYzUccPViXInCPge3dktfmTa15YxskRoYBj-lHM0%3D",
   "body": {
    "result": {
     "type": "place",
     "metaInfo": {
-     "pageId": "87bc2993-a834-4cb7-b3df-16390f5385f3",
+     "pageId": "e45f57d4-e0a3-4326-af00-c77121d0c4af",
      "sessionId": null,
      "rcode": "09140103",
      "searchedQuery": "에버랜드 글로벌페어",
@@ -989,7 +989,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011448",
+        "requestTime": "202609011542",
         "status": {
          "code": 0,
          "text": "",
@@ -1130,7 +1130,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011448",
+        "requestTime": "202609011542",
         "status": {
          "code": 0,
          "text": "",

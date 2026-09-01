@@ -207,17 +207,16 @@ restaurants:
   naver_category:
   - 음식점
   - 푸드코트
-- name: 앤티앤스 에버랜드점
-  place_id: '1310732110'
+- name: 스낵 버스터
+  place_id: '1468050513'
   category: restaurant
   address: 경기도 용인시 처인구 포곡읍 에버랜드로 199
   naver_category:
-  - 카페,디저트
-  - 베이커리
-- name: 가든 테라스(베이커리카페)
-  place_id: '1531667896'
+  - 분식
+  - 종합분식
+- name: 로스트밸리 스낵
+  place_id: '1881660605'
   category: restaurant
   address: 경기도 용인시 처인구 포곡읍 에버랜드로 199
   naver_category:
-  - 카페,디저트
-  - 베이커리
+  - 음식점
