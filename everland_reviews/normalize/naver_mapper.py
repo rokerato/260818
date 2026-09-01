@@ -62,6 +62,9 @@ _VERIFIED_KEYS = (
 
 _ISO_DATE = re.compile(r"(\d{4})[-./년]\s*(\d{1,2})[-./월]\s*(\d{1,2})")
 _SHORT_DATE = re.compile(r"^(\d{2})[.\-/](\d{1,2})[.\-/](\d{1,2})")
+#: Naver renders current-year dates without the year: "8.12.수" (Aug 12, Wed).
+#: The trailing weekday character is what disambiguates this from "YY.M".
+_YEARLESS_DATE = re.compile(r"^(\d{1,2})\.(\d{1,2})\.\s*[월화수목금토일]")
 _DIGITS = re.compile(r"\d+")
 
 
@@ -111,12 +114,17 @@ def _as_int(value: Any) -> int | None:
     return None
 
 
-def normalize_date(value: Any) -> str | None:
+def normalize_date(value: Any, reference: Any = None) -> str | None:
     """Return ``YYYY-MM-DD`` when parseable, else the original text.
 
-    Naver mixes ISO datetimes (``2024-05-03T10:11:12``), plain dates and the
-    compact Korean list format (``24.5.3.금``). Anything unrecognised is kept
-    verbatim rather than dropped or guessed at.
+    Naver mixes ISO datetimes (``2024-05-03T10:11:12``), plain dates, the
+    compact list format with a two-digit year (``24.5.3.금``) and -- for dates
+    in the current year -- a year-less form (``8.12.수``). The year-less form
+    is resolved against ``reference`` (the collection timestamp): Naver only
+    omits the year when it is the year on screen, so the collection date
+    determines it; a resolved date that would land in the future rolls back
+    one year (a December visit collected in January). Anything unrecognised is
+    kept verbatim rather than dropped or guessed at.
     """
     text = _as_str(value)
     if not text:
@@ -129,7 +137,39 @@ def normalize_date(value: Any) -> str | None:
     if match:
         year, month, day = match.groups()
         return f"20{int(year):02d}-{int(month):02d}-{int(day):02d}"
+    match = _YEARLESS_DATE.match(text)
+    if match:
+        ref = _as_date(reference)
+        if ref is not None:
+            month, day = (int(g) for g in match.groups())
+            try:
+                candidate = ref.replace(month=month, day=day)
+            except ValueError:
+                return text
+            if candidate > ref:
+                candidate = candidate.replace(year=candidate.year - 1)
+            return candidate.isoformat()
     return text
+
+
+def _as_date(value: Any):
+    from datetime import date, datetime
+
+    if isinstance(value, datetime):
+        return value.date()
+    if isinstance(value, date):
+        return value
+    text = _as_str(value)
+    if not text:
+        return None
+    match = _ISO_DATE.search(text)
+    if match:
+        year, month, day = (int(g) for g in match.groups())
+        try:
+            return date(year, month, day)
+        except ValueError:
+            return None
+    return None
 
 
 def _names_from(container: Any, keys: Iterable[str]) -> list[str]:
@@ -223,8 +263,8 @@ def map_review(raw: RawReview, raw_ref: str | None = None) -> NormalizedReview:
         reviewer_profile_url=_as_str(_first(author, _AUTHOR_URL)),
         rating=_as_float(_first(payload, _RATING)),
         review_text=_as_str(_first(payload, _TEXT)),
-        review_date=normalize_date(_first(payload, _CREATED)),
-        visit_date=normalize_date(_first(payload, _VISITED)),
+        review_date=normalize_date(_first(payload, _CREATED), raw.fetched_at),
+        visit_date=normalize_date(_first(payload, _VISITED), raw.fetched_at),
         visit_count=_as_int(_first(payload, _VISIT_COUNT)),
         review_image_count=image_count,
         review_image_urls=images,

@@ -126,10 +126,15 @@ def iter_review_nodes(node: Any, _path: str = "$") -> Iterator[tuple[str, dict]]
     if isinstance(node, dict):
         typename = str(node.get("__typename", ""))
         hits = _REVIEW_HINT_KEYS & node.keys()
-        looks_like_review = (
-            ("Review" in typename and "body" in node or "rating" in node)
-            or (("id" in node or "reviewId" in node) and len(hits) >= 2)
-        )
+        if typename and "Review" not in typename:
+            # An explicitly typed non-review entity (photo item, place info)
+            # can share keys like 'author'; only descend into it.
+            looks_like_review = False
+        else:
+            looks_like_review = (
+                ("Review" in typename and ("body" in node or "rating" in node))
+                or (("id" in node or "reviewId" in node) and len(hits) >= 2)
+            )
         if looks_like_review:
             yield _path, node
             # A review never nests another review; stop descending.
@@ -198,6 +203,69 @@ def content_fingerprint(payload: dict[str, Any]) -> str:
     """Stable hash of a payload, for de-duplicating id-less reviews."""
     blob = json.dumps(payload, sort_keys=True, ensure_ascii=False, default=str)
     return "sha1:" + hashlib.sha1(blob.encode("utf-8")).hexdigest()
+
+
+def resolve_apollo_refs(
+    node: Any, state: dict[str, Any], _stack: frozenset[str] = frozenset()
+) -> Any:
+    """Inline Apollo's normalized ``{"__ref": key}`` pointers.
+
+    The SSR cache stores entities in a flat map and links them by reference;
+    a review's ``author`` is useless until the pointer is followed. Cycles and
+    dangling keys degrade to a marker instead of recursing forever.
+    """
+    if isinstance(node, dict):
+        ref = node.get("__ref")
+        if isinstance(ref, str) and len(node) == 1:
+            if ref in _stack or ref not in state:
+                return {"__ref_unresolved": ref}
+            return resolve_apollo_refs(state[ref], state, _stack | {ref})
+        return {
+            key: resolve_apollo_refs(value, state, _stack)
+            for key, value in node.items()
+        }
+    if isinstance(node, list):
+        return [resolve_apollo_refs(value, state, _stack) for value in node]
+    return node
+
+
+def extract_apollo_reviews(state: dict[str, Any]) -> list[dict[str, Any]]:
+    """Rebuild whole review records from a normalized Apollo cache.
+
+    A single visitor review is spread across entities: the ``VisitorReview``
+    itself (body, rating, an author ref) plus sibling ``*Review*`` entities
+    keyed by the same ``reviewId`` carrying voted keywords, visit counts, etc.
+    Resolve the refs, then stitch the fragments together on ``reviewId``/``id``.
+    """
+    if not isinstance(state, dict):
+        return []
+    reviews: dict[str, dict[str, Any]] = {}
+    fragments: dict[str, dict[str, Any]] = {}
+    for key, entry in state.items():
+        if not isinstance(entry, dict):
+            continue
+        typename = str(entry.get("__typename", ""))
+        if "Review" not in typename and not str(key).startswith("VisitorReview:"):
+            continue
+        resolved = resolve_apollo_refs(entry, state)
+        is_full_review = typename == "VisitorReview" or (
+            "Review" in typename
+            and any(k in resolved for k in ("body", "rating", "author"))
+        )
+        review_key = str(resolved.get("reviewId") or resolved.get("id") or key)
+        bucket = reviews if is_full_review else fragments
+        merged = bucket.setdefault(review_key, {})
+        for field_name, value in resolved.items():
+            if value in (None, "", [], {}):
+                continue
+            if field_name not in merged or merged[field_name] in (None, "", [], {}):
+                merged[field_name] = value
+    for review_key, review in reviews.items():
+        for rid in {review_key, str(review.get("id")), str(review.get("reviewId"))}:
+            for field_name, value in fragments.get(rid, {}).items():
+                if field_name not in review or review[field_name] in (None, "", [], {}):
+                    review[field_name] = value
+    return list(reviews.values())
 
 
 class NaverPlaceCollector(BaseCollector):
@@ -585,10 +653,17 @@ class NaverPlaceCollector(BaseCollector):
         for response in captured:
             if self.keep_raw_responses:
                 result.raw_responses.append(response)
-            for _path, node in iter_review_nodes(response.get("body")):
+            source = response.get("source", "graphql")
+            if source == "inline":
+                nodes: list[dict[str, Any]] = extract_apollo_reviews(
+                    response.get("body")
+                )
+            else:
+                nodes = [n for _path, n in iter_review_nodes(response.get("body"))]
+            for node in nodes:
                 if len(result.reviews) >= limit:
                     break
-                add(node, response.get("source", "graphql"))
+                add(node, source)
 
         if not result.reviews and dom_items:
             log.info(

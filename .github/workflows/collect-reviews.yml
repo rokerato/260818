@@ -82,19 +82,12 @@ jobs:
         id: collect
         run: |
           mkdir -p logs
-          ONLY="$IN_ONLY"
-          if [ -z "$ONLY" ]; then
-            # No filter given: collect the first configured target only,
-            # keeping the run small until the pipeline is proven on real data.
-            ONLY=$(python -c "import yaml; rs = (yaml.safe_load(open('config/restaurants.yaml', encoding='utf-8')) or {}).get('restaurants') or []; print(rs[0]['name'] if rs else '')")
+          ONLY_ARGS=()
+          if [ -n "$IN_ONLY" ]; then
+            ONLY_ARGS=(--only "$IN_ONLY")
           fi
-          if [ -z "$ONLY" ]; then
-            echo "no targets configured; discovery must have failed" | tee logs/collect.log
-            exit 1
-          fi
-          echo "collecting: $ONLY"
           python scripts/collect_reviews.py \
-            --only "$ONLY" \
+            "${ONLY_ARGS[@]}" \
             --max-reviews "$IN_MAX_REVIEWS" \
             --delay "$IN_DELAY" \
             --debug-dir logs 2>&1 | tee logs/collect.log
