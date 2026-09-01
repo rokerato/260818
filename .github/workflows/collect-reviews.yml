@@ -105,7 +105,26 @@ jobs:
           git add -f data/raw/*.json data/normalized/* 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "nothing to commit"
-          else
-            git commit -m "Collection run ${{ github.run_id }} (cap: $IN_MAX_REVIEWS)"
-            git push origin "HEAD:${{ github.ref_name }}"
+            exit 0
           fi
+          git commit -m "Collection run ${{ github.run_id }} (cap: $IN_MAX_REVIEWS)"
+          # The branch can move while a run is collecting (another push, an
+          # overlapping run). A plain push is then rejected and an hour of
+          # collected data dies with the runner, so rebase onto whatever
+          # landed and retry instead of giving up.
+          for attempt in 1 2 3 4 5; do
+            if git push origin "HEAD:${{ github.ref_name }}"; then
+              echo "pushed on attempt $attempt"
+              exit 0
+            fi
+            echo "push rejected (attempt $attempt); rebasing onto remote"
+            git fetch origin "${{ github.ref_name }}"
+            # Collected files are per-run (timestamped names), so a rebase
+            # conflict is not expected; keep our side if one appears anyway.
+            git rebase "origin/${{ github.ref_name }}" \
+              || git rebase --strategy-option=ours --continue \
+              || git rebase --abort
+            sleep $((attempt * 5))
+          done
+          echo "::error::could not push collected results after 5 attempts"
+          exit 1
