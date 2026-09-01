@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Collected datasets are reproducible artifacts, not source.
+# Remove these two lines if you want to version a snapshot of the dataset.
+data/raw/*.json
+data/normalized/*.csv
+!data/raw/.gitkeep
+!data/normalized/.gitkeep

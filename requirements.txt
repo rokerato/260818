@@ -1,0 +1,3 @@
+# Core runtime dependencies for the Everland review collection pipeline.
+PyYAML>=6.0
+playwright>=1.40
