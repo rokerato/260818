@@ -36,6 +36,8 @@ class Settings:
     raw_dir: Path = Path("data/raw")
     normalized_dir: Path = Path("data/normalized")
     csv_encoding: str = "utf-8"
+    #: When set, pages that yield no API captures dump HTML/screenshot here.
+    debug_dir: str | None = None
 
 
 @dataclass(slots=True)

@@ -149,6 +149,51 @@ def _native_id(payload: dict[str, Any]) -> str | None:
     return None
 
 
+_DOM_RATING = re.compile(r"별점\s*\n?\s*(\d(?:\.\d)?)\s*\n?\s*점")
+_DOM_KOREAN_DATE = re.compile(r"(\d{4})년\s*(\d{1,2})월\s*(\d{1,2})일")
+_DOM_VISIT_COUNT = re.compile(r"(\d+)\s*번째\s*방문")
+_DOM_VERIFIED = re.compile(r"인증\s*수단\s*\n?\s*(\S+)")
+
+
+def _parse_dom_text(text: str) -> dict[str, Any]:
+    """Best-effort structured fields from a rendered review's visible text.
+
+    The rendered item concatenates reviewer name, badges, rating, the review
+    body, visit metadata and the verification method into one text column.
+    Only unambiguous patterns are lifted out; everything else stays in ``body``.
+    """
+    parsed: dict[str, Any] = {}
+    lines = [line.strip() for line in text.splitlines() if line.strip()]
+    if lines:
+        # The card leads with the reviewer nickname.
+        parsed["authorName"] = lines[0]
+    match = _DOM_RATING.search(text)
+    if match:
+        parsed["rating"] = float(match.group(1))
+    match = _DOM_KOREAN_DATE.search(text)
+    if match:
+        year, month, day = match.groups()
+        parsed["visited"] = f"{int(year):04d}-{int(month):02d}-{int(day):02d}"
+    match = _DOM_VISIT_COUNT.search(text)
+    if match:
+        parsed["visitCount"] = int(match.group(1))
+    match = _DOM_VERIFIED.search(text)
+    if match:
+        parsed["visitConfirmType"] = match.group(1)
+    return parsed
+
+
+def _is_review_photo(src: str) -> bool:
+    """Keep genuine review photos; drop lazy-load placeholders and avatars."""
+    if not src or src.startswith("data:"):
+        return False
+    # Naver serves profile avatars through the common thumbnail proxy at tiny
+    # fixed sizes (e.g. type=f48_48); review photos come from the review CDN.
+    if "type=f48" in src or "profileImage" in src:
+        return False
+    return True
+
+
 def content_fingerprint(payload: dict[str, Any]) -> str:
     """Stable hash of a payload, for de-duplicating id-less reviews."""
     blob = json.dumps(payload, sort_keys=True, ensure_ascii=False, default=str)
@@ -175,6 +220,7 @@ class NaverPlaceCollector(BaseCollector):
         load_more_selectors: tuple[str, ...] = _DEFAULT_LOAD_MORE_SELECTORS,
         review_item_selectors: tuple[str, ...] = _DEFAULT_REVIEW_ITEM_SELECTORS,
         keep_raw_responses: bool = True,
+        debug_dir: str | None = None,
     ) -> None:
         super().__init__(
             max_reviews=max_reviews,
@@ -190,6 +236,7 @@ class NaverPlaceCollector(BaseCollector):
         self.load_more_selectors = load_more_selectors
         self.review_item_selectors = review_item_selectors
         self.keep_raw_responses = keep_raw_responses
+        self.debug_dir = debug_dir
 
     # ------------------------------------------------------------------
     # target resolution
@@ -250,13 +297,18 @@ class NaverPlaceCollector(BaseCollector):
                 )
                 page = context.new_page()
                 captured: list[dict[str, Any]] = []
-                self._attach_graphql_capture(page, captured, result)
+                api_trace: list[str] = []
+                self._attach_graphql_capture(page, captured, result, api_trace)
                 self._drive_page(page, review_url, limit, result, captured)
                 # The landing URL is authoritative once redirects have settled.
                 if not result.resolved_place_id:
                     result.resolved_place_id = parse_place_id(page.url)
                     result.resolved_place_url = page.url
+                # Harvest after pagination so the inlined cache is at its fullest.
+                self._harvest_inline_state(page, captured, result)
                 dom_items = self._extract_dom_reviews(page, result)
+                if not any(c["source"] == "graphql" for c in captured):
+                    self._dump_debug(page, result, api_trace)
                 context.close()
             finally:
                 browser.close()
@@ -267,25 +319,76 @@ class NaverPlaceCollector(BaseCollector):
 
     # ------------------------------------------------------------------
     def _attach_graphql_capture(
-        self, page: Any, captured: list[dict[str, Any]], result: CollectionResult
+        self,
+        page: Any,
+        captured: list[dict[str, Any]],
+        result: CollectionResult,
+        api_trace: list[str],
     ) -> None:
         """Record every GraphQL response body the page fetches for itself."""
+
+        def on_request(request: Any) -> None:
+            if "place.naver.com" in request.url and "/graphql" in request.url:
+                api_trace.append(f"{request.method} {request.url}")
 
         def on_response(response: Any) -> None:
             url = response.url
             if "/graphql" not in url:
                 return
+            # CORS preflights carry no body; capturing them is pure noise.
+            if response.request.method == "OPTIONS":
+                return
             try:
-                body = response.json()
+                text = response.text()
+                body = json.loads(text)
             except Exception as exc:  # noqa: BLE001 - non-JSON or drained body
-                result.record_failure(f"unreadable graphql response {url}: {exc!r}")
+                snippet = ""
+                try:
+                    snippet = (text or "")[:200]
+                except Exception:  # noqa: BLE001
+                    pass
+                result.record_failure(
+                    f"unreadable graphql response {url} "
+                    f"(method={response.request.method} status={response.status} "
+                    f"type={response.headers.get('content-type')!r}): {exc!r} "
+                    f"body[:200]={snippet!r}"
+                )
                 return
             captured.append(
                 {"url": url, "status": response.status, "body": body,
-                 "captured_at": utc_now_iso()}
+                 "source": "graphql", "captured_at": utc_now_iso()}
             )
 
+        page.on("request", on_request)
         page.on("response", on_response)
+
+    def _harvest_inline_state(
+        self, page: Any, captured: list[dict[str, Any]], result: CollectionResult
+    ) -> None:
+        """Pull the server-rendered Apollo cache out of the page.
+
+        pcmap pages ship the first review batch inlined in the HTML; this gets
+        the fully structured records even when no GraphQL fetch is observed.
+        """
+        try:
+            raw = page.evaluate(
+                "() => { try { return JSON.stringify(window.__APOLLO_STATE__"
+                " || null); } catch (e) { return null; } }"
+            )
+        except Exception as exc:  # noqa: BLE001
+            result.record_failure(f"inline state harvest failed: {exc!r}")
+            return
+        if not raw or raw == "null":
+            return
+        try:
+            body = json.loads(raw)
+        except json.JSONDecodeError as exc:
+            result.record_failure(f"inline state is not valid JSON: {exc!r}")
+            return
+        captured.append(
+            {"url": "inline:__APOLLO_STATE__", "status": None, "body": body,
+             "source": "inline", "captured_at": utc_now_iso()}
+        )
 
     def _drive_page(
         self,
@@ -312,8 +415,13 @@ class NaverPlaceCollector(BaseCollector):
         # never-ending pager cannot spin forever.
         max_rounds = max(2, limit // 5 + 10)
 
+        def progress() -> int:
+            # Growth shows up either as intercepted API reviews or as rendered
+            # list items -- watch both so a quiet network path still paginates.
+            return max(self._count_unique(captured), self._count_dom_items(page))
+
         while rounds < max_rounds and empty_rounds < self.max_empty_rounds:
-            seen_before = self._count_unique(captured)
+            seen_before = progress()
             if seen_before >= limit:
                 break
             rounds += 1
@@ -324,7 +432,7 @@ class NaverPlaceCollector(BaseCollector):
             # Conservative pacing: we are a guest on someone else's service.
             time.sleep(self.request_delay)
             self._settle(page)
-            if self._count_unique(captured) <= seen_before:
+            if progress() <= seen_before:
                 empty_rounds += 1
             else:
                 empty_rounds = 0
@@ -348,7 +456,9 @@ class NaverPlaceCollector(BaseCollector):
                 locator = page.locator(selector).last
                 if locator.count() == 0 or not locator.is_visible():
                     continue
+                locator.scroll_into_view_if_needed(timeout=3_000)
                 locator.click(timeout=5_000)
+                log.debug("load-more clicked via %s", selector)
                 return True
             except Exception as exc:  # noqa: BLE001 - selector rot is expected
                 log.debug("load-more selector %s failed: %r", selector, exc)
@@ -361,6 +471,40 @@ class NaverPlaceCollector(BaseCollector):
             for _path, node in iter_review_nodes(response.get("body")):
                 keys.add(_native_id(node) or content_fingerprint(node))
         return len(keys)
+
+    def _count_dom_items(self, page: Any) -> int:
+        for selector in self.review_item_selectors:
+            try:
+                count = page.locator(selector).count()
+            except Exception:  # noqa: BLE001
+                continue
+            if count:
+                return count
+        return 0
+
+    def _dump_debug(
+        self, page: Any, result: CollectionResult, api_trace: list[str]
+    ) -> None:
+        """When the primary path saw nothing, keep what the page really did."""
+        if not self.debug_dir:
+            return
+        import pathlib
+
+        debug_dir = pathlib.Path(self.debug_dir)
+        debug_dir.mkdir(parents=True, exist_ok=True)
+        stem = f"debug_{result.resolved_place_id or 'unknown'}"
+        try:
+            (debug_dir / f"{stem}_requests.txt").write_text(
+                "\n".join(api_trace) or "(no graphql requests observed)",
+                encoding="utf-8",
+            )
+            (debug_dir / f"{stem}_page.html").write_text(
+                page.content(), encoding="utf-8"
+            )
+            page.screenshot(path=str(debug_dir / f"{stem}.png"), full_page=False)
+            log.info("wrote debug snapshot -> %s/%s*", debug_dir, stem)
+        except Exception as exc:  # noqa: BLE001
+            result.record_failure(f"debug dump failed: {exc!r}")
 
     # ------------------------------------------------------------------
     def _extract_dom_reviews(
@@ -390,14 +534,18 @@ class NaverPlaceCollector(BaseCollector):
                     images = node.locator("img").evaluate_all(
                         "els => els.map(e => e.src).filter(Boolean)"
                     )
-                    items.append(
-                        {
-                            "_dom_index": index,
-                            "_dom_selector": selector,
-                            "body": text,
-                            "media": [{"thumbnail": src} for src in images],
-                        }
-                    )
+                    item: dict[str, Any] = {
+                        "_dom_index": index,
+                        "_dom_selector": selector,
+                        "body": text,
+                        "media": [
+                            {"thumbnail": src}
+                            for src in images
+                            if _is_review_photo(src)
+                        ],
+                    }
+                    item.update(_parse_dom_text(text))
+                    items.append(item)
                 except Exception as exc:  # noqa: BLE001
                     result.record_failure(f"dom item {index} unreadable: {exc!r}")
             if items:
@@ -440,7 +588,7 @@ class NaverPlaceCollector(BaseCollector):
             for _path, node in iter_review_nodes(response.get("body")):
                 if len(result.reviews) >= limit:
                     break
-                add(node, "graphql")
+                add(node, response.get("source", "graphql"))
 
         if not result.reviews and dom_items:
             log.info(

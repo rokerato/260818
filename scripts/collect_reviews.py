@@ -52,6 +52,10 @@ def build_parser() -> argparse.ArgumentParser:
     )
     parser.add_argument("--browser-executable")
     parser.add_argument(
+        "--debug-dir", metavar="DIR",
+        help="dump page HTML/screenshot to DIR when a page yields no API data",
+    )
+    parser.add_argument(
         "--replay-raw", type=Path, metavar="DIR",
         help="skip collection and re-normalize archived raw JSON from DIR",
     )
@@ -85,6 +89,8 @@ def main(argv: list[str] | None = None) -> int:
         settings.base_url = args.base_url
     if args.browser_executable:
         settings.browser_executable = args.browser_executable
+    if args.debug_dir:
+        settings.debug_dir = str(args.debug_dir)
     if args.csv_bom:
         settings.csv_encoding = "utf-8-sig"
     if args.headful:

@@ -22,6 +22,7 @@ _PAGE_HTML = """<!doctype html>
 <html lang="ko"><head><meta charset="utf-8"><title>테스트 장소 방문자 리뷰</title></head>
 <body>
   <h1 id="place-name">테스트 장소</h1>
+  <script>window.__APOLLO_STATE__ = __INLINE_STATE__;</script>
   <ul id="_review_list"></ul>
   <a href="#" class="fvwqf" id="more">더보기</a>
   <script>
@@ -116,7 +117,15 @@ class _Handler(BaseHTTPRequestHandler):
     def do_GET(self) -> None:  # noqa: N802
         # Only the configured place exists, so tests can exercise a bad target.
         if "/review/visitor" in self.path and f"/{self.place_id}/" in self.path:
-            html = _PAGE_HTML.replace("__PLACE_ID__", self.place_id)
+            # Like the real page: the first couple of reviews arrive inlined in
+            # the HTML (Apollo cache), the rest via GraphQL fetches.
+            inline = {
+                f"VisitorReview:{make_review(i)['id']}": make_review(i)
+                for i in range(2)
+            }
+            html = _PAGE_HTML.replace("__PLACE_ID__", self.place_id).replace(
+                "__INLINE_STATE__", json.dumps(inline, ensure_ascii=False)
+            )
             self._send(200, html.encode("utf-8"), "text/html; charset=utf-8")
         else:
             self._send(

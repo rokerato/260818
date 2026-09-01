@@ -54,6 +54,8 @@ def build_collector(platform: str, config: Config) -> BaseCollector:
     }
     if settings.base_url:
         kwargs["base_url"] = settings.base_url
+    if settings.debug_dir:
+        kwargs["debug_dir"] = settings.debug_dir
     return collector_cls(**kwargs)
 
 

@@ -96,7 +96,8 @@ jobs:
           python scripts/collect_reviews.py \
             --only "$ONLY" \
             --max-reviews "$IN_MAX_REVIEWS" \
-            --delay "$IN_DELAY" 2>&1 | tee logs/collect.log
+            --delay "$IN_DELAY" \
+            --debug-dir logs 2>&1 | tee logs/collect.log
 
       - name: Commit results to branch
         if: always()

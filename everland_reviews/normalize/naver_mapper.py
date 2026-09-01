@@ -45,7 +45,11 @@ _MENU_NAME = ("name", "menuName", "displayName", "title")
 #: Values of ``originType``/``visitConfirmType`` that Naver surfaces as a
 #: visit-verified badge (receipt, card, or booking confirmation).
 _VERIFIED_TOKENS = frozenset(
-    {"receipt", "card", "booking", "reservation", "pay", "payment", "visit"}
+    {
+        "receipt", "card", "booking", "reservation", "pay", "payment", "visit",
+        # Korean labels as rendered on the page / returned by the API.
+        "영수증", "카드", "결제", "예약", "방문",
+    }
 )
 _VERIFIED_KEYS = (
     "originType",
@@ -56,7 +60,7 @@ _VERIFIED_KEYS = (
     "visitConfirmed",
 )
 
-_ISO_DATE = re.compile(r"(\d{4})[-./](\d{1,2})[-./](\d{1,2})")
+_ISO_DATE = re.compile(r"(\d{4})[-./년]\s*(\d{1,2})[-./월]\s*(\d{1,2})")
 _SHORT_DATE = re.compile(r"^(\d{2})[.\-/](\d{1,2})[.\-/](\d{1,2})")
 _DIGITS = re.compile(r"\d+")
 

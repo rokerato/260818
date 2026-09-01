@@ -89,7 +89,9 @@ def test_end_to_end() -> None:
         raw = json.loads(raw_files[0].read_text(encoding="utf-8"))
         assert raw["review_count"] == TOTAL
         assert raw["raw_responses"], "verbatim GraphQL responses must be archived"
-        assert raw["reviews"][0]["source"] == "graphql", raw["reviews"][0]["source"]
+        sources = {r["source"] for r in raw["reviews"]}
+        assert sources <= {"graphql", "inline"}, sources
+        assert "graphql" in sources, sources
         assert "테스트사용자" in json.dumps(raw, ensure_ascii=False), "Korean preserved"
         print(f"OK  raw archive: {len(raw['raw_responses'])} graphql responses kept")
 
