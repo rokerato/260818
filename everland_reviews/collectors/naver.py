@@ -324,6 +324,26 @@ class NaverPlaceCollector(BaseCollector):
             f"target {target.name!r} has neither a usable url nor a place_id"
         )
 
+    def page_variants(self, review_url: str) -> list[str]:
+        """Distinct server-rendered views of the same review list.
+
+        Each full page load inlines its own Apollo batch, so different sort
+        orders -- and the mobile host, which renders the same list under a
+        different layout -- surface overlapping but not identical slices.
+        Loading several and de-duplicating yields more per run than one load
+        can, which matters when the GraphQL pager is unavailable. A variant
+        that 404s, redirects to the default view, or adds nothing new is a
+        harmless no-op.
+        """
+        base = review_url.split("?")[0]
+        variants = [base]
+        for sort in ("recent", "useful"):
+            variants.append(f"{base}?reviewSort={sort}")
+        # m.place serves the same place ids under the mobile layout.
+        if "pcmap.place.naver.com" in base:
+            variants.append(base.replace("pcmap.place", "m.place"))
+        return variants
+
     # ------------------------------------------------------------------
     # collection
     # ------------------------------------------------------------------
@@ -366,15 +386,33 @@ class NaverPlaceCollector(BaseCollector):
                 page = context.new_page()
                 captured: list[dict[str, Any]] = []
                 api_trace: list[str] = []
+                dom_items: list[dict[str, Any]] = []
                 self._attach_graphql_capture(page, captured, result, api_trace)
-                self._drive_page(page, review_url, limit, result, captured)
-                # The landing URL is authoritative once redirects have settled.
-                if not result.resolved_place_id:
-                    result.resolved_place_id = parse_place_id(page.url)
-                    result.resolved_place_url = page.url
-                # Harvest after pagination so the inlined cache is at its fullest.
-                self._harvest_inline_state(page, captured, result)
-                dom_items = self._extract_dom_reviews(page, result)
+
+                for index, variant in enumerate(self.page_variants(review_url)):
+                    if self._count_unique(captured) >= limit:
+                        break
+                    if index:
+                        # Space out the extra views; they are optional extras.
+                        time.sleep(self.request_delay)
+                    before = self._count_unique(captured)
+                    self._drive_page(
+                        page, variant, limit, result, captured, optional=bool(index)
+                    )
+                    # The landing URL is authoritative once redirects settle.
+                    if not result.resolved_place_id:
+                        result.resolved_place_id = parse_place_id(page.url)
+                        result.resolved_place_url = page.url
+                    # Harvest after pagination, when the cache is fullest.
+                    self._harvest_inline_state(page, captured, result)
+                    dom_items.extend(self._extract_dom_reviews(page, result))
+                    gained = self._count_unique(captured) - before
+                    log.info(
+                        "[%s] variant %d/%d added %d review(s): %s",
+                        result.target.name, index + 1,
+                        len(self.page_variants(review_url)), gained, variant,
+                    )
+
                 if not any(c["source"] == "graphql" for c in captured):
                     self._dump_debug(page, result, api_trace)
                 context.close()
@@ -465,14 +503,23 @@ class NaverPlaceCollector(BaseCollector):
         limit: int,
         result: CollectionResult,
         captured: list[dict[str, Any]],
+        optional: bool = False,
     ) -> None:
-        """Open the review page and press 더보기 until the limit is reached."""
+        """Open the review page and press 더보기 until the limit is reached.
+
+        ``optional`` marks an extra view whose absence is not a problem: a
+        variant that does not exist is logged, not recorded as a failure.
+        """
         try:
             page.goto(
                 review_url, timeout=self.page_timeout_ms, wait_until="domcontentloaded"
             )
         except Exception as exc:  # noqa: BLE001
-            result.record_failure(f"navigation to {review_url} failed: {exc!r}")
+            message = f"navigation to {review_url} failed: {exc!r}"
+            if optional:
+                log.info("[%s] skipping variant: %s", result.target.name, message)
+            else:
+                result.record_failure(message)
             return
 
         self._settle(page)

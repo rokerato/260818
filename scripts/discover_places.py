@@ -32,7 +32,24 @@ from typing import Any, Iterator
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
-DEFAULT_QUERIES = ["에버랜드 레스토랑", "에버랜드 맛집", "에버랜드 카페"]
+#: Naver search returns a bounded result list per query, so coverage comes
+#: from asking several ways: generic food terms, outlet types, and the park's
+#: themed zones (each zone has its own restaurants and cafes).
+DEFAULT_QUERIES = [
+    "에버랜드 레스토랑",
+    "에버랜드 맛집",
+    "에버랜드 카페",
+    "에버랜드 식당",
+    "에버랜드 푸드코트",
+    "에버랜드 베이커리",
+    "에버랜드 스낵",
+    "에버랜드 커피",
+    "에버랜드 글로벌페어",
+    "에버랜드 아메리칸어드벤처",
+    "에버랜드 매직랜드",
+    "에버랜드 유러피언어드벤처",
+    "에버랜드 주토피아",
+]
 #: Everland's street address: 경기 용인시 처인구 포곡읍 에버랜드로 199.
 ADDRESS_MARKER = "에버랜드로"
 FOOD_TOKENS = (
@@ -227,7 +244,7 @@ def main(argv: list[str] | None = None) -> int:
         "--query", action="append",
         help=f"search query, repeatable (default: {DEFAULT_QUERIES})",
     )
-    parser.add_argument("--max-targets", type=int, default=3)
+    parser.add_argument("--max-targets", type=int, default=30)
     parser.add_argument("--config", default=str(ROOT / "config/restaurants.yaml"))
     parser.add_argument("--chromium-path", default=None)
     parser.add_argument("--dry-run", action="store_true")

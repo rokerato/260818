@@ -20,16 +20,16 @@ on:
     inputs:
       queries:
         description: "Comma-separated Naver Map search queries for target discovery"
-        default: "에버랜드 레스토랑,에버랜드 맛집,에버랜드 카페"
+        default: ""   # empty = the script's full default query set
       max_targets:
         description: "How many verified venues to put in the config"
-        default: "3"
+        default: "30"
       only:
         description: "Collect only restaurants whose name contains this substring (empty = first target only)"
         default: ""
       max_reviews:
         description: "Review cap per restaurant"
-        default: "100"
+        default: "200"
       delay:
         description: "Seconds between pagination interactions"
         default: "2.0"
@@ -48,12 +48,12 @@ jobs:
   collect:
     if: github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[collect]')
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 90
     env:
-      IN_QUERIES: ${{ inputs.queries || '에버랜드 레스토랑,에버랜드 맛집,에버랜드 카페' }}
-      IN_MAX_TARGETS: ${{ inputs.max_targets || '3' }}
+      IN_QUERIES: ${{ inputs.queries || '' }}
+      IN_MAX_TARGETS: ${{ inputs.max_targets || '30' }}
       IN_ONLY: ${{ inputs.only || '' }}
-      IN_MAX_REVIEWS: ${{ inputs.max_reviews || '100' }}
+      IN_MAX_REVIEWS: ${{ inputs.max_reviews || '200' }}
       IN_DELAY: ${{ inputs.delay || '2.0' }}
       IN_SKIP_DISCOVERY: ${{ inputs.skip_discovery || 'false' }}
     steps:
@@ -72,9 +72,11 @@ jobs:
         if: ${{ env.IN_SKIP_DISCOVERY != 'true' }}
         run: |
           mkdir -p logs
-          IFS=',' read -ra QUERIES <<< "$IN_QUERIES"
           ARGS=()
-          for q in "${QUERIES[@]}"; do ARGS+=(--query "$q"); done
+          if [ -n "$IN_QUERIES" ]; then
+            IFS=',' read -ra QUERIES <<< "$IN_QUERIES"
+            for q in "${QUERIES[@]}"; do ARGS+=(--query "$q"); done
+          fi
           python scripts/discover_places.py "${ARGS[@]}" \
             --max-targets "$IN_MAX_TARGETS" 2>&1 | tee logs/discovery.log
 
