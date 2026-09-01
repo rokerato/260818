@@ -1,0 +1,47 @@
+{
+  "run": "20260901T020406Z",
+  "restaurants": [
+    {
+      "restaurant": "매직타임레스토랑",
+      "platform": "naver",
+      "place_id": "1527871697",
+      "place_url": "https://pcmap.place.naver.com/restaurant/1527871697/review/visitor",
+      "reviews_collected": 10,
+      "reviews_with_text": 10,
+      "reviews_with_rating": 0,
+      "reviews_with_date": 0,
+      "duplicate_reviews_removed": 0,
+      "collection_failures": 1,
+      "failure_messages": [
+        "unreadable graphql response https://pcmap-api.place.naver.com/graphql: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')"
+      ],
+      "field_coverage": {
+        "platform": 10,
+        "place_name": 10,
+        "place_id": 10,
+        "place_url": 10,
+        "review_id": 0,
+        "reviewer_name": 0,
+        "reviewer_profile_id": 0,
+        "reviewer_profile_url": 0,
+        "rating": 0,
+        "review_text": 10,
+        "review_date": 0,
+        "visit_date": 0,
+        "visit_count": 0,
+        "review_image_count": 10,
+        "review_image_urls": 10,
+        "helpful_count": 0,
+        "keywords": 0,
+        "menus": 0,
+        "verified_visit": 0,
+        "collected_at": 10,
+        "raw_ref": 10
+      }
+    }
+  ],
+  "normalized_csv": "data/normalized/reviews_20260901T020406Z.csv",
+  "validation_warnings": [
+    "10 review(s) have no platform review_id"
+  ]
+}

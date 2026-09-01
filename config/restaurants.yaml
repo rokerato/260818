@@ -1,60 +1,34 @@
-# Everland restaurant / cafe review collection targets.
-#
-# Adding a restaurant is a change to THIS FILE ONLY -- never to crawler logic.
-#
-# HOW TO FILL IN A TARGET
-# ----------------------
-#   1. Open https://map.naver.com and search for the venue, e.g.
-#      "에버랜드 <restaurant name>".
-#   2. Click the place. The address bar becomes something like
-#        https://map.naver.com/p/entry/place/1234567890
-#      The trailing number is the Naver place id.
-#   3. Add an entry below with that URL (or just the place_id).
-#
-# Nothing is pre-filled: place ids must come from a real lookup, so this file
-# ships empty rather than with guessed or invented URLs.
-
 settings:
-  # Hard cap on reviews fetched per restaurant. Overridable with --max-reviews.
   max_reviews_per_restaurant: 200
-
-  # Seconds to wait between pagination interactions. Keep this conservative --
-  # the collector drives a real browser against someone else's service.
   request_delay_seconds: 1.5
-
   page_timeout_ms: 30000
-
-  # Stop paginating after this many consecutive rounds that yield no new review.
   max_empty_rounds: 3
-
   headless: true
-  locale: "ko-KR"
-
-  # Optional: path to a Chromium binary. Leave null to use Playwright's own.
+  locale: ko-KR
   browser_executable: null
-
-  # Optional: override the User-Agent string. Leave null for Playwright's default.
   user_agent: null
-
-  raw_dir: "data/raw"
-  normalized_dir: "data/normalized"
-
-  # Plain UTF-8. Use --csv-bom (utf-8-sig) if the CSV will be opened in Excel
-  # on Windows, which otherwise mis-renders Korean text.
-  csv_encoding: "utf-8"
-
-restaurants: []
-# Example entries -- replace with real Naver Place URLs before running:
-#
-#   - name: "Restaurant A"
-#     url: "https://map.naver.com/p/entry/place/<PLACE_ID>"
-#
-#   - name: "Cafe B"
-#     place_id: "<PLACE_ID>"
-#     category: "cafe"          # 'restaurant' (default) or 'cafe' -- Naver
-#                               # serves place pages under this path segment
-#     max_reviews: 300          # optional per-restaurant override
-#
-#   - name: "Temporarily skipped venue"
-#     url: "https://map.naver.com/p/entry/place/<PLACE_ID>"
-#     enabled: false            # keep the entry, skip it this run
+  raw_dir: data/raw
+  normalized_dir: data/normalized
+  csv_encoding: utf-8
+restaurants:
+- name: 매직타임레스토랑
+  place_id: '1527871697'
+  category: restaurant
+  address: 경기도 용인시 처인구 포곡읍 에버랜드로 199
+  naver_category:
+  - 음식점
+  - 양식
+- name: 알파인레스토랑
+  place_id: '1678026825'
+  category: restaurant
+  address: 경기도 용인시 처인구 포곡읍 에버랜드로 199
+  naver_category:
+  - 음식점
+  - 한식
+- name: KFC 용인에버랜드
+  place_id: '37747059'
+  category: restaurant
+  address: 경기도 용인시 처인구 포곡읍 에버랜드로 199
+  naver_category:
+  - 양식
+  - 햄버거

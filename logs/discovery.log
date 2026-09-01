@@ -1,0 +1,25 @@
+searching: 에버랜드 레스토랑
+  no place entries in response from https://map.naver.com/p/api/search/allSearch
+  http attempt failed (https://m.map.naver.com/search2/searchMore.naver): JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+  http endpoints yielded nothing; trying browser fallback
+  20 raw place entries
+searching: 에버랜드 맛집
+  no place entries in response from https://map.naver.com/p/api/search/allSearch
+  http attempt failed (https://m.map.naver.com/search2/searchMore.naver): JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+  http endpoints yielded nothing; trying browser fallback
+  20 raw place entries
+searching: 에버랜드 카페
+  no place entries in response from https://map.naver.com/p/api/search/allSearch
+  http attempt failed (https://m.map.naver.com/search2/searchMore.naver): JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+  http endpoints yielded nothing; trying browser fallback
+  20 raw place entries
+
+verified Everland targets (3):
+  - 매직타임레스토랑  id=1527871697
+      경기도 용인시 처인구 포곡읍 에버랜드로 199  ['음식점', '양식']
+  - 알파인레스토랑  id=1678026825
+      경기도 용인시 처인구 포곡읍 에버랜드로 199  ['음식점', '한식']
+  - KFC 용인에버랜드  id=37747059
+      경기도 용인시 처인구 포곡읍 에버랜드로 199  ['양식', '햄버거']
+
+wrote 3 targets -> /home/runner/work/260818/260818/config/restaurants.yaml

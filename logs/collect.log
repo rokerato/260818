@@ -1,0 +1,52 @@
+2026-09-01 02:04:11,638 WARNING everland_reviews.collectors.base | [매직타임레스토랑] unreadable graphql response https://pcmap-api.place.naver.com/graphql: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2026-09-01 02:05:12,576 INFO    everland_reviews.collectors.naver | [매직타임레스토랑] no graphql reviews captured; falling back to DOM extraction
+2026-09-01 02:05:12,577 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_매직타임레스토랑_20260901T020406Z.json
+2026-09-01 02:05:12,579 INFO    everland_reviews.storage | wrote 10 normalized reviews -> data/normalized/reviews_20260901T020406Z.csv
+
+Restaurant: 매직타임레스토랑
+Reviews collected: 10
+Reviews with text: 10
+Reviews with rating: 0
+Reviews with date: 0
+Duplicate reviews removed: 0
+Collection failures: 1
+  - unreadable graphql response https://pcmap-api.place.naver.com/graphql: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+
+============================================================
+Overall
+Restaurants processed: 1
+Restaurants with at least one review: 1
+Reviews collected: 10
+Reviews with text: 10
+Reviews with rating: 0
+Reviews with date: 0
+Duplicate reviews removed: 0
+Collection failures: 1
+
+Field availability across the collected dataset:
+  platform                   10 / 10  (100.0%)
+  place_name                 10 / 10  (100.0%)
+  place_id                   10 / 10  (100.0%)
+  place_url                  10 / 10  (100.0%)
+  review_id                   0 / 10  (  0.0%)
+  reviewer_name               0 / 10  (  0.0%)
+  reviewer_profile_id         0 / 10  (  0.0%)
+  reviewer_profile_url        0 / 10  (  0.0%)
+  rating                      0 / 10  (  0.0%)
+  review_text                10 / 10  (100.0%)
+  review_date                 0 / 10  (  0.0%)
+  visit_date                  0 / 10  (  0.0%)
+  visit_count                 0 / 10  (  0.0%)
+  review_image_count         10 / 10  (100.0%)
+  review_image_urls          10 / 10  (100.0%)
+  helpful_count               0 / 10  (  0.0%)
+  keywords                    0 / 10  (  0.0%)
+  menus                       0 / 10  (  0.0%)
+  verified_visit              0 / 10  (  0.0%)
+  collected_at               10 / 10  (100.0%)
+  raw_ref                    10 / 10  (100.0%)
+
+Validation warnings:
+  - 10 review(s) have no platform review_id
+
+Normalized CSV: data/normalized/reviews_20260901T020406Z.csv

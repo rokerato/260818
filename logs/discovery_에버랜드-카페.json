@@ -1,0 +1,4281 @@
+[
+ {
+  "url": "https://map.naver.com/p/api/search/bubble-keyword-list",
+  "body": {
+   "result": {
+    "bubbleKeywords": [
+     {
+      "sort": 1,
+      "type": "SEARCH_QUERY",
+      "code": "DINING",
+      "name": "음식점",
+      "query": "음식점",
+      "icon": {
+       "name": "dining_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.dining",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 2,
+      "type": "SEARCH_QUERY",
+      "code": "CAFE",
+      "name": "카페",
+      "query": "카페",
+      "icon": {
+       "name": "cafe_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.cafe",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 3,
+      "type": "SEARCH_QUERY",
+      "code": "POPUPSTORE",
+      "name": "팝업스토어",
+      "query": "팝업스토어",
+      "icon": {
+       "name": "popupstore_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.popupstore",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 4,
+      "type": "SEARCH_QUERY",
+      "code": "PENSION",
+      "name": "펜션",
+      "query": "펜션",
+      "icon": {
+       "name": "pension_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.pension",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 5,
+      "type": "SEARCH_QUERY",
+      "code": "COUPON",
+      "name": "쿠폰",
+      "query": "쿠폰",
+      "icon": {
+       "name": "coupon_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.coupon",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 6,
+      "type": "SEARCH_QUERY",
+      "code": "PICKUP",
+      "name": "주문",
+      "query": "N주문",
+      "icon": {
+       "name": "pickup_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.smartorder",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 7,
+      "type": "SEARCH_QUERY",
+      "code": "STORE",
+      "name": "편의점",
+      "query": "편의점",
+      "icon": {
+       "name": "store_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.store",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 8,
+      "type": "SEARCH_QUERY",
+      "code": "MART",
+      "name": "마트",
+      "query": "마트",
+      "icon": {
+       "name": "mart_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.mart",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 9,
+      "type": "SEARCH_QUERY",
+      "code": "HAIR",
+      "name": "헤어샵",
+      "query": "헤어샵",
+      "icon": {
+       "name": "hair_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.hair",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 10,
+      "type": "SEARCH_QUERY",
+      "code": "HOTEL",
+      "name": "호텔",
+      "query": "호텔",
+      "icon": {
+       "name": "hotel_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.hotel",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 11,
+      "type": "SEARCH_QUERY",
+      "code": "CAMPING",
+      "name": "캠핑장",
+      "query": "캠핑장",
+      "icon": {
+       "name": "camping_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.camping",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 12,
+      "type": "SEARCH_QUERY",
+      "code": "MOTEL",
+      "name": "모텔",
+      "query": "모텔",
+      "icon": {
+       "name": "motel_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.motel",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 13,
+      "type": "SEARCH_QUERY",
+      "code": "OIL",
+      "name": "주유소",
+      "query": "주유소",
+      "icon": {
+       "name": "oil_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.oil",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 14,
+      "type": "SEARCH_QUERY",
+      "code": "PARKING",
+      "name": "주차장",
+      "query": "주차장",
+      "icon": {
+       "name": "parking_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.parking",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 15,
+      "type": "SEARCH_QUERY",
+      "code": "PHARMACY",
+      "name": "약국",
+      "query": "약국",
+      "icon": {
+       "name": "pharmacy_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.pharmacy",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 16,
+      "type": "SEARCH_QUERY",
+      "code": "BANK",
+      "name": "은행",
+      "query": "은행",
+      "icon": {
+       "name": "bank_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.bank",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 17,
+      "type": "SEARCH_QUERY",
+      "code": "HOSPITAL",
+      "name": "병원",
+      "query": "병원",
+      "icon": {
+       "name": "hospital_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.hospital",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 18,
+      "type": "SEARCH_QUERY",
+      "code": "EMERGENCYCARE",
+      "name": "응급진료",
+      "query": "응급의료시설",
+      "icon": {
+       "name": "emergencycare_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.emergencycare",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "url": "https://map.naver.com/p/api/search/bubble-keyword-list",
+  "body": {
+   "result": {
+    "bubbleKeywords": [
+     {
+      "sort": 1,
+      "type": "SEARCH_QUERY",
+      "code": "DINING",
+      "name": "음식점",
+      "query": "음식점",
+      "icon": {
+       "name": "dining_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.dining",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 2,
+      "type": "SEARCH_QUERY",
+      "code": "CAFE",
+      "name": "카페",
+      "query": "카페",
+      "icon": {
+       "name": "cafe_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.cafe",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 3,
+      "type": "SEARCH_QUERY",
+      "code": "POPUPSTORE",
+      "name": "팝업스토어",
+      "query": "팝업스토어",
+      "icon": {
+       "name": "popupstore_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.popupstore",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 4,
+      "type": "SEARCH_QUERY",
+      "code": "PENSION",
+      "name": "펜션",
+      "query": "펜션",
+      "icon": {
+       "name": "pension_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.pension",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 5,
+      "type": "SEARCH_QUERY",
+      "code": "COUPON",
+      "name": "쿠폰",
+      "query": "쿠폰",
+      "icon": {
+       "name": "coupon_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.coupon",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 6,
+      "type": "SEARCH_QUERY",
+      "code": "PICKUP",
+      "name": "주문",
+      "query": "N주문",
+      "icon": {
+       "name": "pickup_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.smartorder",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 7,
+      "type": "SEARCH_QUERY",
+      "code": "STORE",
+      "name": "편의점",
+      "query": "편의점",
+      "icon": {
+       "name": "store_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.store",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 8,
+      "type": "SEARCH_QUERY",
+      "code": "MART",
+      "name": "마트",
+      "query": "마트",
+      "icon": {
+       "name": "mart_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.mart",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 9,
+      "type": "SEARCH_QUERY",
+      "code": "HAIR",
+      "name": "헤어샵",
+      "query": "헤어샵",
+      "icon": {
+       "name": "hair_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.hair",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 10,
+      "type": "SEARCH_QUERY",
+      "code": "HOTEL",
+      "name": "호텔",
+      "query": "호텔",
+      "icon": {
+       "name": "hotel_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.hotel",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 11,
+      "type": "SEARCH_QUERY",
+      "code": "CAMPING",
+      "name": "캠핑장",
+      "query": "캠핑장",
+      "icon": {
+       "name": "camping_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.camping",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 12,
+      "type": "SEARCH_QUERY",
+      "code": "MOTEL",
+      "name": "모텔",
+      "query": "모텔",
+      "icon": {
+       "name": "motel_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.motel",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 13,
+      "type": "SEARCH_QUERY",
+      "code": "OIL",
+      "name": "주유소",
+      "query": "주유소",
+      "icon": {
+       "name": "oil_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.oil",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 14,
+      "type": "SEARCH_QUERY",
+      "code": "PARKING",
+      "name": "주차장",
+      "query": "주차장",
+      "icon": {
+       "name": "parking_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.parking",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 15,
+      "type": "SEARCH_QUERY",
+      "code": "PHARMACY",
+      "name": "약국",
+      "query": "약국",
+      "icon": {
+       "name": "pharmacy_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.pharmacy",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 16,
+      "type": "SEARCH_QUERY",
+      "code": "BANK",
+      "name": "은행",
+      "query": "은행",
+      "icon": {
+       "name": "bank_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.bank",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 17,
+      "type": "SEARCH_QUERY",
+      "code": "HOSPITAL",
+      "name": "병원",
+      "query": "병원",
+      "icon": {
+       "name": "hospital_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.hospital",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 18,
+      "type": "SEARCH_QUERY",
+      "code": "EMERGENCYCARE",
+      "name": "응급진료",
+      "query": "응급의료시설",
+      "icon": {
+       "name": "emergencycare_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.emergencycare",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "url": "https://map.naver.com/p/api/search/allSearch?query=%EC%97%90%EB%B2%84%EB%9E%9C%EB%93%9C+%EC%B9%B4%ED%8E%98&type=all&searchCoord=126.97825%3B37.566551&boundary=&sscode=svc.mapv5.search&token=l_ePg11m5VrrDm34yx0OYukVf9NjiK6NbgHv9728jsU%3D",
+  "body": {
+   "result": {
+    "type": "place",
+    "metaInfo": {
+     "pageId": "bbfe5d33-fa5b-46a9-9571-ed6bd99b66a3",
+     "sessionId": null,
+     "rcode": "09140103",
+     "searchedQuery": "에버랜드 카페",
+     "queryTypes": [
+      "query_spot",
+      "query_category"
+     ],
+     "regionQuery": true,
+     "busQuery": false,
+     "correction": null,
+     "displayCorrectAnswer": false
+    },
+    "address": null,
+    "place": {
+     "page": 1,
+     "totalCount": 108,
+     "boundary": [
+      "127.1993116",
+      "37.2979782",
+      "127.2245935",
+      "37.2852235"
+     ],
+     "feedback": [
+      "<strong>'에버랜드'</strong>",
+      "근처 <strong>'카페'</strong>"
+     ],
+     "options": {
+      "sort": "0",
+      "toggleLocation": "0",
+      "rank": "1"
+     },
+     "filters": {},
+     "reSearch": null,
+     "isSiteSortAvailable": false,
+     "specializedSearch": null,
+     "hasPollingPlace": false,
+     "isAdultKeyword": false,
+     "containAdultContents": false,
+     "address": null,
+     "brandPromotion": null,
+     "list": [
+      {
+       "index": "0",
+       "rank": "1",
+       "id": "1246676906",
+       "name": "이디야커피 용인에버랜드역점",
+       "tel": "031-332-2282",
+       "isCallLink": false,
+       "virtualTel": "",
+       "virtualTelDisplay": "",
+       "ppc": "1",
+       "category": [
+        "카페,디저트",
+        "카페"
+       ],
+       "categoryPath": [
+        [
+         "220036",
+         "220052",
+         "220576",
+         "221288"
+        ],
+        [
+         "1004760",
+         "1004542"
+        ]
+       ],
+       "rcode": "0246125027",
+       "businessStatus": {
+        "requestTime": "202609011103",
+        "status": {
+         "code": 2,
+         "text": "영업 중",
+         "emphasis": false,
+         "description": "영업중",
+         "detailInfo": "23:00에 영업종료"
+        },
+        "businessHours": "202609010800~202609012300",
+        "breakTime": "",
+        "lastOrder": ""
+       },
+       "naviInfoText": null,
+       "naviInfo": null,
+       "address": "경기도 용인시 처인구 포곡읍 전대리 356-1 102호",
+       "roadAddress": "경기도 용인시 처인구 포곡읍 전대로78번길 19-2 102호",
+       "abbrAddress": "전대리 356-1 102호",
+       "shortAddress": [
+        "경기 용인시 처인구 포곡읍",
+        "전대로78번길 19-2",
+        "102호"
+       ],
+       "display": "이디야커피 용인<b>에버랜드</b>역점",
+       "telDisplay": "031-332-2282",
+       "context": [],
+       "reviewCount": 19,
+       "placeReviewCount": 895,
+       "ktCallMd": "4244acb5b4c92d63197536187f87d84b",
+       "coupon": "0",
+       "thumUrl": "https://ldb-phinf.pstatic.net/20260707_268/1783382644710eILOy_JPEG/%BE%F3%B9%DA%BB%E7_3%C1%BE_%B3%D7%C0%CC%B9%F6%C3%A4%B3%CE.jpg",
+       "thumUrls": [
+        "https://ldb-phinf.pstatic.net/20260707_268/1783382644710eILOy_JPEG/%BE%F3%B9%DA%BB%E7_3%C1%BE_%B3%D7%C0%CC%B9%F6%C3%A4%B3%CE.jpg",
+        "https://ldb-phinf.pstatic.net/20260521_228/1779322413201q7Kpa_JPEG/%BB%FD%B0%FA%C0%CF%C0%BD%B7%E1_3%C1%BE_%B3%D7%C0%CC%B9%F6%C3%A4%B3%CE.jpg",
+        "https://ldb-phinf.pstatic.net/20260602_3/1780358628498hFTW1_JPEG/%C0%CC%B5%F0%BE%DF_%BF%C2%B6%F3%C0%CE_SNS%2C_%B1%E2%C5%B8_1%C0%CE%BA%F9%BC%F6_%B3%D7%C0%CC%B9%F6%C3%A4%B3%CE.jpg"
+       ],
+       "type": "s",
+       "isSite": "1",
+       "posExact": "1",
+       "x": "127.2168473",
+       "y": "37.2870929",
+       "itemLevel": "12",
+       "isAdultBusiness": false,
+       "streetPanorama": {
+        "id": "bGjQK/uR1LS1JNUMx1G3Jw==",
+        "pan": "-93.51",
+        "tilt": "10.00",
+        "lng": "127.2170405",
+        "lat": "37.2871046",
+        "fov": "120"
+       },
+       "skyPanorama": {
+        "id": "myuUiz/e5KGIbnXlnQ6TQQ==",
+        "pan": "-45.89",
+        "tilt": "-30.00",
+        "lng": "127.2176553",
+        "lat": "37.2863089",
+        "fov": "124"
+       },
+       "insidePanorama": null,
+       "interiorPanorama": null,
+       "indoorPanorama": null,
+       "theme": null,
+       "poiInfo": {
+        "relation": null,
+        "hasRelation": false,
+        "road": {
+         "poiShapeType": "1",
+         "shapeKey": null,
+         "boundary": null,
+         "detail": null
+        },
+        "hasRoad": false,
+        "land": null,
+        "hasLand": false,
+        "polygon": null,
+        "hasPolygon": false
+       },
+       "homePage": "https://blog.naver.com/ediya-coffee",
+       "description": "",
+       "entranceCoords": {
+        "car": [
+         {
+          "rep": true,
+          "x": 127.21698,
+          "y": 37.286914
+         }
+        ],
+        "walk": [
+         {
+          "rep": true,
+          "x": 127.216576,
+          "y": 37.287144
+         },
+         {
+          "rep": false,
+          "x": 127.216846,
+          "y": 37.287226
+         }
+        ]
+       },
+       "isPollingPlace": false,
+       "bizhourInfo": "영업 중",
+       "menuInfo": "카페 아메리카노 3,200 | 카페 라떼 4,200 | 토피 넛 라떼 4,200 | 바닐라 라떼 4,500",
+       "petrolInfo": null,
+       "couponUrl": null,
+       "couponUrlMobile": null,
+       "hasCardBenefit": false,
+       "menuExist": "1",
+       "hasNaverBooking": false,
+       "naverBookingUrl": null,
+       "naverEasyOrderUrl": null,
+       "hasNaverSmartOrder": false,
+       "reservationLabel": {
+        "standard": false,
+        "preOrder": false,
+        "table": false,
+        "takeout": false
+       },
+       "reservation": {
+        "benefit": ""
+       },
+       "hasBroadcastInfo": false,
+       "broadcastInfo": null,
+       "shopWindowInfo": null,
+       "hasNPay": false,
+       "carWash": "0",
+       "parkingPrice": null,
+       "card": null,
+       "distance": "37574.52",
+       "marker": "nres://marker/00079-00145",
+       "markerSelected": "nres://marker/00079-00309",
+       "markerId": "221288",
+       "microReview": [],
+       "michelinGuide": null,
+       "indoor": null,
+       "markerLabel": null,
+       "subway": null,
+       "evChargerVendor": null,
+       "evChargerPublic": null,
+       "evChargerParking": null,
+       "evChargerInfo": null
+      },
+      {
+       "index": "1",
+       "rank": "2",
+       "id": "1247138068",
+       "name": "메가MGC커피 용인에버랜드역점",
+       "tel": "031-332-2171",
+       "isCallLink": false,
+       "virtualTel": "",
+       "virtualTelDisplay": "",
+       "ppc": "1",
+       "category": [
+        "카페,디저트",
+        "카페"
+       ],
+       "categoryPath": [
+        [
+         "220036",
+         "220052",
+         "220576",
+         "231192"
+        ],
+        [
+         "1004760",
+         "1004380",
+         "1002043"
+        ]
+       ],
+       "rcode": "0246125027",
+       "businessStatus": {
+        "requestTime": "202609011103",
+        "status": {
+         "code": 2,
+         "text": "영업 중",
+         "emphasis": false,
+         "description": "영업중",
+         "detailInfo": "22:25에 라스트오더"
+        },
+        "businessHours": "202609010800~202609012230",
+        "breakTime": "",
+        "lastOrder": "202609012225"
+       },
+       "naviInfoText": null,
+       "naviInfo": null,
+       "address": "경기도 용인시 처인구 포곡읍 전대리 357-7 1층 메가엠지씨커피 용인에버랜드역점",
+       "roadAddress": "경기도 용인시 처인구 포곡읍 전대로78번길 22 1층 메가엠지씨커피 용인에버랜드역점",
+       "abbrAddress": "전대리 357-7 1층 메가엠지씨커피 용인에버랜드역점",
+       "shortAddress": [
+        "경기 용인시 처인구 포곡읍",
+        "전대로78번길 22",
+        "1층 메가엠지씨커피 용인에버랜드역점"
+       ],
+       "display": "메가MGC커피 용인<b>에버랜드</b>역점",
+       "telDisplay": "031-332-2171",
+       "context": [],
+       "reviewCount": 11,
+       "placeReviewCount": 628,
+       "ktCallMd": "8c7eae8e449ab7529306bf8b68d260c4",
+       "coupon": "0",
+       "thumUrl": "https://ldb-phinf.pstatic.net/20220109_229/1641733455810c78Ed_JPEG/%B8%DE%B0%A1.jpg",
+       "thumUrls": [
+        "https://ldb-phinf.pstatic.net/20220109_229/1641733455810c78Ed_JPEG/%B8%DE%B0%A1.jpg",
+        "https://ldb-phinf.pstatic.net/20220103_10/1641218108496RSuw2_JPEG/KakaoTalk_20220103_224429161.jpg",
+        "https://ldb-phinf.pstatic.net/20220103_255/1641218113389pkwWG_JPEG/KakaoTalk_20220103_224504650.jpg"
+       ],
+       "type": "s",
+       "isSite": "1",
+       "posExact": "1",
+       "x": "127.2171506",
+       "y": "37.2868147",
+       "itemLevel": "12",
+       "isAdultBusiness": false,
+       "streetPanorama": {
+        "id": "NK3f35/7GfQvWKbGic7o9g==",
+        "pan": "82.64",
+        "tilt": "5.56",
+        "lng": "127.2170595",
+        "lat": "37.2868390",
+        "fov": "90"
+       },
+       "skyPanorama": {
+        "id": "myuUiz/e5KGIbnXlnQ6TQQ==",
+        "pan": "-44.96",
+        "tilt": "-30.00",
+        "lng": "127.2176553",
+        "lat": "37.2863089",
+        "fov": "124"
+       },
+       "insidePanorama": null,
+       "interiorPanorama": null,
+       "indoorPanorama": null,
+       "theme": null,
+       "poiInfo": {
+        "relation": null,
+        "hasRelation": false,
+        "road": {
+         "poiShapeType": "1",
+         "shapeKey": null,
+         "boundary": null,
+         "detail": null
+        },
+        "hasRoad": false,
+        "land": null,
+        "hasLand": false,
+        "polygon": null,
+        "hasPolygon": false
+       },
+       "homePage": "",
+       "description": "",
+       "entranceCoords": {
+        "car": [
+         {
+          "rep": true,
+          "x": 127.217123,
+          "y": 37.286778
+         }
+        ],
+        "walk": [
+         {
+          "rep": true,
+          "x": 127.217123,
+          "y": 37.286778
+         }
+        ]
+       },
+       "isPollingPlace": false,
+       "bizhourInfo": "영업 중",
+       "menuInfo": "아메리카노 2,000 | 메가리카노 3,300 | 바닐라 아메리카노 2,700 | 헤이즐넛 아메리카노 2,700 | 꿀아메리카노 2,700 | 헛개리카노 2,400 | 왕메가헛개리카노 3,400 | 카페라떼 2,900 | 왕메가카페라떼 4,400 | 바닐라 라떼 3,400 | 헤이즐넛라떼 3,400 | 라이트 바닐라 아몬드라떼 3,900 | 카페모카 3,900 | 카푸치노 2,900 | 카라멜마끼아또 3,700 | 큐브라떼 4,200 | 연유라떼 3,900 | 디카페인 아메리카노 2,500 | 디카페인 메가리카노 4,500 | 디카페인 바닐라 아메리카노 3,700 | 디카페인 헤이즐넛 아메리카노 3,700 | 디카페인 꿀아메리카노 3,700 | 디카페인 헛개리카노 3,400 | 디카페인 왕메가헛개리카노 4,900 | 디카페인 카페라떼 3,900 | 디카페인 왕메가카페라떼 5,900 | 디카페인 바닐라라떼 4,400 | 디카페인 헤이즐넛라떼 4,400 | 디카페인 라이트 바닐라 아몬드라떼 4,900 | 디카페인 카페모카 4,900 | 디카페인 카푸치노 3,900 | 디카페인 카라멜마끼아또 4,700 | 디카페인 연유라떼 4,900 | 콜드브루 오리지널 3,500 | 콜드브루 라떼 4,000 | 콜드브루 디카페인 3,500 | 콜드브루 디카페인 라떼 4,000 | 플레인요거트스무디 3,900 | 망고요거트스무디 3,900 | 딸기요거트스무디 3,900 | 골드망고스무디 3,900 | 코코넛커피스무디 4,800 | 쿠키프라페 3,900 | 딸기쿠키프라페 3,900 | 리얼초코프라페 3,900 | 커피프라페 3,900 | 녹차프라페 3,900 | 민트프라페 3,900 | 플레인퐁크러쉬 3,900 | 딸기퐁크러쉬 3,900 | 바나나퐁크러쉬 3,900 | 초코허니퐁크러쉬 3,900 | 딸기라떼 3,700 | 오레오초코라떼 3,900 | 녹차라떼 3,500 | 고구마라떼 3,500 | 곡물라떼 3,300 | 로얄밀크티라떼 3,700 | 흑당버블라떼 3,700 | 흑당버블밀크티라떼 3,800 | 왕메가초코 4,400 | 아이스초코 3,500 | 핫초코 3,500 | 메가에이드 3,900 | 자몽에이드 3,500 | 청포도에이드 3,500 | 레몬에이드 3,500 | 블루레몬에이드 3,500 | 라임모히또 3,800 | 체리콜라 3,300 | 복숭아아이스티 3,000 | 왕메가아이스티 3,900 | 제로 복숭아 아이스티 3,000 | 딸기주스 4,000 | 딸기바나나주스 4,000 | 사과유자차 3,500 | 왕메가사과유자차 4,400 | 허니자몽블랙티 3,700 | 유자차 3,300 | 자몽차 3,300 | 레몬차 3,300 | 녹차 2,500 | 얼그레이 2,500 | 페퍼민트 2,500 | 캐모마일 2,500 | 허니브레드 4,500 | 크로크무슈 3,800 | 감자빵 3,500 | 멕시칸 미트칠리 핫도그 3,800 | 아이스 허니 와앙 슈 2,400 | 메가초코 마카롱 2,100 | 딸기요거트 마카롱 2,100 | 유니콘 프라페 마카롱 2,100 | 치즈케익 3,500 | 초코무스케익 3,500 | 티라미수케익 3,500 | 초코스모어쿠키 2,900 | 로얄 밀크티 스모어 쿠키 2,900 | 메가쿠키(초코칩) 2,000 | 메가쿠키(마카다미아) 2,000",
+       "petrolInfo": null,
+       "couponUrl": null,
+       "couponUrlMobile": null,
+       "hasCardBenefit": false,
+       "menuExist": "1",
+       "hasNaverBooking": false,
+       "naverBookingUrl": null,
+       "naverEasyOrderUrl": null,
+       "hasNaverSmartOrder": false,
+       "reservationLabel": {
+        "standard": false,
+        "preOrder": false,
+        "table": false,
+        "takeout": false
+       },
+       "reservation": {
+        "benefit": ""
+       },
+       "hasBroadcastInfo": false,
+       "broadcastInfo": null,
+       "shopWindowInfo": null,
+       "hasNPay": false,
+       "carWash": "0",
+       "parkingPrice": null,
+       "card": null,
+       "distance": "37615.93",
+       "marker": "nres://marker/00079-00145",
+       "markerSelected": "nres://marker/00079-00309",
+       "markerId": "231192",
+       "microReview": [],
+       "michelinGuide": null,
+       "indoor": null,
+       "markerLabel": null,
+       "subway": null,
+       "evChargerVendor": null,
+       "evChargerPublic": null,
+       "evChargerParking": null,
+       "evChargerInfo": null
+      },
+      {
+       "index": "2",
+       "rank": "3",
+       "id": "2020897270",
+       "name": "크레페허브 용인에버랜드점",
+       "tel": "0507-1328-1368",
+       "isCallLink": false,
+       "virtualTel": "0507-1328-1368",
+       "virtualTelDisplay": "0507-1328-1368",
+       "ppc": "1",
+       "category": [
+        "음식점",
+        "카페,디저트"
+       ],
+       "categoryPath": [
+        [
+         "220036",
+         "220052",
+         "220563"
+        ]
+       ],
+       "rcode": "0246125027",
+       "businessStatus": {
+        "requestTime": "202609011103",
+        "status": {
+         "code": 2,
+         "text": "영업 중",
+         "emphasis": false,
+         "description": "영업중",
+         "detailInfo": "21:00에 라스트오더"
+        },
+        "businessHours": "202609011000~202609012130",
+        "breakTime": "",
+        "lastOrder": "202609012100"
+       },
+       "naviInfoText": null,
+       "naviInfo": null,
+       "address": "경기도 용인시 처인구 포곡읍 전대리 310",
+       "roadAddress": "경기도 용인시 처인구 포곡읍 에버랜드로 199",
+       "abbrAddress": "전대리 310",
+       "shortAddress": [
+        "경기 용인시 처인구 포곡읍",
+        "에버랜드로 199"
+       ],
+       "display": "크레페허브 용인<b>에버랜드</b>점",
+       "telDisplay": "0507-1328-1368",
+       "context": [],
+       "reviewCount": 59,
+       "placeReviewCount": 8,
+       "ktCallMd": "a38656f5674ce2b8d576a571168841cb",
+       "coupon": "0",
+       "thumUrl": "https://ldb-phinf.pstatic.net/20260524_216/1779624751667QHyVW_JPEG/CRE09087.jpg",
+       "thumUrls": [
+        "https://ldb-phinf.pstatic.net/20260524_216/1779624751667QHyVW_JPEG/CRE09087.jpg",
+        "https://ldb-phinf.pstatic.net/20260524_22/1779624756067SogbE_JPEG/CRE08956.jpg",
+        "https://ldb-phinf.pstatic.net/20260525_58/1779671164074Fdbed_JPEG/IMG_5503.jpg"
+       ],
+       "type": "s",
+       "isSite": "1",
+       "posExact": "1",
+       "x": "127.2038662",
+       "y": "37.2953211",
+       "itemLevel": "12",
+       "isAdultBusiness": false,
+       "streetPanorama": {
+        "id": "tO4GBYQ2TAABLotubO2lwg==",
+        "pan": "-59.66",
+        "tilt": "10.00",
+        "lng": "127.2039500",
+        "lat": "37.2952721",
+        "fov": "120"
+       },
+       "skyPanorama": {
+        "id": "RJqrAYMw/PfjRuNotdwhsQ==",
+        "pan": "12.82",
+        "tilt": "-30.00",
+        "lng": "127.2038020",
+        "lat": "37.2950390",
+        "fov": "124"
+       },
+       "insidePanorama": null,
+       "interiorPanorama": null,
+       "indoorPanorama": null,
+       "theme": null,
+       "poiInfo": {
+        "relation": null,
+        "hasRelation": false,
+        "road": {
+         "poiShapeType": "1",
+         "shapeKey": null,
+         "boundary": null,
+         "detail": null
+        },
+        "hasRoad": false,
+        "land": null,
+        "hasLand": false,
+        "polygon": null,
+        "hasPolygon": false
+       },
+       "homePage": "https://crepehub.co.kr",
+       "description": "",
+       "entranceCoords": null,
+       "isPollingPlace": false,
+       "bizhourInfo": "영업 중",
+       "menuInfo": "누텔라 바나나 크레이프 6,000 | 누텔라 스모어 크레이프 6,000 | 두바이 크레이프 8,500 | 두바이 스모어 크레이프 9,500 | 두바이 생딸기 크레이프 9,500 | 생딸기 생크림 크레이프 8,300 | 바나나 생크림 크레이프 7,300 | 생딸기 피스타치오 크레이프 9,500 | 생딸기 브륄레 크레이프 8,700 | 바나나 브륄레 크레이프 8,300 | 크림 브륄레 크레이프 7,800 | 생말차 브륄레 크레이프 8,300 | 생말차 모나카 아이스크림 크레이프 9,500 | 생딸기 바닐라빈 아이스크림 크레이프 9,500 | 생딸기 바닐라빈 파르페 12,500 | 망고 요거트 파르페 11,500 | 생말차 모나카 파르페 12,500 | 22겹 바닐라 크레이프 케이크 8,500 | 브륄레 크레이프 케이크 9,500 | 디플로마트 후르츠 크레이프 케이크 9,500 | 아메리카노 4,700 | 카페 라떼 5,200 | 카푸치노 5,200 | 카페 모카 6,100 | 돌체 라떼 6,100 | 카라멜 마끼아또 6,100 | 바닐라빈 라떼 6,100 | 크레이프 라떼 6,700 | 크림브륄레 라떼 6,700 | 판다라떼 7,300 | 말차 딸기 라떼 6,700 | 밀크티 라떼 6,100 | 아이스티 5,300 | 우유 4,100 | 얼그레이 티 5,000 | 잉글리쉬 브랙퍼스트 티 5,000 | 캐모마일 티 5,000 | 로즈힙히비스커스 티 5,000 | 스파이시베리 티 5,000 | 페퍼민트 티 5,000 | 자몽블랙티 5,900 | 레몬 얼그레이 티 5,900 | 리치 로즈힙히비스커스 티 5,900 | 레몬민트 티 5,900",
+       "petrolInfo": null,
+       "couponUrl": null,
+       "couponUrlMobile": null,
+       "hasCardBenefit": false,
+       "menuExist": "1",
+       "hasNaverBooking": false,
+       "naverBookingUrl": null,
+       "naverEasyOrderUrl": null,
+       "hasNaverSmartOrder": false,
+       "reservationLabel": {
+        "standard": false,
+        "preOrder": false,
+        "table": false,
+        "takeout": false
+       },
+       "reservation": {
+        "benefit": ""
+       },
+       "hasBroadcastInfo": false,
+       "broadcastInfo": null,
+       "shopWindowInfo": null,
+       "hasNPay": false,
+       "carWash": "0",
+       "parkingPrice": null,
+       "card": null,
+       "distance": "36175.09",
+       "marker": "nres://marker/00079-00145",
+       "markerSelected": "nres://marker/00079-00309",
+       "markerId": "220563",
+       "microReview": [],
+       "michelinGuide": null,
+       "indoor": null,
+       "markerLabel": null,
+       "subway": null,
+       "evChargerVendor": null,
+       "evChargerPublic": null,
+       "evChargerParking": null,
+       "evChargerInfo": null
+      },
+      {
+       "index": "3",
+       "rank": "4",
+       "id": "1131675496",
+       "name": "커피빈 용인에버랜드점",
+       "tel": "031-334-0556",
+       "isCallLink": false,
+       "virtualTel": "",
+       "virtualTelDisplay": "",
+       "ppc": "1",
+       "category": [
+        "카페,디저트",
+        "카페"
+       ],
+       "categoryPath": [
+        [
+         "220036",
+         "220052",
+         "220576",
+         "221327"
+        ],
+        [
+         "222117",
+         "222121",
+         "1003373",
+         "1003374"
+        ]
+       ],
+       "rcode": "0246125027",
+       "businessStatus": {
+        "requestTime": "202609011103",
+        "status": {
+         "code": 2,
+         "text": "영업 중",
+         "emphasis": false,
+         "description": "영업중",
+         "detailInfo": "19:40에 라스트오더"
+        },
+        "businessHours": "202609011030~202609012000",
+        "breakTime": "",
+        "lastOrder": "202609011940"
+       },
+       "naviInfoText": null,
+       "naviInfo": null,
+       "address": "경기도 용인시 처인구 포곡읍 전대리 310 삼성에버랜드",
+       "roadAddress": "경기도 용인시 처인구 포곡읍 에버랜드로 199 삼성에버랜드",
+       "abbrAddress": "전대리 310 삼성에버랜드",
+       "shortAddress": [
+        "경기 용인시 처인구 포곡읍",
+        "에버랜드로 199",
+        "삼성에버랜드"
+       ],
+       "display": "커피빈 용인<b>에버랜드</b>점",
+       "telDisplay": "031-334-0556",
+       "context": [],
+       "reviewCount": 71,
+       "placeReviewCount": 3975,
+       "ktCallMd": "65bbd67fd4bde4ce879ea6c09f1a69aa",
+       "coupon": "0",
+       "thumUrl": "https://ldb-phinf.pstatic.net/20210524_294/1621818290192sLERH_JPEG/HTbNvArvJb8EnGX2gXDYKnn8.jpg",
+       "thumUrls": [
+        "https://ldb-phinf.pstatic.net/20210524_294/1621818290192sLERH_JPEG/HTbNvArvJb8EnGX2gXDYKnn8.jpg",
+        "https://ldb-phinf.pstatic.net/20210524_130/1621818290965oLPBF_JPEG/utos8LG1_zAdJoAhtCZp3n9n.jpg",
+        "https://ldb-phinf.pstatic.net/20210524_44/1621818290649ih6c1_JPEG/2NuzPayZR16wAdtdjcWQTRz7.jpg"
+       ],
+       "type": "s",
+       "isSite": "1",
+       "posExact": "1",
+       "x": "127.2007566",
+       "y": "37.2904261",
+       "itemLevel": "12",
+       "isAdultBusiness": false,
+       "streetPanorama": {
+        "id": "ZkaHI8mQc8+jnOU6qDg/5A==",
+        "pan": "178.21",
+        "tilt": "10.00",
+        "lng": "127.2007540",
+        "lat": "37.2905077",
+        "fov": "120"
+       },
+       "skyPanorama": {
+        "id": "yPyLz9wPxWiwk6TfKtpzLA==",
+        "pan": "127.30",
+        "tilt": "-30.00",
+        "lng": "127.2002950",
+        "lat": "37.2907770",
+        "fov": "124"
+       },
+       "insidePanorama": null,
+       "interiorPanorama": null,
+       "indoorPanorama": null,
+       "theme": null,
+       "poiInfo": {
+        "relation": null,
+        "hasRelation": false,
+        "road": {
+         "poiShapeType": "1",
+         "shapeKey": null,
+         "boundary": null,
+         "detail": null
+        },
+        "hasRoad": false,
+        "land": null,
+        "hasLand": false,
+        "polygon": null,
+        "hasPolygon": false
+       },
+       "homePage": "https://www.coffeebeankorea.com/main/main.asp",
+       "description": "",
+       "entranceCoords": {
+        "car": null,
+        "walk": [
+         {
+          "rep": true,
+          "x": 127.2007412,
+          "y": 37.2905065
+         }
+        ]
+       },
+       "isPollingPlace": false,
+       "bizhourInfo": "영업 중",
+       "menuInfo": "아메리카노(S) 5,000 | 카페라떼(S) 5,900 | 헤이즐넛라떼(S) 6,900 | 후레쉬망고 아이스블렌디드(S) 6,700 | 퓨어더블초콜릿 아이스블렌디드(S) 6,800 | 블루베리베이글 4,300 | 크렌베리크림치즈스콘 4,300 | 루꼴라&햄페스토샌드위치 6,900 | 이탈리안쿡살라미샌드위치 6,900 | 햄치즈프렌치토스트 5,500",
+       "petrolInfo": null,
+       "couponUrl": null,
+       "couponUrlMobile": null,
+       "hasCardBenefit": false,
+       "menuExist": "1",
+       "hasNaverBooking": false,
+       "naverBookingUrl": null,
+       "naverEasyOrderUrl": null,
+       "hasNaverSmartOrder": false,
+       "reservationLabel": {
+        "standard": false,
+        "preOrder": false,
+        "table": false,
+        "takeout": false
+       },
+       "reservation": {
+        "benefit": ""
+       },
+       "hasBroadcastInfo": false,
+       "broadcastInfo": null,
+       "shopWindowInfo": null,
+       "hasNPay": false,
+       "carWash": "0",
+       "parkingPrice": null,
+       "card": null,
+       "distance": "36483.02",
+       "marker": "nres://marker/00079-00145",
+       "markerSelected": "nres://marker/00079-00309",
+       "markerId": "221327",
+       "microReview": [],
+       "michelinGuide": null,
+       "indoor": null,
+       "markerLabel": null,
+       "subway": null,
+       "evChargerVendor": null,
+       "evChargerPublic": null,
+       "evChargerParking": null,
+       "evChargerInfo": null
+      },
+      {
+       "index": "4",
+       "rank": "5",
+       "id": "1660460217",
+       "name": "스타벅스 용인에버랜드점",
+       "tel": "1522-3232",
+       "isCallLink": false,
+       "virtualTel": "",
+       "virtualTelDisplay": "",
+       "ppc": "1",
+       "category": [
+        "카페,디저트",
+        "카페"
+       ],
+       "categoryPath": [
+        [
+         "220036",
+         "220052",
+         "220576",
+         "221275"
+        ],
+        [
+         "222117",
+         "222121",
+         "1003373",
+         "1003374"
+        ]
+       ],
+       "rcode": "0246125027",
+       "businessStatus": {
+        "requestTime": "202609011103",
+        "status": {
+         "code": 2,
+         "text": "영업 중",
+         "emphasis": false,
+         "description": "영업중",
+         "detailInfo": "20:30에 영업종료"
+        },
+        "businessHours": "202609011000~202609012030",
+        "breakTime": "",
+        "lastOrder": ""
+       },
+       "naviInfoText": null,
+       "naviInfo": null,
+       "address": "경기도 용인시 처인구 포곡읍 전대리 310",
+       "roadAddress": "경기도 용인시 처인구 포곡읍 에버랜드로 199",
+       "abbrAddress": "전대리 310",
+       "shortAddress": [
+        "경기 용인시 처인구 포곡읍",
+        "에버랜드로 199"
+       ],
+       "display": "스타벅스 용인<b>에버랜드</b>점",
+       "telDisplay": "1522-3232",
+       "context": [],
+       "reviewCount": 566,
+       "placeReviewCount": 8498,
+       "ktCallMd": "e992408f0142a9adcdf2a905d32570d0",
+       "coupon": "0",
+       "thumUrl": "https://ldb-phinf.pstatic.net/20190828_93/1566953601239OT9MQ_PNG/xX7Wv642gXMoTI0DAv0hRymS.png",
+       "thumUrls": [
+        "https://ldb-phinf.pstatic.net/20190828_93/1566953601239OT9MQ_PNG/xX7Wv642gXMoTI0DAv0hRymS.png",
+        "https://naverbooking-phinf.pstatic.net/20251219_215/17660877106298EVPX_JPEG/image.jpg"
+       ],
+       "type": "s",
+       "isSite": "1",
+       "posExact": "1",
+       "x": "127.2031992",
+       "y": "37.2949884",
+       "itemLevel": "12",
+       "isAdultBusiness": false,
+       "streetPanorama": {
+        "id": "ZNLIiwesI+Y8AHpAeCRgmg==",
+        "pan": "-56.23",
+        "tilt": "25.73",
+        "lng": "127.2033537",
+        "lat": "37.2947268",
+        "fov": "80"
+       },
+       "skyPanorama": {
+        "id": "RJqrAYMw/PfjRuNotdwhsQ==",
+        "pan": "-94.85",
+        "tilt": "-30.00",
+        "lng": "127.2038020",
+        "lat": "37.2950390",
+        "fov": "124"
+       },
+       "insidePanorama": null,
+       "interiorPanorama": null,
+       "indoorPanorama": null,
+       "theme": null,
+       "poiInfo": {
+        "relation": null,
+        "hasRelation": false,
+        "road": {
+         "poiShapeType": "1",
+         "shapeKey": null,
+         "boundary": null,
+         "detail": null
+        },
+        "hasRoad": false,
+        "land": null,
+        "hasLand": false,
+        "polygon": null,
+        "hasPolygon": false
+       },
+       "homePage": "http://www.starbucks.co.kr/",
+       "description": "",
+       "entranceCoords": null,
+       "isPollingPlace": false,
+       "bizhourInfo": "영업 중",
+       "menuInfo": "카페 아메리카노 4,700 | 카페 라떼 5,200 | 스타벅스 돌체 라떼 6,100 | 카라멜 마키아또 6,100 | 카푸치노 5,200 | 카페 모카 5,700 | 화이트 초콜릿 모카 6,100 | 콜드 브루 5,100 | 자몽 허니 블랙 티 5,900 | 아이스 자몽 허니 블랙 티 5,900 | 망고 바나나 블렌디드 6,600 | 에스프레소 프라푸치노 5,700 | 자바 칩 프라푸치노 6,500",
+       "petrolInfo": null,
+       "couponUrl": null,
+       "couponUrlMobile": null,
+       "hasCardBenefit": false,
+       "menuExist": "1",
+       "hasNaverBooking": false,
+       "naverBookingUrl": "https://booking.naver.com/booking/6/bizes/391737",
+       "naverEasyOrderUrl": null,
+       "hasNaverSmartOrder": true,
+       "reservationLabel": {
+        "standard": false,
+        "preOrder": true,
+        "table": false,
+        "takeout": true
+       },
+       "reservation": {
+        "benefit": ""
+       },
+       "hasBroadcastInfo": false,
+       "broadcastInfo": null,
+       "shopWindowInfo": null,
+       "hasNPay": true,
+       "carWash": "0",
+       "parkingPrice": null,
+       "card": null,
+       "distance": "36174.01",
+       "marker": "nres://marker/00079-00145",
+       "markerSelected": "nres://marker/00079-00309",
+       "markerId": "221275",
+       "microReview": [],
+       "michelinGuide": null,
+       "indoor": null,
+       "markerLabel": null,
+       "subway": null,
+       "evChargerVendor": null,
+       "evChargerPublic": null,
+       "evChargerParking": null,
+       "evChargerInfo": null
+      },
+      {
+       "index": "5",
+       "rank": "6",
+       "id": "1785926108",
+       "name": "잇비 카페",
+       "tel": "0507-1461-2276",
+       "isCallLink": false,
+       "virtualTel": "0507-1461-2276",
+       "virtualTelDisplay": "0507-1461-2276",
+       "ppc": "1",
+       "category": [
+        "음식점",
+        "카페,디저트"
+       ],
+       "categoryPath": [
+        [
+         "220036",
+         "220052",
+         "220563"
+        ],
+        [
+         "1004760",
+         "1004542"
+        ]
+       ],
+       "rcode": "0246125027",
+       "businessStatus": {
+        "requestTime": "202609011103",
+        "status": {
+         "code": 2,
+         "text": "영업 중",
+         "emphasis": false,
+         "description": "영업중",
+         "detailInfo": "22:30에 라스트오더"
+        },
+        "businessHours": "202609011100~202609012300",
+        "breakTime": "",
+        "lastOrder": "202609012230"
+       },
+       "naviInfoText": null,
+       "naviInfo": null,
+       "address": "경기도 용인시 처인구 포곡읍 전대리 354-16 1층",
+       "roadAddress": "경기도 용인시 처인구 포곡읍 마성로 413 1층",
+       "abbrAddress": "전대리 354-16 1층",
+       "shortAddress": [
+        "경기 용인시 처인구 포곡읍",
+        "마성로 413",
+        "1층"
+       ],
+       "display": "잇비 <b>카페</b>",
+       "telDisplay": "0507-1461-2276",
+       "context": [],
+       "reviewCount": 89,
+       "placeReviewCount": 94,
+       "ktCallMd": "07eede1237638459081bce6492f9418b",
+       "coupon": "0",
+       "thumUrl": "https://ldb-phinf.pstatic.net/20260510_266/1778381608050Gx8b7_JPEG/IMG_0304.jpg",
+       "thumUrls": [
+        "https://ldb-phinf.pstatic.net/20260510_266/1778381608050Gx8b7_JPEG/IMG_0304.jpg",
+        "https://ldb-phinf.pstatic.net/20260616_296/1781582133763cHSCj_JPEG/IMG_1363.jpg",
+        "https://ldb-phinf.pstatic.net/20260616_30/1781582133252FHTea_JPEG/IMG_1362.jpg"
+       ],
+       "type": "s",
+       "isSite": "1",
+       "posExact": "1",
+       "x": "127.2158124",
+       "y": "37.2864071",
+       "itemLevel": "12",
+       "isAdultBusiness": false,
+       "streetPanorama": {
+        "id": "RX+g4odXNGfSkkYAzU4Oxw==",
+        "pan": "-160.85",
+        "tilt": "10.00",
+        "lng": "127.2158423",
+        "lat": "37.2864928",
+        "fov": "120"
+       },
+       "skyPanorama": {
+        "id": "1uPbU4ayvSpo9vPsnh2WbA==",
+        "pan": "39.30",
+        "tilt": "-30.00",
+        "lng": "127.2156894",
+        "lat": "37.2862567",
+        "fov": "124"
+       },
+       "insidePanorama": null,
+       "interiorPanorama": null,
+       "indoorPanorama": null,
+       "theme": null,
+       "poiInfo": {
+        "relation": null,
+        "hasRelation": false,
+        "road": {
+         "poiShapeType": "1",
+         "shapeKey": null,
+         "boundary": null,
+         "detail": null
+        },
+        "hasRoad": false,
+        "land": null,
+        "hasLand": false,
+        "polygon": null,
+        "hasPolygon": false
+       },
+       "homePage": "https://www.instagram.com/cafe_it_b_",
+       "description": "",
+       "entranceCoords": {
+        "car": [
+         {
+          "rep": true,
+          "x": 127.2159143,
+          "y": 37.2862803
+         }
+        ],
+        "walk": [
+         {
+          "rep": true,
+          "x": 127.2158115,
+          "y": 37.286491
+         }
+        ]
+       },
+       "isPollingPlace": false,
+       "bizhourInfo": "영업 중",
+       "menuInfo": "한입케이크 13,000 | 아메리칸 핫도그 7,500 | 수박주스 6,000 | 딸기밀크티 6,000 | 솔티카라멜크림라떼 6,000 | 복숭아순우유케이크 8,500 | 초코퍼지케이크 8,500 | 브라우니바스크치즈케이크 8,000 | 우유생크림케이크 변동가격(업주문의) | 두바이케이크 변동가격(업주문의) | 바스크치즈케이크 7,000 | 블루베리케이크 변동가격(업주문의) | 고구마케이크 7,000 | 떠먹는케이크 8,000 | 바나나푸딩 6,000",
+       "petrolInfo": null,
+       "couponUrl": null,
+       "couponUrlMobile": null,
+       "hasCardBenefit": false,
+       "menuExist": "1",
+       "hasNaverBooking": false,
+       "naverBookingUrl": null,
+       "naverEasyOrderUrl": null,
+       "hasNaverSmartOrder": false,
+       "reservationLabel": {
+        "standard": false,
+        "preOrder": false,
+        "table": false,
+        "takeout": false
+       },
+       "reservation": {
+        "benefit": ""
+       },
+       "hasBroadcastInfo": false,
+       "broadcastInfo": null,
+       "shopWindowInfo": null,
+       "hasNPay": false,
+       "carWash": "0",
+       "parkingPrice": null,
+       "card": null,
+       "distance": "37586.82",
+       "marker": "nres://marker/00079-00145",
+       "markerSelected": "nres://marker/00079-00309",
+       "markerId": "220563",
+       "microReview": [
+        "맛있는 디저트와 함께하는 달콤한 시간"
+       ],
+       "michelinGuide": null,
+       "indoor": null,
+       "markerLabel": null,
+       "subway": null,
+       "evChargerVendor": null,
+       "evChargerPublic": null,
+       "evChargerParking": null,
+       "evChargerInfo": null
+      },
+      {
+       "index": "6",
+       "rank": "7",
+       "id": "1810453079",
+       "name": "이츠커피",
+       "tel": "0507-1332-6055",
+       "isCallLink": false,
+       "virtualTel": "0507-1332-6055",
+       "virtualTelDisplay": "0507-1332-6055",
+       "ppc": "1",
+       "category": [
+        "카페,디저트",
+        "베이커리"
+       ],
+       "categoryPath": [
+        [
+         "220036",
+         "220052",
+         "220564",
+         "221161"
+        ],
+        [
+         "1004760",
+         "1004380",
+         "1002043"
+        ]
+       ],
+       "rcode": "0246125027",
+       "businessStatus": {
+        "requestTime": "202609011103",
+        "status": {
+         "code": 2,
+         "text": "영업 중",
+         "emphasis": false,
+         "description": "영업중",
+         "detailInfo": "18:00에 영업종료"
+        },
+        "businessHours": "202609011030~202609011800",
+        "breakTime": "",
+        "lastOrder": ""
+       },
+       "naviInfoText": null,
+       "naviInfo": null,
+       "address": "경기도 용인시 처인구 포곡읍 전대리 347-4 2층 이츠커피",
+       "roadAddress": "경기도 용인시 처인구 포곡읍 성산로 682 2층 이츠커피",
+       "abbrAddress": "전대리 347-4 2층 이츠커피",
+       "shortAddress": [
+        "경기 용인시 처인구 포곡읍",
+        "성산로 682",
+        "2층 이츠커피"
+       ],
+       "display": "이츠커피",
+       "telDisplay": "0507-1332-6055",
+       "context": [],
+       "reviewCount": 40,
+       "placeReviewCount": 405,
+       "ktCallMd": "abc888ef1e24b54a7be84a133540faf9",
+       "coupon": "0",
+       "thumUrl": "https://ldb-phinf.pstatic.net/20230807_75/16913880908528HV2r_JPEG/AE35D0A7-74F5-4874-AE20-AD1BE6DDAF0A.jpeg",
+       "thumUrls": [
+        "https://ldb-phinf.pstatic.net/20230807_75/16913880908528HV2r_JPEG/AE35D0A7-74F5-4874-AE20-AD1BE6DDAF0A.jpeg",
+        "https://ldb-phinf.pstatic.net/20230807_5/169138804960228bD8_JPEG/405D7B0A-0DCE-4B65-BAEF-CB936719E68A.jpeg",
+        "https://ldb-phinf.pstatic.net/20230807_23/16913880495603ed1z_JPEG/IMG_7112.jpeg"
+       ],
+       "type": "s",
+       "isSite": "1",
+       "posExact": "1",
+       "x": "127.2142326",
+       "y": "37.2881755",
+       "itemLevel": "12",
+       "isAdultBusiness": false,
+       "streetPanorama": {
+        "id": "sqb+/GooEuf9MleTuAceBQ==",
+        "pan": "38.99",
+        "tilt": "10.00",
+        "lng": "127.2141148",
+        "lat": "37.2880299",
+        "fov": "120"
+       },
+       "skyPanorama": {
+        "id": "IFChU0u1cH3hEAGBug/VSg==",
+        "pan": "71.67",
+        "tilt": "-30.00",
+        "lng": "127.2142070",
+        "lat": "37.2881670",
+        "fov": "124"
+       },
+       "insidePanorama": null,
+       "interiorPanorama": null,
+       "indoorPanorama": null,
+       "theme": null,
+       "poiInfo": {
+        "relation": null,
+        "hasRelation": false,
+        "road": {
+         "poiShapeType": "1",
+         "shapeKey": null,
+         "boundary": null,
+         "detail": null
+        },
+        "hasRoad": false,
+        "land": null,
+        "hasLand": false,
+        "polygon": null,
+        "hasPolygon": false
+       },
+       "homePage": "http://instagram.com/brugge_flower",
+       "description": "",
+       "entranceCoords": {
+        "car": [
+         {
+          "rep": true,
+          "x": 127.214037,
+          "y": 37.288283
+         }
+        ],
+        "walk": [
+         {
+          "rep": true,
+          "x": 127.214037,
+          "y": 37.288283
+         }
+        ]
+       },
+       "isPollingPlace": false,
+       "bizhourInfo": "영업 중",
+       "menuInfo": "아메리카노 4,500",
+       "petrolInfo": null,
+       "couponUrl": null,
+       "couponUrlMobile": null,
+       "hasCardBenefit": false,
+       "menuExist": "1",
+       "hasNaverBooking": true,
+       "naverBookingUrl": "https://booking.naver.com/booking/10/bizes/1326928",
+       "naverEasyOrderUrl": null,
+       "hasNaverSmartOrder": false,
+       "reservationLabel": {
+        "standard": true,
+        "preOrder": false,
+        "table": false,
+        "takeout": false
+       },
+       "reservation": {
+        "benefit": ""
+       },
+       "hasBroadcastInfo": false,
+       "broadcastInfo": null,
+       "shopWindowInfo": null,
+       "hasNPay": true,
+       "carWash": "0",
+       "parkingPrice": null,
+       "card": null,
+       "distance": "37345.52",
+       "marker": "nres://marker/00079-00145",
+       "markerSelected": "nres://marker/00079-00309",
+       "markerId": "221161",
+       "microReview": [
+        "아메리카노와 쿠키의 완벽한 조화"
+       ],
+       "michelinGuide": null,
+       "indoor": null,
+       "markerLabel": null,
+       "subway": null,
+       "evChargerVendor": null,
+       "evChargerPublic": null,
+       "evChargerParking": null,
+       "evChargerInfo": null
+      },
+      {
+       "index": "7",
+       "rank": "8",
+       "id": "1559402792",
+       "name": "화이트바움",
+       "tel": "0507-1324-9285",
+       "isCallLink": false,
+       "virtualTel": "0507-1324-9285",
+       "virtualTelDisplay": "0507-1324-9285",
+       "ppc": "1",
+       "category": [
+        "음식점",
+        "카페,디저트"
+       ],
+       "categoryPath": [
+        [
+         "220036",
+         "220052",
+         "220563"
+        ],
+        [
+         "1004760",
+         "1004380",
+         "1002043"
+        ]
+       ],
+       "rcode": "0246125028",
+       "businessStatus": {
+        "requestTime": "202609011103",
+        "status": {
+         "code": 2,
+         "text": "영업 중",
+         "emphasis": false,
+         "description": "영업중",
+         "detailInfo": "20:15에 라스트오더"
+        },
+        "businessHours": "202609011000~202609012040",
+        "breakTime": "",
+        "lastOrder": "202609012015"
+       },
+       "naviInfoText": null,
+       "naviInfo": null,
+       "address": "경기도 용인시 처인구 포곡읍 유운리 347-1",
+       "roadAddress": "경기도 용인시 처인구 포곡읍 에버랜드로376번길 160",
+       "abbrAddress": "유운리 347-1",
+       "shortAddress": [
+        "경기 용인시 처인구 포곡읍",
+        "에버랜드로376번길 160"
+       ],
+       "display": "화이트바움",
+       "telDisplay": "0507-1324-9285",
+       "context": [],
+       "reviewCount": 1297,
+       "placeReviewCount": 2436,
+       "ktCallMd": "0ab935c651a707bb01ec4b366a4fd3d5",
+       "coupon": "0",
+       "thumUrl": "https://ldb-phinf.pstatic.net/20230308_239/1678241815572yIy8b_JPEG/%C7%C3%B7%B9%C0%CC%BD%BA2.jpg",
+       "thumUrls": [
+        "https://ldb-phinf.pstatic.net/20230308_239/1678241815572yIy8b_JPEG/%C7%C3%B7%B9%C0%CC%BD%BA2.jpg",
+        "https://ldb-phinf.pstatic.net/20230922_264/1695372220526WksL6_JPEG/KakaoTalk_20230913_181147729.jpg",
+        "https://ldb-phinf.pstatic.net/20230922_53/1695372254055mwfya_JPEG/KakaoTalk_20230922_174206251_02.jpg"
+       ],
+       "type": "s",
+       "isSite": "1",
+       "posExact": "1",
+       "x": "127.2203679",
+       "y": "37.2974669",
+       "itemLevel": "12",
+       "isAdultBusiness": false,
+       "streetPanorama": {
+        "id": "uMe/bBaKm5Njg3t1VJOb7Q==",
+        "pan": "167.36",
+        "tilt": "10.00",
+        "lng": "127.2203375",
+        "lat": "37.2976016",
+        "fov": "120"
+       },
+       "skyPanorama": {
+        "id": "eaLl2+FxSy40VPVLWgCvvg==",
+        "pan": "94.55",
+        "tilt": "-30.00",
+        "lng": "127.2190960",
+        "lat": "37.2975670",
+        "fov": "124"
+       },
+       "insidePanorama": null,
+       "interiorPanorama": null,
+       "indoorPanorama": null,
+       "theme": null,
+       "poiInfo": {
+        "relation": null,
+        "hasRelation": false,
+        "road": {
+         "poiShapeType": "1",
+         "shapeKey": null,
+         "boundary": null,
+         "detail": null
+        },
+        "hasRoad": false,
+        "land": null,
+        "hasLand": false,
+        "polygon": null,
+        "hasPolygon": false
+       },
+       "homePage": "https://blog.naver.com/rlagkrggml",
+       "description": "",
+       "entranceCoords": {
+        "car": [
+         {
+          "rep": true,
+          "x": 127.219619,
+          "y": 37.297929
+         }
+        ],
+        "walk": [
+         {
+          "rep": true,
+          "x": 127.219619,
+          "y": 37.297929
+         }
+        ]
+       },
+       "isPollingPlace": false,
+       "bizhourInfo": "영업 중",
+       "menuInfo": "에스프레소 6,000 | 아메리카노 6,000 | 카페라떼 6,800 | 바닐라빈라떼 7,200 | 모카라떼 7,200 | 솔티드 카라멜라떼 7,200 | 코코넛라떼 7,200 | 스윗시나몬 크림 라떼 7,500 | 화이트초콜렛라떼 7,700 | 아인슈페너 7,300 | 바움슈페너 7,600 | 딸기청슈페너 7,600 | 밀크티 슈페너 7,600 | 화이트 슈페너 7,900 | 딸기크림라떼 7,500 | 제주말차라떼 7,500 | 화이트피치 밀크티 7,200 | 핫코코아 / 아이스코코아 7,000 | 로얄밀크티 (얼그레이) 7,000 | 현미크런치쌀라떼 7,000 | 황금고구마라떼 7,000 | 오곡라떼 7,000 | 베리베리 레드딸기티 7,300 | 리얼피치 아이스티 7,300 | 페퍼민트 꿀 유자티 7,300 | 홍생강차 7,000 | 홍생강라떼 7,600 | 대추고차 7,800 | 얼그레이 5,900 | 페퍼민트 5,900 | 루이보스 5,900 | 캐모마일 5,900 | 히비스커스 5,900 | 고흥꿀유자차 6,900 | 오미자베리차 6,900 | 꿀배청차 6,900 | 제주한라봉에이드 6,900 | 레드자두 에이드 6,900 | 애플망고파인 에이드 6,900 | 샤인머스켓 에이드 6,900 | 오미자 베리 에이드 6,900 | 피치 에이드 6,900 | 배에이드 6,900",
+       "petrolInfo": null,
+       "couponUrl": null,
+       "couponUrlMobile": null,
+       "hasCardBenefit": false,
+       "menuExist": "1",
+       "hasNaverBooking": true,
+       "naverBookingUrl": "https://booking.naver.com/booking/5/bizes/844174",
+       "naverEasyOrderUrl": null,
+       "hasNaverSmartOrder": false,
+       "reservationLabel": {
+        "standard": true,
+        "preOrder": false,
+        "table": false,
+        "takeout": false
+       },
+       "reservation": {
+        "benefit": ""
+       },
+       "hasBroadcastInfo": false,
+       "broadcastInfo": null,
+       "shopWindowInfo": null,
+       "hasNPay": true,
+       "carWash": "0",
+       "parkingPrice": null,
+       "card": null,
+       "distance": "36804.20",
+       "marker": "nres://marker/00079-00145",
+       "markerSelected": "nres://marker/00079-00309",
+       "markerId": "220563",
+       "microReview": [
+        "다양한 빵으로 가득한 디저트 천국"
+       ],
+       "michelinGuide": null,
+       "indoor": null,
+       "markerLabel": null,
+       "subway": null,
+       "evChargerVendor": null,
+       "evChargerPublic": null,
+       "evChargerParking": null,
+       "evChargerInfo": null
+      },
+      {
+       "index": "8",
+       "rank": "9",
+       "id": "2028927562",
+       "name": "테라로사 용인에버랜드점",
+       "tel": "1668-2764",
+       "isCallLink": false,
+       "virtualTel": "",
+       "virtualTelDisplay": "",
+       "ppc": "1",
+       "category": [
+        "카페,디저트",
+        "카페"
+       ],
+       "categoryPath": [
+        [
+         "220036",
+         "220052",
+         "220576",
+         "221742"
+        ]
+       ],
+       "rcode": "0246125026",
+       "businessStatus": {
+        "requestTime": "202609011103",
+        "status": {
+         "code": 2,
+         "text": "영업 중",
+         "emphasis": false,
+         "description": "영업중",
+         "detailInfo": "20:30에 영업종료"
+        },
+        "businessHours": "202609011100~202609012030",
+        "breakTime": "",
+        "lastOrder": ""
+       },
+       "naviInfoText": null,
+       "naviInfo": null,
+       "address": "경기도 용인시 처인구 포곡읍 가실리 131-1 르네상스관(장미원옆)",
+       "roadAddress": "경기도 용인시 처인구 포곡읍 에버랜드로 199 르네상스관(장미원옆)",
+       "abbrAddress": "가실리 131-1 르네상스관(장미원옆)",
+       "shortAddress": [
+        "경기 용인시 처인구 포곡읍",
+        "에버랜드로 199",
+        "르네상스관(장미원옆)"
+       ],
+       "display": "테라로사 용인<b>에버랜드</b>점",
+       "telDisplay": "1668-2764",
+       "context": [],
+       "reviewCount": 57,
+       "placeReviewCount": 195,
+       "ktCallMd": "52b48a9095636ce54956dbe232603803",
+       "coupon": "0",
+       "thumUrl": "https://ldb-phinf.pstatic.net/20250503_92/1746241132298sVbYC_JPEG/%B8%C5%C0%E5%BF%DC%BA%CE%BB%E7%C1%F8.jpg",
+       "thumUrls": [
+        "https://ldb-phinf.pstatic.net/20250503_92/1746241132298sVbYC_JPEG/%B8%C5%C0%E5%BF%DC%BA%CE%BB%E7%C1%F8.jpg",
+        "https://ldb-phinf.pstatic.net/20250503_115/1746241252658mDyDI_JPEG/%BF%A1%B9%F6%B7%A3%B5%E5_%B3%BB%BA%CE%BB%E7%C1%F83.jpg",
+        "https://ldb-phinf.pstatic.net/20250503_157/1746241252704gl7MG_JPEG/%BF%A1%B9%F6%B7%A3%B5%E5_%B3%BB%BA%CE%BB%E7%C1%F82.jpg"
+       ],
+       "type": "s",
+       "isSite": "1",
+       "posExact": "1",
+       "x": "127.1993116",
+       "y": "37.2911721",
+       "itemLevel": "12",
+       "isAdultBusiness": false,
+       "streetPanorama": {
+        "id": "dTVQtVB+TTNCwBCvZvtLhQ==",
+        "pan": "36.39",
+        "tilt": "10.00",
+        "lng": "127.1992613",
+        "lat": "37.2911038",
+        "fov": "120"
+       },
+       "skyPanorama": {
+        "id": "gHbAG3S5At0VOeQCgjusqg==",
+        "pan": "60.82",
+        "tilt": "-30.00",
+        "lng": "127.1985710",
+        "lat": "37.2907580",
+        "fov": "124"
+       },
+       "insidePanorama": null,
+       "interiorPanorama": null,
+       "indoorPanorama": null,
+       "theme": null,
+       "poiInfo": {
+        "relation": {
+         "poiShapeType": "1",
+         "shapeKey": {
+          "typeName": "RELA",
+          "wsid": "1.0",
+          "shapeID": "2028927562"
+         },
+         "boundary": {
+          "minX": "117.9926027",
+          "minY": "19.6944771",
+          "maxX": "117.9926027",
+          "maxY": "19.6944771"
+         },
+         "detail": [
+          {
+           "type": "2",
+           "sid": "1915813242",
+           "fullName": "에버랜드 정문주차장입구",
+           "name": "정문주차장입구",
+           "category": "입구(차량)",
+           "xPos": "127.2039671",
+           "yPos": "37.2977347",
+           "bZorder": ""
+          },
+          {
+           "type": "3",
+           "sid": "1785835709",
+           "fullName": "에버랜드정문주차장출구A",
+           "name": "정문주차장출구A",
+           "category": "출구(차량)",
+           "xPos": "127.2040232",
+           "yPos": "37.2976270",
+           "bZorder": ""
+          },
+          {
+           "type": "3",
+           "sid": "1910797848",
+           "fullName": "에버랜드정문주차장출구B",
+           "name": "정문주차장출구B",
+           "category": "출구(차량)",
+           "xPos": "127.2053362",
+           "yPos": "37.2963755",
+           "bZorder": ""
+          },
+          {
+           "type": "3",
+           "sid": "1075674896",
+           "fullName": "에버랜드정문주차장출구C",
+           "name": "정문주차장출구C",
+           "category": "출구(차량)",
+           "xPos": "127.2075549",
+           "yPos": "37.2942858",
+           "bZorder": ""
+          }
+         ]
+        },
+        "hasRelation": true,
+        "road": {
+         "poiShapeType": "1",
+         "shapeKey": null,
+         "boundary": null,
+         "detail": null
+        },
+        "hasRoad": false,
+        "land": null,
+        "hasLand": false,
+        "polygon": null,
+        "hasPolygon": false
+       },
+       "homePage": "https://terarosa.com",
+       "description": "",
+       "entranceCoords": {
+        "car": [
+         {
+          "rep": true,
+          "x": 127.2039671,
+          "y": 37.2977347
+         }
+        ],
+        "walk": null
+       },
+       "isPollingPlace": false,
+       "bizhourInfo": "영업 중",
+       "menuInfo": "제주 금귤&자몽에이드 6,900 | 제주 시트러스 민트티 6,400 | 아포가토 7,700 | 아이스 연유라테(20oz) 8,000 | 아이스 커피(20oz) 7,000 | 핸드드립 변동가격(업주문의) | 아메리카노 HOT 5,500 | 아메리카노 ICED 6,000 | 카페라테 6,000 | 카푸치노 6,000 | 에스프레소 더블 5,500",
+       "petrolInfo": null,
+       "couponUrl": null,
+       "couponUrlMobile": null,
+       "hasCardBenefit": false,
+       "menuExist": "1",
+       "hasNaverBooking": false,
+       "naverBookingUrl": null,
+       "naverEasyOrderUrl": null,
+       "hasNaverSmartOrder": false,
+       "reservationLabel": {
+        "standard": false,
+        "preOrder": false,
+        "table": false,
+        "takeout": false
+       },
+       "reservation": {
+        "benefit": ""
+       },
+       "hasBroadcastInfo": false,
+       "broadcastInfo": null,
+       "shopWindowInfo": null,
+       "hasNPay": false,
+       "carWash": "0",
+       "parkingPrice": null,
+       "card": null,
+       "distance": "36343.93",
+       "marker": "nres://marker/00079-00145",
+       "markerSelected": "nres://marker/00079-00309",
+       "markerId": "221742",
+       "microReview": [],
+       "michelinGuide": null,
+       "indoor": null,
+       "markerLabel": null,
+       "subway": null,
+       "evChargerVendor": null,
+       "evChargerPublic": null,
+       "evChargerParking": null,
+       "evChargerInfo": null
+      },
+      {
+       "index": "9",
+       "rank": "10",
+       "id": "1212166165",
+       "name": "피스오브케이크",
+       "tel": "0507-1389-7154",
+       "isCallLink": false,
+       "virtualTel": "0507-1389-7154",
+       "virtualTelDisplay": "0507-1389-7154",
+       "ppc": "1",
+       "category": [
+        "음식점",
+        "카페,디저트"
+       ],
+       "categoryPath": [
+        [
+         "220036",
+         "220052",
+         "220563"
+        ],
+        [
+         "1004760",
+         "1006799"
+        ]
+       ],
+       "rcode": "0246125027",
+       "businessStatus": {
+        "requestTime": "202609011103",
+        "status": {
+         "code": 9,
+         "text": "오늘 휴무",
+         "emphasis": true,
+         "description": "임시휴업일 휴무",
+         "detailInfo": "09/01 휴무"
+        },
+        "businessHours": "",
+        "breakTime": "",
+        "lastOrder": ""
+       },
+       "naviInfoText": null,
+       "naviInfo": null,
+       "address": "경기도 용인시 처인구 포곡읍 전대리 341-34 1층 101호",
+       "roadAddress": "경기도 용인시 처인구 포곡읍 전대로120번길 7-5 1층 101호",
+       "abbrAddress": "전대리 341-34 1층 101호",
+       "shortAddress": [
+        "경기 용인시 처인구 포곡읍",
+        "전대로120번길 7-5",
+        "1층 101호"
+       ],
+       "display": "피스오브케이크",
+       "telDisplay": "0507-1389-7154",
+       "context": [],
+       "reviewCount": 14,
+       "placeReviewCount": 189,
+       "ktCallMd": "530fa4501e2606f738dfc717264a65a6",
+       "coupon": "0",
+       "thumUrl": "https://ldb-phinf.pstatic.net/20260708_251/1783504936553jdyC2_JPEG/IMG_6896.jpg",
+       "thumUrls": [
+        "https://ldb-phinf.pstatic.net/20260708_251/1783504936553jdyC2_JPEG/IMG_6896.jpg",
+        "https://ldb-phinf.pstatic.net/20260708_130/1783504937230W9DTC_JPEG/100_0197.jpg",
+        "https://ldb-phinf.pstatic.net/20260708_267/1783504936907qOKSB_JPEG/100_0191.jpg"
+       ],
+       "type": "s",
+       "isSite": "1",
+       "posExact": "1",
+       "x": "127.2139662",
+       "y": "37.2876886",
+       "itemLevel": "12",
+       "isAdultBusiness": false,
+       "streetPanorama": {
+        "id": "3VOpKtCtzjQElshcSvqAZQ==",
+        "pan": "-154.03",
+        "tilt": "10.00",
+        "lng": "127.2140266",
+        "lat": "37.2878123",
+        "fov": "120"
+       },
+       "skyPanorama": {
+        "id": "IFChU0u1cH3hEAGBug/VSg==",
+        "pan": "-153.35",
+        "tilt": "-30.00",
+        "lng": "127.2142070",
+        "lat": "37.2881670",
+        "fov": "124"
+       },
+       "insidePanorama": null,
+       "interiorPanorama": null,
+       "indoorPanorama": null,
+       "theme": null,
+       "poiInfo": {
+        "relation": null,
+        "hasRelation": false,
+        "road": {
+         "poiShapeType": "1",
+         "shapeKey": null,
+         "boundary": null,
+         "detail": null
+        },
+        "hasRoad": false,
+        "land": null,
+        "hasLand": false,
+        "polygon": null,
+        "hasPolygon": false
+       },
+       "homePage": "https://www.instagram.com/peace.o.c?igsh=aWM2YjJzN3FvZmwz&utm_source=qr",
+       "description": "",
+       "entranceCoords": {
+        "car": [
+         {
+          "rep": true,
+          "x": 127.214049,
+          "y": 37.287765
+         }
+        ],
+        "walk": [
+         {
+          "rep": true,
+          "x": 127.214049,
+          "y": 37.287765
+         }
+        ]
+       },
+       "isPollingPlace": false,
+       "bizhourInfo": "오늘 휴무",
+       "menuInfo": "바삭 초코 밤 바다 케이크 8,500 | 주문제작 케이크 변동가격(업주문의) | 수박 소르베 6,000 | 두쫀쿠 5,500 | 디저트 변동가격(업주문의) | 햄치즈 샌드위치 7,000 | 크랜베리 닭가슴살 샌드위치 8,000 | 포테이토 에그 샌드위치 7,000 | 카야 토스트 6,000 | 아포가토 6,500 | 아메리카노 4,000 | 아샷추 4,500 | 미숙가루 라떼 7,500 | 카페 라떼 5,000 | 말차 카페 라떼 6,500 | 바닐라 라떼 5,500 | 캬라멜 마끼야또 6,000 | 카페 모카 6,000 | 아인슈페너 7,000 | 디카페인 콜드브루 5,000 | 바다 레몬 에이드 7,000 | 메론 소다 7,000 | 블루 소다 7,000 | 패션후르츠 에이드 6,000 | 유자 에이드 6,000 | 딸기 라떼 6,500 | 말차 라떼 6,000 | 초코 라떼 6,000 | 밀크티 6,000 | 아이스티 4,300 | 애플 캐모마일 티 6,000 | 애플 유자 티 6,500 | 유자차 5,000 | 루이보스 티 5,000 | 스피아 민트 티 5,000 | 캐모마일 티 4,500 | 병 음료 5,000",
+       "petrolInfo": null,
+       "couponUrl": null,
+       "couponUrlMobile": null,
+       "hasCardBenefit": false,
+       "menuExist": "1",
+       "hasNaverBooking": false,
+       "naverBookingUrl": null,
+       "naverEasyOrderUrl": null,
+       "hasNaverSmartOrder": false,
+       "reservationLabel": {
+        "standard": false,
+        "preOrder": false,
+        "table": false,
+        "takeout": false
+       },
+       "reservation": {
+        "benefit": ""
+       },
+       "hasBroadcastInfo": false,
+       "broadcastInfo": null,
+       "shopWindowInfo": null,
+       "hasNPay": false,
+       "carWash": "0",
+       "parkingPrice": null,
+       "card": null,
+       "distance": "37377.87",
+       "marker": "nres://marker/00079-00145",
+       "markerSelected": "nres://marker/00079-00309",
+       "markerId": "220563",
+       "microReview": [
+        "케이크 맛집으로 소문난 감성 카페"
+       ],
+       "michelinGuide": null,
+       "indoor": null,
+       "markerLabel": null,
+       "subway": null,
+       "evChargerVendor": null,
+       "evChargerPublic": null,
+       "evChargerParking": null,
+       "evChargerInfo": null
+      },
+      {
+       "index": "10",
+       "rank": "11",
+       "id": "1306053034",
+       "name": "오오츄",
+       "tel": "",
+       "isCallLink": false,
+       "virtualTel": "",
+       "virtualTelDisplay": "",
+       "ppc": "0",
+       "category": [
+        "음식점",
+        "카페,디저트"
+       ],
+       "categoryPath": [
+        [
+         "220036",
+         "220052",
+         "220563"
+        ]
+       ],
+       "rcode": "0246125027",
+       "businessStatus": {
+        "requestTime": "202609011103",
+        "status": {
+         "code": 2,
+         "text": "영업 중",
+         "emphasis": false,
+         "description": "영업중",
+         "detailInfo": "20:00에 영업종료"
+        },
+        "businessHours": "202609011100~202609012000",
+        "breakTime": "",
+        "lastOrder": ""
+       },
+       "naviInfoText": null,
+       "naviInfo": null,
+       "address": "경기도 용인시 처인구 포곡읍 전대리 310",
+       "roadAddress": "경기도 용인시 처인구 포곡읍 에버랜드로 199",
+       "abbrAddress": "전대리 310",
+       "shortAddress": [
+        "경기 용인시 처인구 포곡읍",
+        "에버랜드로 199"
+       ],
+       "display": "오오츄",
+       "telDisplay": "",
+       "context": [],
+       "reviewCount": 148,
+       "placeReviewCount": 4851,
+       "ktCallMd": "c6efb77901c36fe621d010e53ea32086",
+       "coupon": "0",
+       "thumUrl": "https://ldb-phinf.pstatic.net/20250809_67/1754718096880VN74y_JPEG/1000009918.jpg",
+       "thumUrls": [
+        "https://ldb-phinf.pstatic.net/20250809_67/1754718096880VN74y_JPEG/1000009918.jpg",
+        "https://ldb-phinf.pstatic.net/20250809_139/17547180968785WD3j_JPEG/1000009917.jpg",
+        "https://ldb-phinf.pstatic.net/20250809_26/1754718096901emJiy_JPEG/1000009916.jpg"
+       ],
+       "type": "s",
+       "isSite": "1",
+       "posExact": "1",
+       "x": "127.2014340",
+       "y": "37.2911413",
+       "itemLevel": "12",
+       "isAdultBusiness": false,
+       "streetPanorama": {
+        "id": "DDXLx1/Ei6y20sWlA87TCQ==",
+        "pan": "141.38",
+        "tilt": "10.00",
+        "lng": "127.2013930",
+        "lat": "37.2911925",
+        "fov": "120"
+       },
+       "skyPanorama": {
+        "id": "dXHUdomDbezDzne7Qp+uqQ==",
+        "pan": "-62.84",
+        "tilt": "-30.00",
+        "lng": "127.2020380",
+        "lat": "37.2908310",
+        "fov": "124"
+       },
+       "insidePanorama": null,
+       "interiorPanorama": null,
+       "indoorPanorama": null,
+       "theme": null,
+       "poiInfo": {
+        "relation": null,
+        "hasRelation": false,
+        "road": {
+         "poiShapeType": "1",
+         "shapeKey": null,
+         "boundary": null,
+         "detail": null
+        },
+        "hasRoad": false,
+        "land": null,
+        "hasLand": false,
+        "polygon": null,
+        "hasPolygon": false
+       },
+       "homePage": "",
+       "description": "",
+       "entranceCoords": null,
+       "isPollingPlace": false,
+       "bizhourInfo": "영업 중",
+       "menuInfo": null,
+       "petrolInfo": null,
+       "couponUrl": null,
+       "couponUrlMobile": null,
+       "hasCardBenefit": false,
+       "menuExist": "0",
+       "hasNaverBooking": false,
+       "naverBookingUrl": null,
+       "naverEasyOrderUrl": null,
+       "hasNaverSmartOrder": false,
+       "reservationLabel": {
+        "standard": false,
+        "preOrder": false,
+        "table": false,
+        "takeout": false
+       },
+       "reservation": {
+        "benefit": ""
+       },
+       "hasBroadcastInfo": false,
+       "broadcastInfo": null,
+       "shopWindowInfo": null,
+       "hasNPay": false,
+       "carWash": "0",
+       "parkingPrice": null,
+       "card": null,
+       "distance": "36447.74",
+       "marker": "nres://marker/00079-00145",
+       "markerSelected": "nres://marker/00079-00309",
+       "markerId": "220563",
+       "microReview": [
+        "바삭한 오레오 츄러스의 달콤함"
+       ],
+       "michelinGuide": null,
+       "indoor": null,
+       "markerLabel": null,
+       "subway": null,
+       "evChargerVendor": null,
+       "evChargerPublic": null,
+       "evChargerParking": null,
+       "evChargerInfo": null
+      },
+      {
+       "index": "11",
+       "rank": "12",
+       "id": "1190269653",
+       "name": "카페침니랜드",
+       "tel": "031-322-0017",
+       "isCallLink": false,
+       "virtualTel": "",
+       "virtualTelDisplay": "",
+       "ppc": "1",
+       "category": [
+        "카페,디저트",
+        "베이커리"
+       ],
+       "categoryPath": [
+        [
+         "220036",
+         "220052",
+         "220564",
+         "221161"
+        ],
+        [
+         "1004760",
+         "1004985"
+        ]
+       ],
+       "rcode": "0246125028",
+       "businessStatus": {
+        "requestTime": "202609011103",
+        "status": {
+         "code": 2,
+         "text": "영업 중",
+         "emphasis": false,
+         "description": "영업중",
+         "detailInfo": "18:30에 라스트오더"
+        },
+        "businessHours": "202609010900~202609011900",
+        "breakTime": "",
+        "lastOrder": "202609011830"
+       },
+       "naviInfoText": null,
+       "naviInfo": null,
+       "address": "경기도 용인시 처인구 포곡읍 유운리 362-22 침니랜드",
+       "roadAddress": "경기도 용인시 처인구 포곡읍 곡현로 108 침니랜드",
+       "abbrAddress": "유운리 362-22 침니랜드",
+       "shortAddress": [
+        "경기 용인시 처인구 포곡읍",
+        "곡현로 108",
+        "침니랜드"
+       ],
+       "display": "<b>카페</b>침니랜드",
+       "telDisplay": "031-322-0017",
+       "context": [],
+       "reviewCount": 224,
+       "placeReviewCount": 1330,
+       "ktCallMd": "9759f39293051f6039995898d809040f",
+       "coupon": "0",
+       "thumUrl": "https://ldb-phinf.pstatic.net/20241031_171/1730322189299f7qb5_JPEG/20241030_125012.jpg",
+       "thumUrls": [
+        "https://ldb-phinf.pstatic.net/20241031_171/1730322189299f7qb5_JPEG/20241030_125012.jpg",
+        "https://ldb-phinf.pstatic.net/20241031_187/1730322205503gmLzV_JPEG/20241030_125807.jpg",
+        "https://ldb-phinf.pstatic.net/20241108_166/1731039545763FeUFE_JPEG/%BE%C6%B2%BF%B9%CC%BA%D8%BE%EE%C4%AB%C6%E4-%B7%CE%B0%ED-%C8%AE%C1%A4.jpg"
+       ],
+       "type": "s",
+       "isSite": "1",
+       "posExact": "1",
+       "x": "127.2226012",
+       "y": "37.2961858",
+       "itemLevel": "12",
+       "isAdultBusiness": false,
+       "streetPanorama": {
+        "id": "sUe07bcqQkyS5XZAs7f0iQ==",
+        "pan": "-72.53",
+        "tilt": "10.00",
+        "lng": "127.2227182",
+        "lat": "37.2961489",
+        "fov": "120"
+       },
+       "skyPanorama": {
+        "id": "vQibZWIEwmtZ0WIouDCqUw==",
+        "pan": "91.31",
+        "tilt": "-30.00",
+        "lng": "127.2191600",
+        "lat": "37.2962620",
+        "fov": "124"
+       },
+       "insidePanorama": null,
+       "interiorPanorama": null,
+       "indoorPanorama": null,
+       "theme": null,
+       "poiInfo": {
+        "relation": null,
+        "hasRelation": false,
+        "road": {
+         "poiShapeType": "1",
+         "shapeKey": null,
+         "boundary": null,
+         "detail": null
+        },
+        "hasRoad": false,
+        "land": null,
+        "hasLand": false,
+        "polygon": null,
+        "hasPolygon": false
+       },
+       "homePage": "https://blog.naver.com/agomi_cafe",
+       "description": "",
+       "entranceCoords": {
+        "car": [
+         {
+          "rep": true,
+          "x": 127.222308,
+          "y": 37.296201
+         }
+        ],
+        "walk": [
+         {
+          "rep": true,
+          "x": 127.222308,
+          "y": 37.296201
+         }
+        ]
+       },
+       "isPollingPlace": false,
+       "bizhourInfo": "영업 중",
+       "menuInfo": "아메리카노 HOT/ICE 4,800 | 카페라뗴HOT/ICE 5,500 | 바닐라빈라뗴HOT/ICE 6,000 | 카페모카HOT/ICE 6,000 | 카라멜마키아또HOT/ICE 6,000 | 토피넛라떼HOT/ICE 6,000 | 아포가또 6,800 | 아인슈페너 6,800 | 오리지널굴뚝빵 7,000 | 코코넛굴뚝빵 8,000 | 시나몬굴뚝빵 8,000 | 레인보우굴뚝빵 8,000 | 초코(누텔라)굴뚝빵 8,000 | 치즈듬뿍경주십원빵 4,500 | 가바현미쌀붕어빵5개 6,000 | 가바현미쌀팥붕어빵2개 3,000 | 우유눈꽃빙수-망고빙수 16,900 | 우유눈꽃빙수-블루베리 16,900 | 우유눈꽃빙수-팥인절미 14,900",
+       "petrolInfo": null,
+       "couponUrl": null,
+       "couponUrlMobile": null,
+       "hasCardBenefit": false,
+       "menuExist": "1",
+       "hasNaverBooking": false,
+       "naverBookingUrl": null,
+       "naverEasyOrderUrl": null,
+       "hasNaverSmartOrder": false,
+       "reservationLabel": {
+        "standard": false,
+        "preOrder": false,
+        "table": false,
+        "takeout": false
+       },
+       "reservation": {
+        "benefit": ""
+       },
+       "hasBroadcastInfo": false,
+       "broadcastInfo": null,
+       "shopWindowInfo": null,
+       "hasNPay": false,
+       "carWash": "0",
+       "parkingPrice": null,
+       "card": null,
+       "distance": "37035.76",
+       "marker": "nres://marker/00079-00145",
+       "markerSelected": "nres://marker/00079-00309",
+       "markerId": "221161",
+       "microReview": [
+        "신선한 재료로 만든 정성 가득한 메뉴"
+       ],
+       "michelinGuide": null,
+       "indoor": null,
+       "markerLabel": null,
+       "subway": null,
+       "evChargerVendor": null,
+       "evChargerPublic": null,
+       "evChargerParking": null,
+       "evChargerInfo": null
+      },
+      {
+       "index": "12",
+       "rank": "13",
+       "id": "1044690595",
+       "name": "컴포즈커피 용인에버랜드점",
+       "tel": "0507-877-3795",
+       "isCallLink": false,
+       "virtualTel": "",
+       "virtualTelDisplay": "",
+       "ppc": "1",
+       "category": [
+        "카페,디저트",
+        "카페"
+       ],
+       "categoryPath": [
+        [
+         "220036",
+         "220052",
+         "220576",
+         "230629"
+        ],
+        [
+         "1004760",
+         "1004542"
+        ]
+       ],
+       "rcode": "0246125027",
+       "businessStatus": {
+        "requestTime": "202609011103",
+        "status": {
+         "code": 2,
+         "text": "영업 중",
+         "emphasis": false,
+         "description": "영업중",
+         "detailInfo": "22:30에 라스트오더"
+        },
+        "businessHours": "202609010800~202609012300",
+        "breakTime": "",
+        "lastOrder": "202609012230"
+       },
+       "naviInfoText": null,
+       "naviInfo": null,
+       "address": "경기도 용인시 처인구 포곡읍 전대리 191-9",
+       "roadAddress": "경기도 용인시 처인구 포곡읍 전대로78번길 15",
+       "abbrAddress": "전대리 191-9",
+       "shortAddress": [
+        "경기 용인시 처인구 포곡읍",
+        "전대로78번길 15"
+       ],
+       "display": "컴포즈커피 용인<b>에버랜드</b>점",
+       "telDisplay": "0507-877-3795",
+       "context": [],
+       "reviewCount": 21,
+       "placeReviewCount": 594,
+       "ktCallMd": "acbb7ae8245e6b6bd921f431811fc455",
+       "coupon": "0",
+       "thumUrl": "https://ldb-phinf.pstatic.net/20191105_243/1572936009961GifTe_JPEG/9axQiAtyU0saFfPZqcmYx8rJ.jpg",
+       "thumUrls": [
+        "https://ldb-phinf.pstatic.net/20191105_243/1572936009961GifTe_JPEG/9axQiAtyU0saFfPZqcmYx8rJ.jpg",
+        "https://ldb-phinf.pstatic.net/20191105_179/15729360101344r6IA_JPEG/CFjI411gGt2vijjEAPv2DvXk.jpg",
+        "https://ldb-phinf.pstatic.net/20191105_126/1572936010095bWaQV_JPEG/n18j03L9hY4IcoeaWNwSkh-B.jpg"
+       ],
+       "type": "s",
+       "isSite": "1",
+       "posExact": "1",
+       "x": "127.2170039",
+       "y": "37.2864136",
+       "itemLevel": "12",
+       "isAdultBusiness": false,
+       "streetPanorama": {
+        "id": "GVtbgiFsXy/fA5XbXS/zmA==",
+        "pan": "-88.29",
+        "tilt": "3.76",
+        "lng": "127.2170855",
+        "lat": "37.2863961",
+        "fov": "100"
+       },
+       "skyPanorama": {
+        "id": "myuUiz/e5KGIbnXlnQ6TQQ==",
+        "pan": "-80.91",
+        "tilt": "-30.00",
+        "lng": "127.2176553",
+        "lat": "37.2863089",
+        "fov": "124"
+       },
+       "insidePanorama": null,
+       "interiorPanorama": null,
+       "indoorPanorama": null,
+       "theme": null,
+       "poiInfo": {
+        "relation": null,
+        "hasRelation": false,
+        "road": {
+         "poiShapeType": "1",
+         "shapeKey": null,
+         "boundary": null,
+         "detail": null
+        },
+        "hasRoad": false,
+        "land": null,
+        "hasLand": false,
+        "polygon": null,
+        "hasPolygon": false
+       },
+       "homePage": "https://events.passorder.co.kr/100won-event-new",
+       "description": "",
+       "entranceCoords": {
+        "car": [
+         {
+          "rep": true,
+          "x": 127.21704,
+          "y": 37.286427
+         }
+        ],
+        "walk": [
+         {
+          "rep": true,
+          "x": 127.21704,
+          "y": 37.286427
+         }
+        ]
+       },
+       "isPollingPlace": false,
+       "bizhourInfo": "영업 중",
+       "menuInfo": "[패스오더전용] 100원 아메리카노 100 | 바닐라마카롱 1,800 | 모카마카롱 1,800 | 카라멜마카롱 1,800 | 산딸기마카롱 1,800 | 초코마카롱 1,800 | 팥절미밀크쉐이크 4,500 | 커피밀크쉐이크 4,500 | 쿠키밀크쉐이크 4,500 | 캔디소다밀크쉐이크 4,200 | 플레인밀크쉐이크 4,200 | 모카자바칩프라페 4,500 | 그린티프라페 4,000 | 민트초코오레오프라페 4,000 | 쿠키초코프라페 4,000 | 리얼초코자바칩프라페 4,000 | 자몽허니블랙티 3,800 | 복숭아티 3,000 | 허니유자티 3,500 | 허니레몬티 3,500 | 허니자몽티 3,500 | 홍차) 블랙퍼스트 2,500 | 홍차) 얼그레이 2,500 | 허브티) 로즈마리 2,500 | 허브티) 캐모마일 2,500 | 허브티) 페퍼민트 2,500 | 패션후르츠에이드 3,500 | 청포도에이드 3,500 | 블루레몬에이드 3,500 | 유자에이드 3,500 | 망고에이드 3,500 | 레몬에이드 3,500 | 자몽에이드 3,500 | 블루베리요거트스무디 4,000 | 망고요거트스무디 4,000 | 딸기요거트스무디 4,000 | 플레인요거트스무디 4,000 | 블루베리스무디 3,800 | 망고스무디 3,800 | 딸기스무디 3,800 | 샤인머스켓케일주스 3,800 | 오렌지당근주스 3,800 | 복숭아주스 3,800 | 키위주스 3,800 | 밀크티 3,800 | 블루베리라떼 3,800 | 망고라떼 3,800 | 딸기라떼 3,800 | 흑당밀크 3,500 | 민트초코오레오라떼 3,500 | 그린티라떼 3,500 | 쿠키초코라떼 3,500 | 더블초코라떼 3,500 | 고구마라떼 3,500 | 곡물라떼 3,300 | 디카페인더치라떼 4,000 | 디카페인더치커피 3,500 | 아인슈페너 4,200 | 더치라떼 3,800 | 더치커피 3,300 | 아인슈페너라떼 4,200 | 달고나라떼 4,000 | 흑당카페라떼 3,800 | 돌체라떼 3,800 | 카라멜마끼아또 3,300 | 에스프레소 1,500 | 아메리카노 1,500 | 카페라떼 2,900 | 카푸치노 2,900 | 바닐라라떼 3,300 | 헤이즐넛라떼 3,300 | 카페모카 3,500",
+       "petrolInfo": null,
+       "couponUrl": null,
+       "couponUrlMobile": null,
+       "hasCardBenefit": false,
+       "menuExist": "1",
+       "hasNaverBooking": false,
+       "naverBookingUrl": null,
+       "naverEasyOrderUrl": null,
+       "hasNaverSmartOrder": false,
+       "reservationLabel": {
+        "standard": false,
+        "preOrder": false,
+        "table": false,
+        "takeout": false
+       },
+       "reservation": {
+        "benefit": ""
+       },
+       "hasBroadcastInfo": false,
+       "broadcastInfo": null,
+       "shopWindowInfo": null,
+       "hasNPay": false,
+       "carWash": "0",
+       "parkingPrice": null,
+       "card": null,
+       "distance": "37645.63",
+       "marker": "nres://marker/00079-00145",
+       "markerSelected": "nres://marker/00079-00309",
+       "markerId": "230629",
+       "microReview": [],
+       "michelinGuide": null,
+       "indoor": null,
+       "markerLabel": null,
+       "subway": null,
+       "evChargerVendor": null,
+       "evChargerPublic": null,
+       "evChargerParking": null,
+       "evChargerInfo": null
+      },
+      {
+       "index": "13",
+       "rank": "14",
+       "id": "31078621",
+       "name": "파리바게뜨 용인포곡점",
+       "tel": "031-336-6876",
+       "isCallLink": false,
+       "virtualTel": "",
+       "virtualTelDisplay": "",
+       "ppc": "1",
+       "category": [
+        "카페,디저트",
+        "베이커리"
+       ],
+       "categoryPath": [
+        [
+         "220036",
+         "220052",
+         "220564",
+         "221176"
+        ],
+        [
+         "220036",
+         "1003557"
+        ]
+       ],
+       "rcode": "0246125027",
+       "businessStatus": {
+        "requestTime": "202609011103",
+        "status": {
+         "code": 2,
+         "text": "영업 중",
+         "emphasis": false,
+         "description": "영업중",
+         "detailInfo": "23:00에 영업종료"
+        },
+        "businessHours": "202609010700~202609012300",
+        "breakTime": "",
+        "lastOrder": ""
+       },
+       "naviInfoText": null,
+       "naviInfo": null,
+       "address": "경기도 용인시 처인구 포곡읍 전대리 188-5 188-5",
+       "roadAddress": "경기도 용인시 처인구 포곡읍 전대로78번길 2 188-5",
+       "abbrAddress": "전대리 188-5 188-5",
+       "shortAddress": [
+        "경기 용인시 처인구 포곡읍",
+        "전대로78번길 2",
+        "188-5"
+       ],
+       "display": "파리바게뜨 용인포곡점",
+       "telDisplay": "031-336-6876",
+       "context": [],
+       "reviewCount": 10,
+       "placeReviewCount": 930,
+       "ktCallMd": "2c303878466e62cc4556acebbdf73d73",
+       "coupon": "0",
+       "thumUrl": "https://ldb-phinf.pstatic.net/20220413_220/1649840300868NWzNP_PNG/image.png",
+       "thumUrls": [
+        "https://ldb-phinf.pstatic.net/20220413_220/1649840300868NWzNP_PNG/image.png"
+       ],
+       "type": "s",
+       "isSite": "1",
+       "posExact": "1",
+       "x": "127.2175625",
+       "y": "37.2852235",
+       "itemLevel": "12",
+       "isAdultBusiness": false,
+       "streetPanorama": {
+        "id": "pI9L2S3PGfFDegqkfuZ8rw==",
+        "pan": "77.69",
+        "tilt": "10.00",
+        "lng": "127.2173784",
+        "lat": "37.2851832",
+        "fov": "120"
+       },
+       "skyPanorama": {
+        "id": "myuUiz/e5KGIbnXlnQ6TQQ==",
+        "pan": "-175.20",
+        "tilt": "-30.00",
+        "lng": "127.2176553",
+        "lat": "37.2863089",
+        "fov": "124"
+       },
+       "insidePanorama": null,
+       "interiorPanorama": null,
+       "indoorPanorama": null,
+       "theme": null,
+       "poiInfo": {
+        "relation": null,
+        "hasRelation": false,
+        "road": {
+         "poiShapeType": "1",
+         "shapeKey": null,
+         "boundary": null,
+         "detail": null
+        },
+        "hasRoad": false,
+        "land": null,
+        "hasLand": false,
+        "polygon": null,
+        "hasPolygon": false
+       },
+       "homePage": "https://www.paris.co.kr/",
+       "description": "",
+       "entranceCoords": {
+        "car": [
+         {
+          "rep": true,
+          "x": 127.217479,
+          "y": 37.285221
+         }
+        ],
+        "walk": [
+         {
+          "rep": true,
+          "x": 127.217479,
+          "y": 37.285221
+         }
+        ]
+       },
+       "isPollingPlace": false,
+       "bizhourInfo": "영업 중",
+       "menuInfo": null,
+       "petrolInfo": null,
+       "couponUrl": null,
+       "couponUrlMobile": null,
+       "hasCardBenefit": false,
+       "menuExist": "0",
+       "hasNaverBooking": false,
+       "naverBookingUrl": "https://booking.naver.com/booking/6/bizes/683265",
+       "naverEasyOrderUrl": null,
+       "hasNaverSmartOrder": true,
+       "reservationLabel": {
+        "standard": false,
+        "preOrder": true,
+        "table": false,
+        "takeout": true
+       },
+       "reservation": {
+        "benefit": ""
+       },
+       "hasBroadcastInfo": false,
+       "broadcastInfo": null,
+       "shopWindowInfo": null,
+       "hasNPay": true,
+       "carWash": "0",
+       "parkingPrice": null,
+       "card": null,
+       "distance": "37783.34",
+       "marker": "nres://marker/00079-00145",
+       "markerSelected": "nres://marker/00079-00309",
+       "markerId": "221176",
+       "microReview": [],
+       "michelinGuide": null,
+       "indoor": null,
+       "markerLabel": null,
+       "subway": null,
+       "evChargerVendor": null,
+       "evChargerPublic": null,
+       "evChargerParking": null,
+       "evChargerInfo": null
+      },
+      {
+       "index": "14",
+       "rank": "15",
+       "id": "37121790",
+       "name": "허밍마마",
+       "tel": "",
+       "isCallLink": false,
+       "virtualTel": "",
+       "virtualTelDisplay": "",
+       "ppc": "0",
+       "category": [
+        "음식점",
+        "카페,디저트"
+       ],
+       "categoryPath": [
+        [
+         "220036",
+         "220052",
+         "220563"
+        ],
+        [
+         "1004760",
+         "1004380",
+         "1002043"
+        ]
+       ],
+       "rcode": "0246125027",
+       "businessStatus": {
+        "requestTime": "202609011103",
+        "status": {
+         "code": 2,
+         "text": "영업 중",
+         "emphasis": false,
+         "description": "영업중",
+         "detailInfo": "17:00에 영업종료"
+        },
+        "businessHours": "202609011030~202609011700",
+        "breakTime": "",
+        "lastOrder": ""
+       },
+       "naviInfoText": null,
+       "naviInfo": null,
+       "address": "경기도 용인시 처인구 포곡읍 전대리 346-4 2층",
+       "roadAddress": "경기도 용인시 처인구 포곡읍 성산로 681 2층",
+       "abbrAddress": "전대리 346-4 2층",
+       "shortAddress": [
+        "경기 용인시 처인구 포곡읍",
+        "성산로 681",
+        "2층"
+       ],
+       "display": "허밍마마",
+       "telDisplay": "",
+       "context": [],
+       "reviewCount": 74,
+       "placeReviewCount": 71,
+       "ktCallMd": "f9de6b2624dee3e360f4b1b5a1129467",
+       "coupon": "0",
+       "thumUrl": "https://ldb-phinf.pstatic.net/20220529_141/1653832339812vLueS_JPEG/54975154-0E3A-45C1-83A4-065F5A9A52CA.jpeg",
+       "thumUrls": [
+        "https://ldb-phinf.pstatic.net/20220529_141/1653832339812vLueS_JPEG/54975154-0E3A-45C1-83A4-065F5A9A52CA.jpeg"
+       ],
+       "type": "s",
+       "isSite": "1",
+       "posExact": "1",
+       "x": "127.2136217",
+       "y": "37.2884373",
+       "itemLevel": "12",
+       "isAdultBusiness": false,
+       "streetPanorama": {
+        "id": "y65wT3zB+K4iKRTBBe5SYw==",
+        "pan": "-38.13",
+        "tilt": "10.00",
+        "lng": "127.2137741",
+        "lat": "37.2882430",
+        "fov": "120"
+       },
+       "skyPanorama": {
+        "id": "IFChU0u1cH3hEAGBug/VSg==",
+        "pan": "-65.24",
+        "tilt": "-30.00",
+        "lng": "127.2142070",
+        "lat": "37.2881670",
+        "fov": "124"
+       },
+       "insidePanorama": null,
+       "interiorPanorama": null,
+       "indoorPanorama": null,
+       "theme": null,
+       "poiInfo": {
+        "relation": null,
+        "hasRelation": false,
+        "road": {
+         "poiShapeType": "1",
+         "shapeKey": null,
+         "boundary": null,
+         "detail": null
+        },
+        "hasRoad": false,
+        "land": null,
+        "hasLand": false,
+        "polygon": null,
+        "hasPolygon": false
+       },
+       "homePage": "http://0313559767.tshome.co.kr/",
+       "description": "",
+       "entranceCoords": {
+        "car": [
+         {
+          "rep": true,
+          "x": 127.2136943,
+          "y": 37.2882714
+         }
+        ],
+        "walk": [
+         {
+          "rep": true,
+          "x": 127.2136943,
+          "y": 37.2882714
+         }
+        ]
+       },
+       "isPollingPlace": false,
+       "bizhourInfo": "영업 중",
+       "menuInfo": "아메리카노 1,500",
+       "petrolInfo": null,
+       "couponUrl": null,
+       "couponUrlMobile": null,
+       "hasCardBenefit": false,
+       "menuExist": "1",
+       "hasNaverBooking": false,
+       "naverBookingUrl": null,
+       "naverEasyOrderUrl": null,
+       "hasNaverSmartOrder": false,
+       "reservationLabel": {
+        "standard": false,
+        "preOrder": false,
+        "table": false,
+        "takeout": false
+       },
+       "reservation": {
+        "benefit": ""
+       },
+       "hasBroadcastInfo": false,
+       "broadcastInfo": null,
+       "shopWindowInfo": null,
+       "hasNPay": false,
+       "carWash": "0",
+       "parkingPrice": null,
+       "card": null,
+       "distance": "37291.21",
+       "marker": "nres://marker/00079-00145",
+       "markerSelected": "nres://marker/00079-00309",
+       "markerId": "220563",
+       "microReview": [
+        "에버랜드 여행길에 들리는 달콤한 휴식"
+       ],
+       "michelinGuide": null,
+       "indoor": null,
+       "markerLabel": null,
+       "subway": null,
+       "evChargerVendor": null,
+       "evChargerPublic": null,
+       "evChargerParking": null,
+       "evChargerInfo": null
+      },
+      {
+       "index": "15",
+       "rank": "16",
+       "id": "1796607378",
+       "name": "라운지엑스 에버랜드점",
+       "tel": "",
+       "isCallLink": false,
+       "virtualTel": "",
+       "virtualTelDisplay": "",
+       "ppc": "0",
+       "category": [
+        "카페,디저트",
+        "카페"
+       ],
+       "categoryPath": [
+        [
+         "220036",
+         "220052",
+         "220576",
+         "1004964"
+        ],
+        [
+         "222117",
+         "222121",
+         "1003373",
+         "1003374"
+        ]
+       ],
+       "rcode": "0246125027",
+       "businessStatus": {
+        "requestTime": "202609011103",
+        "status": {
+         "code": 2,
+         "text": "영업 중",
+         "emphasis": false,
+         "description": "영업중",
+         "detailInfo": "21:30에 영업종료"
+        },
+        "businessHours": "202609011000~202609012130",
+        "breakTime": "",
+        "lastOrder": ""
+       },
+       "naviInfoText": null,
+       "naviInfo": null,
+       "address": "경기도 용인시 처인구 포곡읍 전대리 310 글로벌페어 A동 1층",
+       "roadAddress": "경기도 용인시 처인구 포곡읍 에버랜드로 199 글로벌페어 A동 1층",
+       "abbrAddress": "전대리 310 글로벌페어 A동 1층",
+       "shortAddress": [
+        "경기 용인시 처인구 포곡읍",
+        "에버랜드로 199",
+        "글로벌페어 A동 1층"
+       ],
+       "display": "라운지엑스 <b>에버랜드</b>점",
+       "telDisplay": "",
+       "context": [],
+       "reviewCount": 85,
+       "placeReviewCount": 134,
+       "ktCallMd": "f11c1e0dd9cc610a17a9ae783732b8ad",
+       "coupon": "0",
+       "thumUrl": "https://ldb-phinf.pstatic.net/20251031_125/1761836638913xvJEq_JPEG/KakaoTalk_20251030_234939540.jpg",
+       "thumUrls": [
+        "https://ldb-phinf.pstatic.net/20251031_125/1761836638913xvJEq_JPEG/KakaoTalk_20251030_234939540.jpg",
+        "https://ldb-phinf.pstatic.net/20220310_261/1646877350641oOebP_JPEG/BC7DEF21-9D57-42D8-8AEA-F67FF746E0EE.JPG",
+        "https://ldb-phinf.pstatic.net/20220310_188/16468773330264mIp8_JPEG/58A3307F-A8B7-4747-BE4C-80521A22572D.JPG"
+       ],
+       "type": "s",
+       "isSite": "1",
+       "posExact": "1",
+       "x": "127.2026364",
+       "y": "37.2941765",
+       "itemLevel": "12",
+       "isAdultBusiness": false,
+       "streetPanorama": {
+        "id": "i8OZC8ElUxM43NCzlELBtg==",
+        "pan": "-33.56",
+        "tilt": "7.89",
+        "lng": "127.2027400",
+        "lat": "37.2940656",
+        "fov": "100"
+       },
+       "skyPanorama": {
+        "id": "znJSWPlLXApqqtxwim4YKA==",
+        "pan": "53.01",
+        "tilt": "-30.00",
+        "lng": "127.2019250",
+        "lat": "37.2936400",
+        "fov": "124"
+       },
+       "insidePanorama": null,
+       "interiorPanorama": null,
+       "indoorPanorama": null,
+       "theme": null,
+       "poiInfo": {
+        "relation": null,
+        "hasRelation": false,
+        "road": {
+         "poiShapeType": "1",
+         "shapeKey": null,
+         "boundary": null,
+         "detail": null
+        },
+        "hasRoad": false,
+        "land": null,
+        "hasLand": false,
+        "polygon": null,
+        "hasPolygon": false
+       },
+       "homePage": "https://blog.naver.com/loungex_official",
+       "description": "",
+       "entranceCoords": {
+        "car": null,
+        "walk": [
+         {
+          "rep": true,
+          "x": 127.2030151,
+          "y": 37.2942061
+         },
+         {
+          "rep": false,
+          "x": 127.2033788,
+          "y": 37.2946549
+         }
+        ]
+       },
+       "isPollingPlace": false,
+       "bizhourInfo": "영업 중",
+       "menuInfo": "라운지엑스 라떼 6,500 | 로봇드립커피 7,000 | 로봇 아이스크림 4,900 | 아메리카노 5,500 | 카페라떼 6,000 | 바닐라라떼 6,500 | 딥 스트로베리 7,000 | 딥 초콜릿 7,000 | 라임 소다 6,500 | 리치 캐모마일 6,500 | 피치피치핏치 5,500 | 글레이즈드 크로넛 4,400 | 시나몬 크로넛 4,400 | 플레인 휘낭시에 2,500",
+       "petrolInfo": null,
+       "couponUrl": null,
+       "couponUrlMobile": null,
+       "hasCardBenefit": false,
+       "menuExist": "1",
+       "hasNaverBooking": false,
+       "naverBookingUrl": null,
+       "naverEasyOrderUrl": null,
+       "hasNaverSmartOrder": false,
+       "reservationLabel": {
+        "standard": false,
+        "preOrder": false,
+        "table": false,
+        "takeout": false
+       },
+       "reservation": {
+        "benefit": ""
+       },
+       "hasBroadcastInfo": false,
+       "broadcastInfo": null,
+       "shopWindowInfo": null,
+       "hasNPay": false,
+       "carWash": "0",
+       "parkingPrice": null,
+       "card": null,
+       "distance": "36222.21",
+       "marker": "nres://marker/00079-00145",
+       "markerSelected": "nres://marker/00079-00309",
+       "markerId": "1004964",
+       "microReview": [],
+       "michelinGuide": null,
+       "indoor": null,
+       "markerLabel": null,
+       "subway": null,
+       "evChargerVendor": null,
+       "evChargerPublic": null,
+       "evChargerParking": null,
+       "evChargerInfo": null
+      },
+      {
+       "index": "16",
+       "rank": "17",
+       "id": "19286117",
+       "name": "그린베이커리",
+       "tel": "0507-1333-9274",
+       "isCallLink": false,
+       "virtualTel": "0507-1333-9274",
+       "virtualTelDisplay": "0507-1333-9274",
+       "ppc": "1",
+       "category": [
+        "카페,디저트",
+        "베이커리"
+       ],
+       "categoryPath": [
+        [
+         "220036",
+         "220052",
+         "220564",
+         "221161"
+        ],
+        [
+         "1004760",
+         "1004380",
+         "1002043"
+        ]
+       ],
+       "rcode": "0246125027",
+       "businessStatus": {
+        "requestTime": "202609011103",
+        "status": {
+         "code": 2,
+         "text": "영업 중",
+         "emphasis": false,
+         "description": "영업중",
+         "detailInfo": "새벽 00:00에 영업종료"
+        },
+        "businessHours": "202609010830~202609012400",
+        "breakTime": "",
+        "lastOrder": ""
+       },
+       "naviInfoText": null,
+       "naviInfo": null,
+       "address": "경기도 용인시 처인구 포곡읍 전대리 360-1",
+       "roadAddress": "경기도 용인시 처인구 포곡읍 전대로78번길 11-1",
+       "abbrAddress": "전대리 360-1",
+       "shortAddress": [
+        "경기 용인시 처인구 포곡읍",
+        "전대로78번길 11-1"
+       ],
+       "display": "그린베이커리",
+       "telDisplay": "0507-1333-9274",
+       "context": [],
+       "reviewCount": 17,
+       "placeReviewCount": 292,
+       "ktCallMd": "72a44a200ed99ad34999abb55c6a1608",
+       "coupon": "0",
+       "thumUrl": "https://ldb-phinf.pstatic.net/20220712_187/1657605725828atIVg_JPEG/20220712_145454.jpg",
+       "thumUrls": [
+        "https://ldb-phinf.pstatic.net/20220712_187/1657605725828atIVg_JPEG/20220712_145454.jpg",
+        "https://ldb-phinf.pstatic.net/20220712_103/1657605717215UFUpx_JPEG/20220712_150028.jpg",
+        "https://ldb-phinf.pstatic.net/20220712_241/16576058697805xt7I_JPEG/20220712_145133.jpg"
+       ],
+       "type": "s",
+       "isSite": "1",
+       "posExact": "1",
+       "x": "127.2169685",
+       "y": "37.2859566",
+       "itemLevel": "12",
+       "isAdultBusiness": false,
+       "streetPanorama": {
+        "id": "lcsTyrvU23495osyQnf4Vw==",
+        "pan": "-106.53",
+        "tilt": "12.13",
+        "lng": "127.2169275",
+        "lat": "37.2860577",
+        "fov": "50"
+       },
+       "skyPanorama": {
+        "id": "myuUiz/e5KGIbnXlnQ6TQQ==",
+        "pan": "-117.22",
+        "tilt": "-30.00",
+        "lng": "127.2176553",
+        "lat": "37.2863089",
+        "fov": "124"
+       },
+       "insidePanorama": null,
+       "interiorPanorama": null,
+       "indoorPanorama": null,
+       "theme": null,
+       "poiInfo": {
+        "relation": null,
+        "hasRelation": false,
+        "road": {
+         "poiShapeType": "1",
+         "shapeKey": null,
+         "boundary": null,
+         "detail": null
+        },
+        "hasRoad": false,
+        "land": null,
+        "hasLand": false,
+        "polygon": null,
+        "hasPolygon": false
+       },
+       "homePage": "",
+       "description": "",
+       "entranceCoords": {
+        "car": [
+         {
+          "rep": true,
+          "x": 127.217023,
+          "y": 37.285989
+         }
+        ],
+        "walk": [
+         {
+          "rep": true,
+          "x": 127.217023,
+          "y": 37.285989
+         }
+        ]
+       },
+       "isPollingPlace": false,
+       "bizhourInfo": "영업 중",
+       "menuInfo": "소보루 1,500 | 소금빵 2,200 | 단팥빵 1,500",
+       "petrolInfo": null,
+       "couponUrl": null,
+       "couponUrlMobile": null,
+       "hasCardBenefit": false,
+       "menuExist": "1",
+       "hasNaverBooking": false,
+       "naverBookingUrl": null,
+       "naverEasyOrderUrl": null,
+       "hasNaverSmartOrder": false,
+       "reservationLabel": {
+        "standard": false,
+        "preOrder": false,
+        "table": false,
+        "takeout": false
+       },
+       "reservation": {
+        "benefit": ""
+       },
+       "hasBroadcastInfo": false,
+       "broadcastInfo": null,
+       "shopWindowInfo": null,
+       "hasNPay": false,
+       "carWash": "0",
+       "parkingPrice": null,
+       "card": null,
+       "distance": "37686.51",
+       "marker": "nres://marker/00079-00145",
+       "markerSelected": "nres://marker/00079-00309",
+       "markerId": "221161",
+       "microReview": [
+        "달콤함 가득 단팥빵의 매력"
+       ],
+       "michelinGuide": null,
+       "indoor": null,
+       "markerLabel": null,
+       "subway": null,
+       "evChargerVendor": null,
+       "evChargerPublic": null,
+       "evChargerParking": null,
+       "evChargerInfo": null
+      },
+      {
+       "index": "17",
+       "rank": "18",
+       "id": "1790270775",
+       "name": "개코",
+       "tel": "031-328-8868",
+       "isCallLink": false,
+       "virtualTel": "",
+       "virtualTelDisplay": "",
+       "ppc": "1",
+       "category": [
+        "음식점",
+        "카페,디저트"
+       ],
+       "categoryPath": [
+        [
+         "220036",
+         "220052",
+         "220563"
+        ],
+        [
+         "1004760",
+         "1006471"
+        ]
+       ],
+       "rcode": "0246125027",
+       "businessStatus": {
+        "requestTime": "202609011103",
+        "status": {
+         "code": 2,
+         "text": "영업 중",
+         "emphasis": false,
+         "description": "영업중",
+         "detailInfo": "20:00에 영업종료"
+        },
+        "businessHours": "202609011000~202609012000",
+        "breakTime": "",
+        "lastOrder": ""
+       },
+       "naviInfoText": null,
+       "naviInfo": null,
+       "address": "경기도 용인시 처인구 포곡읍 전대리 189-2 1층 개코",
+       "roadAddress": "경기도 용인시 처인구 포곡읍 전대로78번길 4 1층 개코",
+       "abbrAddress": "전대리 189-2 1층 개코",
+       "shortAddress": [
+        "경기 용인시 처인구 포곡읍",
+        "전대로78번길 4",
+        "1층 개코"
+       ],
+       "display": "개코",
+       "telDisplay": "031-328-8868",
+       "context": [],
+       "reviewCount": 21,
+       "placeReviewCount": 200,
+       "ktCallMd": "e5b7c403392079a87618347b4919a31e",
+       "coupon": "0",
+       "thumUrl": "https://ldb-phinf.pstatic.net/20241128_266/1732781808976nutmN_JPEG/IMG_4932.jpeg",
+       "thumUrls": [
+        "https://ldb-phinf.pstatic.net/20241128_266/1732781808976nutmN_JPEG/IMG_4932.jpeg",
+        "https://ldb-phinf.pstatic.net/20250806_190/1754444536444iilBq_JPEG/IMG_8820.jpeg",
+        "https://ldb-phinf.pstatic.net/20241128_248/1732781808457HNKl1_JPEG/IMG_4754.jpeg"
+       ],
+       "type": "s",
+       "isSite": "1",
+       "posExact": "1",
+       "x": "127.2174915",
+       "y": "37.2853165",
+       "itemLevel": "12",
+       "isAdultBusiness": false,
+       "streetPanorama": {
+        "id": "sBMYKAZvZHoP01Ki27FVWQ==",
+        "pan": "79.11",
+        "tilt": "5.44",
+        "lng": "127.2173490",
+        "lat": "37.2852687",
+        "fov": "42"
+       },
+       "skyPanorama": {
+        "id": "myuUiz/e5KGIbnXlnQ6TQQ==",
+        "pan": "-170.71",
+        "tilt": "-30.00",
+        "lng": "127.2176553",
+        "lat": "37.2863089",
+        "fov": "124"
+       },
+       "insidePanorama": null,
+       "interiorPanorama": null,
+       "indoorPanorama": null,
+       "theme": null,
+       "poiInfo": {
+        "relation": null,
+        "hasRelation": false,
+        "road": {
+         "poiShapeType": "1",
+         "shapeKey": null,
+         "boundary": null,
+         "detail": null
+        },
+        "hasRoad": false,
+        "land": null,
+        "hasLand": false,
+        "polygon": null,
+        "hasPolygon": false
+       },
+       "homePage": "https://www.instagram.com/gaeko_cafe",
+       "description": "",
+       "entranceCoords": {
+        "car": [
+         {
+          "rep": true,
+          "x": 127.217418,
+          "y": 37.285253
+         }
+        ],
+        "walk": [
+         {
+          "rep": true,
+          "x": 127.217418,
+          "y": 37.285253
+         }
+        ]
+       },
+       "isPollingPlace": false,
+       "bizhourInfo": "영업 중",
+       "menuInfo": "래밍턴케이크 5,000 | 레몬케이크 2,800 | 당근케익스콘 4,500 | 군옥수수스콘 4,500 | 다크초코스콘 4,500 | 쑥콩고물스콘 4,500 | 단호박스콘 4,500 | 흑임자스콘 4,500 | 레몬얼그레이스콘 4,500 | 플레인스콘 3,500",
+       "petrolInfo": null,
+       "couponUrl": null,
+       "couponUrlMobile": null,
+       "hasCardBenefit": false,
+       "menuExist": "1",
+       "hasNaverBooking": false,
+       "naverBookingUrl": null,
+       "naverEasyOrderUrl": null,
+       "hasNaverSmartOrder": false,
+       "reservationLabel": {
+        "standard": false,
+        "preOrder": false,
+        "table": false,
+        "takeout": false
+       },
+       "reservation": {
+        "benefit": ""
+       },
+       "hasBroadcastInfo": false,
+       "broadcastInfo": null,
+       "shopWindowInfo": null,
+       "hasNPay": false,
+       "carWash": "0",
+       "parkingPrice": null,
+       "card": null,
+       "distance": "37771.14",
+       "marker": "nres://marker/00079-00145",
+       "markerSelected": "nres://marker/00079-00309",
+       "markerId": "220563",
+       "microReview": [
+        "우드톤 인테리어의 아늑한 휴식 공간"
+       ],
+       "michelinGuide": null,
+       "indoor": null,
+       "markerLabel": null,
+       "subway": null,
+       "evChargerVendor": null,
+       "evChargerPublic": null,
+       "evChargerParking": null,
+       "evChargerInfo": null
+      },
+      {
+       "index": "18",
+       "rank": "19",
+       "id": "1441236437",
+       "name": "판다월드 카페",
+       "tel": "",
+       "isCallLink": false,
+       "virtualTel": "",
+       "virtualTelDisplay": "",
+       "ppc": "0",
+       "category": [
+        "음식점",
+        "카페,디저트"
+       ],
+       "categoryPath": [
+        [
+         "220036",
+         "220052",
+         "220563"
+        ],
+        [
+         "222117",
+         "222121",
+         "1003373",
+         "1003374"
+        ]
+       ],
+       "rcode": "0246125027",
+       "businessStatus": {
+        "requestTime": "202609011103",
+        "status": {
+         "code": 2,
+         "text": "영업 중",
+         "emphasis": false,
+         "description": "영업중",
+         "detailInfo": "18:00에 영업종료"
+        },
+        "businessHours": "202609011000~202609011800",
+        "breakTime": "",
+        "lastOrder": ""
+       },
+       "naviInfoText": null,
+       "naviInfo": null,
+       "address": "경기도 용인시 처인구 포곡읍 전대리 310 삼성에버랜드",
+       "roadAddress": "경기도 용인시 처인구 포곡읍 에버랜드로 199 삼성에버랜드",
+       "abbrAddress": "전대리 310 삼성에버랜드",
+       "shortAddress": [
+        "경기 용인시 처인구 포곡읍",
+        "에버랜드로 199",
+        "삼성에버랜드"
+       ],
+       "display": "판다월드 <b>카페</b>",
+       "telDisplay": "",
+       "context": [],
+       "reviewCount": 71,
+       "placeReviewCount": 599,
+       "ktCallMd": "696a2faf193c38a605ebe6370a7b7421",
+       "coupon": "0",
+       "thumUrl": "https://ldb-phinf.pstatic.net/20191106_59/1573037567699nGO7w_JPEG/sZsxUNi_Id36l6uTH1MXsg77.jpg",
+       "thumUrls": [
+        "https://ldb-phinf.pstatic.net/20191106_59/1573037567699nGO7w_JPEG/sZsxUNi_Id36l6uTH1MXsg77.jpg"
+       ],
+       "type": "s",
+       "isSite": "1",
+       "posExact": "1",
+       "x": "127.2027977",
+       "y": "37.2931454",
+       "itemLevel": "12",
+       "isAdultBusiness": false,
+       "streetPanorama": {
+        "id": "/b81m8vPZr0Yzm3NnNk5eQ==",
+        "pan": "-110.79",
+        "tilt": "10.00",
+        "lng": "127.2030789",
+        "lat": "37.2932519",
+        "fov": "120"
+       },
+       "skyPanorama": {
+        "id": "znJSWPlLXApqqtxwim4YKA==",
+        "pan": "119.60",
+        "tilt": "-30.00",
+        "lng": "127.2019250",
+        "lat": "37.2936400",
+        "fov": "124"
+       },
+       "insidePanorama": null,
+       "interiorPanorama": null,
+       "indoorPanorama": null,
+       "theme": null,
+       "poiInfo": {
+        "relation": null,
+        "hasRelation": false,
+        "road": {
+         "poiShapeType": "1",
+         "shapeKey": null,
+         "boundary": null,
+         "detail": null
+        },
+        "hasRoad": false,
+        "land": null,
+        "hasLand": false,
+        "polygon": null,
+        "hasPolygon": false
+       },
+       "homePage": "",
+       "description": "",
+       "entranceCoords": {
+        "car": null,
+        "walk": [
+         {
+          "rep": true,
+          "x": 127.2033412,
+          "y": 37.293257
+         }
+        ]
+       },
+       "isPollingPlace": false,
+       "bizhourInfo": "영업 중",
+       "menuInfo": "판다아이스바 4,800 | 댓잎모히또에이드 6,300 | 댓잎애플스무디 6,500 | 워토우카라멜샌드 2,800 | 허니몽 6,800 | 핫초코큐브 6,000 | 허니큐브 5,500 | 망고큐브 5,800 | 베리큐브 5,500 | 티라떼 5,300 | 유자차 5,000 | 초코라떼 5,300 | 바닐라라떼 5,500",
+       "petrolInfo": null,
+       "couponUrl": null,
+       "couponUrlMobile": null,
+       "hasCardBenefit": false,
+       "menuExist": "1",
+       "hasNaverBooking": false,
+       "naverBookingUrl": null,
+       "naverEasyOrderUrl": null,
+       "hasNaverSmartOrder": false,
+       "reservationLabel": {
+        "standard": false,
+        "preOrder": false,
+        "table": false,
+        "takeout": false
+       },
+       "reservation": {
+        "benefit": ""
+       },
+       "hasBroadcastInfo": false,
+       "broadcastInfo": null,
+       "shopWindowInfo": null,
+       "hasNPay": false,
+       "carWash": "0",
+       "parkingPrice": null,
+       "card": null,
+       "distance": "36326.97",
+       "marker": "nres://marker/00079-00145",
+       "markerSelected": "nres://marker/00079-00309",
+       "markerId": "220563",
+       "microReview": [
+        "에버랜드에서 만나는 특별한 카페 경험"
+       ],
+       "michelinGuide": null,
+       "indoor": null,
+       "markerLabel": null,
+       "subway": null,
+       "evChargerVendor": null,
+       "evChargerPublic": null,
+       "evChargerParking": null,
+       "evChargerInfo": null
+      },
+      {
+       "index": "19",
+       "rank": "20",
+       "id": "1448271663",
+       "name": "유운커피",
+       "tel": "0507-1358-6613",
+       "isCallLink": false,
+       "virtualTel": "0507-1358-6613",
+       "virtualTelDisplay": "0507-1358-6613",
+       "ppc": "1",
+       "category": [
+        "카페,디저트",
+        "카페"
+       ],
+       "categoryPath": [
+        [
+         "220036",
+         "220052",
+         "220576",
+         "221212"
+        ],
+        [
+         "1004760",
+         "1004985"
+        ]
+       ],
+       "rcode": "0246125028",
+       "businessStatus": {
+        "requestTime": "202609011103",
+        "status": {
+         "code": 9,
+         "text": "오늘 휴무",
+         "emphasis": true,
+         "description": "정기휴무일 휴무",
+         "detailInfo": "매주 화요일 휴무"
+        },
+        "businessHours": "",
+        "breakTime": "",
+        "lastOrder": ""
+       },
+       "naviInfoText": null,
+       "naviInfo": null,
+       "address": "경기도 용인시 처인구 포곡읍 유운리 144-2 한옥집",
+       "roadAddress": "경기도 용인시 처인구 포곡읍 곡현로122번길 15 한옥집",
+       "abbrAddress": "유운리 144-2 한옥집",
+       "shortAddress": [
+        "경기 용인시 처인구 포곡읍",
+        "곡현로122번길 15",
+        "한옥집"
+       ],
+       "display": "유운커피",
+       "telDisplay": "0507-1358-6613",
+       "context": [],
+       "reviewCount": 1089,
+       "placeReviewCount": 911,
+       "ktCallMd": "e55a8e25b2af2a8027b0efa5107fc5b4",
+       "coupon": "0",
+       "thumUrl": "https://ldb-phinf.pstatic.net/20260223_176/1771835082934Jtd0L_JPEG/IMG_3447.jpeg",
+       "thumUrls": [
+        "https://ldb-phinf.pstatic.net/20260223_176/1771835082934Jtd0L_JPEG/IMG_3447.jpeg",
+        "https://ldb-phinf.pstatic.net/20240502_34/1714615655157sdGAN_JPEG/IMG_3110.jpeg",
+        "https://ldb-phinf.pstatic.net/20250212_88/1739334776255mLzeB_JPEG/6D742DC9-D608-4063-B318-288AA4D66493.jpeg"
+       ],
+       "type": "s",
+       "isSite": "1",
+       "posExact": "1",
+       "x": "127.2245935",
+       "y": "37.2979782",
+       "itemLevel": "12",
+       "isAdultBusiness": false,
+       "streetPanorama": {
+        "id": "F3cef0BcYosNbpiUpw9a5w==",
+        "pan": "-166.36",
+        "tilt": "10.00",
+        "lng": "127.2246260",
+        "lat": "37.2981113",
+        "fov": "120"
+       },
+       "skyPanorama": {
+        "id": "eaLl2+FxSy40VPVLWgCvvg==",
+        "pan": "85.77",
+        "tilt": "-30.00",
+        "lng": "127.2190960",
+        "lat": "37.2975670",
+        "fov": "124"
+       },
+       "insidePanorama": null,
+       "interiorPanorama": null,
+       "indoorPanorama": null,
+       "theme": null,
+       "poiInfo": {
+        "relation": null,
+        "hasRelation": false,
+        "road": {
+         "poiShapeType": "1",
+         "shapeKey": null,
+         "boundary": null,
+         "detail": null
+        },
+        "hasRoad": false,
+        "land": null,
+        "hasLand": false,
+        "polygon": null,
+        "hasPolygon": false
+       },
+       "homePage": "https://www.instagram.com/yuuncoffee/",
+       "description": "",
+       "entranceCoords": {
+        "car": [
+         {
+          "rep": true,
+          "x": 127.224631,
+          "y": 37.297708
+         }
+        ],
+        "walk": [
+         {
+          "rep": true,
+          "x": 127.224631,
+          "y": 37.297708
+         }
+        ]
+       },
+       "isPollingPlace": false,
+       "bizhourInfo": "오늘 휴무",
+       "menuInfo": "구름라떼 8,000 | 더블 초코바게트 6,500 | Whole pie (6조각) 45,000 | (Season menu) 말차쉬폰산도 9,500 | 파누오쪼 샌드위치 11,500 | 아포가토 크림브레드 12,500 | New 바질 토마토 포카치아 5,500 | New 감자 포카치아 5,500 | 파이 7,800 | 버터바 4,500 | 스콘 변동가격(업주문의) | 유운라떼 7,000 | 아인슈페너 7,000 | 너트크림라떼 7,000",
+       "petrolInfo": null,
+       "couponUrl": null,
+       "couponUrlMobile": null,
+       "hasCardBenefit": false,
+       "menuExist": "1",
+       "hasNaverBooking": false,
+       "naverBookingUrl": "https://booking.naver.com/booking/6/bizes/1275685",
+       "naverEasyOrderUrl": null,
+       "hasNaverSmartOrder": false,
+       "reservationLabel": {
+        "standard": false,
+        "preOrder": false,
+        "table": false,
+        "takeout": false
+       },
+       "reservation": {
+        "benefit": ""
+       },
+       "hasBroadcastInfo": true,
+       "broadcastInfo": {
+        "name": "생방송오늘저녁",
+        "menu": "밤라테/아포카토크림빵"
+       },
+       "shopWindowInfo": null,
+       "hasNPay": false,
+       "carWash": "0",
+       "parkingPrice": null,
+       "card": null,
+       "distance": "36976.46",
+       "marker": "nres://marker/00079-00145",
+       "markerSelected": "nres://marker/00079-00309",
+       "markerId": "221212",
+       "microReview": [
+        "유운라떼 한 잔에 담긴 전통의 맛"
+       ],
+       "michelinGuide": null,
+       "indoor": null,
+       "markerLabel": null,
+       "subway": null,
+       "evChargerVendor": null,
+       "evChargerPublic": null,
+       "evChargerParking": null,
+       "evChargerInfo": null
+      }
+     ]
+    },
+    "bus": null
+   }
+  }
+ },
+ {
+  "url": "https://map.naver.com/p/api/ads/common-marker?stmsId=100400599&requestUrl=https:%2F%2Fmap.naver.com%2Fp%2Fsearch%2F%25EC%2597%2590%25EB%25B2%2584%25EB%259E%259C%25EB%2593%259C%2520%25EC%25B9%25B4%25ED%258E%2598&longitude=126.9740657&latitude=37.566551&minX=126.97034279388805&minY=37.56200963700964&maxX=126.98497692627342&maxY=37.57119412983863",
+  "body": {
+   "items": []
+  }
+ }
+]
