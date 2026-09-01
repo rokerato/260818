@@ -1,0 +1,47 @@
+{
+  "run": "20260901T021857Z",
+  "restaurants": [
+    {
+      "restaurant": "매직타임레스토랑",
+      "platform": "naver",
+      "place_id": "1527871697",
+      "place_url": "https://pcmap.place.naver.com/restaurant/1527871697/review/visitor",
+      "reviews_collected": 36,
+      "reviews_with_text": 10,
+      "reviews_with_rating": 9,
+      "reviews_with_date": 19,
+      "duplicate_reviews_removed": 4,
+      "collection_failures": 1,
+      "failure_messages": [
+        "unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title=\"captcha\"><meta charset=\"UTF-8\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1\"/><script charset=\"utf-8\" src=\"https'"
+      ],
+      "field_coverage": {
+        "platform": 36,
+        "place_name": 36,
+        "place_id": 36,
+        "place_url": 36,
+        "review_id": 35,
+        "reviewer_name": 2,
+        "reviewer_profile_id": 20,
+        "reviewer_profile_url": 2,
+        "rating": 9,
+        "review_text": 10,
+        "review_date": 19,
+        "visit_date": 20,
+        "visit_count": 21,
+        "review_image_count": 10,
+        "review_image_urls": 10,
+        "helpful_count": 0,
+        "keywords": 25,
+        "menus": 0,
+        "verified_visit": 28,
+        "collected_at": 36,
+        "raw_ref": 36
+      }
+    }
+  ],
+  "normalized_csv": "data/normalized/reviews_20260901T021857Z.csv",
+  "validation_warnings": [
+    "1 review(s) have no platform review_id"
+  ]
+}
