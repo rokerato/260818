@@ -335,22 +335,20 @@ class NaverPlaceCollector(BaseCollector):
     def page_variants(self, review_url: str) -> list[str]:
         """Distinct server-rendered views of the same review list.
 
-        Each full page load inlines its own Apollo batch, so different sort
-        orders -- and the mobile host, which renders the same list under a
-        different layout -- surface overlapping but not identical slices.
-        Loading several and de-duplicating yields more per run than one load
-        can, which matters when the GraphQL pager is unavailable. A variant
-        that 404s, redirects to the default view, or adds nothing new is a
-        harmless no-op.
+        Each full page load inlines its own Apollo batch, so a different sort
+        order surfaces an overlapping but not identical slice. Loading both
+        and de-duplicating yields more per run than one load can, which
+        matters when the GraphQL pager is unavailable.
+
+        Measured over 20 venues (run 33464338587): the default view returns
+        ~29 reviews and ``?reviewSort=recent`` adds another 2-5. Two further
+        candidates were tried and dropped -- ``?reviewSort=useful`` and the
+        m.place mobile host both added exactly zero across every venue while
+        costing ~65s each, so they are not worth the request budget. Keep new
+        candidates only if the logged per-variant gain justifies them.
         """
         base = review_url.split("?")[0]
-        variants = [base]
-        for sort in ("recent", "useful"):
-            variants.append(f"{base}?reviewSort={sort}")
-        # m.place serves the same place ids under the mobile layout.
-        if "pcmap.place.naver.com" in base:
-            variants.append(base.replace("pcmap.place", "m.place"))
-        return variants
+        return [base, f"{base}?reviewSort=recent"]
 
     # ------------------------------------------------------------------
     # collection
