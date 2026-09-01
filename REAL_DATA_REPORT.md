@@ -1,16 +1,17 @@
 # Real-data collection report (2026-09-01)
 
-Status: **stabilized**. Three consecutive successful runs; the third collected
-60 genuine Naver visitor reviews across all three configured venues with
-consistent per-venue yield and zero cross-source duplicates.
+Status: **collecting at scale**. Discovery verifies 30 Everland F&B venues;
+the latest full crawl (run 33468327404) collected **479 genuine Naver visitor
+reviews across 19 venues**, de-duplicating 289 repeats. The 11 venues that
+returned nothing were diagnosed to a wrong URL path segment, since fixed --
+see *Known issues*.
 
-## Verified targets (discovered from Naver Map search, addresses confirmed)
+## Verified targets
 
-| Venue | place_id | Address | Category |
-|---|---|---|---|
-| 매직타임레스토랑 | 1527871697 | 경기도 용인시 처인구 포곡읍 에버랜드로 199 | 음식점 > 양식 |
-| 알파인레스토랑 | 1678026825 | 경기도 용인시 처인구 포곡읍 에버랜드로 199 | 음식점 > 한식 |
-| KFC 용인에버랜드 | 37747059 | 경기도 용인시 처인구 포곡읍 에버랜드로 199 | 양식 > 햄버거 |
+30 venues discovered from Naver Map search, each accepted only because the
+address Naver returned places it on 에버랜드로 (Everland's street). The full
+list with place ids lives in `config/restaurants.yaml`; `logs/discovery.log`
+records how each was found.
 
 ## How the data is actually obtained (findings from real runs)
 
@@ -32,16 +33,17 @@ consistent per-venue yield and zero cross-source duplicates.
    same collector from a residential/normal network, where the page's own
    GraphQL calls are expected to pass and interception resumes automatically.
 
-## Field availability on real data (run 3, n=60)
+## Field availability on real data (run 33468327404, n=479)
 
 | Field | Coverage | Note |
 |---|---|---|
 | review_id, reviewer_name, reviewer_profile_id, reviewer_profile_url | 100% | profile URL is the reviewer's public my-place page |
 | visit_date, visit_count, helpful_count, verified_visit | 100% | dates resolved to YYYY-MM-DD; verification from 영수증/카드/예약 signals |
-| keywords | 98% | Naver's voted keywords (e.g. "음식이 맛있어요") |
-| review_text, review_image_count/urls | ~48% | present on full records; partial records have none |
-| review_date | 50% | `created` only ships with full records |
-| rating | 35% | Naver does not publish a star rating on every visitor review |
+| keywords | 97% | Naver's voted keywords (e.g. "음식이 맛있어요") |
+| review_text | 55% | present on full records; partial records have none |
+| review_image_count/urls | 46% | |
+| review_date | 58% | `created` only ships with full records |
+| rating | 28% | Naver does not publish a star rating on every visitor review |
 | menus | 0% | not present in any observed payload; alias list ready if it appears |
 
 ## Operating the pipeline
@@ -57,6 +59,21 @@ consistent per-venue yield and zero cross-source duplicates.
 - Offline verification: `python tests/test_pipeline.py` (no network needed).
 - Re-normalize archived raw data after schema changes:
   `python scripts/collect_reviews.py --replay-raw data/raw`.
+
+## Known issues found and fixed
+
+- **Cafes returned nothing (run 33468327404).** All 10 venues configured with
+  the `cafe` category yielded zero: `pcmap.place.naver.com/cafe/<id>/review/visitor`
+  serves a completely empty document, while `/restaurant/<id>/...` works for
+  those same places. The collector now treats the category segment as a
+  fallback chain and retries under `/restaurant/`, abandoning a base path that
+  yields nothing after a single request. Discovery no longer emits `cafe`.
+- **A finished crawl was lost to a rejected push (run 33468274642).** It
+  collected all 30 venues, then failed its `git push` as non-fast-forward
+  because the branch moved while it ran. The workflow now rebases and retries.
+- **A cancelled crawl would have lost everything (run 33464338587).** The
+  pipeline built every result before writing any file; it now persists each
+  venue as it completes and bounds the run with a wall-clock budget.
 
 ## Standing limitations
 

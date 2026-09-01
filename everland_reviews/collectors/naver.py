@@ -154,6 +154,10 @@ def _native_id(payload: dict[str, Any]) -> str | None:
     return None
 
 
+_CATEGORY_SEGMENT = re.compile(
+    r"/(restaurant|cafe|place|accommodation|attraction)/\d+/"
+)
+
 _DOM_RATING = re.compile(r"별점\s*\n?\s*(\d(?:\.\d)?)\s*\n?\s*점")
 _DOM_KOREAN_DATE = re.compile(r"(\d{4})년\s*(\d{1,2})월\s*(\d{1,2})일")
 _DOM_VISIT_COUNT = re.compile(r"(\d+)\s*번째\s*방문")
@@ -346,9 +350,21 @@ class NaverPlaceCollector(BaseCollector):
         m.place mobile host both added exactly zero across every venue while
         costing ~65s each, so they are not worth the request budget. Keep new
         candidates only if the logged per-variant gain justifies them.
+
+        Returns *groups* of URLs sharing a base path. The caller abandons the
+        rest of a group whose base yielded nothing, so a wrong category
+        segment costs one quick request instead of several: run 33468327404
+        showed ``/cafe/<id>/review/visitor`` serves an empty document (all 10
+        cafe-segment venues returned zero) while ``/restaurant/<id>/...``
+        works for those same places, so a non-restaurant segment is retried
+        as ``/restaurant/``.
         """
         base = review_url.split("?")[0]
-        return [base, f"{base}?reviewSort=recent"]
+        bases = [base]
+        match = _CATEGORY_SEGMENT.search(base)
+        if match and match.group(1) != "restaurant":
+            bases.append(base.replace(f"/{match.group(1)}/", "/restaurant/", 1))
+        return [[b, f"{b}?reviewSort=recent"] for b in bases]
 
     # ------------------------------------------------------------------
     # collection
@@ -400,41 +416,58 @@ class NaverPlaceCollector(BaseCollector):
                 dom_items: list[dict[str, Any]] = []
                 self._attach_graphql_capture(page, captured, result, api_trace)
 
-                for index, variant in enumerate(self.page_variants(review_url)):
+                index = 0
+                for group in self.page_variants(review_url):
                     if self._count_unique(captured) >= limit:
                         break
-                    if (
-                        target_deadline is not None
-                        and time.monotonic() >= target_deadline
-                        and index
-                    ):
-                        # The first view is never skipped; extras are.
-                        log.info(
-                            "[%s] time budget reached; skipping remaining views",
-                            result.target.name,
+                    for position, variant in enumerate(group):
+                        if self._count_unique(captured) >= limit:
+                            break
+                        if (
+                            target_deadline is not None
+                            and time.monotonic() >= target_deadline
+                            and index
+                        ):
+                            # The first view is never skipped; extras are.
+                            log.info(
+                                "[%s] time budget reached; skipping remaining views",
+                                result.target.name,
+                            )
+                            break
+                        if index:
+                            # Space out the extra views; they are optional.
+                            time.sleep(self.request_delay)
+                        before = self._count_unique(captured)
+                        self._drive_page(
+                            page, variant, limit, result, captured,
+                            optional=bool(index), deadline=target_deadline,
                         )
+                        # The landing URL is authoritative once redirects settle.
+                        if not result.resolved_place_id:
+                            result.resolved_place_id = parse_place_id(page.url)
+                            result.resolved_place_url = page.url
+                        # Harvest after pagination, when the cache is fullest.
+                        self._harvest_inline_state(page, captured, result)
+                        dom_items.extend(self._extract_dom_reviews(page, result))
+                        gained = self._count_unique(captured) - before
+                        index += 1
+                        log.info(
+                            "[%s] view %d added %d review(s): %s",
+                            result.target.name, index, gained, variant,
+                        )
+                        if position == 0 and not gained:
+                            # A dead base path (wrong category segment, or a
+                            # place with no reviews): its sort variants cannot
+                            # do better, so move on to the next base.
+                            log.info(
+                                "[%s] base view empty; trying next path",
+                                result.target.name,
+                            )
+                            break
+                    # A base that produced reviews settles the path; the
+                    # remaining fallback bases would be redundant.
+                    if self._count_unique(captured):
                         break
-                    if index:
-                        # Space out the extra views; they are optional extras.
-                        time.sleep(self.request_delay)
-                    before = self._count_unique(captured)
-                    self._drive_page(
-                        page, variant, limit, result, captured,
-                        optional=bool(index), deadline=target_deadline,
-                    )
-                    # The landing URL is authoritative once redirects settle.
-                    if not result.resolved_place_id:
-                        result.resolved_place_id = parse_place_id(page.url)
-                        result.resolved_place_url = page.url
-                    # Harvest after pagination, when the cache is fullest.
-                    self._harvest_inline_state(page, captured, result)
-                    dom_items.extend(self._extract_dom_reviews(page, result))
-                    gained = self._count_unique(captured) - before
-                    log.info(
-                        "[%s] variant %d/%d added %d review(s): %s",
-                        result.target.name, index + 1,
-                        len(self.page_variants(review_url)), gained, variant,
-                    )
 
                 if not any(c["source"] == "graphql" for c in captured):
                     self._dump_debug(page, result, api_trace)

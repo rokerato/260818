@@ -219,7 +219,12 @@ def filter_everland_food(places: list[dict[str, Any]]) -> list[dict[str, Any]]:
             {
                 "name": name,
                 "place_id": place_id,
-                "category": "cafe" if "카페" in category_blob else "restaurant",
+                # pcmap serves cafes and bakeries under /restaurant/ as
+                # well; the /cafe/ segment renders an empty document
+                # (run 33468327404: all 10 cafe-segment venues returned
+                # zero). The collector falls back across segments
+                # anyway, so start from the one known to work.
+                "category": "restaurant",
                 "address": address,
                 "naver_category": categories,
             }
