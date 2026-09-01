@@ -1,1 +1,3 @@
 POST https://pcmap-api.place.naver.com/graphql
+POST https://pcmap-api.place.naver.com/graphql
+POST https://pcmap-api.place.naver.com/graphql

@@ -32,3 +32,192 @@ restaurants:
   naver_category:
   - 양식
   - 햄버거
+- name: 온더보더 에버랜드점
+  place_id: '1125315649'
+  category: restaurant
+  address: 경기도 용인시 처인구 포곡읍 에버랜드로 199 B동
+  naver_category:
+  - 양식
+  - 멕시코,남미음식
+- name: 온더보더 캐리비안베이점
+  place_id: '2055202614'
+  category: restaurant
+  address: 경기도 용인시 처인구 포곡읍 에버랜드로 199 캐리비안베이
+  naver_category:
+  - 양식
+  - 멕시코,남미음식
+- name: 홀랜드빌리지
+  place_id: '1081318402'
+  category: restaurant
+  address: 경기도 용인시 처인구 포곡읍 에버랜드로 199 삼성에버랜드
+  naver_category:
+  - 음식점
+  - 양식
+- name: 쿠치나마리오
+  place_id: '1401139141'
+  category: restaurant
+  address: 경기도 용인시 처인구 포곡읍 에버랜드로 199
+  naver_category:
+  - 음식점
+  - 이탈리아음식
+- name: 스노우피크 카페앤다이닝
+  place_id: '1451740778'
+  category: restaurant
+  address: 경기도 용인시 처인구 포곡읍 에버랜드로 388 B동
+  naver_category:
+  - 음식점
+  - 양식
+- name: 마드리드
+  place_id: '1188708686'
+  category: restaurant
+  address: 경기도 용인시 처인구 포곡읍 에버랜드로 199 삼성에버랜드
+  naver_category:
+  - 음식점
+  - 양식
+- name: 멜팅소울 캐리비안베이점
+  place_id: '1679236775'
+  category: restaurant
+  address: 경기도 용인시 처인구 포곡읍 에버랜드로 199 캐리비안베이 야외풀 매장
+  naver_category:
+  - 음식점
+  - 햄버거
+- name: 가든테라스
+  place_id: '1839013733'
+  category: restaurant
+  address: 경기도 용인시 처인구 포곡읍 에버랜드로 199
+  naver_category:
+  - 음식점
+  - 양식
+- name: 버거카페유럽
+  place_id: '1681363676'
+  category: restaurant
+  address: 경기도 용인시 처인구 포곡읍 에버랜드로 199
+  naver_category:
+  - 음식점
+  - 햄버거
+- name: 버거카페 갤리언
+  place_id: '1636531333'
+  category: restaurant
+  address: 경기도 용인시 처인구 포곡읍 에버랜드로 199 삼성에버랜드
+  naver_category:
+  - 음식점
+  - 햄버거
+- name: 라코스타
+  place_id: '19286170'
+  category: restaurant
+  address: 경기도 용인시 처인구 포곡읍 에버랜드로 199 삼성에버랜드
+  naver_category:
+  - 음식점
+  - 양식
+- name: 타운즈마켓레스토랑
+  place_id: '36940409'
+  category: restaurant
+  address: 경기도 용인시 처인구 포곡읍 에버랜드로 199 삼성에버랜드
+  naver_category:
+  - 일식
+  - 일식당
+- name: 멜팅소울 갤리언점
+  place_id: '2041651090'
+  category: restaurant
+  address: 경기도 용인시 처인구 포곡읍 에버랜드로 199 삼성 에버랜드 캐리비안베이 실내풀 6층
+  naver_category:
+  - 음식점
+  - 햄버거
+- name: 버거카페아메리카
+  place_id: '1268104504'
+  category: restaurant
+  address: 경기도 용인시 처인구 포곡읍 에버랜드로 199
+  naver_category:
+  - 음식점
+  - 햄버거
+- name: 크레페허브 용인에버랜드점
+  place_id: '2020897270'
+  category: cafe
+  address: 경기도 용인시 처인구 포곡읍 에버랜드로 199
+  naver_category:
+  - 음식점
+  - 카페,디저트
+- name: 포메인 에버랜드직영점
+  place_id: '1182555323'
+  category: restaurant
+  address: 경기도 용인시 처인구 포곡읍 에버랜드로 199
+  naver_category:
+  - 음식점
+  - 베트남음식
+- name: 솥내음 용인 에버랜드점
+  place_id: '1413421949'
+  category: restaurant
+  address: 경기도 용인시 처인구 포곡읍 에버랜드로 100 1층
+  naver_category:
+  - 음식점
+  - 한식
+- name: 커피빈 용인에버랜드점
+  place_id: '1131675496'
+  category: cafe
+  address: 경기도 용인시 처인구 포곡읍 에버랜드로 199 삼성에버랜드
+  naver_category:
+  - 카페,디저트
+  - 카페
+- name: 스타벅스 용인에버랜드점
+  place_id: '1660460217'
+  category: cafe
+  address: 경기도 용인시 처인구 포곡읍 에버랜드로 199
+  naver_category:
+  - 카페,디저트
+  - 카페
+- name: 화이트바움
+  place_id: '1559402792'
+  category: cafe
+  address: 경기도 용인시 처인구 포곡읍 에버랜드로376번길 160
+  naver_category:
+  - 음식점
+  - 카페,디저트
+- name: 테라로사 용인에버랜드점
+  place_id: '2028927562'
+  category: cafe
+  address: 경기도 용인시 처인구 포곡읍 에버랜드로 199 르네상스관(장미원옆)
+  naver_category:
+  - 카페,디저트
+  - 카페
+- name: 오오츄
+  place_id: '1306053034'
+  category: cafe
+  address: 경기도 용인시 처인구 포곡읍 에버랜드로 199
+  naver_category:
+  - 음식점
+  - 카페,디저트
+- name: 라운지엑스 에버랜드점
+  place_id: '1796607378'
+  category: cafe
+  address: 경기도 용인시 처인구 포곡읍 에버랜드로 199 글로벌페어 A동 1층
+  naver_category:
+  - 카페,디저트
+  - 카페
+- name: 판다월드 카페
+  place_id: '1441236437'
+  category: cafe
+  address: 경기도 용인시 처인구 포곡읍 에버랜드로 199 삼성에버랜드
+  naver_category:
+  - 음식점
+  - 카페,디저트
+- name: 앤티앤스 에버랜드점
+  place_id: '1310732110'
+  category: cafe
+  address: 경기도 용인시 처인구 포곡읍 에버랜드로 199
+  naver_category:
+  - 카페,디저트
+  - 베이커리
+- name: 가든 테라스(베이커리카페)
+  place_id: '1531667896'
+  category: cafe
+  address: 경기도 용인시 처인구 포곡읍 에버랜드로 199
+  naver_category:
+  - 카페,디저트
+  - 베이커리
+- name: 스낵 버스터
+  place_id: '1468050513'
+  category: restaurant
+  address: 경기도 용인시 처인구 포곡읍 에버랜드로 199
+  naver_category:
+  - 분식
+  - 종합분식

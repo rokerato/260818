@@ -13,13 +13,135 @@ searching: 에버랜드 카페
   http attempt failed (https://m.map.naver.com/search2/searchMore.naver): JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
   http endpoints yielded nothing; trying browser fallback
   20 raw place entries
+searching: 에버랜드 식당
+  no place entries in response from https://map.naver.com/p/api/search/allSearch
+  http attempt failed (https://m.map.naver.com/search2/searchMore.naver): JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+  http endpoints yielded nothing; trying browser fallback
+  20 raw place entries
+searching: 에버랜드 푸드코트
+  no place entries in response from https://map.naver.com/p/api/search/allSearch
+  http attempt failed (https://m.map.naver.com/search2/searchMore.naver): JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+  http endpoints yielded nothing; trying browser fallback
+  0 raw place entries
+searching: 에버랜드 베이커리
+  no place entries in response from https://map.naver.com/p/api/search/allSearch
+  http attempt failed (https://m.map.naver.com/search2/searchMore.naver): JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+  http endpoints yielded nothing; trying browser fallback
+  20 raw place entries
+searching: 에버랜드 스낵
+  no place entries in response from https://map.naver.com/p/api/search/allSearch
+  http attempt failed (https://m.map.naver.com/search2/searchMore.naver): JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+  http endpoints yielded nothing; trying browser fallback
+  11 raw place entries
+searching: 에버랜드 커피
+  no place entries in response from https://map.naver.com/p/api/search/allSearch
+  http attempt failed (https://m.map.naver.com/search2/searchMore.naver): JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+  http endpoints yielded nothing; trying browser fallback
+  20 raw place entries
+searching: 에버랜드 글로벌페어
+  no place entries in response from https://map.naver.com/p/api/search/allSearch
+  http attempt failed (https://m.map.naver.com/search2/searchMore.naver): JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+  http endpoints yielded nothing; trying browser fallback
+  2 raw place entries
+searching: 에버랜드 아메리칸어드벤처
+  no place entries in response from https://map.naver.com/p/api/search/allSearch
+  http attempt failed (https://m.map.naver.com/search2/searchMore.naver): JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+  http endpoints yielded nothing; trying browser fallback
+  0 raw place entries
+searching: 에버랜드 매직랜드
+  no place entries in response from https://map.naver.com/p/api/search/allSearch
+  http attempt failed (https://m.map.naver.com/search2/searchMore.naver): JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+  http endpoints yielded nothing; trying browser fallback
+  0 raw place entries
+searching: 에버랜드 유러피언어드벤처
+  no place entries in response from https://map.naver.com/p/api/search/allSearch
+  http attempt failed (https://m.map.naver.com/search2/searchMore.naver): JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+  http endpoints yielded nothing; trying browser fallback
+  0 raw place entries
+searching: 에버랜드 주토피아
+  no place entries in response from https://map.naver.com/p/api/search/allSearch
+  http attempt failed (https://m.map.naver.com/search2/searchMore.naver): JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+  http endpoints yielded nothing; trying browser fallback
+  19 raw place entries
+  skipped (non-food category ['생활,편의', '편의점']): CU 에버랜드글로벌페어점
+  skipped (non-food category ['에버랜드 놀이기구']): 사파리월드
+  skipped (non-food category ['놀이기구']): 알버트스페이스센터
+  skipped (non-food category ['에버랜드 주토피아']): 버드파라다이스
+  skipped (non-food category ['체험,공연,전시 시설']): 씨라이언스타디움
+  skipped (non-food category ['에버랜드 주토피아']): 판다월드
+  skipped (non-food category ['놀이기구']): 판타스틱윙스
+  skipped (non-food category ['에버랜드 주토피아']): 판다 세컨하우스
+  skipped (non-food category ['놀이기구']): 뿌빠타운
+  skipped (non-food category ['놀이기구']): 씨라이언빌리지
+  skipped (non-food category ['에버랜드 주토피아']): 타이거밸리
+  skipped (non-food category ['놀이기구']): 애니멀원더월드
+  skipped (non-food category ['놀이기구']): 물범과바다사자
+  skipped (non-food category ['놀이기구']): 펭귄아일랜드
+  skipped (non-food category ['에버랜드 주토피아']): 슈퍼윙스 애니멀톡
+  skipped (non-food category ['에버랜드 주토피아']): 패럿 애니멀톡
+  skipped (non-food category ['에버랜드 주토피아']): 알버트 라이브 톡
+  skipped (non-food category ['에버랜드 주토피아']): 타이거 밸리 애니멀톡
 
-verified Everland targets (3):
+verified Everland targets (30):
   - 매직타임레스토랑  id=1527871697
       경기도 용인시 처인구 포곡읍 에버랜드로 199  ['음식점', '양식']
   - 알파인레스토랑  id=1678026825
       경기도 용인시 처인구 포곡읍 에버랜드로 199  ['음식점', '한식']
   - KFC 용인에버랜드  id=37747059
       경기도 용인시 처인구 포곡읍 에버랜드로 199  ['양식', '햄버거']
+  - 온더보더 에버랜드점  id=1125315649
+      경기도 용인시 처인구 포곡읍 에버랜드로 199 B동  ['양식', '멕시코,남미음식']
+  - 온더보더 캐리비안베이점  id=2055202614
+      경기도 용인시 처인구 포곡읍 에버랜드로 199 캐리비안베이  ['양식', '멕시코,남미음식']
+  - 홀랜드빌리지  id=1081318402
+      경기도 용인시 처인구 포곡읍 에버랜드로 199 삼성에버랜드  ['음식점', '양식']
+  - 쿠치나마리오  id=1401139141
+      경기도 용인시 처인구 포곡읍 에버랜드로 199  ['음식점', '이탈리아음식']
+  - 스노우피크 카페앤다이닝  id=1451740778
+      경기도 용인시 처인구 포곡읍 에버랜드로 388 B동  ['음식점', '양식']
+  - 마드리드  id=1188708686
+      경기도 용인시 처인구 포곡읍 에버랜드로 199 삼성에버랜드  ['음식점', '양식']
+  - 멜팅소울 캐리비안베이점  id=1679236775
+      경기도 용인시 처인구 포곡읍 에버랜드로 199 캐리비안베이 야외풀 매장  ['음식점', '햄버거']
+  - 가든테라스  id=1839013733
+      경기도 용인시 처인구 포곡읍 에버랜드로 199  ['음식점', '양식']
+  - 버거카페유럽  id=1681363676
+      경기도 용인시 처인구 포곡읍 에버랜드로 199  ['음식점', '햄버거']
+  - 버거카페 갤리언  id=1636531333
+      경기도 용인시 처인구 포곡읍 에버랜드로 199 삼성에버랜드  ['음식점', '햄버거']
+  - 라코스타  id=19286170
+      경기도 용인시 처인구 포곡읍 에버랜드로 199 삼성에버랜드  ['음식점', '양식']
+  - 타운즈마켓레스토랑  id=36940409
+      경기도 용인시 처인구 포곡읍 에버랜드로 199 삼성에버랜드  ['일식', '일식당']
+  - 멜팅소울 갤리언점  id=2041651090
+      경기도 용인시 처인구 포곡읍 에버랜드로 199 삼성 에버랜드 캐리비안베이 실내풀 6층  ['음식점', '햄버거']
+  - 버거카페아메리카  id=1268104504
+      경기도 용인시 처인구 포곡읍 에버랜드로 199  ['음식점', '햄버거']
+  - 크레페허브 용인에버랜드점  id=2020897270
+      경기도 용인시 처인구 포곡읍 에버랜드로 199  ['음식점', '카페,디저트']
+  - 포메인 에버랜드직영점  id=1182555323
+      경기도 용인시 처인구 포곡읍 에버랜드로 199  ['음식점', '베트남음식']
+  - 솥내음 용인 에버랜드점  id=1413421949
+      경기도 용인시 처인구 포곡읍 에버랜드로 100 1층  ['음식점', '한식']
+  - 커피빈 용인에버랜드점  id=1131675496
+      경기도 용인시 처인구 포곡읍 에버랜드로 199 삼성에버랜드  ['카페,디저트', '카페']
+  - 스타벅스 용인에버랜드점  id=1660460217
+      경기도 용인시 처인구 포곡읍 에버랜드로 199  ['카페,디저트', '카페']
+  - 화이트바움  id=1559402792
+      경기도 용인시 처인구 포곡읍 에버랜드로376번길 160  ['음식점', '카페,디저트']
+  - 테라로사 용인에버랜드점  id=2028927562
+      경기도 용인시 처인구 포곡읍 에버랜드로 199 르네상스관(장미원옆)  ['카페,디저트', '카페']
+  - 오오츄  id=1306053034
+      경기도 용인시 처인구 포곡읍 에버랜드로 199  ['음식점', '카페,디저트']
+  - 라운지엑스 에버랜드점  id=1796607378
+      경기도 용인시 처인구 포곡읍 에버랜드로 199 글로벌페어 A동 1층  ['카페,디저트', '카페']
+  - 판다월드 카페  id=1441236437
+      경기도 용인시 처인구 포곡읍 에버랜드로 199 삼성에버랜드  ['음식점', '카페,디저트']
+  - 앤티앤스 에버랜드점  id=1310732110
+      경기도 용인시 처인구 포곡읍 에버랜드로 199  ['카페,디저트', '베이커리']
+  - 가든 테라스(베이커리카페)  id=1531667896
+      경기도 용인시 처인구 포곡읍 에버랜드로 199  ['카페,디저트', '베이커리']
+  - 스낵 버스터  id=1468050513
+      경기도 용인시 처인구 포곡읍 에버랜드로 199  ['분식', '종합분식']
 
-wrote 3 targets -> /home/runner/work/260818/260818/config/restaurants.yaml
+wrote 30 targets -> /home/runner/work/260818/260818/config/restaurants.yaml
