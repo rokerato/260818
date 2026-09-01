@@ -918,12 +918,12 @@
   }
  },
  {
-  "url": "https://map.naver.com/p/api/search/allSearch?query=%EC%97%90%EB%B2%84%EB%9E%9C%EB%93%9C+%EB%A0%88%EC%8A%A4%ED%86%A0%EB%9E%91&type=all&searchCoord=126.97825%3B37.566551&boundary=&sscode=svc.mapv5.search&token=LWDNZqe3zWm7xqpLjLeybTpkSJMgNC3LwmCKUTKXyK0%3D",
+  "url": "https://map.naver.com/p/api/search/allSearch?query=%EC%97%90%EB%B2%84%EB%9E%9C%EB%93%9C+%EB%A0%88%EC%8A%A4%ED%86%A0%EB%9E%91&type=all&searchCoord=126.97825%3B37.566551&boundary=&sscode=svc.mapv5.search&token=psdbgcMbo3mC0NyVBHcrXpGD87QmJH5al4r_jh0N_jQ%3D",
   "body": {
    "result": {
     "type": "place",
     "metaInfo": {
-     "pageId": "e037723d-f972-4e82-b536-0dcf2d9a441d",
+     "pageId": "2358b8e8-90aa-4fa0-8291-9f039c87ab86",
      "sessionId": null,
      "rcode": "09140103",
      "searchedQuery": "에버랜드 레스토랑",
@@ -994,7 +994,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011117",
+        "requestTime": "202609011124",
         "status": {
          "code": 1,
          "text": "곧 영업 시작",
@@ -1144,7 +1144,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011117",
+        "requestTime": "202609011124",
         "status": {
          "code": 0,
          "text": "",
@@ -1302,7 +1302,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011117",
+        "requestTime": "202609011124",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -1515,7 +1515,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011117",
+        "requestTime": "202609011124",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -1664,7 +1664,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011117",
+        "requestTime": "202609011124",
         "status": {
          "code": 6,
          "text": "영업 종료",
@@ -1825,7 +1825,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011117",
+        "requestTime": "202609011124",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -1974,7 +1974,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011117",
+        "requestTime": "202609011124",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -2142,7 +2142,7 @@
        ],
        "rcode": "0246125026",
        "businessStatus": {
-        "requestTime": "202609011117",
+        "requestTime": "202609011124",
         "status": {
          "code": 0,
          "text": "",
@@ -2292,7 +2292,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011117",
+        "requestTime": "202609011124",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -2432,7 +2432,7 @@
        ],
        "rcode": "0246125028",
        "businessStatus": {
-        "requestTime": "202609011117",
+        "requestTime": "202609011124",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -2598,7 +2598,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011117",
+        "requestTime": "202609011124",
         "status": {
          "code": 0,
          "text": "",
@@ -2742,7 +2742,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011117",
+        "requestTime": "202609011124",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -2889,7 +2889,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011117",
+        "requestTime": "202609011124",
         "status": {
          "code": 0,
          "text": "",
@@ -3049,7 +3049,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011117",
+        "requestTime": "202609011124",
         "status": {
          "code": 0,
          "text": "",
@@ -3209,7 +3209,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011117",
+        "requestTime": "202609011124",
         "status": {
          "code": 0,
          "text": "",
@@ -3356,7 +3356,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011117",
+        "requestTime": "202609011124",
         "status": {
          "code": 0,
          "text": "",
@@ -3504,7 +3504,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011117",
+        "requestTime": "202609011124",
         "status": {
          "code": 1,
          "text": "곧 영업 시작",
@@ -3648,7 +3648,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011117",
+        "requestTime": "202609011124",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -3800,7 +3800,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011117",
+        "requestTime": "202609011124",
         "status": {
          "code": 0,
          "text": "",
@@ -3947,7 +3947,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011117",
+        "requestTime": "202609011124",
         "status": {
          "code": 2,
          "text": "영업 중",

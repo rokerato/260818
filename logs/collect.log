@@ -1,51 +1,73 @@
-2026-09-01 02:19:14,616 WARNING everland_reviews.collectors.base | [매직타임레스토랑] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
-2026-09-01 02:19:49,165 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_매직타임레스토랑_20260901T021857Z.json
-2026-09-01 02:19:49,167 INFO    everland_reviews.storage | wrote 36 normalized reviews -> data/normalized/reviews_20260901T021857Z.csv
+2026-09-01 02:25:43,283 WARNING everland_reviews.collectors.base | [매직타임레스토랑] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 02:26:44,382 INFO    everland_reviews.collectors.naver | wrote debug snapshot -> logs/debug_1527871697*
+2026-09-01 02:26:49,086 WARNING everland_reviews.collectors.base | [알파인레스토랑] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 02:27:48,434 INFO    everland_reviews.collectors.naver | wrote debug snapshot -> logs/debug_1678026825*
+2026-09-01 02:27:52,999 WARNING everland_reviews.collectors.base | [KFC 용인에버랜드] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+2026-09-01 02:28:46,755 INFO    everland_reviews.collectors.naver | wrote debug snapshot -> logs/debug_37747059*
+2026-09-01 02:28:46,817 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_매직타임레스토랑_20260901T022538Z.json
+2026-09-01 02:28:46,829 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_알파인레스토랑_20260901T022538Z.json
+2026-09-01 02:28:46,840 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_kfc-용인에버랜드_20260901T022538Z.json
+2026-09-01 02:28:46,842 INFO    everland_reviews.storage | wrote 60 normalized reviews -> data/normalized/reviews_20260901T022538Z.csv
 
 Restaurant: 매직타임레스토랑
-Reviews collected: 36
+Reviews collected: 20
 Reviews with text: 10
-Reviews with rating: 9
-Reviews with date: 19
-Duplicate reviews removed: 4
+Reviews with rating: 8
+Reviews with date: 10
+Duplicate reviews removed: 0
+Collection failures: 1
+  - unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+
+Restaurant: 알파인레스토랑
+Reviews collected: 20
+Reviews with text: 10
+Reviews with rating: 2
+Reviews with date: 10
+Duplicate reviews removed: 0
+Collection failures: 1
+  - unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
+
+Restaurant: KFC 용인에버랜드
+Reviews collected: 20
+Reviews with text: 9
+Reviews with rating: 11
+Reviews with date: 10
+Duplicate reviews removed: 0
 Collection failures: 1
   - unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title="captcha"><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/><script charset="utf-8" src="https'
 
 ============================================================
 Overall
-Restaurants processed: 1
-Restaurants with at least one review: 1
-Reviews collected: 36
-Reviews with text: 10
-Reviews with rating: 9
-Reviews with date: 19
-Duplicate reviews removed: 4
-Collection failures: 1
+Restaurants processed: 3
+Restaurants with at least one review: 3
+Reviews collected: 60
+Reviews with text: 29
+Reviews with rating: 21
+Reviews with date: 30
+Duplicate reviews removed: 0
+Collection failures: 3
 
 Field availability across the collected dataset:
-  platform                   36 / 36  (100.0%)
-  place_name                 36 / 36  (100.0%)
-  place_id                   36 / 36  (100.0%)
-  place_url                  36 / 36  (100.0%)
-  review_id                  35 / 36  ( 97.2%)
-  reviewer_name               2 / 36  (  5.6%)
-  reviewer_profile_id        20 / 36  ( 55.6%)
-  reviewer_profile_url        2 / 36  (  5.6%)
-  rating                      9 / 36  ( 25.0%)
-  review_text                10 / 36  ( 27.8%)
-  review_date                19 / 36  ( 52.8%)
-  visit_date                 20 / 36  ( 55.6%)
-  visit_count                21 / 36  ( 58.3%)
-  review_image_count         10 / 36  ( 27.8%)
-  review_image_urls          10 / 36  ( 27.8%)
-  helpful_count               0 / 36  (  0.0%)
-  keywords                   25 / 36  ( 69.4%)
-  menus                       0 / 36  (  0.0%)
-  verified_visit             28 / 36  ( 77.8%)
-  collected_at               36 / 36  (100.0%)
-  raw_ref                    36 / 36  (100.0%)
+  platform                   60 / 60  (100.0%)
+  place_name                 60 / 60  (100.0%)
+  place_id                   60 / 60  (100.0%)
+  place_url                  60 / 60  (100.0%)
+  review_id                  60 / 60  (100.0%)
+  reviewer_name              60 / 60  (100.0%)
+  reviewer_profile_id        60 / 60  (100.0%)
+  reviewer_profile_url       60 / 60  (100.0%)
+  rating                     21 / 60  ( 35.0%)
+  review_text                29 / 60  ( 48.3%)
+  review_date                30 / 60  ( 50.0%)
+  visit_date                 60 / 60  (100.0%)
+  visit_count                60 / 60  (100.0%)
+  review_image_count         29 / 60  ( 48.3%)
+  review_image_urls          29 / 60  ( 48.3%)
+  helpful_count              60 / 60  (100.0%)
+  keywords                   59 / 60  ( 98.3%)
+  menus                       0 / 60  (  0.0%)
+  verified_visit             60 / 60  (100.0%)
+  collected_at               60 / 60  (100.0%)
+  raw_ref                    60 / 60  (100.0%)
 
-Validation warnings:
-  - 1 review(s) have no platform review_id
-
-Normalized CSV: data/normalized/reviews_20260901T021857Z.csv
+Normalized CSV: data/normalized/reviews_20260901T022538Z.csv

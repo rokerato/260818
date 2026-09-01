@@ -1,0 +1,121 @@
+{
+  "run": "20260901T022538Z",
+  "restaurants": [
+    {
+      "restaurant": "매직타임레스토랑",
+      "platform": "naver",
+      "place_id": "1527871697",
+      "place_url": "https://pcmap.place.naver.com/restaurant/1527871697/review/visitor",
+      "reviews_collected": 20,
+      "reviews_with_text": 10,
+      "reviews_with_rating": 8,
+      "reviews_with_date": 10,
+      "duplicate_reviews_removed": 0,
+      "collection_failures": 1,
+      "failure_messages": [
+        "unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title=\"captcha\"><meta charset=\"UTF-8\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1\"/><script charset=\"utf-8\" src=\"https'"
+      ],
+      "field_coverage": {
+        "platform": 20,
+        "place_name": 20,
+        "place_id": 20,
+        "place_url": 20,
+        "review_id": 20,
+        "reviewer_name": 20,
+        "reviewer_profile_id": 20,
+        "reviewer_profile_url": 20,
+        "rating": 8,
+        "review_text": 10,
+        "review_date": 10,
+        "visit_date": 20,
+        "visit_count": 20,
+        "review_image_count": 10,
+        "review_image_urls": 10,
+        "helpful_count": 20,
+        "keywords": 19,
+        "menus": 0,
+        "verified_visit": 20,
+        "collected_at": 20,
+        "raw_ref": 20
+      }
+    },
+    {
+      "restaurant": "알파인레스토랑",
+      "platform": "naver",
+      "place_id": "1678026825",
+      "place_url": "https://pcmap.place.naver.com/restaurant/1678026825/review/visitor",
+      "reviews_collected": 20,
+      "reviews_with_text": 10,
+      "reviews_with_rating": 2,
+      "reviews_with_date": 10,
+      "duplicate_reviews_removed": 0,
+      "collection_failures": 1,
+      "failure_messages": [
+        "unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title=\"captcha\"><meta charset=\"UTF-8\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1\"/><script charset=\"utf-8\" src=\"https'"
+      ],
+      "field_coverage": {
+        "platform": 20,
+        "place_name": 20,
+        "place_id": 20,
+        "place_url": 20,
+        "review_id": 20,
+        "reviewer_name": 20,
+        "reviewer_profile_id": 20,
+        "reviewer_profile_url": 20,
+        "rating": 2,
+        "review_text": 10,
+        "review_date": 10,
+        "visit_date": 20,
+        "visit_count": 20,
+        "review_image_count": 10,
+        "review_image_urls": 10,
+        "helpful_count": 20,
+        "keywords": 20,
+        "menus": 0,
+        "verified_visit": 20,
+        "collected_at": 20,
+        "raw_ref": 20
+      }
+    },
+    {
+      "restaurant": "KFC 용인에버랜드",
+      "platform": "naver",
+      "place_id": "37747059",
+      "place_url": "https://pcmap.place.naver.com/restaurant/37747059/review/visitor",
+      "reviews_collected": 20,
+      "reviews_with_text": 9,
+      "reviews_with_rating": 11,
+      "reviews_with_date": 10,
+      "duplicate_reviews_removed": 0,
+      "collection_failures": 1,
+      "failure_messages": [
+        "unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title=\"captcha\"><meta charset=\"UTF-8\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1\"/><script charset=\"utf-8\" src=\"https'"
+      ],
+      "field_coverage": {
+        "platform": 20,
+        "place_name": 20,
+        "place_id": 20,
+        "place_url": 20,
+        "review_id": 20,
+        "reviewer_name": 20,
+        "reviewer_profile_id": 20,
+        "reviewer_profile_url": 20,
+        "rating": 11,
+        "review_text": 9,
+        "review_date": 10,
+        "visit_date": 20,
+        "visit_count": 20,
+        "review_image_count": 9,
+        "review_image_urls": 9,
+        "helpful_count": 20,
+        "keywords": 20,
+        "menus": 0,
+        "verified_visit": 20,
+        "collected_at": 20,
+        "raw_ref": 20
+      }
+    }
+  ],
+  "normalized_csv": "data/normalized/reviews_20260901T022538Z.csv",
+  "validation_warnings": []
+}
