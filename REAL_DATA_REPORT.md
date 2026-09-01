@@ -1,10 +1,21 @@
 # Real-data collection report (2026-09-01)
 
-Status: **collecting at scale**. Discovery verifies 30 Everland F&B venues;
-the latest full crawl (run 33468327404) collected **479 genuine Naver visitor
-reviews across 19 venues**, de-duplicating 289 repeats. The 11 venues that
-returned nothing were diagnosed to a wrong URL path segment, since fixed --
-see *Known issues*.
+Status: **complete**. The final crawl (run 33478435880) collected **715
+genuine Naver visitor reviews across 29 of 30 discovered Everland venues**,
+de-duplicating 437 repeats. One venue (온더보더 캐리비안베이점) is genuinely
+review-thin on Naver rather than failing to collect.
+
+| | |
+|---|---|
+| Venues discovered / with data | 30 / 29 |
+| Reviews collected | 715 |
+| Unique reviewers | 642 (51 with more than one review) |
+| Visit-date span | 2019-04-01 - 2026-09-01 |
+| Duplicates removed | 437 |
+
+Integrity checks on the final dataset: all 715 `review_id`s unique with no
+blanks, every `review_date`/`visit_date` a valid ISO date, all ratings within
+0.5-5.0, list columns parsing back to lists with Korean intact.
 
 ## Verified targets
 
@@ -33,17 +44,17 @@ records how each was found.
    same collector from a residential/normal network, where the page's own
    GraphQL calls are expected to pass and interception resumes automatically.
 
-## Field availability on real data (run 33468327404, n=479)
+## Field availability on real data (run 33478435880, n=715)
 
 | Field | Coverage | Note |
 |---|---|---|
 | review_id, reviewer_name, reviewer_profile_id, reviewer_profile_url | 100% | profile URL is the reviewer's public my-place page |
 | visit_date, visit_count, helpful_count, verified_visit | 100% | dates resolved to YYYY-MM-DD; verification from 영수증/카드/예약 signals |
-| keywords | 97% | Naver's voted keywords (e.g. "음식이 맛있어요") |
-| review_text | 55% | present on full records; partial records have none |
-| review_image_count/urls | 46% | |
-| review_date | 58% | `created` only ships with full records |
-| rating | 28% | Naver does not publish a star rating on every visitor review |
+| keywords | 94% | Naver's voted keywords (e.g. "음식이 맛있어요") |
+| review_text | 56% | present on full records; partial records have none |
+| review_image_count/urls | 45% | |
+| review_date | 59% | `created` only ships with full records |
+| rating | 32% | Naver does not publish a star rating on every visitor review |
 | menus | 0% | not present in any observed payload; alias list ready if it appears |
 
 ## Operating the pipeline
@@ -62,6 +73,10 @@ records how each was found.
 
 ## Known issues found and fixed
 
+- **The run budget skipped venues (run 33474717994).** Four venues were
+  never attempted because the 2700s budget expired first -- the skip was
+  graceful and recorded, but the budget was simply too tight at the measured
+  ~112s per venue. Raised to 4200s, after which 29 of 30 venues collected.
 - **Cafes returned nothing (run 33468327404).** All 10 venues configured with
   the `cafe` category yielded zero: `pcmap.place.naver.com/cafe/<id>/review/visitor`
   serves a completely empty document, while `/restaurant/<id>/...` works for
