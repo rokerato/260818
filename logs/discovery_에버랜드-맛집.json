@@ -918,12 +918,12 @@
   }
  },
  {
-  "url": "https://map.naver.com/p/api/search/allSearch?query=%EC%97%90%EB%B2%84%EB%9E%9C%EB%93%9C+%EB%A7%9B%EC%A7%91&type=all&searchCoord=126.97825%3B37.566551&boundary=&sscode=svc.mapv5.search&token=ckC9_Flh5YfdYB1shW64F576IVeFyWCehoAjTjbraM4%3D",
+  "url": "https://map.naver.com/p/api/search/allSearch?query=%EC%97%90%EB%B2%84%EB%9E%9C%EB%93%9C+%EB%A7%9B%EC%A7%91&type=all&searchCoord=126.97825%3B37.566551&boundary=&sscode=svc.mapv5.search&token=ynv1Nb65U0FJyrDH1sQEAAZ6qNG4_qr6GWoYHbTYmLI%3D",
   "body": {
    "result": {
     "type": "place",
     "metaInfo": {
-     "pageId": "815c7ebc-935c-4ccd-9ace-c4b9abe5e31f",
+     "pageId": "1136a814-c95e-4b2e-bfc1-71e46bd47a8a",
      "sessionId": null,
      "rcode": "09140103",
      "searchedQuery": "에버랜드 맛집",
@@ -993,13 +993,13 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011354",
+        "requestTime": "202609011444",
         "status": {
-         "code": 2,
-         "text": "영업 중",
-         "emphasis": false,
-         "description": "영업중",
-         "detailInfo": "14:40에 브레이크타임"
+         "code": 4,
+         "text": "브레이크타임",
+         "emphasis": true,
+         "description": "브레이크타임",
+         "detailInfo": "17:00에 영업시작"
         },
         "businessHours": "202609011100~202609012100",
         "breakTime": "202609011440~202609011700",
@@ -1087,7 +1087,7 @@
         ]
        },
        "isPollingPlace": false,
-       "bizhourInfo": "영업 중",
+       "bizhourInfo": "브레이크타임",
        "menuInfo": "두부보쌈 (중) 35,000 | 두부보쌈 (대) 40,000 | 두부모듬보쌈 (중) 40,000 | 두부모듬보쌈 (대) 45,000 | 두부짜글이 (중) 30,000 | 두부짜글이 (대) 35,000 | 두부만두전골(중) 35,000 | 두부만두전골(대) 40,000 | 두부해물전골(중) 40,000 | 두부해물전골(대) 45,000 | 제육직화정식(1인기준) 17,000 | 오늘손두부정식(1인기준) 17,000 | 해물순두부 11,000 | 들깨순두부 11,000 | 두부상차림 11,000 | 옛날순두부 11,000 | 청국장 11,000 | 콩비지 11,000 | 콩국수 10,000 | 흑임자 콩국수 12,000 | 수육콩국수 12,000 | 제육직화 25,000 | 두부철판구이 20,000 | 감자전 15,000 | 생두부 7,000 | 고기추가 15,000 | 손만두(5개) 7,000",
        "petrolInfo": null,
        "couponUrl": null,
@@ -1157,7 +1157,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011354",
+        "requestTime": "202609011444",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -1322,7 +1322,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011354",
+        "requestTime": "202609011444",
         "status": {
          "code": 7,
          "text": "영업 전",
@@ -1494,7 +1494,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011354",
+        "requestTime": "202609011444",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -1661,7 +1661,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011354",
+        "requestTime": "202609011444",
         "status": {
          "code": 9,
          "text": "오늘 휴무",
@@ -1828,7 +1828,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011354",
+        "requestTime": "202609011444",
         "status": {
          "code": 7,
          "text": "영업 전",
@@ -1995,7 +1995,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011354",
+        "requestTime": "202609011444",
         "status": {
          "code": 9,
          "text": "오늘 휴무",
@@ -2161,7 +2161,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011354",
+        "requestTime": "202609011444",
         "status": {
          "code": 9,
          "text": "오늘 휴무",
@@ -2328,7 +2328,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011354",
+        "requestTime": "202609011444",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -2493,7 +2493,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011354",
+        "requestTime": "202609011444",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -2655,7 +2655,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011354",
+        "requestTime": "202609011444",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -2800,7 +2800,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011354",
+        "requestTime": "202609011444",
         "status": {
          "code": 9,
          "text": "오늘 휴무",
@@ -2964,7 +2964,7 @@
        ],
        "rcode": "0246125028",
        "businessStatus": {
-        "requestTime": "202609011354",
+        "requestTime": "202609011444",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -3132,7 +3132,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011354",
+        "requestTime": "202609011444",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -3296,7 +3296,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011354",
+        "requestTime": "202609011444",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -3447,7 +3447,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011354",
+        "requestTime": "202609011444",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -3471,7 +3471,7 @@
        "display": "포메인 <b>에버랜드</b>직영점",
        "telDisplay": "031-373-9203",
        "context": [],
-       "reviewCount": 256,
+       "reviewCount": 255,
        "placeReviewCount": 3816,
        "ktCallMd": "33d95c95c49f3052c9623b971c2be943",
        "coupon": "0",
@@ -3605,7 +3605,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011354",
+        "requestTime": "202609011444",
         "status": {
          "code": 7,
          "text": "영업 전",
@@ -3772,7 +3772,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011354",
+        "requestTime": "202609011444",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -3922,7 +3922,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011354",
+        "requestTime": "202609011444",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -4082,7 +4082,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011354",
+        "requestTime": "202609011444",
         "status": {
          "code": 2,
          "text": "영업 중",

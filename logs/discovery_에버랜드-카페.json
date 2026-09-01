@@ -918,12 +918,12 @@
   }
  },
  {
-  "url": "https://map.naver.com/p/api/search/allSearch?query=%EC%97%90%EB%B2%84%EB%9E%9C%EB%93%9C+%EC%B9%B4%ED%8E%98&type=all&searchCoord=126.97825%3B37.566551&boundary=&sscode=svc.mapv5.search&token=RKmuUWAGrwB-BklTgLSs71wZpYT6XY1CewEkjNzbopI%3D",
+  "url": "https://map.naver.com/p/api/search/allSearch?query=%EC%97%90%EB%B2%84%EB%9E%9C%EB%93%9C+%EC%B9%B4%ED%8E%98&type=all&searchCoord=126.97825%3B37.566551&boundary=&sscode=svc.mapv5.search&token=op2Zf9h-u63nfSWYMo3W2CcSJowqNkQw2c0iavQ5U-E%3D",
   "body": {
    "result": {
     "type": "place",
     "metaInfo": {
-     "pageId": "53181568-c19f-4fc2-b150-8e05b9a4a83a",
+     "pageId": "d0ba5e5c-76f1-4d24-978e-ef928c81a3c0",
      "sessionId": null,
      "rcode": "09140103",
      "searchedQuery": "에버랜드 카페",
@@ -993,7 +993,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011354",
+        "requestTime": "202609011445",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -1158,7 +1158,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011354",
+        "requestTime": "202609011445",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -1308,7 +1308,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011354",
+        "requestTime": "202609011445",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -1475,7 +1475,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011354",
+        "requestTime": "202609011445",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -1625,7 +1625,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011354",
+        "requestTime": "202609011445",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -1783,7 +1783,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011354",
+        "requestTime": "202609011445",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -1951,7 +1951,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011354",
+        "requestTime": "202609011445",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -2118,7 +2118,7 @@
        ],
        "rcode": "0246125028",
        "businessStatus": {
-        "requestTime": "202609011354",
+        "requestTime": "202609011445",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -2142,7 +2142,7 @@
        "display": "화이트바움",
        "telDisplay": "0507-1324-9285",
        "context": [],
-       "reviewCount": 1297,
+       "reviewCount": 1304,
        "placeReviewCount": 2436,
        "ktCallMd": "0ab935c651a707bb01ec4b366a4fd3d5",
        "coupon": "0",
@@ -2280,7 +2280,7 @@
        ],
        "rcode": "0246125026",
        "businessStatus": {
-        "requestTime": "202609011354",
+        "requestTime": "202609011445",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -2495,7 +2495,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011354",
+        "requestTime": "202609011445",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -2660,7 +2660,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011354",
+        "requestTime": "202609011445",
         "status": {
          "code": 9,
          "text": "오늘 휴무",
@@ -2822,7 +2822,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011354",
+        "requestTime": "202609011445",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -2973,7 +2973,7 @@
        ],
        "rcode": "0246125028",
        "businessStatus": {
-        "requestTime": "202609011354",
+        "requestTime": "202609011445",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -2998,7 +2998,7 @@
        "display": "<b>카페</b>침니랜드",
        "telDisplay": "031-322-0017",
        "context": [],
-       "reviewCount": 224,
+       "reviewCount": 225,
        "placeReviewCount": 1330,
        "ktCallMd": "9759f39293051f6039995898d809040f",
        "coupon": "0",
@@ -3140,7 +3140,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011354",
+        "requestTime": "202609011445",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -3304,7 +3304,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011354",
+        "requestTime": "202609011445",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -3467,7 +3467,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011354",
+        "requestTime": "202609011445",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -3634,7 +3634,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011354",
+        "requestTime": "202609011445",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -3797,7 +3797,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011354",
+        "requestTime": "202609011445",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -3965,7 +3965,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011354",
+        "requestTime": "202609011445",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -4124,7 +4124,7 @@
        ],
        "rcode": "0246125028",
        "businessStatus": {
-        "requestTime": "202609011354",
+        "requestTime": "202609011445",
         "status": {
          "code": 9,
          "text": "오늘 휴무",

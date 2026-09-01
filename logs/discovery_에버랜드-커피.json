@@ -918,12 +918,12 @@
   }
  },
  {
-  "url": "https://map.naver.com/p/api/search/allSearch?query=%EC%97%90%EB%B2%84%EB%9E%9C%EB%93%9C+%EC%BB%A4%ED%94%BC&type=all&searchCoord=126.97825%3B37.566551&boundary=&sscode=svc.mapv5.search&token=YivYUI2W5kUsiJE7LfBYfXC5WVx5SeMM0gMWcZbQChU%3D",
+  "url": "https://map.naver.com/p/api/search/allSearch?query=%EC%97%90%EB%B2%84%EB%9E%9C%EB%93%9C+%EC%BB%A4%ED%94%BC&type=all&searchCoord=126.97825%3B37.566551&boundary=&sscode=svc.mapv5.search&token=jYwbXpG_6XQ1PhAN7-Ue7g6SkqYCg7L2cizU0NGsrBU%3D",
   "body": {
    "result": {
     "type": "place",
     "metaInfo": {
-     "pageId": "4fca56b0-567b-4f3f-b12b-1244f2adf912",
+     "pageId": "499fb8c6-c127-4534-84d4-cbf34fe1bea6",
      "sessionId": null,
      "rcode": "09140103",
      "searchedQuery": "에버랜드 커피",
@@ -993,7 +993,7 @@
        ],
        "rcode": "0246125028",
        "businessStatus": {
-        "requestTime": "202609011357",
+        "requestTime": "202609011447",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -1017,7 +1017,7 @@
        "display": "화이트바움",
        "telDisplay": "0507-1324-9285",
        "context": [],
-       "reviewCount": 1297,
+       "reviewCount": 1304,
        "placeReviewCount": 2436,
        "ktCallMd": "0ab935c651a707bb01ec4b366a4fd3d5",
        "coupon": "0",
@@ -1161,7 +1161,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011357",
+        "requestTime": "202609011447",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -1308,7 +1308,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011357",
+        "requestTime": "202609011447",
         "status": {
          "code": 9,
          "text": "오늘 휴무",
@@ -1475,7 +1475,7 @@
        ],
        "rcode": "0246125028",
        "businessStatus": {
-        "requestTime": "202609011357",
+        "requestTime": "202609011447",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -1500,7 +1500,7 @@
        "display": "카페침니랜드",
        "telDisplay": "031-322-0017",
        "context": [],
-       "reviewCount": 224,
+       "reviewCount": 225,
        "placeReviewCount": 1330,
        "ktCallMd": "9759f39293051f6039995898d809040f",
        "coupon": "0",
@@ -1644,7 +1644,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011357",
+        "requestTime": "202609011447",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -1803,7 +1803,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011357",
+        "requestTime": "202609011447",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -1968,7 +1968,7 @@
        ],
        "rcode": "0246125028",
        "businessStatus": {
-        "requestTime": "202609011357",
+        "requestTime": "202609011447",
         "status": {
          "code": 9,
          "text": "오늘 휴무",
@@ -2139,7 +2139,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011357",
+        "requestTime": "202609011447",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -2303,7 +2303,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011357",
+        "requestTime": "202609011447",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -2469,7 +2469,7 @@
        ],
        "rcode": "0246125028",
        "businessStatus": {
-        "requestTime": "202609011357",
+        "requestTime": "202609011447",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -2632,7 +2632,7 @@
        ],
        "rcode": "0246125026",
        "businessStatus": {
-        "requestTime": "202609011357",
+        "requestTime": "202609011447",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -2846,7 +2846,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011357",
+        "requestTime": "202609011447",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -3015,7 +3015,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011357",
+        "requestTime": "202609011447",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -3181,7 +3181,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011357",
+        "requestTime": "202609011447",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -3344,7 +3344,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011357",
+        "requestTime": "202609011447",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -3493,7 +3493,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011357",
+        "requestTime": "202609011447",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -3517,7 +3517,7 @@
        "display": "식물원K",
        "telDisplay": "0507-1389-9084",
        "context": [],
-       "reviewCount": 564,
+       "reviewCount": 565,
        "placeReviewCount": 504,
        "ktCallMd": "3466b4bb47ed913871aaa64cd9e14168",
        "coupon": "0",
@@ -3650,7 +3650,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011357",
+        "requestTime": "202609011447",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -3817,7 +3817,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011357",
+        "requestTime": "202609011447",
         "status": {
          "code": 2,
          "text": "영업 중",
@@ -3983,7 +3983,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011357",
+        "requestTime": "202609011447",
         "status": {
          "code": 9,
          "text": "오늘 휴무",
@@ -4007,7 +4007,7 @@
        "display": "케이브로스<b>커피</b>",
        "telDisplay": "0507-1434-1779",
        "context": [],
-       "reviewCount": 169,
+       "reviewCount": 170,
        "placeReviewCount": 875,
        "ktCallMd": "bd794d62f58c0f2ce0db7c3090d66794",
        "coupon": "0",
@@ -4143,7 +4143,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011357",
+        "requestTime": "202609011447",
         "status": {
          "code": 2,
          "text": "영업 중",

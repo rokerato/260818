@@ -1,0 +1,3394 @@
+{
+  "platform": "naver",
+  "target": {
+    "name": "온더보더 캐리비안베이점",
+    "url": null,
+    "place_id": "2055202614",
+    "category": "restaurant"
+  },
+  "resolved": {
+    "place_id": "2055202614",
+    "place_url": "https://pcmap.place.naver.com/restaurant/2055202614/review/visitor",
+    "place_name": "온더보더 캐리비안베이점"
+  },
+  "started_at": "2026-09-01T05:58:07+00:00",
+  "finished_at": "2026-09-01T05:59:31+00:00",
+  "duplicates_removed": 0,
+  "failures": [
+    "unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title=\"captcha\"><meta charset=\"UTF-8\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1\"/><script charset=\"utf-8\" src=\"https'",
+    "unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=405 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<!doctype html><html><head title=\"captcha\"><meta charset=\"UTF-8\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1\"/><script charset=\"utf-8\" src=\"https'",
+    "no reviews found via graphql interception or DOM fallback"
+  ],
+  "review_count": 0,
+  "reviews": [],
+  "raw_responses": [
+    {
+      "url": "inline:__APOLLO_STATE__",
+      "status": null,
+      "body": {
+        "HouseBanner:https://maps-service.pstatic.net/maps-cms/568f3214-4368-46cc-9ce1-61c1d39aa97c.png": {
+          "__typename": "HouseBanner",
+          "id": "https://maps-service.pstatic.net/maps-cms/568f3214-4368-46cc-9ce1-61c1d39aa97c.png",
+          "slotIndex": 1,
+          "imageUrl": "https://maps-service.pstatic.net/maps-cms/568f3214-4368-46cc-9ce1-61c1d39aa97c.png",
+          "linkUrl": "https://booking.map.naver.com/promotions/home",
+          "bgColor": "#176CFF",
+          "altText": "놓치면 아까운 혜택! 네이버지도에서 예약하세요. "
+        },
+        "Panorama:/22bE4LaljlND5Qvp+ndCA==": {
+          "__typename": "Panorama",
+          "id": "/22bE4LaljlND5Qvp+ndCA==",
+          "pan": "-44.56",
+          "tilt": "10.00",
+          "lon": "127.2007794",
+          "lat": "37.2974085",
+          "fov": "120"
+        },
+        "PlaceDetailBase:2055202614": {
+          "__typename": "PlaceDetailBase",
+          "id": "2055202614",
+          "name": "온더보더 캐리비안베이점",
+          "reviewSettings": {
+            "__typename": "ReviewSettings",
+            "keyword": null,
+            "blog": 1,
+            "cafe": 1,
+            "showVisitorReviewScore": false
+          },
+          "siteId": "sp_14834ff12ada78",
+          "road": "",
+          "conveniences": [
+            "단체 이용 가능",
+            "포장",
+            "남/녀 화장실 구분"
+          ],
+          "category": "멕시코,남미음식",
+          "categoryCode": "230090",
+          "categoryCodeList": [
+            "220036",
+            "220044",
+            "220132",
+            "230090"
+          ],
+          "defaultCategoryCodeList": [
+            "220036",
+            "220044",
+            "220132",
+            "230090"
+          ],
+          "categoryCount": 1,
+          "rcode": "0246125027",
+          "roadAddress": "경기 용인시 처인구 포곡읍 에버랜드로 199 캐리비안베이",
+          "address": "경기 용인시 처인구 포곡읍 전대리 310",
+          "streetPanorama": {
+            "__ref": "Panorama:/22bE4LaljlND5Qvp+ndCA=="
+          },
+          "isKtis": null,
+          "visitorReviewsTotal": null,
+          "visitorReviewsScore": null,
+          "cafeBlogReviewsTotal": 3,
+          "missingInfo": {
+            "__typename": "MissingInfo",
+            "businessType": "restaurant",
+            "isBizHourMissing": true,
+            "isMenuImageMissing": false,
+            "isAccessorMissing": false,
+            "isDescriptionMissing": false,
+            "isConveniencesMissing": false,
+            "needLargeSuggestionBanner": true,
+            "isBoss": false
+          },
+          "hideBusinessHours": false,
+          "hidePrice": false,
+          "microReviews": null,
+          "paymentInfo": null,
+          "openingHours": null,
+          "isGoodStore": false,
+          "coordinate": {
+            "__typename": "Coordinate",
+            "x": "127.2007247",
+            "y": "37.2974641",
+            "mapZoomLevel": 12
+          },
+          "poiInfo": {
+            "__typename": "PoiInfo",
+            "polyline": null,
+            "land": null,
+            "polygon": null,
+            "relation": null,
+            "parentRelation": null
+          },
+          "routeUrl": null,
+          "virtualPhone": null,
+          "phone": null,
+          "hasMobilePhoneNumber": false,
+          "talktalkUrl": null,
+          "chatBotUrl": null,
+          "naverBlog": null,
+          "visitorReviewsTextReviewTotal": 0,
+          "beLocalWeek": null,
+          "indoorInfo": null
+        },
+        "Menu:2055202614_0": {
+          "__typename": "Menu",
+          "priority": null,
+          "name": "비리아 국밥",
+          "price": "15000",
+          "recommend": true,
+          "nameForBlogReview": "비리아 국밥",
+          "change": false,
+          "priceType": null,
+          "description": "강렬한 육향과 칼칼한 감칠맛, 속을 뜨끈하게 채워주는 멕시칸 스타일의 \"해장 국밥\"",
+          "images": [
+            "https://ldb-phinf.pstatic.net/20260515_2/17788278178478o26f_JPEG/%BA%F1%B8%AE%BE%C6%B1%B9%B9%E4.jpg"
+          ],
+          "id": "2055202614_0",
+          "index": 0
+        },
+        "Menu:2055202614_1": {
+          "__typename": "Menu",
+          "priority": null,
+          "name": "풀드포크 타코",
+          "price": "15000",
+          "recommend": false,
+          "nameForBlogReview": "풀드포크 타코",
+          "change": false,
+          "priceType": null,
+          "description": "피코데가요, 양배추, 당근, 고수가 들어간 풀드포크 타코",
+          "images": [
+            "https://ldb-phinf.pstatic.net/20260515_67/1778827953296IAxjH_JPEG/%BA%F1%B8%AE%BE%C6%C5%B8%C4%DA.jpg"
+          ],
+          "id": "2055202614_1",
+          "index": 1
+        },
+        "Menu:2055202614_2": {
+          "__typename": "Menu",
+          "priority": null,
+          "name": "워킹 타코",
+          "price": "9500",
+          "recommend": false,
+          "nameForBlogReview": "워킹 타코",
+          "change": false,
+          "priceType": null,
+          "description": "바삭한 봉지 과자를 열면 펼쳐지는 반전 미식, 신선한 토핑을 나쵸로 퍼먹는 짜릿한 재미",
+          "images": [
+            "https://ldb-phinf.pstatic.net/20260515_171/1778828000439BPb91_JPEG/%BF%F6%C5%B7%C5%B8%C4%DA.jpg"
+          ],
+          "id": "2055202614_2",
+          "index": 2
+        },
+        "Menu:2055202614_3": {
+          "__typename": "Menu",
+          "priority": null,
+          "name": "피치 마가리타",
+          "price": "14500",
+          "recommend": false,
+          "nameForBlogReview": "피치 마가리타",
+          "change": false,
+          "priceType": null,
+          "description": "복숭아 향 터지는 달콤한 한 잔, 여름 파도 같은 마가리타",
+          "images": [
+            "https://ldb-phinf.pstatic.net/20260515_124/1778827970682f4jAI_JPEG/%B8%B6%B0%A1%B8%AE%C5%B8.jpg"
+          ],
+          "id": "2055202614_3",
+          "index": 3
+        },
+        "FsasReview:blog_❅*⋆⍋*⋆*I love my daily life❅*⋆⍋*⋆*_224382949474_용인 놀거리 :: 용인 워터파크 에버랜드 캐리비안베이 모든 것 총정리 ! (주차장, 셔틀버스, 먹거리 등)": {
+          "__typename": "FsasReview",
+          "name": "❅*⋆⍋*⋆*I love my daily life❅*⋆⍋*⋆*",
+          "type": "blog",
+          "typeName": "블로그",
+          "url": "https://m.blog.naver.com/charming_095/224382949474",
+          "home": "https://m.blog.naver.com/charming_095",
+          "id": "blog_❅*⋆⍋*⋆*I love my daily life❅*⋆⍋*⋆*_224382949474_용인 놀거리 :: 용인 워터파크 에버랜드 캐리비안베이 모든 것 총정리 ! (주차장, 셔틀버스, 먹거리 등)",
+          "title": "용인 놀거리 :: 용인 워터파크 에버랜드 캐리비안베이 모든 것 총정리 ! (주차장, 셔틀버스, 먹거리 등)",
+          "rank": "1",
+          "contents": "안녕하세요 요미입니다 ! 여러분 제가 돌아왔숨미다 (ㅋㅋ) 국내 최대 규모인 워터파크 캐리비안베이에 다녀왔서여 ! #내돈내산 으로 2차 여름휴가를 제대로 즐기고 온 솔직 후기, 지금부터 시작합니다 레 쯔 기 릿 - 용인 놀거리 에버랜드 캐리비안베이 (용인 가볼만한 곳 워터파크) 월-금 09:00-19:00 토-일 09:00-20:00 (* 공휴일에는 08:00 혹은 08:30에도 시작함) 경기 용인시 처인구 포곡읍 에버랜드로 199 용인 놀거리 (용인 가볼만한 곳 워터파크) 에버랜드 캐리비안베이 ️ 주차장 : 전용 주차장 마련되어 있음.  (* 발렛 주차 또한 가능. 발렛 주차비 25,000원 발생. 발렛 주차는 인기가 많기 때문에 오픈 시간 이전에 가시는 게 성공 확률이 높을 거예요) 용인 놀거리 (용인 가볼만한 곳 워터파크) 에버랜드 캐리비안베이 프로모션 8월 행사 안내 * 기간 : 2026.07.03(금) ~ 08.30(일) 캐리비안베이 입장 손님에게 에버랜드도 같이 입장 가능한 혜택 제공 중 8월이 지나가기 전에 캐리비안베이를 꼭 가십셔 여러분 .. 지금 에버랜드가 밤 11시까지 운영하기 때문에 캐리비안베이 + 에버랜드를 풀 세트로 즐길 수 있어요 저희도 운 좋게 이 프로모션 안에 가가지구 에버랜드까지 즐기다 올 수 있었거든뇨 ㅎㅎ 용인 놀거리 (용인 가볼만한 곳 워터파크) 에버랜드 캐리비안베이 [셔틀 버스 운행 안내] 저희는 이 날 오전 10시 반쯤에 도착해서 에버랜드 캐리비안베이 제 3주차장에 주차를 할 수 있었어요 셔틀버스는 지금이 골드시즌 (피크시즌) 답게 5분 이내로 한 번씩 왔다갔다 하더라구요 이렇다 보니 셔틀버스 배차 간격은 크게 신경쓰지 않으셔도 될 것 같아요 캐리비안베이는 에버랜드 정문에서 오른 쪽으로 조금 더 올라가면 나옵니다 에버랜드는 진자 자주 갔는데 캐리비안베이는 처음이라 이 길이 너무 설렜움 .. >< ㅎ 용인 놀거리 (용인 가볼만한 곳 워터파크) 에버랜드 캐리비안베이 국내 최대 규모 워터파크답게 바깥에서 방수팩과 아쿠아 슈즈, 수영복 등을 판매하고 있었는데요 다이소에서 2천원 하는 방수팩이 이 곳에선 2만원임 .. ㅎ (물론 한교동 등 캐릭터가 들어가 있긴 했습니다만) 무조건 방문하기 전에 방수팩과 아쿠아 슈즈를 구비해 가셔요  구명조끼도 대여가 가능하지만 많은 사람들이 입기 때문에 물 냄새가 심하거등용 .. ? 따라서 구명조끼도 따로 구비해가시는 걸 추천드립니다 (쿠팡에서 2-3만원이면 사요) [캐리비안베이 음식물 보관소 안내] 입장 전 음식물 돗자리 보관소에 싸간 음식물 보관도 가능 !(* 냉장 냉동 보관도... ",
+          "bySmartEditor3": false,
+          "hasNaverReservation": false,
+          "thumbnailUrl": "http://blogfiles.naver.net/MjAyNjA4MTlfNzMg/MDAxNzg3MDkwOTI2NzUy.OX6bdGgbTr1kjIcrohQ7LoqJSlKSgPyESGGtA8hvkuAg.VxQLGs8ZEhDgv-bOnVwbL3N7u-mEPuJHLPuSOpP0mEUg.JPEG/IMG%A3%DF3688.JPG#900x1200",
+          "thumbnailUrlList": [
+            "http://blogfiles.naver.net/MjAyNjA4MTlfNzMg/MDAxNzg3MDkwOTI2NzUy.OX6bdGgbTr1kjIcrohQ7LoqJSlKSgPyESGGtA8hvkuAg.VxQLGs8ZEhDgv-bOnVwbL3N7u-mEPuJHLPuSOpP0mEUg.JPEG/IMG%A3%DF3688.JPG#900x1200",
+            "http://blogfiles.naver.net/MjAyNjA4MTlfMTE5/MDAxNzg3MDkwNTI5OTYw.SESzOUvYeF8z-UFDLLEXnhqJCEpw8KsEFLOlFIdEE2Eg.iwtkMD9-2BQzmszRS99XV-rMkWMf3463roJcGtvpKNwg.JPEG/IMG%A3%DF3523.jpg#900x1200",
+            "http://blogfiles.naver.net/MjAyNjA4MTlfMTQ5/MDAxNzg3MDkwNTMxMDY2.1700lE9ZE7cL0cbFRgc2cOfaFm9tDzCk01AV_kOxUYQg.S9JqqKxTxumUdwA5Y9nzYTX_pIB6oHc2KVns5xYyXvYg.JPEG/IMG%A3%DF3520.jpg#900x1200",
+            "http://blogfiles.naver.net/MjAyNjA4MTlfMzMg/MDAxNzg3MDkwNTMwMDgx.Hl45nNU-GPildm0e2-YuIU3lMx7SG13VM1vnMvy7VUUg.r7MdR1fy-lf7xTJIMegXcEP0Gijbfb98wS6GUjxAFmUg.JPEG/IMG%A3%DF3521.jpg#900x1200",
+            "http://blogfiles.naver.net/MjAyNjA4MTlfMTk4/MDAxNzg3MDkwOTI3MzAx.z2m1tN2nqWEdZuv546yXNPj2E7JrOAM1kVyvFTGAVhkg.Bpvy6mSVcOL7n_KSGYObSfpewS6oOqvosBQOlZUBlhkg.JPEG/IMG%A3%DF3651.jpg#900x1200",
+            "http://blogfiles.naver.net/MjAyNjA4MTlfMjk5/MDAxNzg3MDkwNTQ0OTcz.A3gc6F7-UwrHi7IY2CcgQAzVllos46IPhVr4s2YNbSwg.eo23HYt6vgsUZnAtDqohUYTtpjs17mHomXfW5T3c6gMg.JPEG/IMG%A3%DF3522.jpg#900x1200",
+            "http://blogfiles.naver.net/MjAyNjA4MTlfMjQ4/MDAxNzg3MDkwNTMwMDE1.F-A620nBG0qcQO74Td4RfeVyFlx5CV80aG-hd1jtIY8g.JfIkuKw4XubSkOwOFBGZ1FSbrAAJ0aka0OCTB9-NJR0g.JPEG/IMG%A3%DF3524.jpg#900x1200",
+            "http://blogfiles.naver.net/MjAyNjA4MTlfMzkg/MDAxNzg3MDkwNTMwMTgw.09A2r43SjxkKEWjuNvL82OWjx3zXKdgu0kdoyVQ24CEg.hmR2o98jAvo3yEPrMEl2bnZK-rrhVyzEW7jNY2oDjwog.JPEG/IMG%A3%DF3525.jpg#900x1200",
+            "http://blogfiles.naver.net/MjAyNjA4MTlfMTUx/MDAxNzg3MDkwNTMxMDU5.iwj5MPpeCT3nfYNTuIJIYHMCQnJmUjxxApkd44gUBe4g.KCvp0U3tzh8AtMg9YsBdd61knLSo5NwLbES2tCeoekkg.JPEG/IMG%A3%DF3526.jpg#900x1200",
+            "http://blogfiles.naver.net/MjAyNjA4MTlfNjYg/MDAxNzg3MDkwNTMyNTIy.8Dey9IR1Ru1kl3eoGOttwrtivuEzgDsSYn-A1dObedwg.jXLTMW5TdFVTQ_42RzRTCowomsT5FXLQxnT-7Y8g7J8g.JPEG/IMG%A3%DF3527.jpg#900x1200"
+          ],
+          "thumbnailCount": "100",
+          "date": "2026.08.19.",
+          "isOfficial": false,
+          "isRepresentative": false,
+          "profileImageUrl": "http://blogpfthumb.phinf.naver.net/MjAyNDAxMTRfODYg/MDAxNzA1MTkyODgyMTk3.dsEI_BVcXa3YcHTiHlKpJBKmlj-DVIFc5V0oR9evRv4g.uF20tUz7wWIrSNx3Fu_88A-n-mSZGVCSMVUo66IOpEAg.PNG.charming_095/profileImage.png",
+          "isVideoThumbnail": false,
+          "reviewId": "224382949474",
+          "authorName": "요미님",
+          "createdString": "8.19.수",
+          "bypassToken": null,
+          "buyWithMyMoneyType": null
+        },
+        "FsasReview:blog_라피스의 일기_224383180718_캐리비안베이 식당 추천 온더보더 방문후기": {
+          "__typename": "FsasReview",
+          "name": "라피스의 일기",
+          "type": "blog",
+          "typeName": "블로그",
+          "url": "https://m.blog.naver.com/lapislazuli1011/224383180718",
+          "home": "https://m.blog.naver.com/lapislazuli1011",
+          "id": "blog_라피스의 일기_224383180718_캐리비안베이 식당 추천 온더보더 방문후기",
+          "title": "캐리비안베이 식당 추천 온더보더 방문후기",
+          "rank": "2",
+          "contents": "안녕하세요. 오늘은 캐리비안 베이 식당 추천을 해보려고 합니다. 요즘 날씨가 선선해져서 수영장에 방문하시는 손님분들이 많이 늘었어요. 심지어 캐리비안 베이에서는 연예인들 축하 공연 같은 행사도 있어서 주말에 방문하시는 팬들도 많았습니다. 아무튼 오늘은 캐리비안 베이 식당 온더 보더 방문 후기에 대해서 말씀드리겠습니다. 매장 소개 캐리비안 베이 온더보더 식당 같은 경우에는 멕시칸 음식을 판매하고 있는 음식점입니다. 타코나 라이스볼 치킨 등과 같이 멕시코에서 먹을 법한 음식들을 판매하고 있어요. 저희는 토요일 점심 시간대에 방문을 해서 waiting이 좀 있었습니다. 대략 15분 정도 기다린 후에 주문이 가능했어요. 물놀이를 하면 왜 이렇게 배가 고픈지 모르겠어요. 여기는 주문하는 줄인데 주문하는 줄 말고 입구에서부터 웨이팅을 했어요. 총 두 번의 웨이팅을 진행해야 합니다. 현장에 있는 종업원 분이 안내해 주는 줄에 따라가면 돼요 온더보더 식당 바로 앞에는 얼음에 담겨줘. 사이다 콜라 그리고 맥주들이 진열되어 있었어요. 수영장에서 술을 마셔도 되는지는 처음 알았습니다. 여자친구 말로는 수영장에서는 술을 마셔야 된다고 하더라고요. 메뉴를 주문하려고 하는데 음 대략 두 개의 메뉴가 준비 중이어서 판매를 안 하고 있었어요. 대가족 단위로 오신 분들은 세트 메뉴를 주문할 수가 없어.약간 아쉬울 것 같아요 매장은 2명의 종업원이 운영하고 있는 것 같습니다. 캐리비안 베이 식당 온더보더 같은 경우 다른 식당에 비해 인기가 많았어요. 아마 야외에 위치하고 있고 매장 안내 앉을 수 있는 공간이 있어서 그런 것 같아요. 다른 식당 같은 경우에는 매장 내에 좌석은 없고 서서 먹는 테이블이 있는 경우가 많더라고요. 야외에 있는 식당은 대부분 그런 구조였어요. 다만 캐리비안 베이 온더보더 식당 같은 경우 제가 추천드리는 이유는 수영장을 바라보면서 음식을 먹을 수 있기 때문이에요. 자리 잡기는 약간 어려웠지만 저희는 운이 좋아서 바로 앉을 수 있었습니다. 메뉴 구성 온더보더는 멕시칸 음식점 답게 필라프 브리또 폴드 포크 타코 멕시칸 폴립 멕시코 음식들이 많았습니다. 시즌 분식 메뉴도 바로 옆에서 판매하고 있었는데 저희는 떡볶이보다는 고기를 먹고 싶어서 멕시칸 음식으로 방향을 바꿨어요. 다음에는 떡볶이를 먹어 봐야 겠어요. 메인 음식 저희는 보더윙 더블로 주문을 하게 됐습니다. 보더윙 더블 메뉴 같은 경우에는 감자튀김 위에 열 개의 당 날개가 올려져 있습니다. 제가 캐리비안 베이... ",
+          "bySmartEditor3": false,
+          "hasNaverReservation": false,
+          "thumbnailUrl": "http://blogfiles.naver.net/MjAyNjA4MTdfMjc4/MDAxNzg2OTQ0NjQ3NjAw.rjl-KmIbntwnCwGpuIT6pu7B2pdDDgwtZVSPDR7bSMog.9CZLcwq_H7_OZ4OAR_zj-XKL7BT-EprvEpiCLxXhww0g.JPEG/900_20260815_124308.jpg#900x1200",
+          "thumbnailUrlList": [
+            "http://blogfiles.naver.net/MjAyNjA4MTdfMjc4/MDAxNzg2OTQ0NjQ3NjAw.rjl-KmIbntwnCwGpuIT6pu7B2pdDDgwtZVSPDR7bSMog.9CZLcwq_H7_OZ4OAR_zj-XKL7BT-EprvEpiCLxXhww0g.JPEG/900_20260815_124308.jpg#900x1200",
+            "http://blogfiles.naver.net/MjAyNjA4MTdfMjM3/MDAxNzg2OTUxMDIwNzEw.VYR7cVbgbBmY05yFCr7IscnBsfB_9hEGDMEnyf4WBasg.EResJ0GY4kIXl8BK_ww8BTeuGZURhajzyFvVkbuhD44g.JPEG/900_20260815_123036.jpg#900x675",
+            "http://blogfiles.naver.net/MjAyNjA4MTdfOTEg/MDAxNzg2OTUxMDIxNTIx.C8xgRBmrMgB1ST5-kjYhJe2SKaZhW8poksMweMrvwuwg.9uBLKYSmOyc3sdtRQvp5bR08nihYzcmOi8TKxd1nWjgg.JPEG/900_20260815_122939.jpg#900x675",
+            "http://blogfiles.naver.net/MjAyNjA4MTdfMjE3/MDAxNzg2OTUxMDIyNTc0.00QEtsFzPUtGZzksIBT2AvocCcGTsDC9i8mM-nz45hog.EUSJydhgje0FUl0uQcC3JGRlYO8f2xDZ0LHytAJa8V8g.JPEG/900_20260815_122926.jpg#900x1200",
+            "http://blogfiles.naver.net/MjAyNjA4MTdfMjc2/MDAxNzg2OTUxMDIzNDI5.f1Vf2F36cq_-s2ciLq5O3WEGpeZZpJbOAELfe2pjyJMg.aXUyPo2EGk5lCEoYjr2-RSdUBBE8IhnqjXs0_0_bCC0g.JPEG/900_20260815_122944.jpg#900x675",
+            "http://blogfiles.naver.net/MjAyNjA4MTdfOCAg/MDAxNzg2OTUxMDI0MjAy.gtYpeB0fW9ibm9FDjxuSS9WO-XK_C9fXNLl5gw39z_8g._1ebR10KrAOXdgsFDEmy3fRYW5ThW-ZENJYBxff3ThQg.JPEG/900_20260815_122943.jpg#900x675",
+            "http://blogfiles.naver.net/MjAyNjA4MTdfMTcx/MDAxNzg2OTQ0NjQ5ODY1.3b4BmnLv-P13mccDsFvc_BV-YVcaxG2Z9KGABDWFLYYg.4JxDyszfQ575zRheX-It6_ToN7Ixl8d1xNrPF0yfucsg.JPEG/900_20260815_123117.jpg#900x675",
+            "http://blogfiles.naver.net/MjAyNjA4MTdfMjIz/MDAxNzg2OTUxMDI1MDQx.yKvdgAb4HOtObdatCQmU-qIHtdifrgQ0IBaIziULmZYg.VFjjIB76EK3jojg3OUJQKjuSrSqd8G3ctwkqoVE0qIEg.JPEG/900_20260815_123218.jpg#900x1200",
+            "http://blogfiles.naver.net/MjAyNjA4MTdfMTk2/MDAxNzg2OTUxMDI2MDkw.beE4YHAikK7U-eA1V3tPj3-qAF-AePQDyHodk_l-4lgg.gZ2uktecsoqvzMyNkw_jnR8y7gGhcLMm_sozZZr-FF8g.JPEG/900_20260815_123159.jpg#1200x900",
+            "http://blogfiles.naver.net/MjAyNjA4MTdfOTcg/MDAxNzg2OTUxMDI3MzY1.3MinRGZgYJHO62vZPubtwjo3rOFUtx3nZbJxhJV6bkMg.ylC8ozzncObQVRqudQr-awLfkMVmJAxZUKxt0bI5MQEg.JPEG/900_20260815_123230.jpg#900x1200"
+          ],
+          "thumbnailCount": "26",
+          "date": "2026.08.19.",
+          "isOfficial": false,
+          "isRepresentative": false,
+          "profileImageUrl": "http://blogpfthumb.phinf.naver.net/MjAyNjAzMDJfNzcg/MDAxNzcyNDU2MTk3Mzcw.no7n0q4NjRD7qa055Zt4HZOnoPUCm5ptSSQXLEytv5Eg.ld2AL8AaN1EZhSq249tGqsBglTXZzqDdEx1pgLLHHGog.JPEG/profileImage.jpg",
+          "isVideoThumbnail": false,
+          "reviewId": "224383180718",
+          "authorName": "라피스",
+          "createdString": "8.19.수",
+          "bypassToken": null,
+          "buyWithMyMoneyType": null
+        },
+        "FsasReview:blog_넌 어차피 빛날 별이야_224329799018_아 지나가다 계좌번호 따이고싶다": {
+          "__typename": "FsasReview",
+          "name": "넌 어차피 빛날 별이야",
+          "type": "blog",
+          "typeName": "블로그",
+          "url": "https://m.blog.naver.com/kbu0292/224329799018",
+          "home": "https://m.blog.naver.com/kbu0292",
+          "id": "blog_넌 어차피 빛날 별이야_224329799018_아 지나가다 계좌번호 따이고싶다",
+          "title": "아 지나가다 계좌번호 따이고싶다",
+          "rank": "3",
+          "contents": "노력해도 안되는게 딱 두개있는데 1. 사랑 2. 일찍 ㅊ자기 안녕하세요 별이예요 지난주 저의 「도파민off」 일상을 보셨나요 ♀️ 저는 요즘 피부과 시술 하고나서 밤마다 팩하고 수면시간 늘리는 하루하루를 보내고 있어요  이번주도 도파민 없이 일상글 시작해 보겠습니다 레쭈고 바나나랑 망고라면 모를까 사람이 살만한 날씨는 아니네요 상의, 하의: 보헤미안서울 화장품 갑자기 ㅈㄴ삼 먹어도 먹어도 계속 허기지는 것처럼 화장품을 사도사도 갈증나요 특히 여름되니까 피부화장 ㄴㅁ힘들어!!! (곧 화장품 리뷰 끼려오겠음 ) 더우면 식욕이 떨어 진다는게 남의 일인줄만 알았는데 정말 남의 일이구나 배고프다 미녜랑 떡볶이 데이트  나 배고파서 간식머것는데 건강해지려고 운동을 하니까 힘든 거야 나처럼 킬러가 되려고 수련을 해봐 일끝나고 회먹으러 왔어요!!!  저번주 금주했다고 쌤한테 자랑햇는데 이날 맥주 몇 잔 먹었다고 혼낫슨 (술 한잔에 간 회복기간이 어쩌구) 찐따 특: 셀카 배경 다 집임 ㄷㄷ 저번에 산 화장품으로 후기 쓰려고 마루타가 되어봄 라이브 틀어놓고 메이크업 하면서 옷 골라달라하고 수다떨고 싶다 ✨ 이스트씨 - 블랙 홀터넥 세트 후기 캐리비안베이 가려고 이스트씨 홀터넥 세트 샀어요!!! 저처럼 다이어트 실패한 분들이나 Pms 기간이라 붓기 때문에 고민이신 분들 ㅊㅊ 척추를 곧게 세우고 앉는 법 백팩에 크림빵 상의, 하의: 플리즈노팔로우 자차없이 경기도 <-> 서울 출퇴근 하는 일상 앙나 더워서 양산쓰고 편의점 김밥 먹고 버스 타자마자 배터리 충전부터 갈겨요 운동끝나고 밤이 되어서야 집에 올 수 있었음 상체한 날은 저렇게 핏줄이 선명해져요 세상에는 당신을 좋아하는 사람보다 파인애플피자를 좋아하는 사람이 더 많습니다 나 피부과도 갔다오고 수면시간도 늘렸는데 거래처 언니가 힘들어 보인다고 냉장고에서 시언한 물 꺼내 휴지에 감싸서 내 손에 꼬옥 쥐어주심  입터져서 편털하고 집와떠니 우리집 강아지도 같이 입이 터졌나봐요? 한달치 간식 다 털렸어요!!! 세끼판다 - 들기름 메밀면 샐러드 효니가 ㅊㅊ해준 들기름 메밀면 먹자마자 이마짚 ♀️ 앙나 맛있어서 세 번이나 재주문 했어요!!! (나 퇴근하고 메밀면 먹을 생각에 매일 설레어) 근데 친구 잘 안 만나시는거 같은데 옷 저렇게 많이 사면 언제 입으세요? 상의: 플리즈노팔로우(왼) 보헤미안서울 (오) 하의: 에트오소메 에트오소메 나폴레옹 다이애그널 지퍼 숏 팬츠 드디어 삼 이웃소녀들한테 코디 골라달라 했는데  투표결과 1번이 다섯명... ",
+          "bySmartEditor3": false,
+          "hasNaverReservation": false,
+          "thumbnailUrl": "http://blogfiles.naver.net/MjAyNjA2MjhfMjQg/MDAxNzgyNjQ5NDEwMjA2.OqTgRk51iwHK95L8IGLwlDbFi80lGK8MYI-EUOOjhwYg.vRm81408PPmgBk-CiPxOjqQjm4mW10uLb3mERg4WeUIg.JPEG/output%A3%DF121841843.jpg#900x900",
+          "thumbnailUrlList": [
+            "http://blogfiles.naver.net/MjAyNjA2MjhfMjQg/MDAxNzgyNjQ5NDEwMjA2.OqTgRk51iwHK95L8IGLwlDbFi80lGK8MYI-EUOOjhwYg.vRm81408PPmgBk-CiPxOjqQjm4mW10uLb3mERg4WeUIg.JPEG/output%A3%DF121841843.jpg#900x900",
+            "http://blogfiles.naver.net/MjAyNjA2MjhfNzYg/MDAxNzgyNjE0MDYzNjMy.fY5mlilAh2WYy2sVknOc7NOXC_ficJkY2F1lpjavIJYg.iy6GXDufEmNMagKyadKg6iH_3VvjrPoDV1Q3MFXC06Qg.JPEG/output%A3%DF546913659.jpg#900x900",
+            "http://blogfiles.naver.net/MjAyNjA2MjhfMTMg/MDAxNzgyNjIyMTAzODc1.xpPUtK5cC3rqXyZ9yHhi1veKivLgOqO9bMJNT7Qx0HAg.tiVIeTxpvOWgH9QvqxqA2ZuvYvlJu1EtyruSU9DDzkgg.JPEG/823EB0AF%A3%AD8806%A3%AD4B06%A3%AD9E37%A3%ADB1F83FC67B6C.jpg#900x900",
+            "http://blogfiles.naver.net/MjAyNjA2MjhfNDgg/MDAxNzgyNjE0MDYzNjg0.nmeJoCMJijw9wHC-wr0d1Jo7lmx0dS9Gll03-15rY_Mg.MBI5Q5CAzI6bGhjFpBR2bxYnaUp0d7a90aadyXiT8iIg.JPEG/output%A3%DF826232331.jpg#900x900",
+            "http://blogfiles.naver.net/MjAyNjA2MjhfODkg/MDAxNzgyNjE0MDYzNDI3.qo5TPPJ9hh29BJvj6e5Mnsba42k68ASDTmG1Wpy0f0og.OToMdNDG9RFzjx5prMXWzzd_HT-5Vhxx5mPFwL4hhasg.JPEG/output%A3%DF716977148.jpg#900x900",
+            "http://blogfiles.naver.net/MjAyNjA2MjhfMjIw/MDAxNzgyNjE0MTA2OTQ2.GZ7u78CkRe4w2wS_8_kku9QdlwanqFwKKjHW4I9Noa0g.OWcFhSpEJew6KDytv62SE7gXH5slIjkA7vSR1KCGcjog.JPEG/IMG%A3%DF2684.jpg#900x1200",
+            "http://blogfiles.naver.net/MjAyNjA2MjhfOTQg/MDAxNzgyNjE0MTA2OTQx.OqpCXdgx6_KArayL_JKiShXuPfLnplmaibWVOit6KmQg.4f0Og2rOIsGHAC9QLrHh7M_EQO_mAOQGCk2L_Hl-Niog.JPEG/IMG%A3%DF2682.jpg#900x1200",
+            "http://blogfiles.naver.net/MjAyNjA2MjhfMTM0/MDAxNzgyNjE0MTg2NTY2.WknFK8cXiL2in7YSxLxZRqdTv3JVrJBaX3cxKtkaGxIg.GBFLvq-58zwjfdaqilIaSVF4kk1ppQKT-NWWEUszLgQg.JPEG/IMG%A3%DF2691.jpg#900x1200",
+            "http://blogfiles.naver.net/MjAyNjA2MjhfMTE0/MDAxNzgyNjE0MTg2NDA5.C3YGsS-2BYhkn5JKbvH1Vd39pYZwLm8obsLjZq3aE0Yg.h9T3wc5AcD1OEX55uETEMXjFR7B9PDwR_2BmIOnQ34gg.JPEG/IMG%A3%DF2693.jpg#900x1200",
+            "http://blogfiles.naver.net/MjAyNjA2MjhfOTIg/MDAxNzgyNjE0MTg2NTMw.kDR4Zve5TRxCbojJeL3Bv38U4JClLrT8SKE4ijH4UaAg.wg4wnN8gPMVCTyL8YwwLKrxZ8xtgA3A93afevOb6HXkg.JPEG/IMG%A3%DF2696.jpg#900x1200"
+          ],
+          "thumbnailCount": "61",
+          "date": "2026.06.28.",
+          "isOfficial": false,
+          "isRepresentative": false,
+          "profileImageUrl": "http://blogpfthumb.phinf.naver.net/MjAyNjA1MTZfMTIx/MDAxNzc4OTE4NDc1OTAw.qCoaBWGn64dSPKamdoGIk5Zg5Q9DhTf9ou3P4ZXyYvEg.uPqLK08ojBItgNQhDbCHiT9v85C2PsRyb7M1u3zblEAg.PNG/profileImage.png",
+          "isVideoThumbnail": false,
+          "reviewId": "224329799018",
+          "authorName": "별",
+          "createdString": "6.28.일",
+          "bypassToken": null,
+          "buyWithMyMoneyType": null
+        },
+        "InnerRoute:11007": {
+          "__typename": "InnerRoute",
+          "id": "11007",
+          "name": "66"
+        },
+        "InnerRoute:11006": {
+          "__typename": "InnerRoute",
+          "id": "11006",
+          "name": "66-4"
+        },
+        "InnerRoute:11015": {
+          "__typename": "InnerRoute",
+          "id": "11015",
+          "name": "670"
+        },
+        "InnerRoute:20031773": {
+          "__typename": "InnerRoute",
+          "id": "20031773",
+          "name": "Y1309"
+        },
+        "InnerRoute:10085": {
+          "__typename": "InnerRoute",
+          "id": "10085",
+          "name": "1113"
+        },
+        "InnerRoute:10043": {
+          "__typename": "InnerRoute",
+          "id": "10043",
+          "name": "1500-2"
+        },
+        "InnerRoute:20039716": {
+          "__typename": "InnerRoute",
+          "id": "20039716",
+          "name": "4105"
+        },
+        "InnerRoute:11203": {
+          "__typename": "InnerRoute",
+          "id": "11203",
+          "name": "5002B"
+        },
+        "InnerRoute:11036": {
+          "__typename": "InnerRoute",
+          "id": "11036",
+          "name": "5700B"
+        },
+        "InnerRoute:20031509": {
+          "__typename": "InnerRoute",
+          "id": "20031509",
+          "name": "8839"
+        },
+        "InnerRoute:20031513": {
+          "__typename": "InnerRoute",
+          "id": "20031513",
+          "name": "8862"
+        },
+        "BusStation:197799": {
+          "__typename": "BusStation",
+          "id": "197799",
+          "name": "에버랜드(승차홈)",
+          "displayCode": "47904",
+          "lat": 37.2935673,
+          "lng": 127.2071126,
+          "innerRoutes": {
+            "__typename": "InnerRoutes",
+            "routeType": [
+              {
+                "__typename": "RouteType",
+                "type": "1",
+                "typeName": "일반",
+                "innerRoute": [
+                  {
+                    "__ref": "InnerRoute:11007"
+                  },
+                  {
+                    "__ref": "InnerRoute:11006"
+                  },
+                  {
+                    "__ref": "InnerRoute:11015"
+                  },
+                  {
+                    "__ref": "InnerRoute:20031773"
+                  }
+                ]
+              },
+              {
+                "__typename": "RouteType",
+                "type": "4",
+                "typeName": "직행",
+                "innerRoute": [
+                  {
+                    "__ref": "InnerRoute:10085"
+                  },
+                  {
+                    "__ref": "InnerRoute:10043"
+                  },
+                  {
+                    "__ref": "InnerRoute:20039716"
+                  },
+                  {
+                    "__ref": "InnerRoute:11203"
+                  },
+                  {
+                    "__ref": "InnerRoute:11036"
+                  }
+                ]
+              },
+              {
+                "__typename": "RouteType",
+                "type": "22",
+                "typeName": "시외",
+                "innerRoute": [
+                  {
+                    "__ref": "InnerRoute:20031509"
+                  },
+                  {
+                    "__ref": "InnerRoute:20031513"
+                  }
+                ]
+              }
+            ]
+          },
+          "walkTime": 19,
+          "walkingDistance": 1148
+        },
+        "InnerRoute:20033254": {
+          "__typename": "InnerRoute",
+          "id": "20033254",
+          "name": "5002(예약)"
+        },
+        "InnerRoute:2802994": {
+          "__typename": "InnerRoute",
+          "id": "2802994",
+          "name": "5002A"
+        },
+        "InnerRoute:20024390": {
+          "__typename": "InnerRoute",
+          "id": "20024390",
+          "name": "5700(예약)"
+        },
+        "InnerRoute:2802996": {
+          "__typename": "InnerRoute",
+          "id": "2802996",
+          "name": "5700A"
+        },
+        "BusStation:92946": {
+          "__typename": "BusStation",
+          "id": "92946",
+          "name": "에버랜드(하차홈)",
+          "displayCode": null,
+          "lat": 37.2936364,
+          "lng": 127.2076365,
+          "innerRoutes": {
+            "__typename": "InnerRoutes",
+            "routeType": [
+              {
+                "__typename": "RouteType",
+                "type": "1",
+                "typeName": "일반",
+                "innerRoute": [
+                  {
+                    "__ref": "InnerRoute:11007"
+                  },
+                  {
+                    "__ref": "InnerRoute:11006"
+                  },
+                  {
+                    "__ref": "InnerRoute:11015"
+                  }
+                ]
+              },
+              {
+                "__typename": "RouteType",
+                "type": "4",
+                "typeName": "직행",
+                "innerRoute": [
+                  {
+                    "__ref": "InnerRoute:10085"
+                  },
+                  {
+                    "__ref": "InnerRoute:10043"
+                  },
+                  {
+                    "__ref": "InnerRoute:20039716"
+                  },
+                  {
+                    "__ref": "InnerRoute:20033254"
+                  },
+                  {
+                    "__ref": "InnerRoute:2802994"
+                  },
+                  {
+                    "__ref": "InnerRoute:11203"
+                  },
+                  {
+                    "__ref": "InnerRoute:20024390"
+                  },
+                  {
+                    "__ref": "InnerRoute:2802996"
+                  },
+                  {
+                    "__ref": "InnerRoute:11036"
+                  }
+                ]
+              },
+              {
+                "__typename": "RouteType",
+                "type": "22",
+                "typeName": "시외",
+                "innerRoute": [
+                  {
+                    "__ref": "InnerRoute:20031509"
+                  },
+                  {
+                    "__ref": "InnerRoute:20031513"
+                  }
+                ]
+              }
+            ]
+          },
+          "walkTime": 20,
+          "walkingDistance": 1198
+        },
+        "BusStation:119500": {
+          "__typename": "BusStation",
+          "id": "119500",
+          "name": "전대3리",
+          "displayCode": "29865",
+          "lat": 37.2885393,
+          "lng": 127.2144061,
+          "innerRoutes": {
+            "__typename": "InnerRoutes",
+            "routeType": [
+              {
+                "__typename": "RouteType",
+                "type": "4",
+                "typeName": "직행",
+                "innerRoute": [
+                  {
+                    "__ref": "InnerRoute:20039716"
+                  },
+                  {
+                    "__ref": "InnerRoute:20033254"
+                  },
+                  {
+                    "__ref": "InnerRoute:2802994"
+                  },
+                  {
+                    "__ref": "InnerRoute:11203"
+                  },
+                  {
+                    "__ref": "InnerRoute:20024390"
+                  },
+                  {
+                    "__ref": "InnerRoute:2802996"
+                  },
+                  {
+                    "__ref": "InnerRoute:11036"
+                  }
+                ]
+              }
+            ]
+          },
+          "walkTime": 39,
+          "walkingDistance": 2342
+        },
+        "BusStation:174410": {
+          "__typename": "BusStation",
+          "id": "174410",
+          "name": "리조트지원센터",
+          "displayCode": "47555",
+          "lat": 37.288299,
+          "lng": 127.216404,
+          "innerRoutes": {
+            "__typename": "InnerRoutes",
+            "routeType": [
+              {
+                "__typename": "RouteType",
+                "type": "1",
+                "typeName": "일반",
+                "innerRoute": [
+                  {
+                    "__ref": "InnerRoute:11007"
+                  },
+                  {
+                    "__ref": "InnerRoute:11006"
+                  },
+                  {
+                    "__ref": "InnerRoute:11015"
+                  }
+                ]
+              },
+              {
+                "__typename": "RouteType",
+                "type": "4",
+                "typeName": "직행",
+                "innerRoute": [
+                  {
+                    "__ref": "InnerRoute:10085"
+                  },
+                  {
+                    "__ref": "InnerRoute:10043"
+                  },
+                  {
+                    "__ref": "InnerRoute:20033254"
+                  },
+                  {
+                    "__ref": "InnerRoute:2802994"
+                  },
+                  {
+                    "__ref": "InnerRoute:11203"
+                  },
+                  {
+                    "__ref": "InnerRoute:20024390"
+                  },
+                  {
+                    "__ref": "InnerRoute:2802996"
+                  },
+                  {
+                    "__ref": "InnerRoute:11036"
+                  }
+                ]
+              }
+            ]
+          },
+          "walkTime": 41,
+          "walkingDistance": 2430
+        },
+        "InnerRoute:11086": {
+          "__typename": "InnerRoute",
+          "id": "11086",
+          "name": "90"
+        },
+        "BusStation:127157": {
+          "__typename": "BusStation",
+          "id": "127157",
+          "name": "에버랜드입구",
+          "displayCode": "47459",
+          "lat": 37.2881891,
+          "lng": 127.2173478,
+          "innerRoutes": {
+            "__typename": "InnerRoutes",
+            "routeType": [
+              {
+                "__typename": "RouteType",
+                "type": "1",
+                "typeName": "일반",
+                "innerRoute": [
+                  {
+                    "__ref": "InnerRoute:11086"
+                  }
+                ]
+              }
+            ]
+          },
+          "walkTime": 42,
+          "walkingDistance": 2515
+        },
+        "InnerRoute:11078": {
+          "__typename": "InnerRoute",
+          "id": "11078",
+          "name": "85"
+        },
+        "BusStation:186475": {
+          "__typename": "BusStation",
+          "id": "186475",
+          "name": "전대리.포곡농협전대지점",
+          "displayCode": "29466",
+          "lat": 37.2866479,
+          "lng": 127.2170298,
+          "innerRoutes": {
+            "__typename": "InnerRoutes",
+            "routeType": [
+              {
+                "__typename": "RouteType",
+                "type": "1",
+                "typeName": "일반",
+                "innerRoute": [
+                  {
+                    "__ref": "InnerRoute:11007"
+                  },
+                  {
+                    "__ref": "InnerRoute:11006"
+                  },
+                  {
+                    "__ref": "InnerRoute:11078"
+                  },
+                  {
+                    "__ref": "InnerRoute:11086"
+                  }
+                ]
+              }
+            ]
+          },
+          "walkTime": 44,
+          "walkingDistance": 2651
+        },
+        "InformationFacilities:13": {
+          "__typename": "InformationFacilities",
+          "id": "13",
+          "name": "단체 이용 가능",
+          "i18nName": "단체 이용 가능"
+        },
+        "InformationFacilities:4": {
+          "__typename": "InformationFacilities",
+          "id": "4",
+          "name": "포장",
+          "i18nName": "포장"
+        },
+        "InformationFacilities:8": {
+          "__typename": "InformationFacilities",
+          "id": "8",
+          "name": "남/녀 화장실 구분",
+          "i18nName": "남/녀 화장실 구분"
+        },
+        "PlaceDetailTopPhotoItem:business_1": {
+          "__typename": "PlaceDetailTopPhotoItem",
+          "id": "business_1",
+          "viewId": "business_1_1",
+          "title": "온더보더 캐리비안베이점",
+          "width": 1759,
+          "height": 1610,
+          "linkUrl": null,
+          "date": null,
+          "isPopularStyle": null,
+          "price": null,
+          "video": null,
+          "author": {
+            "__typename": "PhotoViewerItemAuthor",
+            "id": null,
+            "nickname": null,
+            "imageUrl": null,
+            "objectId": null,
+            "url": null,
+            "officialYn": null,
+            "followRequested": null
+          },
+          "originalUrl": "https://ldb-phinf.pstatic.net/20260601_217/17802935453127Xow5_JPEG/%B8%B6%B0%A1%B8%AE%C5%B8.jpg",
+          "thumbnailUrl": "https://ldb-phinf.pstatic.net/20260601_217/17802935453127Xow5_JPEG/%B8%B6%B0%A1%B8%AE%C5%B8.jpg",
+          "description": null,
+          "mediaFormat": "image",
+          "mediaSource": "business",
+          "filterId": "biz",
+          "subFilterId": null,
+          "sourceTitle": null,
+          "externalLink": null,
+          "clip": null,
+          "option": null,
+          "visitorReview": null,
+          "originType": null
+        },
+        "PlaceDetailTopPhotoItem:business_2": {
+          "__typename": "PlaceDetailTopPhotoItem",
+          "id": "business_2",
+          "viewId": "business_2_2",
+          "title": "온더보더 캐리비안베이점",
+          "width": 1672,
+          "height": 941,
+          "linkUrl": null,
+          "date": null,
+          "isPopularStyle": null,
+          "price": null,
+          "video": null,
+          "author": {
+            "__typename": "PhotoViewerItemAuthor",
+            "id": null,
+            "nickname": null,
+            "imageUrl": null,
+            "objectId": null,
+            "url": null,
+            "officialYn": null,
+            "followRequested": null
+          },
+          "originalUrl": "https://ldb-phinf.pstatic.net/20260615_71/1781499693585oAvOX_JPEG/KakaoTalk_20260615_133743346.jpg",
+          "thumbnailUrl": "https://ldb-phinf.pstatic.net/20260615_71/1781499693585oAvOX_JPEG/KakaoTalk_20260615_133743346.jpg",
+          "description": null,
+          "mediaFormat": "image",
+          "mediaSource": "business",
+          "filterId": "biz",
+          "subFilterId": null,
+          "sourceTitle": null,
+          "externalLink": null,
+          "clip": null,
+          "option": null,
+          "visitorReview": null,
+          "originType": null
+        },
+        "PlaceDetailTopPhotoItem:business_3": {
+          "__typename": "PlaceDetailTopPhotoItem",
+          "id": "business_3",
+          "viewId": "business_3_3",
+          "title": "온더보더 캐리비안베이점",
+          "width": 1672,
+          "height": 941,
+          "linkUrl": null,
+          "date": null,
+          "isPopularStyle": null,
+          "price": null,
+          "video": null,
+          "author": {
+            "__typename": "PhotoViewerItemAuthor",
+            "id": null,
+            "nickname": null,
+            "imageUrl": null,
+            "objectId": null,
+            "url": null,
+            "officialYn": null,
+            "followRequested": null
+          },
+          "originalUrl": "https://ldb-phinf.pstatic.net/20260615_54/17814997005104csyn_JPEG/KakaoTalk_20260615_133743346_01_-_%BA%B9%BB%E7%BA%BB.jpg",
+          "thumbnailUrl": "https://ldb-phinf.pstatic.net/20260615_54/17814997005104csyn_JPEG/KakaoTalk_20260615_133743346_01_-_%BA%B9%BB%E7%BA%BB.jpg",
+          "description": null,
+          "mediaFormat": "image",
+          "mediaSource": "business",
+          "filterId": "biz",
+          "subFilterId": null,
+          "sourceTitle": null,
+          "externalLink": null,
+          "clip": null,
+          "option": null,
+          "visitorReview": null,
+          "originType": null
+        },
+        "PlaceDetailTopPhotoItem:business_4": {
+          "__typename": "PlaceDetailTopPhotoItem",
+          "id": "business_4",
+          "viewId": "business_4_4",
+          "title": "온더보더 캐리비안베이점",
+          "width": 1672,
+          "height": 941,
+          "linkUrl": null,
+          "date": null,
+          "isPopularStyle": null,
+          "price": null,
+          "video": null,
+          "author": {
+            "__typename": "PhotoViewerItemAuthor",
+            "id": null,
+            "nickname": null,
+            "imageUrl": null,
+            "objectId": null,
+            "url": null,
+            "officialYn": null,
+            "followRequested": null
+          },
+          "originalUrl": "https://ldb-phinf.pstatic.net/20260615_233/1781499705274zmttV_JPEG/KakaoTalk_20260615_133743346_02.jpg",
+          "thumbnailUrl": "https://ldb-phinf.pstatic.net/20260615_233/1781499705274zmttV_JPEG/KakaoTalk_20260615_133743346_02.jpg",
+          "description": null,
+          "mediaFormat": "image",
+          "mediaSource": "business",
+          "filterId": "biz",
+          "subFilterId": null,
+          "sourceTitle": null,
+          "externalLink": null,
+          "clip": null,
+          "option": null,
+          "visitorReview": null,
+          "originType": null
+        },
+        "PlaceDetailTopPhotoItem:visitor_1": {
+          "__typename": "PlaceDetailTopPhotoItem",
+          "id": "visitor_1",
+          "viewId": "visitor_1_5",
+          "title": null,
+          "width": 900,
+          "height": 1200,
+          "linkUrl": "https://blog.naver.com/lapislazuli1011/224383180718",
+          "date": "2026.08.19",
+          "isPopularStyle": null,
+          "price": null,
+          "video": null,
+          "author": {
+            "__typename": "PhotoViewerItemAuthor",
+            "id": null,
+            "nickname": "라피스",
+            "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=f120_120&src=https%3A%2F%2Fblogpfthumb-phinf.pstatic.net%2FMjAyNjAzMDJfNzcg%2FMDAxNzcyNDU2MTk3Mzcw.no7n0q4NjRD7qa055Zt4HZOnoPUCm5ptSSQXLEytv5Eg.ld2AL8AaN1EZhSq249tGqsBglTXZzqDdEx1pgLLHHGog.JPEG%2FprofileImage.jpg",
+            "objectId": null,
+            "url": "https://m.blog.naver.com/lapislazuli1011",
+            "officialYn": null,
+            "followRequested": null
+          },
+          "originalUrl": "https://blogfiles.pstatic.net/MjAyNjA4MTdfMjE3/MDAxNzg2OTUxMDIyNTc0.00QEtsFzPUtGZzksIBT2AvocCcGTsDC9i8mM-nz45hog.EUSJydhgje0FUl0uQcC3JGRlYO8f2xDZ0LHytAJa8V8g.JPEG/900_20260815_122926.jpg/900x1200",
+          "thumbnailUrl": "https://blogfiles.pstatic.net/MjAyNjA4MTdfMjE3/MDAxNzg2OTUxMDIyNTc0.00QEtsFzPUtGZzksIBT2AvocCcGTsDC9i8mM-nz45hog.EUSJydhgje0FUl0uQcC3JGRlYO8f2xDZ0LHytAJa8V8g.JPEG/900_20260815_122926.jpg/900x1200",
+          "description": "캐리비안베이 식당 추천 온더보더 방문후기",
+          "mediaFormat": "image",
+          "mediaSource": "placeReview",
+          "filterId": "placeReview",
+          "subFilterId": null,
+          "sourceTitle": "블로그",
+          "externalLink": {
+            "__typename": "PhotoViewerExternalLink",
+            "title": "블로그",
+            "url": "https://blog.naver.com/lapislazuli1011/224383180718"
+          },
+          "clip": null,
+          "option": null,
+          "visitorReview": {
+            "__typename": "PhotoViewerVisitorReviewInfo",
+            "visitCount": null,
+            "visitCategories": null,
+            "votedKeywords": null,
+            "isFollowing": null,
+            "rating": null,
+            "reviewGroupId": null,
+            "reviewId": null
+          },
+          "originType": null
+        },
+        "PlaceDetailTopPhotoItem:visitor_2": {
+          "__typename": "PlaceDetailTopPhotoItem",
+          "id": "visitor_2",
+          "viewId": "visitor_2_6",
+          "title": null,
+          "width": 900,
+          "height": 1200,
+          "linkUrl": "https://blog.naver.com/lapislazuli1011/224383180718",
+          "date": "2026.08.19",
+          "isPopularStyle": null,
+          "price": null,
+          "video": null,
+          "author": {
+            "__typename": "PhotoViewerItemAuthor",
+            "id": null,
+            "nickname": "라피스",
+            "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=f120_120&src=https%3A%2F%2Fblogpfthumb-phinf.pstatic.net%2FMjAyNjAzMDJfNzcg%2FMDAxNzcyNDU2MTk3Mzcw.no7n0q4NjRD7qa055Zt4HZOnoPUCm5ptSSQXLEytv5Eg.ld2AL8AaN1EZhSq249tGqsBglTXZzqDdEx1pgLLHHGog.JPEG%2FprofileImage.jpg",
+            "objectId": null,
+            "url": "https://m.blog.naver.com/lapislazuli1011",
+            "officialYn": null,
+            "followRequested": null
+          },
+          "originalUrl": "https://blogfiles.pstatic.net/MjAyNjA4MTdfMTAz/MDAxNzg2OTUxMDMwNTE0.LEXHGWFjBT_RT2dpcm2caS-70VcwIxYnXGwk-u26_Ccg.5MFGDHF3AIdytSHjiBbejzYfcqIIw-MoMczhPxO3Crog.JPEG/900_20260815_123233.jpg/900x1200",
+          "thumbnailUrl": "https://blogfiles.pstatic.net/MjAyNjA4MTdfMTAz/MDAxNzg2OTUxMDMwNTE0.LEXHGWFjBT_RT2dpcm2caS-70VcwIxYnXGwk-u26_Ccg.5MFGDHF3AIdytSHjiBbejzYfcqIIw-MoMczhPxO3Crog.JPEG/900_20260815_123233.jpg/900x1200",
+          "description": "캐리비안베이 식당 추천 온더보더 방문후기",
+          "mediaFormat": "image",
+          "mediaSource": "placeReview",
+          "filterId": "placeReview",
+          "subFilterId": null,
+          "sourceTitle": "블로그",
+          "externalLink": {
+            "__typename": "PhotoViewerExternalLink",
+            "title": "블로그",
+            "url": "https://blog.naver.com/lapislazuli1011/224383180718"
+          },
+          "clip": null,
+          "option": null,
+          "visitorReview": {
+            "__typename": "PhotoViewerVisitorReviewInfo",
+            "visitCount": null,
+            "visitCategories": null,
+            "votedKeywords": null,
+            "isFollowing": null,
+            "rating": null,
+            "reviewGroupId": null,
+            "reviewId": null
+          },
+          "originType": null
+        },
+        "PlaceDetailTopPhotoItem:visitor_3": {
+          "__typename": "PlaceDetailTopPhotoItem",
+          "id": "visitor_3",
+          "viewId": "visitor_3_7",
+          "title": null,
+          "width": 654,
+          "height": 368,
+          "linkUrl": "https://blog.naver.com/lapislazuli1011/224383180718",
+          "date": "2026.08.19",
+          "isPopularStyle": null,
+          "price": null,
+          "video": null,
+          "author": {
+            "__typename": "PhotoViewerItemAuthor",
+            "id": null,
+            "nickname": "라피스",
+            "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=f120_120&src=https%3A%2F%2Fblogpfthumb-phinf.pstatic.net%2FMjAyNjAzMDJfNzcg%2FMDAxNzcyNDU2MTk3Mzcw.no7n0q4NjRD7qa055Zt4HZOnoPUCm5ptSSQXLEytv5Eg.ld2AL8AaN1EZhSq249tGqsBglTXZzqDdEx1pgLLHHGog.JPEG%2FprofileImage.jpg",
+            "objectId": null,
+            "url": "https://m.blog.naver.com/lapislazuli1011",
+            "officialYn": null,
+            "followRequested": null
+          },
+          "originalUrl": "https://blogfiles.pstatic.net/MjAyNjA4MTdfMjY5/MDAxNzg2OTUxMDM1ODk3.14qqMEmo3smAPKqwDMw8xBzTru4Ch5D59cxV7bDA784g.g0tv50pX8jUoaD27-0O4RiV40szWcmoW9F6eR-oqgjYg.PNG/20260815_124134(1).gif/654x368",
+          "thumbnailUrl": "https://blogfiles.pstatic.net/MjAyNjA4MTdfMjY5/MDAxNzg2OTUxMDM1ODk3.14qqMEmo3smAPKqwDMw8xBzTru4Ch5D59cxV7bDA784g.g0tv50pX8jUoaD27-0O4RiV40szWcmoW9F6eR-oqgjYg.PNG/20260815_124134(1).gif/654x368",
+          "description": "캐리비안베이 식당 추천 온더보더 방문후기",
+          "mediaFormat": "image",
+          "mediaSource": "placeReview",
+          "filterId": "placeReview",
+          "subFilterId": null,
+          "sourceTitle": "블로그",
+          "externalLink": {
+            "__typename": "PhotoViewerExternalLink",
+            "title": "블로그",
+            "url": "https://blog.naver.com/lapislazuli1011/224383180718"
+          },
+          "clip": null,
+          "option": null,
+          "visitorReview": {
+            "__typename": "PhotoViewerVisitorReviewInfo",
+            "visitCount": null,
+            "visitCategories": null,
+            "votedKeywords": null,
+            "isFollowing": null,
+            "rating": null,
+            "reviewGroupId": null,
+            "reviewId": null
+          },
+          "originType": null
+        },
+        "PlaceDetailTopPhotoItem:visitor_4": {
+          "__typename": "PlaceDetailTopPhotoItem",
+          "id": "visitor_4",
+          "viewId": "visitor_4_8",
+          "title": null,
+          "width": 900,
+          "height": 675,
+          "linkUrl": "https://blog.naver.com/lapislazuli1011/224383180718",
+          "date": "2026.08.19",
+          "isPopularStyle": null,
+          "price": null,
+          "video": null,
+          "author": {
+            "__typename": "PhotoViewerItemAuthor",
+            "id": null,
+            "nickname": "라피스",
+            "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=f120_120&src=https%3A%2F%2Fblogpfthumb-phinf.pstatic.net%2FMjAyNjAzMDJfNzcg%2FMDAxNzcyNDU2MTk3Mzcw.no7n0q4NjRD7qa055Zt4HZOnoPUCm5ptSSQXLEytv5Eg.ld2AL8AaN1EZhSq249tGqsBglTXZzqDdEx1pgLLHHGog.JPEG%2FprofileImage.jpg",
+            "objectId": null,
+            "url": "https://m.blog.naver.com/lapislazuli1011",
+            "officialYn": null,
+            "followRequested": null
+          },
+          "originalUrl": "https://blogfiles.pstatic.net/MjAyNjA4MTdfMTcx/MDAxNzg2OTQ0NjQ5ODY1.3b4BmnLv-P13mccDsFvc_BV-YVcaxG2Z9KGABDWFLYYg.4JxDyszfQ575zRheX-It6_ToN7Ixl8d1xNrPF0yfucsg.JPEG/900_20260815_123117.jpg/900x675",
+          "thumbnailUrl": "https://blogfiles.pstatic.net/MjAyNjA4MTdfMTcx/MDAxNzg2OTQ0NjQ5ODY1.3b4BmnLv-P13mccDsFvc_BV-YVcaxG2Z9KGABDWFLYYg.4JxDyszfQ575zRheX-It6_ToN7Ixl8d1xNrPF0yfucsg.JPEG/900_20260815_123117.jpg/900x675",
+          "description": "캐리비안베이 식당 추천 온더보더 방문후기",
+          "mediaFormat": "image",
+          "mediaSource": "placeReview",
+          "filterId": "placeReview",
+          "subFilterId": null,
+          "sourceTitle": "블로그",
+          "externalLink": {
+            "__typename": "PhotoViewerExternalLink",
+            "title": "블로그",
+            "url": "https://blog.naver.com/lapislazuli1011/224383180718"
+          },
+          "clip": null,
+          "option": null,
+          "visitorReview": {
+            "__typename": "PhotoViewerVisitorReviewInfo",
+            "visitCount": null,
+            "visitCategories": null,
+            "votedKeywords": null,
+            "isFollowing": null,
+            "rating": null,
+            "reviewGroupId": null,
+            "reviewId": null
+          },
+          "originType": null
+        },
+        "PlaceDetailTopPhotoItem:visitor_5": {
+          "__typename": "PlaceDetailTopPhotoItem",
+          "id": "visitor_5",
+          "viewId": "visitor_5_9",
+          "title": null,
+          "width": 900,
+          "height": 675,
+          "linkUrl": "https://blog.naver.com/lapislazuli1011/224383180718",
+          "date": "2026.08.19",
+          "isPopularStyle": null,
+          "price": null,
+          "video": null,
+          "author": {
+            "__typename": "PhotoViewerItemAuthor",
+            "id": null,
+            "nickname": "라피스",
+            "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=f120_120&src=https%3A%2F%2Fblogpfthumb-phinf.pstatic.net%2FMjAyNjAzMDJfNzcg%2FMDAxNzcyNDU2MTk3Mzcw.no7n0q4NjRD7qa055Zt4HZOnoPUCm5ptSSQXLEytv5Eg.ld2AL8AaN1EZhSq249tGqsBglTXZzqDdEx1pgLLHHGog.JPEG%2FprofileImage.jpg",
+            "objectId": null,
+            "url": "https://m.blog.naver.com/lapislazuli1011",
+            "officialYn": null,
+            "followRequested": null
+          },
+          "originalUrl": "https://blogfiles.pstatic.net/MjAyNjA4MTdfOCAg/MDAxNzg2OTUxMDI0MjAy.gtYpeB0fW9ibm9FDjxuSS9WO-XK_C9fXNLl5gw39z_8g._1ebR10KrAOXdgsFDEmy3fRYW5ThW-ZENJYBxff3ThQg.JPEG/900_20260815_122943.jpg/900x675",
+          "thumbnailUrl": "https://blogfiles.pstatic.net/MjAyNjA4MTdfOCAg/MDAxNzg2OTUxMDI0MjAy.gtYpeB0fW9ibm9FDjxuSS9WO-XK_C9fXNLl5gw39z_8g._1ebR10KrAOXdgsFDEmy3fRYW5ThW-ZENJYBxff3ThQg.JPEG/900_20260815_122943.jpg/900x675",
+          "description": "캐리비안베이 식당 추천 온더보더 방문후기",
+          "mediaFormat": "image",
+          "mediaSource": "placeReview",
+          "filterId": "placeReview",
+          "subFilterId": null,
+          "sourceTitle": "블로그",
+          "externalLink": {
+            "__typename": "PhotoViewerExternalLink",
+            "title": "블로그",
+            "url": "https://blog.naver.com/lapislazuli1011/224383180718"
+          },
+          "clip": null,
+          "option": null,
+          "visitorReview": {
+            "__typename": "PhotoViewerVisitorReviewInfo",
+            "visitCount": null,
+            "visitCategories": null,
+            "votedKeywords": null,
+            "isFollowing": null,
+            "rating": null,
+            "reviewGroupId": null,
+            "reviewId": null
+          },
+          "originType": null
+        },
+        "PlaceDetailTopPhotoItem:visitor_6": {
+          "__typename": "PlaceDetailTopPhotoItem",
+          "id": "visitor_6",
+          "viewId": "visitor_6_10",
+          "title": null,
+          "width": 900,
+          "height": 1200,
+          "linkUrl": "https://blog.naver.com/lapislazuli1011/224383180718",
+          "date": "2026.08.19",
+          "isPopularStyle": null,
+          "price": null,
+          "video": null,
+          "author": {
+            "__typename": "PhotoViewerItemAuthor",
+            "id": null,
+            "nickname": "라피스",
+            "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=f120_120&src=https%3A%2F%2Fblogpfthumb-phinf.pstatic.net%2FMjAyNjAzMDJfNzcg%2FMDAxNzcyNDU2MTk3Mzcw.no7n0q4NjRD7qa055Zt4HZOnoPUCm5ptSSQXLEytv5Eg.ld2AL8AaN1EZhSq249tGqsBglTXZzqDdEx1pgLLHHGog.JPEG%2FprofileImage.jpg",
+            "objectId": null,
+            "url": "https://m.blog.naver.com/lapislazuli1011",
+            "officialYn": null,
+            "followRequested": null
+          },
+          "originalUrl": "https://blogfiles.pstatic.net/MjAyNjA4MTdfMjIz/MDAxNzg2OTUxMDI1MDQx.yKvdgAb4HOtObdatCQmU-qIHtdifrgQ0IBaIziULmZYg.VFjjIB76EK3jojg3OUJQKjuSrSqd8G3ctwkqoVE0qIEg.JPEG/900_20260815_123218.jpg/900x1200",
+          "thumbnailUrl": "https://blogfiles.pstatic.net/MjAyNjA4MTdfMjIz/MDAxNzg2OTUxMDI1MDQx.yKvdgAb4HOtObdatCQmU-qIHtdifrgQ0IBaIziULmZYg.VFjjIB76EK3jojg3OUJQKjuSrSqd8G3ctwkqoVE0qIEg.JPEG/900_20260815_123218.jpg/900x1200",
+          "description": "캐리비안베이 식당 추천 온더보더 방문후기",
+          "mediaFormat": "image",
+          "mediaSource": "placeReview",
+          "filterId": "placeReview",
+          "subFilterId": null,
+          "sourceTitle": "블로그",
+          "externalLink": {
+            "__typename": "PhotoViewerExternalLink",
+            "title": "블로그",
+            "url": "https://blog.naver.com/lapislazuli1011/224383180718"
+          },
+          "clip": null,
+          "option": null,
+          "visitorReview": {
+            "__typename": "PhotoViewerVisitorReviewInfo",
+            "visitCount": null,
+            "visitCategories": null,
+            "votedKeywords": null,
+            "isFollowing": null,
+            "rating": null,
+            "reviewGroupId": null,
+            "reviewId": null
+          },
+          "originType": null
+        },
+        "ROOT_QUERY": {
+          "__typename": "Query",
+          "placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"2055202614\",\"isNx\":false}})": {
+            "__typename": "PlaceDetail",
+            "houseBanners": [
+              {
+                "__ref": "HouseBanner:https://maps-service.pstatic.net/maps-cms/568f3214-4368-46cc-9ce1-61c1d39aa97c.png"
+              }
+            ],
+            "accessor": {
+              "__typename": "PlaceAccessor",
+              "accessor": "",
+              "hasAccessor": true,
+              "accessorBanner": []
+            },
+            "base": {
+              "__ref": "PlaceDetailBase:2055202614"
+            },
+            "buttons({\"input\":{\"deviceType\":\"pcmap\",\"isNx\":false}})": [
+              {
+                "__typename": "PlaceButton",
+                "key": "streetview",
+                "name": "거리뷰",
+                "value": null
+              },
+              {
+                "__typename": "PlaceButton",
+                "key": "share",
+                "name": "공유",
+                "value": null
+              },
+              {
+                "__typename": "PlaceButton",
+                "key": "alarm",
+                "name": "알림받기",
+                "value": "false"
+              }
+            ],
+            "badge({\"input\":{\"deviceType\":\"pcmap\",\"isNx\":false}})": [],
+            "visitorReviewPenalty": null,
+            "menuImages": [
+              {
+                "__typename": "MenuImage",
+                "imageUrl": "https://ldb-phinf.pstatic.net/20260706_279/1783323885816Uf7SR_JPEG/%C4%B3%BA%F1%28%C3%D6%C1%BE%29_%281%29.jpg"
+              }
+            ],
+            "michelinGuide": null,
+            "bookingAwards": null,
+            "mfds": null,
+            "naverBooking": {
+              "__typename": "PlaceDetailNaverBooking",
+              "bookingBusinessId": null,
+              "businessTypeId": null,
+              "naverBookingUrl": null,
+              "bookingDisplayName": "방문",
+              "bookingButtonName": "예약",
+              "bookingHubButtonName": null,
+              "naverBookingHubUrl": null,
+              "naverBookingPromotion": null,
+              "promotionTitle": null,
+              "nPayPromotion": null,
+              "hasSmartOrder": false
+            },
+            "fineDining": null,
+            "menuSource": null,
+            "menus": [
+              {
+                "__ref": "Menu:2055202614_0"
+              },
+              {
+                "__ref": "Menu:2055202614_1"
+              },
+              {
+                "__ref": "Menu:2055202614_2"
+              },
+              {
+                "__ref": "Menu:2055202614_3"
+              }
+            ],
+            "baemin": null,
+            "relatedLinks": [],
+            "brandPromotion": null,
+            "fsasReviews": {
+              "__typename": "FsasReviewsResult",
+              "total": 3,
+              "maxItemCount": 3,
+              "items": [
+                {
+                  "__ref": "FsasReview:blog_❅*⋆⍋*⋆*I love my daily life❅*⋆⍋*⋆*_224382949474_용인 놀거리 :: 용인 워터파크 에버랜드 캐리비안베이 모든 것 총정리 ! (주차장, 셔틀버스, 먹거리 등)"
+                },
+                {
+                  "__ref": "FsasReview:blog_라피스의 일기_224383180718_캐리비안베이 식당 추천 온더보더 방문후기"
+                },
+                {
+                  "__ref": "FsasReview:blog_넌 어차피 빛날 별이야_224329799018_아 지나가다 계좌번호 따이고싶다"
+                }
+              ]
+            },
+            "visitorReviewStats": {
+              "__typename": "VisitorReviewStatsResult",
+              "id": null,
+              "name": null,
+              "review": null,
+              "analysis": null,
+              "visitorReviewsTotal": null,
+              "ratingReviewsTotal": null
+            },
+            "subwayStations": [],
+            "busStations": [
+              {
+                "__ref": "BusStation:197799"
+              },
+              {
+                "__ref": "BusStation:92946"
+              },
+              {
+                "__ref": "BusStation:119500"
+              },
+              {
+                "__ref": "BusStation:174410"
+              },
+              {
+                "__ref": "BusStation:127157"
+              },
+              {
+                "__ref": "BusStation:186475"
+              }
+            ],
+            "hasCoupon": {
+              "__typename": "HasCoupon",
+              "count": 0
+            },
+            "hasFeed": {
+              "__typename": "HasFeed",
+              "blogExist": false,
+              "feedExist": true
+            },
+            "shopWindow": {
+              "__typename": "ShopWindow",
+              "total": 0,
+              "naverPayYn": null,
+              "sales": null,
+              "description": null,
+              "itemsFromChannelNo": [],
+              "itemsFromInterlockId": null,
+              "branchNews": null,
+              "url": null,
+              "typeName": null,
+              "branchYn": null,
+              "isTraditionalMarket": null,
+              "homepages": {
+                "__typename": "Homepage",
+                "etc": [
+                  {
+                    "__typename": "HomepageRepr",
+                    "url": "https://www.instagram.com/ontheborder_kr/",
+                    "landingUrl": "https://www.instagram.com/ontheborder_kr/",
+                    "isDeadUrl": false,
+                    "type": "인스타그램",
+                    "order": 1,
+                    "isRep": null
+                  }
+                ],
+                "repr": {
+                  "__typename": "HomepageRepr",
+                  "url": "https://ontheborder.co.kr/main/",
+                  "landingUrl": "https://ontheborder.co.kr/main/",
+                  "isDeadUrl": false,
+                  "type": "홈페이지",
+                  "order": 0,
+                  "isRep": null
+                }
+              },
+              "businessHours": null
+            },
+            "naverOrder": null,
+            "restaurantInfoTabDetails": null,
+            "businessTools": {
+              "__typename": "BusinessTools",
+              "tools": [
+                {
+                  "__typename": "BusinessTool",
+                  "type": "smartOrder",
+                  "title": "네이버 주문",
+                  "countInString": null,
+                  "description": "매장 내 주문부터 포장주문까지 편하게",
+                  "link": "https://new.smartplace.naver.com/bizes/place/2055202614/solutions/order",
+                  "using": false
+                },
+                {
+                  "__typename": "BusinessTool",
+                  "type": "naverBooking",
+                  "title": "네이버예약",
+                  "countInString": null,
+                  "description": "실시간 예약관리를 온라인으로 한번에",
+                  "link": "https://new.smartplace.naver.com/bizes/place/2055202614/solutions/booking",
+                  "using": false
+                },
+                {
+                  "__typename": "BusinessTool",
+                  "type": "smartCall",
+                  "title": "스마트콜",
+                  "countInString": "100만",
+                  "description": "전화를 대신 받고 응대까지 해드려요!",
+                  "link": "https://new-m.smartplace.naver.com/bizes/place/2055202614/smartcall",
+                  "using": false
+                }
+              ],
+              "hideAnnouncement": false
+            },
+            "excludeTargets": null,
+            "cesco": null,
+            "kinQna": {
+              "__typename": "KinQna",
+              "answerCount": null,
+              "answerList": null,
+              "profileUrl": null
+            },
+            "newBusinessHours": [
+              {
+                "__typename": "NewBusinessHour",
+                "name": "",
+                "businessStatusDescription": {
+                  "__typename": "BusinessStatusDescription",
+                  "status": "영업 중",
+                  "blindDescription": "19시 0분에 라스트오더",
+                  "description": "19:00에 라스트오더",
+                  "showEndsNextDay": false
+                },
+                "businessHours": [
+                  {
+                    "__typename": "WorkingHoursInfo",
+                    "day": "매일",
+                    "businessHours": {
+                      "__typename": "StartEndTime",
+                      "start": "10:00",
+                      "end": "20:00"
+                    },
+                    "breakHours": [],
+                    "description": null,
+                    "lastOrderTimes": [
+                      {
+                        "__typename": "LastOrderTimes",
+                        "type": "영업시간",
+                        "time": "19:00"
+                      }
+                    ],
+                    "showEndsNextDay": false
+                  }
+                ],
+                "comingIrregularClosedDays": [],
+                "comingRegularClosedDays": "",
+                "freeText": ""
+              }
+            ],
+            "businessHours": null,
+            "gift": {
+              "__typename": "Gift",
+              "gifticonId": null,
+              "gifticonMoreUrl": null
+            },
+            "broadcastInfos": null,
+            "informationTab": {
+              "__typename": "InformationTab",
+              "parkingInfo": null,
+              "facilities": [
+                {
+                  "__ref": "InformationFacilities:13"
+                },
+                {
+                  "__ref": "InformationFacilities:4"
+                },
+                {
+                  "__ref": "InformationFacilities:8"
+                }
+              ],
+              "pet": null,
+              "noKidsZone": null,
+              "keywordList": [
+                "캐비식당",
+                "캐비음식점",
+                "캐비음식",
+                "캐리비안베이식당",
+                "캐비하버마스터"
+              ],
+              "nearbyParking": null
+            },
+            "homepages": {
+              "__typename": "Homepage",
+              "etc": [
+                {
+                  "__typename": "HomepageRepr",
+                  "url": "https://www.instagram.com/ontheborder_kr/",
+                  "landingUrl": "https://www.instagram.com/ontheborder_kr/",
+                  "isDeadUrl": false,
+                  "type": "인스타그램",
+                  "typeI18n": "인스타그램",
+                  "order": 1,
+                  "isRep": null
+                }
+              ],
+              "repr": {
+                "__typename": "HomepageRepr",
+                "url": "https://ontheborder.co.kr/main/",
+                "landingUrl": "https://ontheborder.co.kr/main/",
+                "isDeadUrl": false,
+                "type": "홈페이지",
+                "typeI18n": "홈페이지",
+                "order": 0,
+                "isRep": null
+              },
+              "subLinks": null,
+              "isSiteData": null
+            },
+            "festivalPerformance": {
+              "__typename": "FestivalPerformance",
+              "headInfo": "",
+              "festivalSectionHeadInfo": "",
+              "festivalsTotal": 0,
+              "festivals": [],
+              "performancesTotal": 0,
+              "performances": []
+            },
+            "goodPrice": null,
+            "POS": {
+              "__typename": "POS",
+              "isPOS": false,
+              "badge": null,
+              "salesCount": null,
+              "popularMenus": null,
+              "averagePrice": null,
+              "popularDay": null,
+              "weeklyPopularity": null,
+              "durationTime": null,
+              "today": null
+            },
+            "repeatVisit": null,
+            "queuing": {
+              "__typename": "Queuing",
+              "agencyCode": null,
+              "agencyName": null,
+              "tablePreemptionLimitKm": null,
+              "tablePreemptionUrl": null,
+              "queueingUrl": null
+            },
+            "tabs": [
+              {
+                "__typename": "PlaceDetailTab",
+                "tabId": "home",
+                "name": "홈",
+                "externalUrl": null
+              },
+              {
+                "__typename": "PlaceDetailTab",
+                "tabId": "feed",
+                "name": "소식",
+                "externalUrl": null
+              },
+              {
+                "__typename": "PlaceDetailTab",
+                "tabId": "menu",
+                "name": "메뉴",
+                "externalUrl": null
+              },
+              {
+                "__typename": "PlaceDetailTab",
+                "tabId": "review",
+                "name": "리뷰",
+                "externalUrl": null
+              },
+              {
+                "__typename": "PlaceDetailTab",
+                "tabId": "photo",
+                "name": "사진",
+                "externalUrl": null
+              },
+              {
+                "__typename": "PlaceDetailTab",
+                "tabId": "information",
+                "name": "정보",
+                "externalUrl": null
+              }
+            ],
+            "connectPlus": [],
+            "relatedPopupstore": [],
+            "exp": {
+              "__typename": "EventSearchBusinessResult",
+              "total": 0,
+              "isNaverPlusMembership": null,
+              "items": [],
+              "queryString": null,
+              "searchParam": null
+            },
+            "staticMapUrl": "https://simg.pstatic.net/static.map/v2/map/staticmap.bin?center=127.2007247%2C37.2974641&level=16&dataversion=178.21&caller=naver_mstore&markers=pos%3A127.2007247%2037.2974641%7Ctype%3Ac%7Ccolor%3Ablue%7Clabel%3Arestaurant",
+            "isRelaxRestaurant": false,
+            "isStarbucks": false,
+            "is100YearCertified": false,
+            "is100YearSmallManufacturer": false,
+            "isNFASafetyCertified": false,
+            "isAntiqueStore": false,
+            "newOpening": false,
+            "themes": null,
+            "visitorReviewMediasTotal": 5,
+            "description": "신선한 재료와 홈메이드 방식을 추구하는 정통 멕시칸 레스토랑 온더보더,\n흥겨운 라틴 음악과 다양한 멕시코 요리와 함께 365일 축제를 즐기자!",
+            "isKoreaGrandSale": false,
+            "hasAroundItems": false,
+            "hasAiBriefing": null,
+            "acceptsCultureDeductionCoupon": false,
+            "acceptsFuelCostSupport": false,
+            "panorama": {
+              "__typename": "PlacePanorama",
+              "indoor": null
+            },
+            "panoramaThumbnail": {
+              "__typename": "PanoramaThumbnailResult",
+              "url": "https://apis.naver.com/place/panorama/thumbnail/2055202614/0?width=800&height=400&msgpad=1788240654586&md=XxB2HZAkUB8zkuHv7H7SX06Xv58%3D"
+            },
+            "topAnimatedPhotos": {
+              "__typename": "PlaceDetailTopAnimatedPhotos",
+              "total": 0,
+              "items": []
+            },
+            "images": {
+              "__typename": "PlaceDetailImages",
+              "images": [
+                {
+                  "__typename": "Image",
+                  "origin": "https://ldb-phinf.pstatic.net/20260601_217/17802935453127Xow5_JPEG/%B8%B6%B0%A1%B8%AE%C5%B8.jpg",
+                  "number": null,
+                  "infoTitle": null,
+                  "url": null,
+                  "desc": null,
+                  "width": 1759,
+                  "height": 1610,
+                  "source": null
+                }
+              ],
+              "totalImages": 4
+            },
+            "topPhotos": {
+              "__typename": "PlaceDetailTopPhotos",
+              "total": 21,
+              "items": [
+                {
+                  "__ref": "PlaceDetailTopPhotoItem:business_1"
+                },
+                {
+                  "__ref": "PlaceDetailTopPhotoItem:business_2"
+                },
+                {
+                  "__ref": "PlaceDetailTopPhotoItem:business_3"
+                },
+                {
+                  "__ref": "PlaceDetailTopPhotoItem:business_4"
+                },
+                {
+                  "__ref": "PlaceDetailTopPhotoItem:visitor_1"
+                },
+                {
+                  "__ref": "PlaceDetailTopPhotoItem:visitor_2"
+                },
+                {
+                  "__ref": "PlaceDetailTopPhotoItem:visitor_3"
+                },
+                {
+                  "__ref": "PlaceDetailTopPhotoItem:visitor_4"
+                },
+                {
+                  "__ref": "PlaceDetailTopPhotoItem:visitor_5"
+                },
+                {
+                  "__ref": "PlaceDetailTopPhotoItem:visitor_6"
+                }
+              ]
+            },
+            "phoneInfo": {
+              "__typename": "PlacePhoneInfo",
+              "phone": null,
+              "isVirtualPhone": false,
+              "isPrivatePhone": false,
+              "hasMobilePhoneNumber": false
+            }
+          },
+          "visitorReviews({\"input\":{\"bookingBusinessId\":null,\"businessId\":\"2055202614\",\"businessType\":\"restaurant\",\"cidList\":[\"220036\",\"220044\",\"220132\",\"230090\"],\"getReactions\":true,\"getTrailer\":true,\"getUserStats\":true,\"includeContent\":true,\"includeReceiptPhotos\":true,\"isPhotoUsed\":false,\"item\":\"0\",\"size\":10}})": {
+            "__typename": "VisitorReviewsResult",
+            "items": [],
+            "starDistribution": null,
+            "hideProductSelectBox": true,
+            "total": 0,
+            "showRecommendationSort": false,
+            "itemReviewStats": {
+              "__typename": "ItemReviewStats",
+              "score": 0,
+              "count": 0,
+              "itemId": null,
+              "starDistribution": []
+            }
+          },
+          "reactionTypes": [
+            {
+              "__typename": "ReactionType",
+              "name": "helpful",
+              "emojiUrl": "https://ssl.pstatic.net/static/pup/reactiontype/helpful_44w.png",
+              "label": "도움돼요"
+            },
+            {
+              "__typename": "ReactionType",
+              "name": "wannago",
+              "emojiUrl": "https://ssl.pstatic.net/static/pup/reactiontype/wannago_44w.png",
+              "label": "가고 싶어요"
+            },
+            {
+              "__typename": "ReactionType",
+              "name": "cool",
+              "emojiUrl": "https://ssl.pstatic.net/static/pup/reactiontype/cool_44w.png",
+              "label": "멋져요"
+            },
+            {
+              "__typename": "ReactionType",
+              "name": "fun",
+              "emojiUrl": "https://ssl.pstatic.net/static/pup/reactiontype/fun_44w.png",
+              "label": "재밌어요"
+            }
+          ],
+          "user": {
+            "__typename": "UserResult",
+            "partnerHashedIdNo": null,
+            "myplace": {
+              "__typename": "MyPlaceUserInfo",
+              "profile": {
+                "__typename": "MyPlaceProfile",
+                "imageUrl": null,
+                "borderImageUrl": null,
+                "myplaceId": null,
+                "myplaceNickname": null
+              }
+            }
+          },
+          "reviewAwardCoupons({\"input\":{\"businessId\":\"2055202614\"}})": {
+            "__typename": "ReviewAwardsCouponsResult",
+            "total": 0
+          }
+        }
+      },
+      "source": "inline",
+      "captured_at": "2026-09-01T05:58:49+00:00"
+    },
+    {
+      "url": "inline:__APOLLO_STATE__",
+      "status": null,
+      "body": {
+        "HouseBanner:https://maps-service.pstatic.net/maps-cms/568f3214-4368-46cc-9ce1-61c1d39aa97c.png": {
+          "__typename": "HouseBanner",
+          "id": "https://maps-service.pstatic.net/maps-cms/568f3214-4368-46cc-9ce1-61c1d39aa97c.png",
+          "slotIndex": 1,
+          "imageUrl": "https://maps-service.pstatic.net/maps-cms/568f3214-4368-46cc-9ce1-61c1d39aa97c.png",
+          "linkUrl": "https://booking.map.naver.com/promotions/home",
+          "bgColor": "#176CFF",
+          "altText": "놓치면 아까운 혜택! 네이버지도에서 예약하세요. "
+        },
+        "Panorama:/22bE4LaljlND5Qvp+ndCA==": {
+          "__typename": "Panorama",
+          "id": "/22bE4LaljlND5Qvp+ndCA==",
+          "pan": "-44.56",
+          "tilt": "10.00",
+          "lon": "127.2007794",
+          "lat": "37.2974085",
+          "fov": "120"
+        },
+        "PlaceDetailBase:2055202614": {
+          "__typename": "PlaceDetailBase",
+          "id": "2055202614",
+          "name": "온더보더 캐리비안베이점",
+          "reviewSettings": {
+            "__typename": "ReviewSettings",
+            "keyword": null,
+            "blog": 1,
+            "cafe": 1,
+            "showVisitorReviewScore": false
+          },
+          "siteId": "sp_14834ff12ada78",
+          "road": "",
+          "conveniences": [
+            "단체 이용 가능",
+            "포장",
+            "남/녀 화장실 구분"
+          ],
+          "category": "멕시코,남미음식",
+          "categoryCode": "230090",
+          "categoryCodeList": [
+            "220036",
+            "220044",
+            "220132",
+            "230090"
+          ],
+          "defaultCategoryCodeList": [
+            "220036",
+            "220044",
+            "220132",
+            "230090"
+          ],
+          "categoryCount": 1,
+          "rcode": "0246125027",
+          "roadAddress": "경기 용인시 처인구 포곡읍 에버랜드로 199 캐리비안베이",
+          "address": "경기 용인시 처인구 포곡읍 전대리 310",
+          "streetPanorama": {
+            "__ref": "Panorama:/22bE4LaljlND5Qvp+ndCA=="
+          },
+          "isKtis": null,
+          "visitorReviewsTotal": null,
+          "visitorReviewsScore": null,
+          "cafeBlogReviewsTotal": 3,
+          "missingInfo": {
+            "__typename": "MissingInfo",
+            "businessType": "restaurant",
+            "isBizHourMissing": true,
+            "isMenuImageMissing": false,
+            "isAccessorMissing": false,
+            "isDescriptionMissing": false,
+            "isConveniencesMissing": false,
+            "needLargeSuggestionBanner": true,
+            "isBoss": false
+          },
+          "hideBusinessHours": false,
+          "hidePrice": false,
+          "microReviews": null,
+          "paymentInfo": null,
+          "openingHours": null,
+          "isGoodStore": false,
+          "coordinate": {
+            "__typename": "Coordinate",
+            "x": "127.2007247",
+            "y": "37.2974641",
+            "mapZoomLevel": 12
+          },
+          "poiInfo": {
+            "__typename": "PoiInfo",
+            "polyline": null,
+            "land": null,
+            "polygon": null,
+            "relation": null,
+            "parentRelation": null
+          },
+          "routeUrl": null,
+          "virtualPhone": null,
+          "phone": null,
+          "hasMobilePhoneNumber": false,
+          "talktalkUrl": null,
+          "chatBotUrl": null,
+          "naverBlog": null,
+          "visitorReviewsTextReviewTotal": 0,
+          "beLocalWeek": null,
+          "indoorInfo": null
+        },
+        "Menu:2055202614_0": {
+          "__typename": "Menu",
+          "priority": null,
+          "name": "비리아 국밥",
+          "price": "15000",
+          "recommend": true,
+          "nameForBlogReview": "비리아 국밥",
+          "change": false,
+          "priceType": null,
+          "description": "강렬한 육향과 칼칼한 감칠맛, 속을 뜨끈하게 채워주는 멕시칸 스타일의 \"해장 국밥\"",
+          "images": [
+            "https://ldb-phinf.pstatic.net/20260515_2/17788278178478o26f_JPEG/%BA%F1%B8%AE%BE%C6%B1%B9%B9%E4.jpg"
+          ],
+          "id": "2055202614_0",
+          "index": 0
+        },
+        "Menu:2055202614_1": {
+          "__typename": "Menu",
+          "priority": null,
+          "name": "풀드포크 타코",
+          "price": "15000",
+          "recommend": false,
+          "nameForBlogReview": "풀드포크 타코",
+          "change": false,
+          "priceType": null,
+          "description": "피코데가요, 양배추, 당근, 고수가 들어간 풀드포크 타코",
+          "images": [
+            "https://ldb-phinf.pstatic.net/20260515_67/1778827953296IAxjH_JPEG/%BA%F1%B8%AE%BE%C6%C5%B8%C4%DA.jpg"
+          ],
+          "id": "2055202614_1",
+          "index": 1
+        },
+        "Menu:2055202614_2": {
+          "__typename": "Menu",
+          "priority": null,
+          "name": "워킹 타코",
+          "price": "9500",
+          "recommend": false,
+          "nameForBlogReview": "워킹 타코",
+          "change": false,
+          "priceType": null,
+          "description": "바삭한 봉지 과자를 열면 펼쳐지는 반전 미식, 신선한 토핑을 나쵸로 퍼먹는 짜릿한 재미",
+          "images": [
+            "https://ldb-phinf.pstatic.net/20260515_171/1778828000439BPb91_JPEG/%BF%F6%C5%B7%C5%B8%C4%DA.jpg"
+          ],
+          "id": "2055202614_2",
+          "index": 2
+        },
+        "Menu:2055202614_3": {
+          "__typename": "Menu",
+          "priority": null,
+          "name": "피치 마가리타",
+          "price": "14500",
+          "recommend": false,
+          "nameForBlogReview": "피치 마가리타",
+          "change": false,
+          "priceType": null,
+          "description": "복숭아 향 터지는 달콤한 한 잔, 여름 파도 같은 마가리타",
+          "images": [
+            "https://ldb-phinf.pstatic.net/20260515_124/1778827970682f4jAI_JPEG/%B8%B6%B0%A1%B8%AE%C5%B8.jpg"
+          ],
+          "id": "2055202614_3",
+          "index": 3
+        },
+        "FsasReview:blog_❅*⋆⍋*⋆*I love my daily life❅*⋆⍋*⋆*_224382949474_용인 놀거리 :: 용인 워터파크 에버랜드 캐리비안베이 모든 것 총정리 ! (주차장, 셔틀버스, 먹거리 등)": {
+          "__typename": "FsasReview",
+          "name": "❅*⋆⍋*⋆*I love my daily life❅*⋆⍋*⋆*",
+          "type": "blog",
+          "typeName": "블로그",
+          "url": "https://m.blog.naver.com/charming_095/224382949474",
+          "home": "https://m.blog.naver.com/charming_095",
+          "id": "blog_❅*⋆⍋*⋆*I love my daily life❅*⋆⍋*⋆*_224382949474_용인 놀거리 :: 용인 워터파크 에버랜드 캐리비안베이 모든 것 총정리 ! (주차장, 셔틀버스, 먹거리 등)",
+          "title": "용인 놀거리 :: 용인 워터파크 에버랜드 캐리비안베이 모든 것 총정리 ! (주차장, 셔틀버스, 먹거리 등)",
+          "rank": "1",
+          "contents": "안녕하세요 요미입니다 ! 여러분 제가 돌아왔숨미다 (ㅋㅋ) 국내 최대 규모인 워터파크 캐리비안베이에 다녀왔서여 ! #내돈내산 으로 2차 여름휴가를 제대로 즐기고 온 솔직 후기, 지금부터 시작합니다 레 쯔 기 릿 - 용인 놀거리 에버랜드 캐리비안베이 (용인 가볼만한 곳 워터파크) 월-금 09:00-19:00 토-일 09:00-20:00 (* 공휴일에는 08:00 혹은 08:30에도 시작함) 경기 용인시 처인구 포곡읍 에버랜드로 199 용인 놀거리 (용인 가볼만한 곳 워터파크) 에버랜드 캐리비안베이 ️ 주차장 : 전용 주차장 마련되어 있음.  (* 발렛 주차 또한 가능. 발렛 주차비 25,000원 발생. 발렛 주차는 인기가 많기 때문에 오픈 시간 이전에 가시는 게 성공 확률이 높을 거예요) 용인 놀거리 (용인 가볼만한 곳 워터파크) 에버랜드 캐리비안베이 프로모션 8월 행사 안내 * 기간 : 2026.07.03(금) ~ 08.30(일) 캐리비안베이 입장 손님에게 에버랜드도 같이 입장 가능한 혜택 제공 중 8월이 지나가기 전에 캐리비안베이를 꼭 가십셔 여러분 .. 지금 에버랜드가 밤 11시까지 운영하기 때문에 캐리비안베이 + 에버랜드를 풀 세트로 즐길 수 있어요 저희도 운 좋게 이 프로모션 안에 가가지구 에버랜드까지 즐기다 올 수 있었거든뇨 ㅎㅎ 용인 놀거리 (용인 가볼만한 곳 워터파크) 에버랜드 캐리비안베이 [셔틀 버스 운행 안내] 저희는 이 날 오전 10시 반쯤에 도착해서 에버랜드 캐리비안베이 제 3주차장에 주차를 할 수 있었어요 셔틀버스는 지금이 골드시즌 (피크시즌) 답게 5분 이내로 한 번씩 왔다갔다 하더라구요 이렇다 보니 셔틀버스 배차 간격은 크게 신경쓰지 않으셔도 될 것 같아요 캐리비안베이는 에버랜드 정문에서 오른 쪽으로 조금 더 올라가면 나옵니다 에버랜드는 진자 자주 갔는데 캐리비안베이는 처음이라 이 길이 너무 설렜움 .. >< ㅎ 용인 놀거리 (용인 가볼만한 곳 워터파크) 에버랜드 캐리비안베이 국내 최대 규모 워터파크답게 바깥에서 방수팩과 아쿠아 슈즈, 수영복 등을 판매하고 있었는데요 다이소에서 2천원 하는 방수팩이 이 곳에선 2만원임 .. ㅎ (물론 한교동 등 캐릭터가 들어가 있긴 했습니다만) 무조건 방문하기 전에 방수팩과 아쿠아 슈즈를 구비해 가셔요  구명조끼도 대여가 가능하지만 많은 사람들이 입기 때문에 물 냄새가 심하거등용 .. ? 따라서 구명조끼도 따로 구비해가시는 걸 추천드립니다 (쿠팡에서 2-3만원이면 사요) [캐리비안베이 음식물 보관소 안내] 입장 전 음식물 돗자리 보관소에 싸간 음식물 보관도 가능 !(* 냉장 냉동 보관도... ",
+          "bySmartEditor3": false,
+          "hasNaverReservation": false,
+          "thumbnailUrl": "http://blogfiles.naver.net/MjAyNjA4MTlfNzMg/MDAxNzg3MDkwOTI2NzUy.OX6bdGgbTr1kjIcrohQ7LoqJSlKSgPyESGGtA8hvkuAg.VxQLGs8ZEhDgv-bOnVwbL3N7u-mEPuJHLPuSOpP0mEUg.JPEG/IMG%A3%DF3688.JPG#900x1200",
+          "thumbnailUrlList": [
+            "http://blogfiles.naver.net/MjAyNjA4MTlfNzMg/MDAxNzg3MDkwOTI2NzUy.OX6bdGgbTr1kjIcrohQ7LoqJSlKSgPyESGGtA8hvkuAg.VxQLGs8ZEhDgv-bOnVwbL3N7u-mEPuJHLPuSOpP0mEUg.JPEG/IMG%A3%DF3688.JPG#900x1200",
+            "http://blogfiles.naver.net/MjAyNjA4MTlfMTE5/MDAxNzg3MDkwNTI5OTYw.SESzOUvYeF8z-UFDLLEXnhqJCEpw8KsEFLOlFIdEE2Eg.iwtkMD9-2BQzmszRS99XV-rMkWMf3463roJcGtvpKNwg.JPEG/IMG%A3%DF3523.jpg#900x1200",
+            "http://blogfiles.naver.net/MjAyNjA4MTlfMTQ5/MDAxNzg3MDkwNTMxMDY2.1700lE9ZE7cL0cbFRgc2cOfaFm9tDzCk01AV_kOxUYQg.S9JqqKxTxumUdwA5Y9nzYTX_pIB6oHc2KVns5xYyXvYg.JPEG/IMG%A3%DF3520.jpg#900x1200",
+            "http://blogfiles.naver.net/MjAyNjA4MTlfMzMg/MDAxNzg3MDkwNTMwMDgx.Hl45nNU-GPildm0e2-YuIU3lMx7SG13VM1vnMvy7VUUg.r7MdR1fy-lf7xTJIMegXcEP0Gijbfb98wS6GUjxAFmUg.JPEG/IMG%A3%DF3521.jpg#900x1200",
+            "http://blogfiles.naver.net/MjAyNjA4MTlfMTk4/MDAxNzg3MDkwOTI3MzAx.z2m1tN2nqWEdZuv546yXNPj2E7JrOAM1kVyvFTGAVhkg.Bpvy6mSVcOL7n_KSGYObSfpewS6oOqvosBQOlZUBlhkg.JPEG/IMG%A3%DF3651.jpg#900x1200",
+            "http://blogfiles.naver.net/MjAyNjA4MTlfMjk5/MDAxNzg3MDkwNTQ0OTcz.A3gc6F7-UwrHi7IY2CcgQAzVllos46IPhVr4s2YNbSwg.eo23HYt6vgsUZnAtDqohUYTtpjs17mHomXfW5T3c6gMg.JPEG/IMG%A3%DF3522.jpg#900x1200",
+            "http://blogfiles.naver.net/MjAyNjA4MTlfMjQ4/MDAxNzg3MDkwNTMwMDE1.F-A620nBG0qcQO74Td4RfeVyFlx5CV80aG-hd1jtIY8g.JfIkuKw4XubSkOwOFBGZ1FSbrAAJ0aka0OCTB9-NJR0g.JPEG/IMG%A3%DF3524.jpg#900x1200",
+            "http://blogfiles.naver.net/MjAyNjA4MTlfMzkg/MDAxNzg3MDkwNTMwMTgw.09A2r43SjxkKEWjuNvL82OWjx3zXKdgu0kdoyVQ24CEg.hmR2o98jAvo3yEPrMEl2bnZK-rrhVyzEW7jNY2oDjwog.JPEG/IMG%A3%DF3525.jpg#900x1200",
+            "http://blogfiles.naver.net/MjAyNjA4MTlfMTUx/MDAxNzg3MDkwNTMxMDU5.iwj5MPpeCT3nfYNTuIJIYHMCQnJmUjxxApkd44gUBe4g.KCvp0U3tzh8AtMg9YsBdd61knLSo5NwLbES2tCeoekkg.JPEG/IMG%A3%DF3526.jpg#900x1200",
+            "http://blogfiles.naver.net/MjAyNjA4MTlfNjYg/MDAxNzg3MDkwNTMyNTIy.8Dey9IR1Ru1kl3eoGOttwrtivuEzgDsSYn-A1dObedwg.jXLTMW5TdFVTQ_42RzRTCowomsT5FXLQxnT-7Y8g7J8g.JPEG/IMG%A3%DF3527.jpg#900x1200"
+          ],
+          "thumbnailCount": "100",
+          "date": "2026.08.19.",
+          "isOfficial": false,
+          "isRepresentative": false,
+          "profileImageUrl": "http://blogpfthumb.phinf.naver.net/MjAyNDAxMTRfODYg/MDAxNzA1MTkyODgyMTk3.dsEI_BVcXa3YcHTiHlKpJBKmlj-DVIFc5V0oR9evRv4g.uF20tUz7wWIrSNx3Fu_88A-n-mSZGVCSMVUo66IOpEAg.PNG.charming_095/profileImage.png",
+          "isVideoThumbnail": false,
+          "reviewId": "224382949474",
+          "authorName": "요미님",
+          "createdString": "8.19.수",
+          "bypassToken": null,
+          "buyWithMyMoneyType": null
+        },
+        "FsasReview:blog_라피스의 일기_224383180718_캐리비안베이 식당 추천 온더보더 방문후기": {
+          "__typename": "FsasReview",
+          "name": "라피스의 일기",
+          "type": "blog",
+          "typeName": "블로그",
+          "url": "https://m.blog.naver.com/lapislazuli1011/224383180718",
+          "home": "https://m.blog.naver.com/lapislazuli1011",
+          "id": "blog_라피스의 일기_224383180718_캐리비안베이 식당 추천 온더보더 방문후기",
+          "title": "캐리비안베이 식당 추천 온더보더 방문후기",
+          "rank": "2",
+          "contents": "안녕하세요. 오늘은 캐리비안 베이 식당 추천을 해보려고 합니다. 요즘 날씨가 선선해져서 수영장에 방문하시는 손님분들이 많이 늘었어요. 심지어 캐리비안 베이에서는 연예인들 축하 공연 같은 행사도 있어서 주말에 방문하시는 팬들도 많았습니다. 아무튼 오늘은 캐리비안 베이 식당 온더 보더 방문 후기에 대해서 말씀드리겠습니다. 매장 소개 캐리비안 베이 온더보더 식당 같은 경우에는 멕시칸 음식을 판매하고 있는 음식점입니다. 타코나 라이스볼 치킨 등과 같이 멕시코에서 먹을 법한 음식들을 판매하고 있어요. 저희는 토요일 점심 시간대에 방문을 해서 waiting이 좀 있었습니다. 대략 15분 정도 기다린 후에 주문이 가능했어요. 물놀이를 하면 왜 이렇게 배가 고픈지 모르겠어요. 여기는 주문하는 줄인데 주문하는 줄 말고 입구에서부터 웨이팅을 했어요. 총 두 번의 웨이팅을 진행해야 합니다. 현장에 있는 종업원 분이 안내해 주는 줄에 따라가면 돼요 온더보더 식당 바로 앞에는 얼음에 담겨줘. 사이다 콜라 그리고 맥주들이 진열되어 있었어요. 수영장에서 술을 마셔도 되는지는 처음 알았습니다. 여자친구 말로는 수영장에서는 술을 마셔야 된다고 하더라고요. 메뉴를 주문하려고 하는데 음 대략 두 개의 메뉴가 준비 중이어서 판매를 안 하고 있었어요. 대가족 단위로 오신 분들은 세트 메뉴를 주문할 수가 없어.약간 아쉬울 것 같아요 매장은 2명의 종업원이 운영하고 있는 것 같습니다. 캐리비안 베이 식당 온더보더 같은 경우 다른 식당에 비해 인기가 많았어요. 아마 야외에 위치하고 있고 매장 안내 앉을 수 있는 공간이 있어서 그런 것 같아요. 다른 식당 같은 경우에는 매장 내에 좌석은 없고 서서 먹는 테이블이 있는 경우가 많더라고요. 야외에 있는 식당은 대부분 그런 구조였어요. 다만 캐리비안 베이 온더보더 식당 같은 경우 제가 추천드리는 이유는 수영장을 바라보면서 음식을 먹을 수 있기 때문이에요. 자리 잡기는 약간 어려웠지만 저희는 운이 좋아서 바로 앉을 수 있었습니다. 메뉴 구성 온더보더는 멕시칸 음식점 답게 필라프 브리또 폴드 포크 타코 멕시칸 폴립 멕시코 음식들이 많았습니다. 시즌 분식 메뉴도 바로 옆에서 판매하고 있었는데 저희는 떡볶이보다는 고기를 먹고 싶어서 멕시칸 음식으로 방향을 바꿨어요. 다음에는 떡볶이를 먹어 봐야 겠어요. 메인 음식 저희는 보더윙 더블로 주문을 하게 됐습니다. 보더윙 더블 메뉴 같은 경우에는 감자튀김 위에 열 개의 당 날개가 올려져 있습니다. 제가 캐리비안 베이... ",
+          "bySmartEditor3": false,
+          "hasNaverReservation": false,
+          "thumbnailUrl": "http://blogfiles.naver.net/MjAyNjA4MTdfMjc4/MDAxNzg2OTQ0NjQ3NjAw.rjl-KmIbntwnCwGpuIT6pu7B2pdDDgwtZVSPDR7bSMog.9CZLcwq_H7_OZ4OAR_zj-XKL7BT-EprvEpiCLxXhww0g.JPEG/900_20260815_124308.jpg#900x1200",
+          "thumbnailUrlList": [
+            "http://blogfiles.naver.net/MjAyNjA4MTdfMjc4/MDAxNzg2OTQ0NjQ3NjAw.rjl-KmIbntwnCwGpuIT6pu7B2pdDDgwtZVSPDR7bSMog.9CZLcwq_H7_OZ4OAR_zj-XKL7BT-EprvEpiCLxXhww0g.JPEG/900_20260815_124308.jpg#900x1200",
+            "http://blogfiles.naver.net/MjAyNjA4MTdfMjM3/MDAxNzg2OTUxMDIwNzEw.VYR7cVbgbBmY05yFCr7IscnBsfB_9hEGDMEnyf4WBasg.EResJ0GY4kIXl8BK_ww8BTeuGZURhajzyFvVkbuhD44g.JPEG/900_20260815_123036.jpg#900x675",
+            "http://blogfiles.naver.net/MjAyNjA4MTdfOTEg/MDAxNzg2OTUxMDIxNTIx.C8xgRBmrMgB1ST5-kjYhJe2SKaZhW8poksMweMrvwuwg.9uBLKYSmOyc3sdtRQvp5bR08nihYzcmOi8TKxd1nWjgg.JPEG/900_20260815_122939.jpg#900x675",
+            "http://blogfiles.naver.net/MjAyNjA4MTdfMjE3/MDAxNzg2OTUxMDIyNTc0.00QEtsFzPUtGZzksIBT2AvocCcGTsDC9i8mM-nz45hog.EUSJydhgje0FUl0uQcC3JGRlYO8f2xDZ0LHytAJa8V8g.JPEG/900_20260815_122926.jpg#900x1200",
+            "http://blogfiles.naver.net/MjAyNjA4MTdfMjc2/MDAxNzg2OTUxMDIzNDI5.f1Vf2F36cq_-s2ciLq5O3WEGpeZZpJbOAELfe2pjyJMg.aXUyPo2EGk5lCEoYjr2-RSdUBBE8IhnqjXs0_0_bCC0g.JPEG/900_20260815_122944.jpg#900x675",
+            "http://blogfiles.naver.net/MjAyNjA4MTdfOCAg/MDAxNzg2OTUxMDI0MjAy.gtYpeB0fW9ibm9FDjxuSS9WO-XK_C9fXNLl5gw39z_8g._1ebR10KrAOXdgsFDEmy3fRYW5ThW-ZENJYBxff3ThQg.JPEG/900_20260815_122943.jpg#900x675",
+            "http://blogfiles.naver.net/MjAyNjA4MTdfMTcx/MDAxNzg2OTQ0NjQ5ODY1.3b4BmnLv-P13mccDsFvc_BV-YVcaxG2Z9KGABDWFLYYg.4JxDyszfQ575zRheX-It6_ToN7Ixl8d1xNrPF0yfucsg.JPEG/900_20260815_123117.jpg#900x675",
+            "http://blogfiles.naver.net/MjAyNjA4MTdfMjIz/MDAxNzg2OTUxMDI1MDQx.yKvdgAb4HOtObdatCQmU-qIHtdifrgQ0IBaIziULmZYg.VFjjIB76EK3jojg3OUJQKjuSrSqd8G3ctwkqoVE0qIEg.JPEG/900_20260815_123218.jpg#900x1200",
+            "http://blogfiles.naver.net/MjAyNjA4MTdfMTk2/MDAxNzg2OTUxMDI2MDkw.beE4YHAikK7U-eA1V3tPj3-qAF-AePQDyHodk_l-4lgg.gZ2uktecsoqvzMyNkw_jnR8y7gGhcLMm_sozZZr-FF8g.JPEG/900_20260815_123159.jpg#1200x900",
+            "http://blogfiles.naver.net/MjAyNjA4MTdfOTcg/MDAxNzg2OTUxMDI3MzY1.3MinRGZgYJHO62vZPubtwjo3rOFUtx3nZbJxhJV6bkMg.ylC8ozzncObQVRqudQr-awLfkMVmJAxZUKxt0bI5MQEg.JPEG/900_20260815_123230.jpg#900x1200"
+          ],
+          "thumbnailCount": "26",
+          "date": "2026.08.19.",
+          "isOfficial": false,
+          "isRepresentative": false,
+          "profileImageUrl": "http://blogpfthumb.phinf.naver.net/MjAyNjAzMDJfNzcg/MDAxNzcyNDU2MTk3Mzcw.no7n0q4NjRD7qa055Zt4HZOnoPUCm5ptSSQXLEytv5Eg.ld2AL8AaN1EZhSq249tGqsBglTXZzqDdEx1pgLLHHGog.JPEG/profileImage.jpg",
+          "isVideoThumbnail": false,
+          "reviewId": "224383180718",
+          "authorName": "라피스",
+          "createdString": "8.19.수",
+          "bypassToken": null,
+          "buyWithMyMoneyType": null
+        },
+        "FsasReview:blog_넌 어차피 빛날 별이야_224329799018_아 지나가다 계좌번호 따이고싶다": {
+          "__typename": "FsasReview",
+          "name": "넌 어차피 빛날 별이야",
+          "type": "blog",
+          "typeName": "블로그",
+          "url": "https://m.blog.naver.com/kbu0292/224329799018",
+          "home": "https://m.blog.naver.com/kbu0292",
+          "id": "blog_넌 어차피 빛날 별이야_224329799018_아 지나가다 계좌번호 따이고싶다",
+          "title": "아 지나가다 계좌번호 따이고싶다",
+          "rank": "3",
+          "contents": "노력해도 안되는게 딱 두개있는데 1. 사랑 2. 일찍 ㅊ자기 안녕하세요 별이예요 지난주 저의 「도파민off」 일상을 보셨나요 ♀️ 저는 요즘 피부과 시술 하고나서 밤마다 팩하고 수면시간 늘리는 하루하루를 보내고 있어요  이번주도 도파민 없이 일상글 시작해 보겠습니다 레쭈고 바나나랑 망고라면 모를까 사람이 살만한 날씨는 아니네요 상의, 하의: 보헤미안서울 화장품 갑자기 ㅈㄴ삼 먹어도 먹어도 계속 허기지는 것처럼 화장품을 사도사도 갈증나요 특히 여름되니까 피부화장 ㄴㅁ힘들어!!! (곧 화장품 리뷰 끼려오겠음 ) 더우면 식욕이 떨어 진다는게 남의 일인줄만 알았는데 정말 남의 일이구나 배고프다 미녜랑 떡볶이 데이트  나 배고파서 간식머것는데 건강해지려고 운동을 하니까 힘든 거야 나처럼 킬러가 되려고 수련을 해봐 일끝나고 회먹으러 왔어요!!!  저번주 금주했다고 쌤한테 자랑햇는데 이날 맥주 몇 잔 먹었다고 혼낫슨 (술 한잔에 간 회복기간이 어쩌구) 찐따 특: 셀카 배경 다 집임 ㄷㄷ 저번에 산 화장품으로 후기 쓰려고 마루타가 되어봄 라이브 틀어놓고 메이크업 하면서 옷 골라달라하고 수다떨고 싶다 ✨ 이스트씨 - 블랙 홀터넥 세트 후기 캐리비안베이 가려고 이스트씨 홀터넥 세트 샀어요!!! 저처럼 다이어트 실패한 분들이나 Pms 기간이라 붓기 때문에 고민이신 분들 ㅊㅊ 척추를 곧게 세우고 앉는 법 백팩에 크림빵 상의, 하의: 플리즈노팔로우 자차없이 경기도 <-> 서울 출퇴근 하는 일상 앙나 더워서 양산쓰고 편의점 김밥 먹고 버스 타자마자 배터리 충전부터 갈겨요 운동끝나고 밤이 되어서야 집에 올 수 있었음 상체한 날은 저렇게 핏줄이 선명해져요 세상에는 당신을 좋아하는 사람보다 파인애플피자를 좋아하는 사람이 더 많습니다 나 피부과도 갔다오고 수면시간도 늘렸는데 거래처 언니가 힘들어 보인다고 냉장고에서 시언한 물 꺼내 휴지에 감싸서 내 손에 꼬옥 쥐어주심  입터져서 편털하고 집와떠니 우리집 강아지도 같이 입이 터졌나봐요? 한달치 간식 다 털렸어요!!! 세끼판다 - 들기름 메밀면 샐러드 효니가 ㅊㅊ해준 들기름 메밀면 먹자마자 이마짚 ♀️ 앙나 맛있어서 세 번이나 재주문 했어요!!! (나 퇴근하고 메밀면 먹을 생각에 매일 설레어) 근데 친구 잘 안 만나시는거 같은데 옷 저렇게 많이 사면 언제 입으세요? 상의: 플리즈노팔로우(왼) 보헤미안서울 (오) 하의: 에트오소메 에트오소메 나폴레옹 다이애그널 지퍼 숏 팬츠 드디어 삼 이웃소녀들한테 코디 골라달라 했는데  투표결과 1번이 다섯명... ",
+          "bySmartEditor3": false,
+          "hasNaverReservation": false,
+          "thumbnailUrl": "http://blogfiles.naver.net/MjAyNjA2MjhfMjQg/MDAxNzgyNjQ5NDEwMjA2.OqTgRk51iwHK95L8IGLwlDbFi80lGK8MYI-EUOOjhwYg.vRm81408PPmgBk-CiPxOjqQjm4mW10uLb3mERg4WeUIg.JPEG/output%A3%DF121841843.jpg#900x900",
+          "thumbnailUrlList": [
+            "http://blogfiles.naver.net/MjAyNjA2MjhfMjQg/MDAxNzgyNjQ5NDEwMjA2.OqTgRk51iwHK95L8IGLwlDbFi80lGK8MYI-EUOOjhwYg.vRm81408PPmgBk-CiPxOjqQjm4mW10uLb3mERg4WeUIg.JPEG/output%A3%DF121841843.jpg#900x900",
+            "http://blogfiles.naver.net/MjAyNjA2MjhfNzYg/MDAxNzgyNjE0MDYzNjMy.fY5mlilAh2WYy2sVknOc7NOXC_ficJkY2F1lpjavIJYg.iy6GXDufEmNMagKyadKg6iH_3VvjrPoDV1Q3MFXC06Qg.JPEG/output%A3%DF546913659.jpg#900x900",
+            "http://blogfiles.naver.net/MjAyNjA2MjhfMTMg/MDAxNzgyNjIyMTAzODc1.xpPUtK5cC3rqXyZ9yHhi1veKivLgOqO9bMJNT7Qx0HAg.tiVIeTxpvOWgH9QvqxqA2ZuvYvlJu1EtyruSU9DDzkgg.JPEG/823EB0AF%A3%AD8806%A3%AD4B06%A3%AD9E37%A3%ADB1F83FC67B6C.jpg#900x900",
+            "http://blogfiles.naver.net/MjAyNjA2MjhfNDgg/MDAxNzgyNjE0MDYzNjg0.nmeJoCMJijw9wHC-wr0d1Jo7lmx0dS9Gll03-15rY_Mg.MBI5Q5CAzI6bGhjFpBR2bxYnaUp0d7a90aadyXiT8iIg.JPEG/output%A3%DF826232331.jpg#900x900",
+            "http://blogfiles.naver.net/MjAyNjA2MjhfODkg/MDAxNzgyNjE0MDYzNDI3.qo5TPPJ9hh29BJvj6e5Mnsba42k68ASDTmG1Wpy0f0og.OToMdNDG9RFzjx5prMXWzzd_HT-5Vhxx5mPFwL4hhasg.JPEG/output%A3%DF716977148.jpg#900x900",
+            "http://blogfiles.naver.net/MjAyNjA2MjhfMjIw/MDAxNzgyNjE0MTA2OTQ2.GZ7u78CkRe4w2wS_8_kku9QdlwanqFwKKjHW4I9Noa0g.OWcFhSpEJew6KDytv62SE7gXH5slIjkA7vSR1KCGcjog.JPEG/IMG%A3%DF2684.jpg#900x1200",
+            "http://blogfiles.naver.net/MjAyNjA2MjhfOTQg/MDAxNzgyNjE0MTA2OTQx.OqpCXdgx6_KArayL_JKiShXuPfLnplmaibWVOit6KmQg.4f0Og2rOIsGHAC9QLrHh7M_EQO_mAOQGCk2L_Hl-Niog.JPEG/IMG%A3%DF2682.jpg#900x1200",
+            "http://blogfiles.naver.net/MjAyNjA2MjhfMTM0/MDAxNzgyNjE0MTg2NTY2.WknFK8cXiL2in7YSxLxZRqdTv3JVrJBaX3cxKtkaGxIg.GBFLvq-58zwjfdaqilIaSVF4kk1ppQKT-NWWEUszLgQg.JPEG/IMG%A3%DF2691.jpg#900x1200",
+            "http://blogfiles.naver.net/MjAyNjA2MjhfMTE0/MDAxNzgyNjE0MTg2NDA5.C3YGsS-2BYhkn5JKbvH1Vd39pYZwLm8obsLjZq3aE0Yg.h9T3wc5AcD1OEX55uETEMXjFR7B9PDwR_2BmIOnQ34gg.JPEG/IMG%A3%DF2693.jpg#900x1200",
+            "http://blogfiles.naver.net/MjAyNjA2MjhfOTIg/MDAxNzgyNjE0MTg2NTMw.kDR4Zve5TRxCbojJeL3Bv38U4JClLrT8SKE4ijH4UaAg.wg4wnN8gPMVCTyL8YwwLKrxZ8xtgA3A93afevOb6HXkg.JPEG/IMG%A3%DF2696.jpg#900x1200"
+          ],
+          "thumbnailCount": "61",
+          "date": "2026.06.28.",
+          "isOfficial": false,
+          "isRepresentative": false,
+          "profileImageUrl": "http://blogpfthumb.phinf.naver.net/MjAyNjA1MTZfMTIx/MDAxNzc4OTE4NDc1OTAw.qCoaBWGn64dSPKamdoGIk5Zg5Q9DhTf9ou3P4ZXyYvEg.uPqLK08ojBItgNQhDbCHiT9v85C2PsRyb7M1u3zblEAg.PNG/profileImage.png",
+          "isVideoThumbnail": false,
+          "reviewId": "224329799018",
+          "authorName": "별",
+          "createdString": "6.28.일",
+          "bypassToken": null,
+          "buyWithMyMoneyType": null
+        },
+        "InnerRoute:11007": {
+          "__typename": "InnerRoute",
+          "id": "11007",
+          "name": "66"
+        },
+        "InnerRoute:11006": {
+          "__typename": "InnerRoute",
+          "id": "11006",
+          "name": "66-4"
+        },
+        "InnerRoute:11015": {
+          "__typename": "InnerRoute",
+          "id": "11015",
+          "name": "670"
+        },
+        "InnerRoute:20031773": {
+          "__typename": "InnerRoute",
+          "id": "20031773",
+          "name": "Y1309"
+        },
+        "InnerRoute:10085": {
+          "__typename": "InnerRoute",
+          "id": "10085",
+          "name": "1113"
+        },
+        "InnerRoute:10043": {
+          "__typename": "InnerRoute",
+          "id": "10043",
+          "name": "1500-2"
+        },
+        "InnerRoute:20039716": {
+          "__typename": "InnerRoute",
+          "id": "20039716",
+          "name": "4105"
+        },
+        "InnerRoute:11203": {
+          "__typename": "InnerRoute",
+          "id": "11203",
+          "name": "5002B"
+        },
+        "InnerRoute:11036": {
+          "__typename": "InnerRoute",
+          "id": "11036",
+          "name": "5700B"
+        },
+        "InnerRoute:20031509": {
+          "__typename": "InnerRoute",
+          "id": "20031509",
+          "name": "8839"
+        },
+        "InnerRoute:20031513": {
+          "__typename": "InnerRoute",
+          "id": "20031513",
+          "name": "8862"
+        },
+        "BusStation:197799": {
+          "__typename": "BusStation",
+          "id": "197799",
+          "name": "에버랜드(승차홈)",
+          "displayCode": "47904",
+          "lat": 37.2935673,
+          "lng": 127.2071126,
+          "innerRoutes": {
+            "__typename": "InnerRoutes",
+            "routeType": [
+              {
+                "__typename": "RouteType",
+                "type": "1",
+                "typeName": "일반",
+                "innerRoute": [
+                  {
+                    "__ref": "InnerRoute:11007"
+                  },
+                  {
+                    "__ref": "InnerRoute:11006"
+                  },
+                  {
+                    "__ref": "InnerRoute:11015"
+                  },
+                  {
+                    "__ref": "InnerRoute:20031773"
+                  }
+                ]
+              },
+              {
+                "__typename": "RouteType",
+                "type": "4",
+                "typeName": "직행",
+                "innerRoute": [
+                  {
+                    "__ref": "InnerRoute:10085"
+                  },
+                  {
+                    "__ref": "InnerRoute:10043"
+                  },
+                  {
+                    "__ref": "InnerRoute:20039716"
+                  },
+                  {
+                    "__ref": "InnerRoute:11203"
+                  },
+                  {
+                    "__ref": "InnerRoute:11036"
+                  }
+                ]
+              },
+              {
+                "__typename": "RouteType",
+                "type": "22",
+                "typeName": "시외",
+                "innerRoute": [
+                  {
+                    "__ref": "InnerRoute:20031509"
+                  },
+                  {
+                    "__ref": "InnerRoute:20031513"
+                  }
+                ]
+              }
+            ]
+          },
+          "walkTime": 19,
+          "walkingDistance": 1148
+        },
+        "InnerRoute:20033254": {
+          "__typename": "InnerRoute",
+          "id": "20033254",
+          "name": "5002(예약)"
+        },
+        "InnerRoute:2802994": {
+          "__typename": "InnerRoute",
+          "id": "2802994",
+          "name": "5002A"
+        },
+        "InnerRoute:20024390": {
+          "__typename": "InnerRoute",
+          "id": "20024390",
+          "name": "5700(예약)"
+        },
+        "InnerRoute:2802996": {
+          "__typename": "InnerRoute",
+          "id": "2802996",
+          "name": "5700A"
+        },
+        "BusStation:92946": {
+          "__typename": "BusStation",
+          "id": "92946",
+          "name": "에버랜드(하차홈)",
+          "displayCode": null,
+          "lat": 37.2936364,
+          "lng": 127.2076365,
+          "innerRoutes": {
+            "__typename": "InnerRoutes",
+            "routeType": [
+              {
+                "__typename": "RouteType",
+                "type": "1",
+                "typeName": "일반",
+                "innerRoute": [
+                  {
+                    "__ref": "InnerRoute:11007"
+                  },
+                  {
+                    "__ref": "InnerRoute:11006"
+                  },
+                  {
+                    "__ref": "InnerRoute:11015"
+                  }
+                ]
+              },
+              {
+                "__typename": "RouteType",
+                "type": "4",
+                "typeName": "직행",
+                "innerRoute": [
+                  {
+                    "__ref": "InnerRoute:10085"
+                  },
+                  {
+                    "__ref": "InnerRoute:10043"
+                  },
+                  {
+                    "__ref": "InnerRoute:20039716"
+                  },
+                  {
+                    "__ref": "InnerRoute:20033254"
+                  },
+                  {
+                    "__ref": "InnerRoute:2802994"
+                  },
+                  {
+                    "__ref": "InnerRoute:11203"
+                  },
+                  {
+                    "__ref": "InnerRoute:20024390"
+                  },
+                  {
+                    "__ref": "InnerRoute:2802996"
+                  },
+                  {
+                    "__ref": "InnerRoute:11036"
+                  }
+                ]
+              },
+              {
+                "__typename": "RouteType",
+                "type": "22",
+                "typeName": "시외",
+                "innerRoute": [
+                  {
+                    "__ref": "InnerRoute:20031509"
+                  },
+                  {
+                    "__ref": "InnerRoute:20031513"
+                  }
+                ]
+              }
+            ]
+          },
+          "walkTime": 20,
+          "walkingDistance": 1198
+        },
+        "BusStation:119500": {
+          "__typename": "BusStation",
+          "id": "119500",
+          "name": "전대3리",
+          "displayCode": "29865",
+          "lat": 37.2885393,
+          "lng": 127.2144061,
+          "innerRoutes": {
+            "__typename": "InnerRoutes",
+            "routeType": [
+              {
+                "__typename": "RouteType",
+                "type": "4",
+                "typeName": "직행",
+                "innerRoute": [
+                  {
+                    "__ref": "InnerRoute:20039716"
+                  },
+                  {
+                    "__ref": "InnerRoute:20033254"
+                  },
+                  {
+                    "__ref": "InnerRoute:2802994"
+                  },
+                  {
+                    "__ref": "InnerRoute:11203"
+                  },
+                  {
+                    "__ref": "InnerRoute:20024390"
+                  },
+                  {
+                    "__ref": "InnerRoute:2802996"
+                  },
+                  {
+                    "__ref": "InnerRoute:11036"
+                  }
+                ]
+              }
+            ]
+          },
+          "walkTime": 39,
+          "walkingDistance": 2342
+        },
+        "BusStation:174410": {
+          "__typename": "BusStation",
+          "id": "174410",
+          "name": "리조트지원센터",
+          "displayCode": "47555",
+          "lat": 37.288299,
+          "lng": 127.216404,
+          "innerRoutes": {
+            "__typename": "InnerRoutes",
+            "routeType": [
+              {
+                "__typename": "RouteType",
+                "type": "1",
+                "typeName": "일반",
+                "innerRoute": [
+                  {
+                    "__ref": "InnerRoute:11007"
+                  },
+                  {
+                    "__ref": "InnerRoute:11006"
+                  },
+                  {
+                    "__ref": "InnerRoute:11015"
+                  }
+                ]
+              },
+              {
+                "__typename": "RouteType",
+                "type": "4",
+                "typeName": "직행",
+                "innerRoute": [
+                  {
+                    "__ref": "InnerRoute:10085"
+                  },
+                  {
+                    "__ref": "InnerRoute:10043"
+                  },
+                  {
+                    "__ref": "InnerRoute:20033254"
+                  },
+                  {
+                    "__ref": "InnerRoute:2802994"
+                  },
+                  {
+                    "__ref": "InnerRoute:11203"
+                  },
+                  {
+                    "__ref": "InnerRoute:20024390"
+                  },
+                  {
+                    "__ref": "InnerRoute:2802996"
+                  },
+                  {
+                    "__ref": "InnerRoute:11036"
+                  }
+                ]
+              }
+            ]
+          },
+          "walkTime": 41,
+          "walkingDistance": 2430
+        },
+        "InnerRoute:11086": {
+          "__typename": "InnerRoute",
+          "id": "11086",
+          "name": "90"
+        },
+        "BusStation:127157": {
+          "__typename": "BusStation",
+          "id": "127157",
+          "name": "에버랜드입구",
+          "displayCode": "47459",
+          "lat": 37.2881891,
+          "lng": 127.2173478,
+          "innerRoutes": {
+            "__typename": "InnerRoutes",
+            "routeType": [
+              {
+                "__typename": "RouteType",
+                "type": "1",
+                "typeName": "일반",
+                "innerRoute": [
+                  {
+                    "__ref": "InnerRoute:11086"
+                  }
+                ]
+              }
+            ]
+          },
+          "walkTime": 42,
+          "walkingDistance": 2515
+        },
+        "InnerRoute:11078": {
+          "__typename": "InnerRoute",
+          "id": "11078",
+          "name": "85"
+        },
+        "BusStation:186475": {
+          "__typename": "BusStation",
+          "id": "186475",
+          "name": "전대리.포곡농협전대지점",
+          "displayCode": "29466",
+          "lat": 37.2866479,
+          "lng": 127.2170298,
+          "innerRoutes": {
+            "__typename": "InnerRoutes",
+            "routeType": [
+              {
+                "__typename": "RouteType",
+                "type": "1",
+                "typeName": "일반",
+                "innerRoute": [
+                  {
+                    "__ref": "InnerRoute:11007"
+                  },
+                  {
+                    "__ref": "InnerRoute:11006"
+                  },
+                  {
+                    "__ref": "InnerRoute:11078"
+                  },
+                  {
+                    "__ref": "InnerRoute:11086"
+                  }
+                ]
+              }
+            ]
+          },
+          "walkTime": 44,
+          "walkingDistance": 2651
+        },
+        "InformationFacilities:13": {
+          "__typename": "InformationFacilities",
+          "id": "13",
+          "name": "단체 이용 가능",
+          "i18nName": "단체 이용 가능"
+        },
+        "InformationFacilities:4": {
+          "__typename": "InformationFacilities",
+          "id": "4",
+          "name": "포장",
+          "i18nName": "포장"
+        },
+        "InformationFacilities:8": {
+          "__typename": "InformationFacilities",
+          "id": "8",
+          "name": "남/녀 화장실 구분",
+          "i18nName": "남/녀 화장실 구분"
+        },
+        "PlaceDetailTopPhotoItem:business_1": {
+          "__typename": "PlaceDetailTopPhotoItem",
+          "id": "business_1",
+          "viewId": "business_1_1",
+          "title": "온더보더 캐리비안베이점",
+          "width": 1759,
+          "height": 1610,
+          "linkUrl": null,
+          "date": null,
+          "isPopularStyle": null,
+          "price": null,
+          "video": null,
+          "author": {
+            "__typename": "PhotoViewerItemAuthor",
+            "id": null,
+            "nickname": null,
+            "imageUrl": null,
+            "objectId": null,
+            "url": null,
+            "officialYn": null,
+            "followRequested": null
+          },
+          "originalUrl": "https://ldb-phinf.pstatic.net/20260601_217/17802935453127Xow5_JPEG/%B8%B6%B0%A1%B8%AE%C5%B8.jpg",
+          "thumbnailUrl": "https://ldb-phinf.pstatic.net/20260601_217/17802935453127Xow5_JPEG/%B8%B6%B0%A1%B8%AE%C5%B8.jpg",
+          "description": null,
+          "mediaFormat": "image",
+          "mediaSource": "business",
+          "filterId": "biz",
+          "subFilterId": null,
+          "sourceTitle": null,
+          "externalLink": null,
+          "clip": null,
+          "option": null,
+          "visitorReview": null,
+          "originType": null
+        },
+        "PlaceDetailTopPhotoItem:business_2": {
+          "__typename": "PlaceDetailTopPhotoItem",
+          "id": "business_2",
+          "viewId": "business_2_2",
+          "title": "온더보더 캐리비안베이점",
+          "width": 1672,
+          "height": 941,
+          "linkUrl": null,
+          "date": null,
+          "isPopularStyle": null,
+          "price": null,
+          "video": null,
+          "author": {
+            "__typename": "PhotoViewerItemAuthor",
+            "id": null,
+            "nickname": null,
+            "imageUrl": null,
+            "objectId": null,
+            "url": null,
+            "officialYn": null,
+            "followRequested": null
+          },
+          "originalUrl": "https://ldb-phinf.pstatic.net/20260615_71/1781499693585oAvOX_JPEG/KakaoTalk_20260615_133743346.jpg",
+          "thumbnailUrl": "https://ldb-phinf.pstatic.net/20260615_71/1781499693585oAvOX_JPEG/KakaoTalk_20260615_133743346.jpg",
+          "description": null,
+          "mediaFormat": "image",
+          "mediaSource": "business",
+          "filterId": "biz",
+          "subFilterId": null,
+          "sourceTitle": null,
+          "externalLink": null,
+          "clip": null,
+          "option": null,
+          "visitorReview": null,
+          "originType": null
+        },
+        "PlaceDetailTopPhotoItem:business_3": {
+          "__typename": "PlaceDetailTopPhotoItem",
+          "id": "business_3",
+          "viewId": "business_3_3",
+          "title": "온더보더 캐리비안베이점",
+          "width": 1672,
+          "height": 941,
+          "linkUrl": null,
+          "date": null,
+          "isPopularStyle": null,
+          "price": null,
+          "video": null,
+          "author": {
+            "__typename": "PhotoViewerItemAuthor",
+            "id": null,
+            "nickname": null,
+            "imageUrl": null,
+            "objectId": null,
+            "url": null,
+            "officialYn": null,
+            "followRequested": null
+          },
+          "originalUrl": "https://ldb-phinf.pstatic.net/20260615_54/17814997005104csyn_JPEG/KakaoTalk_20260615_133743346_01_-_%BA%B9%BB%E7%BA%BB.jpg",
+          "thumbnailUrl": "https://ldb-phinf.pstatic.net/20260615_54/17814997005104csyn_JPEG/KakaoTalk_20260615_133743346_01_-_%BA%B9%BB%E7%BA%BB.jpg",
+          "description": null,
+          "mediaFormat": "image",
+          "mediaSource": "business",
+          "filterId": "biz",
+          "subFilterId": null,
+          "sourceTitle": null,
+          "externalLink": null,
+          "clip": null,
+          "option": null,
+          "visitorReview": null,
+          "originType": null
+        },
+        "PlaceDetailTopPhotoItem:business_4": {
+          "__typename": "PlaceDetailTopPhotoItem",
+          "id": "business_4",
+          "viewId": "business_4_4",
+          "title": "온더보더 캐리비안베이점",
+          "width": 1672,
+          "height": 941,
+          "linkUrl": null,
+          "date": null,
+          "isPopularStyle": null,
+          "price": null,
+          "video": null,
+          "author": {
+            "__typename": "PhotoViewerItemAuthor",
+            "id": null,
+            "nickname": null,
+            "imageUrl": null,
+            "objectId": null,
+            "url": null,
+            "officialYn": null,
+            "followRequested": null
+          },
+          "originalUrl": "https://ldb-phinf.pstatic.net/20260615_233/1781499705274zmttV_JPEG/KakaoTalk_20260615_133743346_02.jpg",
+          "thumbnailUrl": "https://ldb-phinf.pstatic.net/20260615_233/1781499705274zmttV_JPEG/KakaoTalk_20260615_133743346_02.jpg",
+          "description": null,
+          "mediaFormat": "image",
+          "mediaSource": "business",
+          "filterId": "biz",
+          "subFilterId": null,
+          "sourceTitle": null,
+          "externalLink": null,
+          "clip": null,
+          "option": null,
+          "visitorReview": null,
+          "originType": null
+        },
+        "PlaceDetailTopPhotoItem:visitor_1": {
+          "__typename": "PlaceDetailTopPhotoItem",
+          "id": "visitor_1",
+          "viewId": "visitor_1_5",
+          "title": null,
+          "width": 900,
+          "height": 1200,
+          "linkUrl": "https://blog.naver.com/lapislazuli1011/224383180718",
+          "date": "2026.08.19",
+          "isPopularStyle": null,
+          "price": null,
+          "video": null,
+          "author": {
+            "__typename": "PhotoViewerItemAuthor",
+            "id": null,
+            "nickname": "라피스",
+            "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=f120_120&src=https%3A%2F%2Fblogpfthumb-phinf.pstatic.net%2FMjAyNjAzMDJfNzcg%2FMDAxNzcyNDU2MTk3Mzcw.no7n0q4NjRD7qa055Zt4HZOnoPUCm5ptSSQXLEytv5Eg.ld2AL8AaN1EZhSq249tGqsBglTXZzqDdEx1pgLLHHGog.JPEG%2FprofileImage.jpg",
+            "objectId": null,
+            "url": "https://m.blog.naver.com/lapislazuli1011",
+            "officialYn": null,
+            "followRequested": null
+          },
+          "originalUrl": "https://blogfiles.pstatic.net/MjAyNjA4MTdfMjE3/MDAxNzg2OTUxMDIyNTc0.00QEtsFzPUtGZzksIBT2AvocCcGTsDC9i8mM-nz45hog.EUSJydhgje0FUl0uQcC3JGRlYO8f2xDZ0LHytAJa8V8g.JPEG/900_20260815_122926.jpg/900x1200",
+          "thumbnailUrl": "https://blogfiles.pstatic.net/MjAyNjA4MTdfMjE3/MDAxNzg2OTUxMDIyNTc0.00QEtsFzPUtGZzksIBT2AvocCcGTsDC9i8mM-nz45hog.EUSJydhgje0FUl0uQcC3JGRlYO8f2xDZ0LHytAJa8V8g.JPEG/900_20260815_122926.jpg/900x1200",
+          "description": "캐리비안베이 식당 추천 온더보더 방문후기",
+          "mediaFormat": "image",
+          "mediaSource": "placeReview",
+          "filterId": "placeReview",
+          "subFilterId": null,
+          "sourceTitle": "블로그",
+          "externalLink": {
+            "__typename": "PhotoViewerExternalLink",
+            "title": "블로그",
+            "url": "https://blog.naver.com/lapislazuli1011/224383180718"
+          },
+          "clip": null,
+          "option": null,
+          "visitorReview": {
+            "__typename": "PhotoViewerVisitorReviewInfo",
+            "visitCount": null,
+            "visitCategories": null,
+            "votedKeywords": null,
+            "isFollowing": null,
+            "rating": null,
+            "reviewGroupId": null,
+            "reviewId": null
+          },
+          "originType": null
+        },
+        "PlaceDetailTopPhotoItem:visitor_2": {
+          "__typename": "PlaceDetailTopPhotoItem",
+          "id": "visitor_2",
+          "viewId": "visitor_2_6",
+          "title": null,
+          "width": 900,
+          "height": 1200,
+          "linkUrl": "https://blog.naver.com/lapislazuli1011/224383180718",
+          "date": "2026.08.19",
+          "isPopularStyle": null,
+          "price": null,
+          "video": null,
+          "author": {
+            "__typename": "PhotoViewerItemAuthor",
+            "id": null,
+            "nickname": "라피스",
+            "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=f120_120&src=https%3A%2F%2Fblogpfthumb-phinf.pstatic.net%2FMjAyNjAzMDJfNzcg%2FMDAxNzcyNDU2MTk3Mzcw.no7n0q4NjRD7qa055Zt4HZOnoPUCm5ptSSQXLEytv5Eg.ld2AL8AaN1EZhSq249tGqsBglTXZzqDdEx1pgLLHHGog.JPEG%2FprofileImage.jpg",
+            "objectId": null,
+            "url": "https://m.blog.naver.com/lapislazuli1011",
+            "officialYn": null,
+            "followRequested": null
+          },
+          "originalUrl": "https://blogfiles.pstatic.net/MjAyNjA4MTdfMTAz/MDAxNzg2OTUxMDMwNTE0.LEXHGWFjBT_RT2dpcm2caS-70VcwIxYnXGwk-u26_Ccg.5MFGDHF3AIdytSHjiBbejzYfcqIIw-MoMczhPxO3Crog.JPEG/900_20260815_123233.jpg/900x1200",
+          "thumbnailUrl": "https://blogfiles.pstatic.net/MjAyNjA4MTdfMTAz/MDAxNzg2OTUxMDMwNTE0.LEXHGWFjBT_RT2dpcm2caS-70VcwIxYnXGwk-u26_Ccg.5MFGDHF3AIdytSHjiBbejzYfcqIIw-MoMczhPxO3Crog.JPEG/900_20260815_123233.jpg/900x1200",
+          "description": "캐리비안베이 식당 추천 온더보더 방문후기",
+          "mediaFormat": "image",
+          "mediaSource": "placeReview",
+          "filterId": "placeReview",
+          "subFilterId": null,
+          "sourceTitle": "블로그",
+          "externalLink": {
+            "__typename": "PhotoViewerExternalLink",
+            "title": "블로그",
+            "url": "https://blog.naver.com/lapislazuli1011/224383180718"
+          },
+          "clip": null,
+          "option": null,
+          "visitorReview": {
+            "__typename": "PhotoViewerVisitorReviewInfo",
+            "visitCount": null,
+            "visitCategories": null,
+            "votedKeywords": null,
+            "isFollowing": null,
+            "rating": null,
+            "reviewGroupId": null,
+            "reviewId": null
+          },
+          "originType": null
+        },
+        "PlaceDetailTopPhotoItem:visitor_3": {
+          "__typename": "PlaceDetailTopPhotoItem",
+          "id": "visitor_3",
+          "viewId": "visitor_3_7",
+          "title": null,
+          "width": 654,
+          "height": 368,
+          "linkUrl": "https://blog.naver.com/lapislazuli1011/224383180718",
+          "date": "2026.08.19",
+          "isPopularStyle": null,
+          "price": null,
+          "video": null,
+          "author": {
+            "__typename": "PhotoViewerItemAuthor",
+            "id": null,
+            "nickname": "라피스",
+            "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=f120_120&src=https%3A%2F%2Fblogpfthumb-phinf.pstatic.net%2FMjAyNjAzMDJfNzcg%2FMDAxNzcyNDU2MTk3Mzcw.no7n0q4NjRD7qa055Zt4HZOnoPUCm5ptSSQXLEytv5Eg.ld2AL8AaN1EZhSq249tGqsBglTXZzqDdEx1pgLLHHGog.JPEG%2FprofileImage.jpg",
+            "objectId": null,
+            "url": "https://m.blog.naver.com/lapislazuli1011",
+            "officialYn": null,
+            "followRequested": null
+          },
+          "originalUrl": "https://blogfiles.pstatic.net/MjAyNjA4MTdfMjY5/MDAxNzg2OTUxMDM1ODk3.14qqMEmo3smAPKqwDMw8xBzTru4Ch5D59cxV7bDA784g.g0tv50pX8jUoaD27-0O4RiV40szWcmoW9F6eR-oqgjYg.PNG/20260815_124134(1).gif/654x368",
+          "thumbnailUrl": "https://blogfiles.pstatic.net/MjAyNjA4MTdfMjY5/MDAxNzg2OTUxMDM1ODk3.14qqMEmo3smAPKqwDMw8xBzTru4Ch5D59cxV7bDA784g.g0tv50pX8jUoaD27-0O4RiV40szWcmoW9F6eR-oqgjYg.PNG/20260815_124134(1).gif/654x368",
+          "description": "캐리비안베이 식당 추천 온더보더 방문후기",
+          "mediaFormat": "image",
+          "mediaSource": "placeReview",
+          "filterId": "placeReview",
+          "subFilterId": null,
+          "sourceTitle": "블로그",
+          "externalLink": {
+            "__typename": "PhotoViewerExternalLink",
+            "title": "블로그",
+            "url": "https://blog.naver.com/lapislazuli1011/224383180718"
+          },
+          "clip": null,
+          "option": null,
+          "visitorReview": {
+            "__typename": "PhotoViewerVisitorReviewInfo",
+            "visitCount": null,
+            "visitCategories": null,
+            "votedKeywords": null,
+            "isFollowing": null,
+            "rating": null,
+            "reviewGroupId": null,
+            "reviewId": null
+          },
+          "originType": null
+        },
+        "PlaceDetailTopPhotoItem:visitor_4": {
+          "__typename": "PlaceDetailTopPhotoItem",
+          "id": "visitor_4",
+          "viewId": "visitor_4_8",
+          "title": null,
+          "width": 900,
+          "height": 675,
+          "linkUrl": "https://blog.naver.com/lapislazuli1011/224383180718",
+          "date": "2026.08.19",
+          "isPopularStyle": null,
+          "price": null,
+          "video": null,
+          "author": {
+            "__typename": "PhotoViewerItemAuthor",
+            "id": null,
+            "nickname": "라피스",
+            "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=f120_120&src=https%3A%2F%2Fblogpfthumb-phinf.pstatic.net%2FMjAyNjAzMDJfNzcg%2FMDAxNzcyNDU2MTk3Mzcw.no7n0q4NjRD7qa055Zt4HZOnoPUCm5ptSSQXLEytv5Eg.ld2AL8AaN1EZhSq249tGqsBglTXZzqDdEx1pgLLHHGog.JPEG%2FprofileImage.jpg",
+            "objectId": null,
+            "url": "https://m.blog.naver.com/lapislazuli1011",
+            "officialYn": null,
+            "followRequested": null
+          },
+          "originalUrl": "https://blogfiles.pstatic.net/MjAyNjA4MTdfMTcx/MDAxNzg2OTQ0NjQ5ODY1.3b4BmnLv-P13mccDsFvc_BV-YVcaxG2Z9KGABDWFLYYg.4JxDyszfQ575zRheX-It6_ToN7Ixl8d1xNrPF0yfucsg.JPEG/900_20260815_123117.jpg/900x675",
+          "thumbnailUrl": "https://blogfiles.pstatic.net/MjAyNjA4MTdfMTcx/MDAxNzg2OTQ0NjQ5ODY1.3b4BmnLv-P13mccDsFvc_BV-YVcaxG2Z9KGABDWFLYYg.4JxDyszfQ575zRheX-It6_ToN7Ixl8d1xNrPF0yfucsg.JPEG/900_20260815_123117.jpg/900x675",
+          "description": "캐리비안베이 식당 추천 온더보더 방문후기",
+          "mediaFormat": "image",
+          "mediaSource": "placeReview",
+          "filterId": "placeReview",
+          "subFilterId": null,
+          "sourceTitle": "블로그",
+          "externalLink": {
+            "__typename": "PhotoViewerExternalLink",
+            "title": "블로그",
+            "url": "https://blog.naver.com/lapislazuli1011/224383180718"
+          },
+          "clip": null,
+          "option": null,
+          "visitorReview": {
+            "__typename": "PhotoViewerVisitorReviewInfo",
+            "visitCount": null,
+            "visitCategories": null,
+            "votedKeywords": null,
+            "isFollowing": null,
+            "rating": null,
+            "reviewGroupId": null,
+            "reviewId": null
+          },
+          "originType": null
+        },
+        "PlaceDetailTopPhotoItem:visitor_5": {
+          "__typename": "PlaceDetailTopPhotoItem",
+          "id": "visitor_5",
+          "viewId": "visitor_5_9",
+          "title": null,
+          "width": 900,
+          "height": 675,
+          "linkUrl": "https://blog.naver.com/lapislazuli1011/224383180718",
+          "date": "2026.08.19",
+          "isPopularStyle": null,
+          "price": null,
+          "video": null,
+          "author": {
+            "__typename": "PhotoViewerItemAuthor",
+            "id": null,
+            "nickname": "라피스",
+            "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=f120_120&src=https%3A%2F%2Fblogpfthumb-phinf.pstatic.net%2FMjAyNjAzMDJfNzcg%2FMDAxNzcyNDU2MTk3Mzcw.no7n0q4NjRD7qa055Zt4HZOnoPUCm5ptSSQXLEytv5Eg.ld2AL8AaN1EZhSq249tGqsBglTXZzqDdEx1pgLLHHGog.JPEG%2FprofileImage.jpg",
+            "objectId": null,
+            "url": "https://m.blog.naver.com/lapislazuli1011",
+            "officialYn": null,
+            "followRequested": null
+          },
+          "originalUrl": "https://blogfiles.pstatic.net/MjAyNjA4MTdfOCAg/MDAxNzg2OTUxMDI0MjAy.gtYpeB0fW9ibm9FDjxuSS9WO-XK_C9fXNLl5gw39z_8g._1ebR10KrAOXdgsFDEmy3fRYW5ThW-ZENJYBxff3ThQg.JPEG/900_20260815_122943.jpg/900x675",
+          "thumbnailUrl": "https://blogfiles.pstatic.net/MjAyNjA4MTdfOCAg/MDAxNzg2OTUxMDI0MjAy.gtYpeB0fW9ibm9FDjxuSS9WO-XK_C9fXNLl5gw39z_8g._1ebR10KrAOXdgsFDEmy3fRYW5ThW-ZENJYBxff3ThQg.JPEG/900_20260815_122943.jpg/900x675",
+          "description": "캐리비안베이 식당 추천 온더보더 방문후기",
+          "mediaFormat": "image",
+          "mediaSource": "placeReview",
+          "filterId": "placeReview",
+          "subFilterId": null,
+          "sourceTitle": "블로그",
+          "externalLink": {
+            "__typename": "PhotoViewerExternalLink",
+            "title": "블로그",
+            "url": "https://blog.naver.com/lapislazuli1011/224383180718"
+          },
+          "clip": null,
+          "option": null,
+          "visitorReview": {
+            "__typename": "PhotoViewerVisitorReviewInfo",
+            "visitCount": null,
+            "visitCategories": null,
+            "votedKeywords": null,
+            "isFollowing": null,
+            "rating": null,
+            "reviewGroupId": null,
+            "reviewId": null
+          },
+          "originType": null
+        },
+        "PlaceDetailTopPhotoItem:visitor_6": {
+          "__typename": "PlaceDetailTopPhotoItem",
+          "id": "visitor_6",
+          "viewId": "visitor_6_10",
+          "title": null,
+          "width": 900,
+          "height": 1200,
+          "linkUrl": "https://blog.naver.com/lapislazuli1011/224383180718",
+          "date": "2026.08.19",
+          "isPopularStyle": null,
+          "price": null,
+          "video": null,
+          "author": {
+            "__typename": "PhotoViewerItemAuthor",
+            "id": null,
+            "nickname": "라피스",
+            "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=f120_120&src=https%3A%2F%2Fblogpfthumb-phinf.pstatic.net%2FMjAyNjAzMDJfNzcg%2FMDAxNzcyNDU2MTk3Mzcw.no7n0q4NjRD7qa055Zt4HZOnoPUCm5ptSSQXLEytv5Eg.ld2AL8AaN1EZhSq249tGqsBglTXZzqDdEx1pgLLHHGog.JPEG%2FprofileImage.jpg",
+            "objectId": null,
+            "url": "https://m.blog.naver.com/lapislazuli1011",
+            "officialYn": null,
+            "followRequested": null
+          },
+          "originalUrl": "https://blogfiles.pstatic.net/MjAyNjA4MTdfMjIz/MDAxNzg2OTUxMDI1MDQx.yKvdgAb4HOtObdatCQmU-qIHtdifrgQ0IBaIziULmZYg.VFjjIB76EK3jojg3OUJQKjuSrSqd8G3ctwkqoVE0qIEg.JPEG/900_20260815_123218.jpg/900x1200",
+          "thumbnailUrl": "https://blogfiles.pstatic.net/MjAyNjA4MTdfMjIz/MDAxNzg2OTUxMDI1MDQx.yKvdgAb4HOtObdatCQmU-qIHtdifrgQ0IBaIziULmZYg.VFjjIB76EK3jojg3OUJQKjuSrSqd8G3ctwkqoVE0qIEg.JPEG/900_20260815_123218.jpg/900x1200",
+          "description": "캐리비안베이 식당 추천 온더보더 방문후기",
+          "mediaFormat": "image",
+          "mediaSource": "placeReview",
+          "filterId": "placeReview",
+          "subFilterId": null,
+          "sourceTitle": "블로그",
+          "externalLink": {
+            "__typename": "PhotoViewerExternalLink",
+            "title": "블로그",
+            "url": "https://blog.naver.com/lapislazuli1011/224383180718"
+          },
+          "clip": null,
+          "option": null,
+          "visitorReview": {
+            "__typename": "PhotoViewerVisitorReviewInfo",
+            "visitCount": null,
+            "visitCategories": null,
+            "votedKeywords": null,
+            "isFollowing": null,
+            "rating": null,
+            "reviewGroupId": null,
+            "reviewId": null
+          },
+          "originType": null
+        },
+        "ROOT_QUERY": {
+          "__typename": "Query",
+          "placeDetail({\"input\":{\"deviceType\":\"pcmap\",\"id\":\"2055202614\",\"isNx\":false}})": {
+            "__typename": "PlaceDetail",
+            "houseBanners": [
+              {
+                "__ref": "HouseBanner:https://maps-service.pstatic.net/maps-cms/568f3214-4368-46cc-9ce1-61c1d39aa97c.png"
+              }
+            ],
+            "accessor": {
+              "__typename": "PlaceAccessor",
+              "accessor": "",
+              "hasAccessor": true,
+              "accessorBanner": []
+            },
+            "base": {
+              "__ref": "PlaceDetailBase:2055202614"
+            },
+            "buttons({\"input\":{\"deviceType\":\"pcmap\",\"isNx\":false}})": [
+              {
+                "__typename": "PlaceButton",
+                "key": "streetview",
+                "name": "거리뷰",
+                "value": null
+              },
+              {
+                "__typename": "PlaceButton",
+                "key": "share",
+                "name": "공유",
+                "value": null
+              },
+              {
+                "__typename": "PlaceButton",
+                "key": "alarm",
+                "name": "알림받기",
+                "value": "false"
+              }
+            ],
+            "badge({\"input\":{\"deviceType\":\"pcmap\",\"isNx\":false}})": [],
+            "visitorReviewPenalty": null,
+            "menuImages": [
+              {
+                "__typename": "MenuImage",
+                "imageUrl": "https://ldb-phinf.pstatic.net/20260706_279/1783323885816Uf7SR_JPEG/%C4%B3%BA%F1%28%C3%D6%C1%BE%29_%281%29.jpg"
+              }
+            ],
+            "michelinGuide": null,
+            "bookingAwards": null,
+            "mfds": null,
+            "naverBooking": {
+              "__typename": "PlaceDetailNaverBooking",
+              "bookingBusinessId": null,
+              "businessTypeId": null,
+              "naverBookingUrl": null,
+              "bookingDisplayName": "방문",
+              "bookingButtonName": "예약",
+              "bookingHubButtonName": null,
+              "naverBookingHubUrl": null,
+              "naverBookingPromotion": null,
+              "promotionTitle": null,
+              "nPayPromotion": null,
+              "hasSmartOrder": false
+            },
+            "fineDining": null,
+            "menuSource": null,
+            "menus": [
+              {
+                "__ref": "Menu:2055202614_0"
+              },
+              {
+                "__ref": "Menu:2055202614_1"
+              },
+              {
+                "__ref": "Menu:2055202614_2"
+              },
+              {
+                "__ref": "Menu:2055202614_3"
+              }
+            ],
+            "baemin": null,
+            "relatedLinks": [],
+            "brandPromotion": null,
+            "fsasReviews": {
+              "__typename": "FsasReviewsResult",
+              "total": 3,
+              "maxItemCount": 3,
+              "items": [
+                {
+                  "__ref": "FsasReview:blog_❅*⋆⍋*⋆*I love my daily life❅*⋆⍋*⋆*_224382949474_용인 놀거리 :: 용인 워터파크 에버랜드 캐리비안베이 모든 것 총정리 ! (주차장, 셔틀버스, 먹거리 등)"
+                },
+                {
+                  "__ref": "FsasReview:blog_라피스의 일기_224383180718_캐리비안베이 식당 추천 온더보더 방문후기"
+                },
+                {
+                  "__ref": "FsasReview:blog_넌 어차피 빛날 별이야_224329799018_아 지나가다 계좌번호 따이고싶다"
+                }
+              ]
+            },
+            "visitorReviewStats": {
+              "__typename": "VisitorReviewStatsResult",
+              "id": null,
+              "name": null,
+              "review": null,
+              "analysis": null,
+              "visitorReviewsTotal": null,
+              "ratingReviewsTotal": null
+            },
+            "subwayStations": [],
+            "busStations": [
+              {
+                "__ref": "BusStation:197799"
+              },
+              {
+                "__ref": "BusStation:92946"
+              },
+              {
+                "__ref": "BusStation:119500"
+              },
+              {
+                "__ref": "BusStation:174410"
+              },
+              {
+                "__ref": "BusStation:127157"
+              },
+              {
+                "__ref": "BusStation:186475"
+              }
+            ],
+            "hasCoupon": {
+              "__typename": "HasCoupon",
+              "count": 0
+            },
+            "hasFeed": {
+              "__typename": "HasFeed",
+              "blogExist": false,
+              "feedExist": true
+            },
+            "shopWindow": {
+              "__typename": "ShopWindow",
+              "total": 0,
+              "naverPayYn": null,
+              "sales": null,
+              "description": null,
+              "itemsFromChannelNo": [],
+              "itemsFromInterlockId": null,
+              "branchNews": null,
+              "url": null,
+              "typeName": null,
+              "branchYn": null,
+              "isTraditionalMarket": null,
+              "homepages": {
+                "__typename": "Homepage",
+                "etc": [
+                  {
+                    "__typename": "HomepageRepr",
+                    "url": "https://www.instagram.com/ontheborder_kr/",
+                    "landingUrl": "https://www.instagram.com/ontheborder_kr/",
+                    "isDeadUrl": false,
+                    "type": "인스타그램",
+                    "order": 1,
+                    "isRep": null
+                  }
+                ],
+                "repr": {
+                  "__typename": "HomepageRepr",
+                  "url": "https://ontheborder.co.kr/main/",
+                  "landingUrl": "https://ontheborder.co.kr/main/",
+                  "isDeadUrl": false,
+                  "type": "홈페이지",
+                  "order": 0,
+                  "isRep": null
+                }
+              },
+              "businessHours": null
+            },
+            "naverOrder": null,
+            "restaurantInfoTabDetails": null,
+            "businessTools": {
+              "__typename": "BusinessTools",
+              "tools": [
+                {
+                  "__typename": "BusinessTool",
+                  "type": "smartOrder",
+                  "title": "네이버 주문",
+                  "countInString": null,
+                  "description": "매장 내 주문부터 포장주문까지 편하게",
+                  "link": "https://new.smartplace.naver.com/bizes/place/2055202614/solutions/order",
+                  "using": false
+                },
+                {
+                  "__typename": "BusinessTool",
+                  "type": "naverBooking",
+                  "title": "네이버예약",
+                  "countInString": null,
+                  "description": "실시간 예약관리를 온라인으로 한번에",
+                  "link": "https://new.smartplace.naver.com/bizes/place/2055202614/solutions/booking",
+                  "using": false
+                },
+                {
+                  "__typename": "BusinessTool",
+                  "type": "smartCall",
+                  "title": "스마트콜",
+                  "countInString": "100만",
+                  "description": "전화를 대신 받고 응대까지 해드려요!",
+                  "link": "https://new-m.smartplace.naver.com/bizes/place/2055202614/smartcall",
+                  "using": false
+                }
+              ],
+              "hideAnnouncement": false
+            },
+            "excludeTargets": null,
+            "cesco": null,
+            "kinQna": {
+              "__typename": "KinQna",
+              "answerCount": null,
+              "answerList": null,
+              "profileUrl": null
+            },
+            "newBusinessHours": [
+              {
+                "__typename": "NewBusinessHour",
+                "name": "",
+                "businessStatusDescription": {
+                  "__typename": "BusinessStatusDescription",
+                  "status": "영업 중",
+                  "blindDescription": "19시 0분에 라스트오더",
+                  "description": "19:00에 라스트오더",
+                  "showEndsNextDay": false
+                },
+                "businessHours": [
+                  {
+                    "__typename": "WorkingHoursInfo",
+                    "day": "매일",
+                    "businessHours": {
+                      "__typename": "StartEndTime",
+                      "start": "10:00",
+                      "end": "20:00"
+                    },
+                    "breakHours": [],
+                    "description": null,
+                    "lastOrderTimes": [
+                      {
+                        "__typename": "LastOrderTimes",
+                        "type": "영업시간",
+                        "time": "19:00"
+                      }
+                    ],
+                    "showEndsNextDay": false
+                  }
+                ],
+                "comingIrregularClosedDays": [],
+                "comingRegularClosedDays": "",
+                "freeText": ""
+              }
+            ],
+            "businessHours": null,
+            "gift": {
+              "__typename": "Gift",
+              "gifticonId": null,
+              "gifticonMoreUrl": null
+            },
+            "broadcastInfos": null,
+            "informationTab": {
+              "__typename": "InformationTab",
+              "parkingInfo": null,
+              "facilities": [
+                {
+                  "__ref": "InformationFacilities:13"
+                },
+                {
+                  "__ref": "InformationFacilities:4"
+                },
+                {
+                  "__ref": "InformationFacilities:8"
+                }
+              ],
+              "pet": null,
+              "noKidsZone": null,
+              "keywordList": [
+                "캐비식당",
+                "캐비음식점",
+                "캐비음식",
+                "캐리비안베이식당",
+                "캐비하버마스터"
+              ],
+              "nearbyParking": null
+            },
+            "homepages": {
+              "__typename": "Homepage",
+              "etc": [
+                {
+                  "__typename": "HomepageRepr",
+                  "url": "https://www.instagram.com/ontheborder_kr/",
+                  "landingUrl": "https://www.instagram.com/ontheborder_kr/",
+                  "isDeadUrl": false,
+                  "type": "인스타그램",
+                  "typeI18n": "인스타그램",
+                  "order": 1,
+                  "isRep": null
+                }
+              ],
+              "repr": {
+                "__typename": "HomepageRepr",
+                "url": "https://ontheborder.co.kr/main/",
+                "landingUrl": "https://ontheborder.co.kr/main/",
+                "isDeadUrl": false,
+                "type": "홈페이지",
+                "typeI18n": "홈페이지",
+                "order": 0,
+                "isRep": null
+              },
+              "subLinks": null,
+              "isSiteData": null
+            },
+            "festivalPerformance": {
+              "__typename": "FestivalPerformance",
+              "headInfo": "",
+              "festivalSectionHeadInfo": "",
+              "festivalsTotal": 0,
+              "festivals": [],
+              "performancesTotal": 0,
+              "performances": []
+            },
+            "goodPrice": null,
+            "POS": {
+              "__typename": "POS",
+              "isPOS": false,
+              "badge": null,
+              "salesCount": null,
+              "popularMenus": null,
+              "averagePrice": null,
+              "popularDay": null,
+              "weeklyPopularity": null,
+              "durationTime": null,
+              "today": null
+            },
+            "repeatVisit": null,
+            "queuing": {
+              "__typename": "Queuing",
+              "agencyCode": null,
+              "agencyName": null,
+              "tablePreemptionLimitKm": null,
+              "tablePreemptionUrl": null,
+              "queueingUrl": null
+            },
+            "tabs": [
+              {
+                "__typename": "PlaceDetailTab",
+                "tabId": "home",
+                "name": "홈",
+                "externalUrl": null
+              },
+              {
+                "__typename": "PlaceDetailTab",
+                "tabId": "feed",
+                "name": "소식",
+                "externalUrl": null
+              },
+              {
+                "__typename": "PlaceDetailTab",
+                "tabId": "menu",
+                "name": "메뉴",
+                "externalUrl": null
+              },
+              {
+                "__typename": "PlaceDetailTab",
+                "tabId": "review",
+                "name": "리뷰",
+                "externalUrl": null
+              },
+              {
+                "__typename": "PlaceDetailTab",
+                "tabId": "photo",
+                "name": "사진",
+                "externalUrl": null
+              },
+              {
+                "__typename": "PlaceDetailTab",
+                "tabId": "information",
+                "name": "정보",
+                "externalUrl": null
+              }
+            ],
+            "connectPlus": [],
+            "relatedPopupstore": [],
+            "exp": {
+              "__typename": "EventSearchBusinessResult",
+              "total": 0,
+              "isNaverPlusMembership": null,
+              "items": [],
+              "queryString": null,
+              "searchParam": null
+            },
+            "staticMapUrl": "https://simg.pstatic.net/static.map/v2/map/staticmap.bin?center=127.2007247%2C37.2974641&level=16&dataversion=178.21&caller=naver_mstore&markers=pos%3A127.2007247%2037.2974641%7Ctype%3Ac%7Ccolor%3Ablue%7Clabel%3Arestaurant",
+            "isRelaxRestaurant": false,
+            "isStarbucks": false,
+            "is100YearCertified": false,
+            "is100YearSmallManufacturer": false,
+            "isNFASafetyCertified": false,
+            "isAntiqueStore": false,
+            "newOpening": false,
+            "themes": null,
+            "visitorReviewMediasTotal": 5,
+            "description": "신선한 재료와 홈메이드 방식을 추구하는 정통 멕시칸 레스토랑 온더보더,\n흥겨운 라틴 음악과 다양한 멕시코 요리와 함께 365일 축제를 즐기자!",
+            "isKoreaGrandSale": false,
+            "hasAroundItems": false,
+            "hasAiBriefing": null,
+            "acceptsCultureDeductionCoupon": false,
+            "acceptsFuelCostSupport": false,
+            "panorama": {
+              "__typename": "PlacePanorama",
+              "indoor": null
+            },
+            "panoramaThumbnail": {
+              "__typename": "PanoramaThumbnailResult",
+              "url": "https://apis.naver.com/place/panorama/thumbnail/2055202614/0?width=800&height=400&msgpad=1788242288834&md=KrtEe2CgVjdQwwIOxRxUf1pnquY%3D"
+            },
+            "topAnimatedPhotos": {
+              "__typename": "PlaceDetailTopAnimatedPhotos",
+              "total": 0,
+              "items": []
+            },
+            "images": {
+              "__typename": "PlaceDetailImages",
+              "images": [
+                {
+                  "__typename": "Image",
+                  "origin": "https://ldb-phinf.pstatic.net/20260601_217/17802935453127Xow5_JPEG/%B8%B6%B0%A1%B8%AE%C5%B8.jpg",
+                  "number": null,
+                  "infoTitle": null,
+                  "url": null,
+                  "desc": null,
+                  "width": 1759,
+                  "height": 1610,
+                  "source": null
+                }
+              ],
+              "totalImages": 4
+            },
+            "topPhotos": {
+              "__typename": "PlaceDetailTopPhotos",
+              "total": 21,
+              "items": [
+                {
+                  "__ref": "PlaceDetailTopPhotoItem:business_1"
+                },
+                {
+                  "__ref": "PlaceDetailTopPhotoItem:business_2"
+                },
+                {
+                  "__ref": "PlaceDetailTopPhotoItem:business_3"
+                },
+                {
+                  "__ref": "PlaceDetailTopPhotoItem:business_4"
+                },
+                {
+                  "__ref": "PlaceDetailTopPhotoItem:visitor_1"
+                },
+                {
+                  "__ref": "PlaceDetailTopPhotoItem:visitor_2"
+                },
+                {
+                  "__ref": "PlaceDetailTopPhotoItem:visitor_3"
+                },
+                {
+                  "__ref": "PlaceDetailTopPhotoItem:visitor_4"
+                },
+                {
+                  "__ref": "PlaceDetailTopPhotoItem:visitor_5"
+                },
+                {
+                  "__ref": "PlaceDetailTopPhotoItem:visitor_6"
+                }
+              ]
+            },
+            "phoneInfo": {
+              "__typename": "PlacePhoneInfo",
+              "phone": null,
+              "isVirtualPhone": false,
+              "isPrivatePhone": false,
+              "hasMobilePhoneNumber": false
+            }
+          },
+          "visitorReviews({\"input\":{\"bookingBusinessId\":null,\"businessId\":\"2055202614\",\"businessType\":\"restaurant\",\"cidList\":[\"220036\",\"220044\",\"220132\",\"230090\"],\"getReactions\":true,\"getTrailer\":true,\"getUserStats\":true,\"includeContent\":true,\"includeReceiptPhotos\":true,\"isPhotoUsed\":false,\"item\":\"0\",\"size\":10,\"sort\":\"recent\"}})": {
+            "__typename": "VisitorReviewsResult",
+            "items": [],
+            "starDistribution": null,
+            "hideProductSelectBox": true,
+            "total": 0,
+            "showRecommendationSort": false,
+            "itemReviewStats": {
+              "__typename": "ItemReviewStats",
+              "score": 0,
+              "count": 0,
+              "itemId": null,
+              "starDistribution": []
+            }
+          },
+          "reactionTypes": [
+            {
+              "__typename": "ReactionType",
+              "name": "helpful",
+              "emojiUrl": "https://ssl.pstatic.net/static/pup/reactiontype/helpful_44w.png",
+              "label": "도움돼요"
+            },
+            {
+              "__typename": "ReactionType",
+              "name": "wannago",
+              "emojiUrl": "https://ssl.pstatic.net/static/pup/reactiontype/wannago_44w.png",
+              "label": "가고 싶어요"
+            },
+            {
+              "__typename": "ReactionType",
+              "name": "cool",
+              "emojiUrl": "https://ssl.pstatic.net/static/pup/reactiontype/cool_44w.png",
+              "label": "멋져요"
+            },
+            {
+              "__typename": "ReactionType",
+              "name": "fun",
+              "emojiUrl": "https://ssl.pstatic.net/static/pup/reactiontype/fun_44w.png",
+              "label": "재밌어요"
+            }
+          ],
+          "user": {
+            "__typename": "UserResult",
+            "partnerHashedIdNo": null,
+            "myplace": {
+              "__typename": "MyPlaceUserInfo",
+              "profile": {
+                "__typename": "MyPlaceProfile",
+                "imageUrl": null,
+                "borderImageUrl": null,
+                "myplaceId": null,
+                "myplaceNickname": null
+              }
+            }
+          },
+          "reviewAwardCoupons({\"input\":{\"businessId\":\"2055202614\"}})": {
+            "__typename": "ReviewAwardsCouponsResult",
+            "total": 0
+          }
+        }
+      },
+      "source": "inline",
+      "captured_at": "2026-09-01T05:59:31+00:00"
+    }
+  ]
+}

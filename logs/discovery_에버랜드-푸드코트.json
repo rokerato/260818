@@ -918,12 +918,12 @@
   }
  },
  {
-  "url": "https://map.naver.com/p/api/search/allSearch?query=%EC%97%90%EB%B2%84%EB%9E%9C%EB%93%9C+%ED%91%B8%EB%93%9C%EC%BD%94%ED%8A%B8&type=all&searchCoord=126.97825%3B37.566551&boundary=&sscode=svc.mapv5.search&token=0kdeYOqyCmbZml06M0Wq0F5JF5GQMFboo9n8kPi9zk4%3D",
+  "url": "https://map.naver.com/p/api/search/allSearch?query=%EC%97%90%EB%B2%84%EB%9E%9C%EB%93%9C+%ED%91%B8%EB%93%9C%EC%BD%94%ED%8A%B8&type=all&searchCoord=126.97825%3B37.566551&boundary=&sscode=svc.mapv5.search&token=jB9x-d91I05l4j_BZsdIf2M4u7p2VcsFFLGOiYDGdTI%3D",
   "body": {
    "result": {
     "type": "place",
     "metaInfo": {
-     "pageId": "8288153a-6366-4fec-8ed7-e12030ac5eea",
+     "pageId": "cb61cb34-99f9-4ad2-84a1-181121686604",
      "sessionId": null,
      "rcode": "09140103",
      "searchedQuery": "에버랜드 푸드코트",
@@ -994,7 +994,7 @@
        ],
        "rcode": "0246125027",
        "businessStatus": {
-        "requestTime": "202609011355",
+        "requestTime": "202609011446",
         "status": {
          "code": 0,
          "text": "",
@@ -1121,7 +1121,7 @@
   }
  },
  {
-  "url": "https://map.naver.com/p/api/ads/common-marker?stmsId=100400599&requestUrl=https:%2F%2Fmap.naver.com%2Fp%2Fsearch%2F%25EC%2597%2590%25EB%25B2%2584%25EB%259E%259C%25EB%2593%259C%2520%25ED%2591%25B8%25EB%2593%259C%25EC%25BD%2594%25ED%258A%25B8%3FplacePath%3D%252Fhome%253Ffrom%253Dmap%2526fromPanelNum%253D1%2526additionalHeight%253D76%2526timestamp%253D202609010455%2526locale%253Dko%2526svcName%253Dmap_pcv5%2526searchText%253D%25EC%2597%2590%25EB%25B2%2584%25EB%259E%259C%25EB%2593%259C%2520%25ED%2591%25B8%25EB%2593%259C%25EC%25BD%2594%25ED%258A%25B8&longitude=126.9740657&latitude=37.566551&minX=126.97034279388805&minY=37.56200963700964&maxX=126.98497692627342&maxY=37.57119412983863",
+  "url": "https://map.naver.com/p/api/ads/common-marker?stmsId=100400599&requestUrl=https:%2F%2Fmap.naver.com%2Fp%2Fsearch%2F%25EC%2597%2590%25EB%25B2%2584%25EB%259E%259C%25EB%2593%259C%2520%25ED%2591%25B8%25EB%2593%259C%25EC%25BD%2594%25ED%258A%25B8%3FplacePath%3D%252Fhome%253Ffrom%253Dmap%2526fromPanelNum%253D1%2526additionalHeight%253D76%2526timestamp%253D202609010546%2526locale%253Dko%2526svcName%253Dmap_pcv5%2526searchText%253D%25EC%2597%2590%25EB%25B2%2584%25EB%259E%259C%25EB%2593%259C%2520%25ED%2591%25B8%25EB%2593%259C%25EC%25BD%2594%25ED%258A%25B8&longitude=126.9740657&latitude=37.566551&minX=126.97034279388805&minY=37.56200963700964&maxX=126.98497692627342&maxY=37.57119412983863",
   "body": {
    "items": []
   }

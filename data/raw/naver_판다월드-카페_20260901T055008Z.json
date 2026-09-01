@@ -1,0 +1,23 @@
+{
+  "platform": "naver",
+  "target": {
+    "name": "판다월드 카페",
+    "url": null,
+    "place_id": "1441236437",
+    "category": "restaurant"
+  },
+  "resolved": {
+    "place_id": null,
+    "place_url": null,
+    "place_name": null
+  },
+  "started_at": "2026-09-01T06:35:42+00:00",
+  "finished_at": "2026-09-01T06:35:42+00:00",
+  "duplicates_removed": 0,
+  "failures": [
+    "skipped: run time budget (2700.0s) exhausted before this target"
+  ],
+  "review_count": 0,
+  "reviews": [],
+  "raw_responses": []
+}
