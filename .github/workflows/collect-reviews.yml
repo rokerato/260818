@@ -48,7 +48,7 @@ jobs:
   collect:
     if: github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[collect]')
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 75
     env:
       IN_QUERIES: ${{ inputs.queries || '' }}
       IN_MAX_TARGETS: ${{ inputs.max_targets || '30' }}
@@ -92,6 +92,7 @@ jobs:
             "${ONLY_ARGS[@]}" \
             --max-reviews "$IN_MAX_REVIEWS" \
             --delay "$IN_DELAY" \
+            --time-budget 2700 \
             --debug-dir logs 2>&1 | tee logs/collect.log
 
       - name: Commit results to branch

@@ -52,6 +52,14 @@ def build_parser() -> argparse.ArgumentParser:
     )
     parser.add_argument("--browser-executable")
     parser.add_argument(
+        "--time-budget", type=float, metavar="SECONDS",
+        help="stop starting new venues after this long, so results still get written",
+    )
+    parser.add_argument(
+        "--per-target-budget", type=float, metavar="SECONDS",
+        help="wall-clock cap per venue (default 150)",
+    )
+    parser.add_argument(
         "--debug-dir", metavar="DIR",
         help="dump page HTML/screenshot to DIR when a page yields no API data",
     )
@@ -91,6 +99,10 @@ def main(argv: list[str] | None = None) -> int:
         settings.browser_executable = args.browser_executable
     if args.debug_dir:
         settings.debug_dir = str(args.debug_dir)
+    if args.time_budget is not None:
+        settings.time_budget_seconds = args.time_budget
+    if args.per_target_budget is not None:
+        settings.per_target_budget_seconds = args.per_target_budget
     if args.csv_bom:
         settings.csv_encoding = "utf-8-sig"
     if args.headful:

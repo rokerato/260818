@@ -280,6 +280,9 @@ class NaverPlaceCollector(BaseCollector):
         request_delay: float = 1.5,
         page_timeout_ms: int = 30_000,
         max_empty_rounds: int = 3,
+        per_target_budget_seconds: float | None = 150.0,
+        time_budget_seconds: float | None = None,
+        settle_timeout_ms: int = 8_000,
         headless: bool = True,
         base_url: str = DEFAULT_BASE_URL,
         browser_executable: str | None = None,
@@ -295,7 +298,12 @@ class NaverPlaceCollector(BaseCollector):
             request_delay=request_delay,
             page_timeout_ms=page_timeout_ms,
             max_empty_rounds=max_empty_rounds,
+            per_target_budget_seconds=per_target_budget_seconds,
+            time_budget_seconds=time_budget_seconds,
         )
+        # Naver pages keep background chatter going, so networkidle rarely
+        # fires; wait only briefly for it rather than burning the page timeout.
+        self.settle_timeout_ms = settle_timeout_ms
         self.headless = headless
         self.base_url = base_url
         self.browser_executable = browser_executable
@@ -350,6 +358,11 @@ class NaverPlaceCollector(BaseCollector):
     def collect(self, target: PlaceTarget) -> CollectionResult:
         result = CollectionResult(target=target)
         limit = target.max_reviews or self.max_reviews
+        target_deadline = (
+            time.monotonic() + self.per_target_budget_seconds
+            if self.per_target_budget_seconds is not None
+            else None
+        )
 
         try:
             place_id, review_url = self.resolve(target)
@@ -392,12 +405,24 @@ class NaverPlaceCollector(BaseCollector):
                 for index, variant in enumerate(self.page_variants(review_url)):
                     if self._count_unique(captured) >= limit:
                         break
+                    if (
+                        target_deadline is not None
+                        and time.monotonic() >= target_deadline
+                        and index
+                    ):
+                        # The first view is never skipped; extras are.
+                        log.info(
+                            "[%s] time budget reached; skipping remaining views",
+                            result.target.name,
+                        )
+                        break
                     if index:
                         # Space out the extra views; they are optional extras.
                         time.sleep(self.request_delay)
                     before = self._count_unique(captured)
                     self._drive_page(
-                        page, variant, limit, result, captured, optional=bool(index)
+                        page, variant, limit, result, captured,
+                        optional=bool(index), deadline=target_deadline,
                     )
                     # The landing URL is authoritative once redirects settle.
                     if not result.resolved_place_id:
@@ -504,6 +529,7 @@ class NaverPlaceCollector(BaseCollector):
         result: CollectionResult,
         captured: list[dict[str, Any]],
         optional: bool = False,
+        deadline: float | None = None,
     ) -> None:
         """Open the review page and press 더보기 until the limit is reached.
 
@@ -536,6 +562,10 @@ class NaverPlaceCollector(BaseCollector):
             return max(self._count_unique(captured), self._count_dom_items(page))
 
         while rounds < max_rounds and empty_rounds < self.max_empty_rounds:
+            if deadline is not None and time.monotonic() >= deadline:
+                log.info("[%s] time budget reached; stopping pagination",
+                         result.target.name)
+                break
             seen_before = progress()
             if seen_before >= limit:
                 break
@@ -561,7 +591,7 @@ class NaverPlaceCollector(BaseCollector):
     def _settle(self, page: Any) -> None:
         """Wait for in-flight XHRs, tolerating pages that never go idle."""
         try:
-            page.wait_for_load_state("networkidle", timeout=self.page_timeout_ms)
+            page.wait_for_load_state("networkidle", timeout=self.settle_timeout_ms)
         except Exception:  # noqa: BLE001 - long-poll/analytics keep it busy
             pass
 

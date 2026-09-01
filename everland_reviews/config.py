@@ -28,6 +28,10 @@ class Settings:
     request_delay_seconds: float = 1.5
     page_timeout_ms: int = 30_000
     max_empty_rounds: int = 3
+    #: Wall-clock cap per venue, and for the whole run. Keep the run budget
+    #: comfortably under any CI job timeout so results are still written.
+    per_target_budget_seconds: float | None = 150.0
+    time_budget_seconds: float | None = None
     headless: bool = True
     browser_executable: str | None = None
     locale: str = "ko-KR"

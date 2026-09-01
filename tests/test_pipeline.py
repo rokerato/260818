@@ -155,9 +155,36 @@ def test_bad_target_does_not_kill_the_run() -> None:
         print("OK  per-target failures are isolated and logged")
 
 
+def test_time_budget_stops_cleanly_and_keeps_results() -> None:
+    """An exhausted run budget must skip remaining venues, not lose data."""
+    with tempfile.TemporaryDirectory() as tmpdir:
+        tmp = Path(tmpdir)
+        with serve(total_reviews=TOTAL, place_id=PLACE_ID) as base_url:
+            config = _config(tmp, base_url, max_reviews=TOTAL)
+            # An already-elapsed budget: the first venue still runs (a run
+            # must never come back empty), every later one is skipped.
+            config.settings.time_budget_seconds = 0.0
+            config.targets.append(
+                PlaceTarget(name="예산초과 대상", place_id=PLACE_ID, platform="naver")
+            )
+            summaries, csv_path, _warn = run(config)
+
+        by_name = {s.name: s for s in summaries}
+        skipped = by_name["예산초과 대상"]
+        assert skipped.collected == 0
+        assert any("time budget" in f for f in skipped.failures), skipped.failures
+        # Everything collected before the budget ran out must be on disk.
+        assert csv_path is not None and csv_path.exists()
+        with csv_path.open(encoding="utf-8", newline="") as handle:
+            assert len(list(csv.DictReader(handle))) == TOTAL
+        assert list((tmp / "raw").glob("*.json")), "raw archives must survive"
+        print("OK  time budget skips cleanly and preserves collected data")
+
+
 if __name__ == "__main__":
     test_unit_date_and_mapping()
     test_review_limit_is_respected()
     test_bad_target_does_not_kill_the_run()
+    test_time_budget_stops_cleanly_and_keeps_results()
     test_end_to_end()
     print("\nall checks passed")

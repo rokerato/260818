@@ -11,9 +11,10 @@ from __future__ import annotations
 
 import abc
 import logging
+import time
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
-from typing import Any, Iterable
+from typing import Any, Iterable, Iterator
 
 log = logging.getLogger(__name__)
 
@@ -129,11 +130,18 @@ class BaseCollector(abc.ABC):
         request_delay: float = 1.5,
         page_timeout_ms: int = 30_000,
         max_empty_rounds: int = 3,
+        per_target_budget_seconds: float | None = None,
+        time_budget_seconds: float | None = None,
     ) -> None:
         self.max_reviews = max_reviews
         self.request_delay = request_delay
         self.page_timeout_ms = page_timeout_ms
         self.max_empty_rounds = max_empty_rounds
+        #: Wall-clock cap for a single venue; ``None`` means no cap.
+        self.per_target_budget_seconds = per_target_budget_seconds
+        #: Wall-clock cap for the whole run, so a caller under a CI timeout
+        #: stops cleanly and still writes what it has.
+        self.time_budget_seconds = time_budget_seconds
 
     @abc.abstractmethod
     def collect(self, target: PlaceTarget) -> CollectionResult:
@@ -141,16 +149,37 @@ class BaseCollector(abc.ABC):
 
     def collect_many(
         self, targets: Iterable[PlaceTarget]
-    ) -> list[CollectionResult]:
-        """Collect every target, isolating per-target failures."""
-        results: list[CollectionResult] = []
+    ) -> Iterator[CollectionResult]:
+        """Yield one result per target, isolating per-target failures.
+
+        This is a generator on purpose: the caller persists each venue as it
+        completes, so a run that is cut short (CI timeout, cancellation) keeps
+        everything collected up to that point instead of losing all of it.
+        """
+        deadline = (
+            time.monotonic() + self.time_budget_seconds
+            if self.time_budget_seconds is not None
+            else None
+        )
+        attempted = 0
         for target in targets:
+            # Always attempt at least one venue: a budget that has already
+            # elapsed should still produce data, not an empty run.
+            if attempted and deadline is not None and time.monotonic() >= deadline:
+                skipped = CollectionResult(target=target)
+                skipped.record_failure(
+                    "skipped: run time budget "
+                    f"({self.time_budget_seconds}s) exhausted before this target"
+                )
+                skipped.finished_at = utc_now_iso()
+                yield skipped
+                continue
+            attempted += 1
             try:
-                results.append(self.collect(target))
+                yield self.collect(target)
             except Exception as exc:  # noqa: BLE001 - one target must not kill the job
                 log.exception("collector crashed for %s", target.label())
                 result = CollectionResult(target=target)
                 result.record_failure(f"collector crashed: {exc!r}")
                 result.finished_at = utc_now_iso()
-                results.append(result)
-        return results
+                yield result

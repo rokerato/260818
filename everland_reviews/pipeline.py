@@ -47,6 +47,8 @@ def build_collector(platform: str, config: Config) -> BaseCollector:
         "request_delay": settings.request_delay_seconds,
         "page_timeout_ms": settings.page_timeout_ms,
         "max_empty_rounds": settings.max_empty_rounds,
+        "per_target_budget_seconds": settings.per_target_budget_seconds,
+        "time_budget_seconds": settings.time_budget_seconds,
         "headless": settings.headless,
         "browser_executable": settings.browser_executable,
         "locale": settings.locale,
@@ -85,6 +87,7 @@ def run(
     stamp = run_stamp()
     summaries: list[RestaurantSummary] = []
     all_reviews: list[NormalizedReview] = []
+    csv_path: Path | None = None
 
     by_platform: dict[str, list[PlaceTarget]] = {}
     for target in config.targets:
@@ -101,18 +104,21 @@ def run(
                 summaries.append(summarize_restaurant(failed, []))
             continue
 
+        name = csv_name or f"reviews_{stamp}.csv"
         for result in collector.collect_many(targets):
+            # Persist each venue as it completes. A run cut short by a CI
+            # timeout or cancellation then still leaves everything collected
+            # so far on disk, rather than losing the whole batch.
             raw_path = write_raw(result, Path(settings.raw_dir), stamp)
             reviews = normalize_result(result, raw_path.stem)
             all_reviews.extend(reviews)
             summaries.append(summarize_restaurant(result, reviews))
-
-    csv_path: Path | None = None
-    if all_reviews:
-        name = csv_name or f"reviews_{stamp}.csv"
-        csv_path = write_normalized_csv(
-            all_reviews, Path(settings.normalized_dir) / name, settings.csv_encoding
-        )
+            if all_reviews:
+                csv_path = write_normalized_csv(
+                    all_reviews,
+                    Path(settings.normalized_dir) / name,
+                    settings.csv_encoding,
+                )
 
     warnings = validate_dataset(all_reviews)
     write_summary_json(
