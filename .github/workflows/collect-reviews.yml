@@ -5,11 +5,17 @@
 # Naver Map search, run the collector for a small capped batch, and commit the
 # raw + normalized outputs back to this branch for analysis.
 #
-# Manual trigger only -- never runs on push.
+# Triggering: workflow_dispatch works once this file is on the default
+# branch. Until then, a push to the collection branch whose commit message
+# contains the marker '[collect]' starts a run; the results commit the run
+# itself pushes carries no marker, so it cannot retrigger.
 
 name: collect-reviews
 
 on:
+  push:
+    branches:
+      - "claude/everland-review-collector-baii8v"
   workflow_dispatch:
     inputs:
       queries:
@@ -40,8 +46,16 @@ concurrency:
 
 jobs:
   collect:
+    if: github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[collect]')
     runs-on: ubuntu-latest
     timeout-minutes: 40
+    env:
+      IN_QUERIES: ${{ inputs.queries || '에버랜드 레스토랑,에버랜드 맛집,에버랜드 카페' }}
+      IN_MAX_TARGETS: ${{ inputs.max_targets || '3' }}
+      IN_ONLY: ${{ inputs.only || '' }}
+      IN_MAX_REVIEWS: ${{ inputs.max_reviews || '100' }}
+      IN_DELAY: ${{ inputs.delay || '2.0' }}
+      IN_SKIP_DISCOVERY: ${{ inputs.skip_discovery || 'false' }}
     steps:
       - uses: actions/checkout@v4
 
@@ -55,20 +69,20 @@ jobs:
           playwright install --with-deps chromium
 
       - name: Discover Everland targets
-        if: ${{ inputs.skip_discovery != 'true' }}
+        if: ${{ env.IN_SKIP_DISCOVERY != 'true' }}
         run: |
           mkdir -p logs
-          IFS=',' read -ra QUERIES <<< "${{ inputs.queries }}"
+          IFS=',' read -ra QUERIES <<< "$IN_QUERIES"
           ARGS=()
           for q in "${QUERIES[@]}"; do ARGS+=(--query "$q"); done
           python scripts/discover_places.py "${ARGS[@]}" \
-            --max-targets "${{ inputs.max_targets }}" 2>&1 | tee logs/discovery.log
+            --max-targets "$IN_MAX_TARGETS" 2>&1 | tee logs/discovery.log
 
       - name: Collect reviews
         id: collect
         run: |
           mkdir -p logs
-          ONLY="${{ inputs.only }}"
+          ONLY="$IN_ONLY"
           if [ -z "$ONLY" ]; then
             # No filter given: collect the first configured target only,
             # keeping the run small until the pipeline is proven on real data.
@@ -81,8 +95,8 @@ jobs:
           echo "collecting: $ONLY"
           python scripts/collect_reviews.py \
             --only "$ONLY" \
-            --max-reviews "${{ inputs.max_reviews }}" \
-            --delay "${{ inputs.delay }}" 2>&1 | tee logs/collect.log
+            --max-reviews "$IN_MAX_REVIEWS" \
+            --delay "$IN_DELAY" 2>&1 | tee logs/collect.log
 
       - name: Commit results to branch
         if: always()
@@ -95,6 +109,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "nothing to commit"
           else
-            git commit -m "Collection run ${{ github.run_id }} (queries: ${{ inputs.queries }}, cap: ${{ inputs.max_reviews }})"
+            git commit -m "Collection run ${{ github.run_id }} (cap: $IN_MAX_REVIEWS)"
             git push origin "HEAD:${{ github.ref_name }}"
           fi
