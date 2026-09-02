@@ -8,10 +8,13 @@
 # Triggering: workflow_dispatch works once this file is on the default
 # branch. Until then, a push to the collection branch drives it by commit
 # message marker:
-#     [collect]              full crawl of the default location (everland)
-#     [collect:sinlicheon]   full crawl of that location
-#     [discover:sinlicheon]  discovery only -- verify the venue list first,
-#                            without spending an hour collecting
+#     [collect]               full crawl of the default location (everland)
+#     [collect:sinlicheon]    re-discover, then crawl that location
+#     [recollect:sinlicheon]  crawl the committed target list as-is, skipping
+#                             discovery -- use when the venue list has already
+#                             been reviewed, or to refresh reviews later
+#     [discover:sinlicheon]   discovery only -- verify the venue list first,
+#                             without spending an hour collecting
 # The results commit the run pushes carries no marker, so it cannot retrigger.
 
 name: collect-reviews
@@ -59,6 +62,7 @@ jobs:
     if: >-
       github.event_name == 'workflow_dispatch'
       || contains(github.event.head_commit.message, '[collect')
+      || contains(github.event.head_commit.message, '[recollect')
       || contains(github.event.head_commit.message, '[discover')
     runs-on: ubuntu-latest
     timeout-minutes: 100
@@ -90,23 +94,28 @@ jobs:
           location="$IN_LOCATION"
           discover_only="$IN_DISCOVER_ONLY"
           # A commit marker overrides the (empty) push-event inputs.
+          skip_discovery="$IN_SKIP_DISCOVERY"
           marker=$(printf '%s' "$COMMIT_MESSAGE" | head -1 \
-            | grep -oE '\[(collect|discover)(:[a-z0-9_-]+)?\]' | head -1 || true)
+            | grep -oE '\[(collect|recollect|discover)(:[a-z0-9_-]+)?\]' | head -1 || true)
           if [ -n "$marker" ]; then
             kind=$(printf '%s' "$marker" | sed -E 's/^\[([a-z]+).*/\1/')
             key=$(printf '%s' "$marker" | sed -E 's/^\[[a-z]+:?([a-z0-9_-]*)\]$/\1/')
             [ -n "$key" ] && location="$key"
             [ "$kind" = "discover" ] && discover_only=true
+            # recollect crawls exactly the venue list already committed.
+            [ "$kind" = "recollect" ] && skip_discovery=true
           fi
           location="${location:-everland}"
           discover_only="${discover_only:-false}"
+          skip_discovery="${skip_discovery:-false}"
+          echo "skip_discovery=$skip_discovery" >> "$GITHUB_OUTPUT"
           echo "location=$location"        >> "$GITHUB_OUTPUT"
           echo "discover_only=$discover_only" >> "$GITHUB_OUTPUT"
           echo "targets=config/targets/$location.yaml" >> "$GITHUB_OUTPUT"
-          echo "resolved: location=$location discover_only=$discover_only"
+          echo "resolved: location=$location discover_only=$discover_only skip_discovery=$skip_discovery"
 
       - name: Discover targets
-        if: ${{ env.IN_SKIP_DISCOVERY != 'true' }}
+        if: ${{ steps.mode.outputs.skip_discovery != 'true' }}
         run: |
           mkdir -p logs
           ARGS=()
