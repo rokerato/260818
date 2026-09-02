@@ -1,0 +1,177 @@
+restaurants:
+- name: 포해피니스
+  place_id: '2042448520'
+  category: restaurant
+  address: 경기도 화성시 동탄구 동탄대로14길 5-39 1층 포해피니스
+  naver_category:
+  - 음식점
+  - 카페,디저트
+  distance_m: 22
+- name: 카시아 본관
+  place_id: '1535542532'
+  category: restaurant
+  address: 경기도 화성시 동탄구 동탄대로14길 24 1층
+  naver_category:
+  - 음식점
+  - 카페,디저트
+  distance_m: 37
+- name: 마카 교동집
+  place_id: '2098182754'
+  category: restaurant
+  address: 경기도 화성시 동탄구 동탄대로14길 6-25 101호
+  naver_category:
+  - 한식
+  - 돼지고기구이
+  distance_m: 38
+- name: 온무드커피
+  place_id: '1136927442'
+  category: restaurant
+  address: 경기도 화성시 동탄구 동탄대로14길 27 1층
+  naver_category:
+  - 음식점
+  - 카페,디저트
+  distance_m: 49
+- name: 오브느 동탄신리천점
+  place_id: '1299353809'
+  category: restaurant
+  address: 경기도 화성시 동탄구 동탄대로14길 5-34 101호
+  naver_category:
+  - 음식점
+  - 카페,디저트
+  distance_m: 50
+- name: 명태어장 쭈갑골 동탄점
+  place_id: '1716140730'
+  category: restaurant
+  address: 경기도 화성시 동탄구 동탄대로14길 6-20
+  naver_category:
+  - 한식
+  - 해물,생선요리
+  distance_m: 68
+- name: 실리
+  place_id: '1347066332'
+  category: restaurant
+  address: 경기도 화성시 동탄구 동탄대로14길 6-28 1층
+  naver_category:
+  - 음식점
+  - 카페,디저트
+  distance_m: 71
+- name: 신리천HOF
+  place_id: '1204935590'
+  category: restaurant
+  address: 경기도 화성시 동탄구 동탄대로14길 15 신리천HOF
+  naver_category:
+  - 술집
+  - 맥주,호프
+  distance_m: 75
+- name: 카시아 별관
+  place_id: '1291299967'
+  category: restaurant
+  address: 경기도 화성시 동탄구 동탄대로14길 6-30 1층
+  naver_category:
+  - 음식점
+  - 카페,디저트
+  distance_m: 79
+- name: 본가왕뼈감자탕 동탄신리천점
+  place_id: '1812886986'
+  category: restaurant
+  address: 경기도 화성시 동탄구 동탄대로14길 14
+  naver_category:
+  - 한식
+  - 감자탕
+  distance_m: 90
+- name: 다돈
+  place_id: '1656895066'
+  category: restaurant
+  address: 경기도 화성시 동탄구 동탄대로14길 5-28
+  naver_category:
+  - 한식
+  - 돼지고기구이
+  distance_m: 93
+- name: 써먼하우스
+  place_id: '1383302532'
+  category: restaurant
+  address: 경기도 화성시 동탄구 동탄대로14길 6-14 1층
+  naver_category:
+  - 음식점
+  - 카페,디저트
+  distance_m: 95
+- name: 세븐야드
+  place_id: '1644625519'
+  category: restaurant
+  address: 경기도 화성시 동탄구 동탄대로14길 6-36 1층
+  naver_category:
+  - 음식점
+  - 카페,디저트
+  distance_m: 107
+- name: 월남국수 동탄신리천점
+  place_id: '1103961997'
+  category: restaurant
+  address: 경기도 화성시 동탄구 동탄대로14길 12-1 월남국수 동탄신리천점
+  naver_category:
+  - 음식점
+  - 베트남음식
+  distance_m: 107
+- name: 수향진베이커리카페
+  place_id: '1341178526'
+  category: restaurant
+  address: 경기도 화성시 동탄구 동탄대로14길 11-1 101호
+  naver_category:
+  - 음식점
+  - 카페,디저트
+  distance_m: 108
+- name: 휘드헨느
+  place_id: '1773256582'
+  category: restaurant
+  address: 경기도 화성시 동탄구 동탄대로14길 6-38 1층 휘드헨느
+  naver_category:
+  - 음식점
+  - 카페,디저트
+  distance_m: 122
+- name: 91brick
+  place_id: '1327037658'
+  category: restaurant
+  address: 경기도 화성시 동탄구 동탄대로14길 6-40 1층 91brick
+  naver_category:
+  - 음식점
+  - 카페,디저트
+  distance_m: 134
+- name: 호식이두마리치킨 동탄2신도시신리천점
+  place_id: '85208117'
+  category: restaurant
+  address: 경기도 화성시 동탄구 동탄대로14길 5-4 103호
+  naver_category:
+  - 음식점
+  - 치킨,닭강정
+  distance_m: 154
+- name: 디저트39 동탄신리천점
+  place_id: '1301842463'
+  category: restaurant
+  address: 경기도 화성시 동탄구 동탄대로14길 5-17 (오산동 405)
+  naver_category:
+  - 카페,디저트
+  - 카페
+  distance_m: 167
+- name: 풍덕천두꺼비집 동탄신리천점
+  place_id: '2046174420'
+  category: restaurant
+  address: 경기도 화성시 동탄구 동탄대로14길 6-46 1층
+  naver_category:
+  - 술집
+  - 요리주점
+  distance_m: 169
+- name: 스타벅스 동탄신리천공원점
+  place_id: '1860056596'
+  category: restaurant
+  address: 경기도 화성시 동탄구 동탄신리천로 264 (오산동)
+  naver_category:
+  - 카페,디저트
+  - 카페
+  distance_m: 345
+- name: 카페바인즈 동탄점
+  place_id: '1801109057'
+  category: restaurant
+  address: 경기도 화성시 동탄구 동탄신리천로 278 113호 카페바인즈
+  naver_category:
+  - 음식점
+  - 카페,디저트
+  distance_m: 490

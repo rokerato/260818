@@ -1,0 +1,1651 @@
+[
+ {
+  "url": "https://map.naver.com/p/api/search/bubble-keyword-list",
+  "body": {
+   "result": {
+    "bubbleKeywords": [
+     {
+      "sort": 1,
+      "type": "SEARCH_QUERY",
+      "code": "DINING",
+      "name": "음식점",
+      "query": "음식점",
+      "icon": {
+       "name": "dining_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.dining",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 2,
+      "type": "SEARCH_QUERY",
+      "code": "CAFE",
+      "name": "카페",
+      "query": "카페",
+      "icon": {
+       "name": "cafe_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.cafe",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 3,
+      "type": "SEARCH_QUERY",
+      "code": "POPUPSTORE",
+      "name": "팝업스토어",
+      "query": "팝업스토어",
+      "icon": {
+       "name": "popupstore_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.popupstore",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 4,
+      "type": "SEARCH_QUERY",
+      "code": "PENSION",
+      "name": "펜션",
+      "query": "펜션",
+      "icon": {
+       "name": "pension_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.pension",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 5,
+      "type": "SEARCH_QUERY",
+      "code": "COUPON",
+      "name": "쿠폰",
+      "query": "쿠폰",
+      "icon": {
+       "name": "coupon_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.coupon",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 6,
+      "type": "SEARCH_QUERY",
+      "code": "PICKUP",
+      "name": "주문",
+      "query": "N주문",
+      "icon": {
+       "name": "pickup_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.smartorder",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 7,
+      "type": "SEARCH_QUERY",
+      "code": "STORE",
+      "name": "편의점",
+      "query": "편의점",
+      "icon": {
+       "name": "store_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.store",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 8,
+      "type": "SEARCH_QUERY",
+      "code": "MART",
+      "name": "마트",
+      "query": "마트",
+      "icon": {
+       "name": "mart_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.mart",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 9,
+      "type": "SEARCH_QUERY",
+      "code": "HAIR",
+      "name": "헤어샵",
+      "query": "헤어샵",
+      "icon": {
+       "name": "hair_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.hair",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 10,
+      "type": "SEARCH_QUERY",
+      "code": "HOTEL",
+      "name": "호텔",
+      "query": "호텔",
+      "icon": {
+       "name": "hotel_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.hotel",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 11,
+      "type": "SEARCH_QUERY",
+      "code": "CAMPING",
+      "name": "캠핑장",
+      "query": "캠핑장",
+      "icon": {
+       "name": "camping_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.camping",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 12,
+      "type": "SEARCH_QUERY",
+      "code": "MOTEL",
+      "name": "모텔",
+      "query": "모텔",
+      "icon": {
+       "name": "motel_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.motel",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 13,
+      "type": "SEARCH_QUERY",
+      "code": "OIL",
+      "name": "주유소",
+      "query": "주유소",
+      "icon": {
+       "name": "oil_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.oil",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 14,
+      "type": "SEARCH_QUERY",
+      "code": "PARKING",
+      "name": "주차장",
+      "query": "주차장",
+      "icon": {
+       "name": "parking_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.parking",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 15,
+      "type": "SEARCH_QUERY",
+      "code": "PHARMACY",
+      "name": "약국",
+      "query": "약국",
+      "icon": {
+       "name": "pharmacy_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.pharmacy",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 16,
+      "type": "SEARCH_QUERY",
+      "code": "BANK",
+      "name": "은행",
+      "query": "은행",
+      "icon": {
+       "name": "bank_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.bank",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 17,
+      "type": "SEARCH_QUERY",
+      "code": "HOSPITAL",
+      "name": "병원",
+      "query": "병원",
+      "icon": {
+       "name": "hospital_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.hospital",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 18,
+      "type": "SEARCH_QUERY",
+      "code": "EMERGENCYCARE",
+      "name": "응급진료",
+      "query": "응급의료시설",
+      "icon": {
+       "name": "emergencycare_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.emergencycare",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "url": "https://map.naver.com/p/api/search/bubble-keyword-list",
+  "body": {
+   "result": {
+    "bubbleKeywords": [
+     {
+      "sort": 1,
+      "type": "SEARCH_QUERY",
+      "code": "DINING",
+      "name": "음식점",
+      "query": "음식점",
+      "icon": {
+       "name": "dining_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.dining",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 2,
+      "type": "SEARCH_QUERY",
+      "code": "CAFE",
+      "name": "카페",
+      "query": "카페",
+      "icon": {
+       "name": "cafe_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.cafe",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 3,
+      "type": "SEARCH_QUERY",
+      "code": "POPUPSTORE",
+      "name": "팝업스토어",
+      "query": "팝업스토어",
+      "icon": {
+       "name": "popupstore_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.popupstore",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 4,
+      "type": "SEARCH_QUERY",
+      "code": "PENSION",
+      "name": "펜션",
+      "query": "펜션",
+      "icon": {
+       "name": "pension_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.pension",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 5,
+      "type": "SEARCH_QUERY",
+      "code": "COUPON",
+      "name": "쿠폰",
+      "query": "쿠폰",
+      "icon": {
+       "name": "coupon_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.coupon",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 6,
+      "type": "SEARCH_QUERY",
+      "code": "PICKUP",
+      "name": "주문",
+      "query": "N주문",
+      "icon": {
+       "name": "pickup_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.smartorder",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 7,
+      "type": "SEARCH_QUERY",
+      "code": "STORE",
+      "name": "편의점",
+      "query": "편의점",
+      "icon": {
+       "name": "store_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.store",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 8,
+      "type": "SEARCH_QUERY",
+      "code": "MART",
+      "name": "마트",
+      "query": "마트",
+      "icon": {
+       "name": "mart_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.mart",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 9,
+      "type": "SEARCH_QUERY",
+      "code": "HAIR",
+      "name": "헤어샵",
+      "query": "헤어샵",
+      "icon": {
+       "name": "hair_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.hair",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 10,
+      "type": "SEARCH_QUERY",
+      "code": "HOTEL",
+      "name": "호텔",
+      "query": "호텔",
+      "icon": {
+       "name": "hotel_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.hotel",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 11,
+      "type": "SEARCH_QUERY",
+      "code": "CAMPING",
+      "name": "캠핑장",
+      "query": "캠핑장",
+      "icon": {
+       "name": "camping_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.camping",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 12,
+      "type": "SEARCH_QUERY",
+      "code": "MOTEL",
+      "name": "모텔",
+      "query": "모텔",
+      "icon": {
+       "name": "motel_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.motel",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 13,
+      "type": "SEARCH_QUERY",
+      "code": "OIL",
+      "name": "주유소",
+      "query": "주유소",
+      "icon": {
+       "name": "oil_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.oil",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 14,
+      "type": "SEARCH_QUERY",
+      "code": "PARKING",
+      "name": "주차장",
+      "query": "주차장",
+      "icon": {
+       "name": "parking_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.parking",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 15,
+      "type": "SEARCH_QUERY",
+      "code": "PHARMACY",
+      "name": "약국",
+      "query": "약국",
+      "icon": {
+       "name": "pharmacy_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.pharmacy",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 16,
+      "type": "SEARCH_QUERY",
+      "code": "BANK",
+      "name": "은행",
+      "query": "은행",
+      "icon": {
+       "name": "bank_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.bank",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 17,
+      "type": "SEARCH_QUERY",
+      "code": "HOSPITAL",
+      "name": "병원",
+      "query": "병원",
+      "icon": {
+       "name": "hospital_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.hospital",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     },
+     {
+      "sort": 18,
+      "type": "SEARCH_QUERY",
+      "code": "EMERGENCYCARE",
+      "name": "응급진료",
+      "query": "응급의료시설",
+      "icon": {
+       "name": "emergencycare_category_pc",
+       "imageVersion": 138
+      },
+      "url": null,
+      "menuTabSort": null,
+      "rcodes": [],
+      "visibleVersion": null,
+      "updateVersion": null,
+      "nclickCode": "bubble.emergencycare",
+      "backgroundColor": "#ffffff",
+      "fontColor": "#000000",
+      "borderColor": "#ffffff",
+      "darkModeBackgroundColor": null,
+      "darkModeFontColor": null,
+      "darkModeBorderColor": null,
+      "displayShortcutIcon": false,
+      "isAd": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "url": "https://map.naver.com/p/api/search/allSearch?query=%EB%8F%99%ED%83%84+%EC%8B%A0%EB%A6%AC%EC%B2%9C+%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC&type=all&searchCoord=126.97825%3B37.566551&boundary=&sscode=svc.mapv5.search&token=uv8Jb-flxBb0q4LBmr0sx5f_NrQpKgsGmvB9arELTqk%3D",
+  "body": {
+   "result": {
+    "type": "place",
+    "metaInfo": {
+     "pageId": "3ac10ed6-de0d-4e4a-b66c-6fb3d7a9de0b",
+     "sessionId": null,
+     "rcode": "09140103",
+     "searchedQuery": "동탄 신리천 베이커리",
+     "queryTypes": [
+      "query_spot",
+      "query_unknown"
+     ],
+     "regionQuery": true,
+     "busQuery": false,
+     "correction": null,
+     "displayCorrectAnswer": false
+    },
+    "address": null,
+    "place": {
+     "page": 1,
+     "totalCount": 4,
+     "boundary": [
+      "127.1020612",
+      "37.1856354",
+      "127.1047782",
+      "37.1840131"
+     ],
+     "feedback": [
+      "<strong>'동탄1신도시'</strong>",
+      "근처 <strong>'신리천 베이커리'</strong>"
+     ],
+     "options": {
+      "sort": "0",
+      "toggleLocation": "0",
+      "rank": "1"
+     },
+     "filters": {},
+     "reSearch": null,
+     "isSiteSortAvailable": false,
+     "specializedSearch": null,
+     "hasPollingPlace": false,
+     "isAdultKeyword": false,
+     "containAdultContents": false,
+     "address": null,
+     "brandPromotion": null,
+     "list": [
+      {
+       "index": "0",
+       "rank": "1",
+       "id": "1327037658",
+       "name": "91brick",
+       "tel": "0507-1306-4785",
+       "isCallLink": false,
+       "virtualTel": "0507-1306-4785",
+       "virtualTelDisplay": "0507-1306-4785",
+       "ppc": "1",
+       "category": [
+        "음식점",
+        "카페,디저트"
+       ],
+       "categoryPath": [
+        [
+         "220036",
+         "220052",
+         "220563"
+        ],
+        [
+         "1004760",
+         "1006799"
+        ]
+       ],
+       "rcode": "02597104",
+       "businessStatus": {
+        "requestTime": "202609021359",
+        "status": {
+         "code": 2,
+         "text": "영업 중",
+         "emphasis": false,
+         "description": "영업중",
+         "detailInfo": "22:00에 영업종료"
+        },
+        "businessHours": "202609021030~202609022200",
+        "breakTime": "",
+        "lastOrder": ""
+       },
+       "naviInfoText": null,
+       "naviInfo": null,
+       "address": "경기도 화성시 동탄구 오산동 1036-18 1층 91brick",
+       "roadAddress": "경기도 화성시 동탄구 동탄대로14길 6-40 1층 91brick",
+       "abbrAddress": "오산동 1036-18 1층 91brick",
+       "shortAddress": [
+        "경기 화성시 동탄구",
+        "동탄대로14길 6-40",
+        "1층 91brick"
+       ],
+       "display": "91brick",
+       "telDisplay": "0507-1306-4785",
+       "context": [],
+       "reviewCount": 569,
+       "placeReviewCount": 1589,
+       "ktCallMd": "9bf17dd1212958a19fb03f92d636335e",
+       "coupon": "0",
+       "thumUrl": "https://ldb-phinf.pstatic.net/20230816_111/1692195742115fClHu_JPEG/05B8C88C-F92D-43C8-A27B-40D91D4EAB72.jpeg",
+       "thumUrls": [
+        "https://ldb-phinf.pstatic.net/20230816_111/1692195742115fClHu_JPEG/05B8C88C-F92D-43C8-A27B-40D91D4EAB72.jpeg",
+        "https://ldb-phinf.pstatic.net/20220908_73/1662612696382o0xbQ_JPEG/9714D179-88C2-4FB8-95F5-83B4F8BF043C.jpeg",
+        "https://ldb-phinf.pstatic.net/20230816_151/1692195848085Mj09f_JPEG/24DEBAFF-266C-4AE5-BF7E-8BFB96C23D78.jpeg"
+       ],
+       "type": "s",
+       "isSite": "1",
+       "posExact": "1",
+       "x": "127.1047782",
+       "y": "37.1840131",
+       "itemLevel": "12",
+       "isAdultBusiness": false,
+       "streetPanorama": {
+        "id": "nDy3Dj/n8ZtXZ3XxzQPgwg==",
+        "pan": "-152.57",
+        "tilt": "10.00",
+        "lng": "127.1048375",
+        "lat": "37.1841270",
+        "fov": "120"
+       },
+       "skyPanorama": {
+        "id": "ukiI/96zDEtV3Ko+1rJssA==",
+        "pan": "106.98",
+        "tilt": "-30.00",
+        "lng": "127.1037300",
+        "lat": "37.1843320",
+        "fov": "124"
+       },
+       "insidePanorama": null,
+       "interiorPanorama": null,
+       "indoorPanorama": null,
+       "theme": null,
+       "poiInfo": {
+        "relation": null,
+        "hasRelation": false,
+        "road": {
+         "poiShapeType": "1",
+         "shapeKey": null,
+         "boundary": null,
+         "detail": null
+        },
+        "hasRoad": false,
+        "land": null,
+        "hasLand": false,
+        "polygon": null,
+        "hasPolygon": false
+       },
+       "homePage": "http://www.instagram.com/91brick",
+       "description": "",
+       "entranceCoords": {
+        "car": [
+         {
+          "rep": true,
+          "x": 127.104818,
+          "y": 37.1840877
+         }
+        ],
+        "walk": [
+         {
+          "rep": true,
+          "x": 127.104818,
+          "y": 37.1840877
+         }
+        ]
+       },
+       "isPollingPlace": false,
+       "bizhourInfo": "영업 중",
+       "menuInfo": "꾸치케(꾸덕한 치즈케익) 6,500 | 베이비 카스테라 5,800 | 시그니처 소금빵 2,800 | 소보루 소금빵 3,500 | 애플 시나몬 파이 4,800 | 에그 커스터드 파이 4,000 | 피스타치오 롤 파이 4,200 | 쑥 파이 4,500 | 치즈 포카치아 2,900 | 클래식 초코 바게트 4,800 | 포테이토 에그 샌드 3,800 | 나폴리 5,800 | 세블락 소시지 5,500 | 무화과 크림치즈 5,500 | 고구마 크림치즈 5,500 | 버터 콘치즈 5,000 | 아몬드 팥 빵 3,500 | 앙버터 스콘 4,800 | 발로나 초코스콘 4,000 | 플레인 스콘 3,200 | 할라피뇨 치즈 치아바타 5,000 | 플레인 치아바타 4,000 | 피스타 베리 7,000",
+       "petrolInfo": null,
+       "couponUrl": null,
+       "couponUrlMobile": null,
+       "hasCardBenefit": false,
+       "menuExist": "1",
+       "hasNaverBooking": false,
+       "naverBookingUrl": null,
+       "naverEasyOrderUrl": null,
+       "hasNaverSmartOrder": false,
+       "reservationLabel": {
+        "standard": false,
+        "preOrder": false,
+        "table": false,
+        "takeout": false
+       },
+       "reservation": {
+        "benefit": ""
+       },
+       "hasBroadcastInfo": false,
+       "broadcastInfo": null,
+       "shopWindowInfo": null,
+       "hasNPay": false,
+       "carWash": "0",
+       "parkingPrice": null,
+       "card": null,
+       "distance": "44018.63",
+       "marker": "nres://marker/00079-00145",
+       "markerSelected": "nres://marker/00079-00309",
+       "markerId": "220563",
+       "microReview": [
+        "소금빵이 선사하는 담백한 행복"
+       ],
+       "michelinGuide": null,
+       "indoor": null,
+       "markerLabel": null,
+       "subway": null,
+       "evChargerVendor": null,
+       "evChargerPublic": null,
+       "evChargerParking": null,
+       "evChargerInfo": null
+      },
+      {
+       "index": "1",
+       "rank": "2",
+       "id": "1341178526",
+       "name": "수향진베이커리카페",
+       "tel": "070-4616-2992",
+       "isCallLink": false,
+       "virtualTel": "",
+       "virtualTelDisplay": "",
+       "ppc": "1",
+       "category": [
+        "음식점",
+        "카페,디저트"
+       ],
+       "categoryPath": [
+        [
+         "220036",
+         "220052",
+         "220563"
+        ],
+        [
+         "1004760",
+         "1004380",
+         "1002043"
+        ]
+       ],
+       "rcode": "02597104",
+       "businessStatus": {
+        "requestTime": "202609021359",
+        "status": {
+         "code": 2,
+         "text": "영업 중",
+         "emphasis": false,
+         "description": "영업중",
+         "detailInfo": "19:00에 영업종료"
+        },
+        "businessHours": "202609021100~202609021900",
+        "breakTime": "",
+        "lastOrder": ""
+       },
+       "naviInfoText": null,
+       "naviInfo": null,
+       "address": "경기도 화성시 동탄구 오산동 1031-6 101호",
+       "roadAddress": "경기도 화성시 동탄구 동탄대로14길 11-1 101호",
+       "abbrAddress": "오산동 1031-6 101호",
+       "shortAddress": [
+        "경기 화성시 동탄구",
+        "동탄대로14길 11-1",
+        "101호"
+       ],
+       "display": "수향진<b>베이커리</b>카페",
+       "telDisplay": "070-4616-2992",
+       "context": [],
+       "reviewCount": 125,
+       "placeReviewCount": 169,
+       "ktCallMd": "8a84246dc6068658bbecc2e2b6ac025c",
+       "coupon": "0",
+       "thumUrl": "https://ldb-phinf.pstatic.net/20231128_195/1701139352911Uqng8_JPEG/IMG_8997.jpeg",
+       "thumUrls": [
+        "https://ldb-phinf.pstatic.net/20231128_195/1701139352911Uqng8_JPEG/IMG_8997.jpeg",
+        "https://ldb-phinf.pstatic.net/20230820_171/1692514528156K2HyL_JPEG/B67465A5-3956-47AF-BDB9-C428C252F403.jpeg",
+        "https://ldb-phinf.pstatic.net/20230820_59/1692514527625FWDuD_JPEG/EEB36CF0-CA21-4521-81B6-6414FDFB8855.jpeg"
+       ],
+       "type": "s",
+       "isSite": "1",
+       "posExact": "1",
+       "x": "127.1025629",
+       "y": "37.1852807",
+       "itemLevel": "12",
+       "isAdultBusiness": false,
+       "streetPanorama": {
+        "id": "1U/06CfwJ2xPLHV5T5cs0w==",
+        "pan": "-160.22",
+        "tilt": "10.00",
+        "lng": "127.1026079",
+        "lat": "37.1854053",
+        "fov": "120"
+       },
+       "skyPanorama": {
+        "id": "v5VXzK9PiT3XZoumc7vPSQ==",
+        "pan": "75.37",
+        "tilt": "-30.00",
+        "lng": "127.1011960",
+        "lat": "37.1849230",
+        "fov": "124"
+       },
+       "insidePanorama": null,
+       "interiorPanorama": null,
+       "indoorPanorama": null,
+       "theme": null,
+       "poiInfo": {
+        "relation": null,
+        "hasRelation": false,
+        "road": {
+         "poiShapeType": "1",
+         "shapeKey": null,
+         "boundary": null,
+         "detail": null
+        },
+        "hasRoad": false,
+        "land": null,
+        "hasLand": false,
+        "polygon": null,
+        "hasPolygon": false
+       },
+       "homePage": "https://www.instagram.com/",
+       "description": "",
+       "entranceCoords": {
+        "car": [
+         {
+          "rep": true,
+          "x": 127.1026426,
+          "y": 37.1853128
+         }
+        ],
+        "walk": [
+         {
+          "rep": true,
+          "x": 127.1025728,
+          "y": 37.1851802
+         }
+        ]
+       },
+       "isPollingPlace": false,
+       "bizhourInfo": "영업 중",
+       "menuInfo": "바질치즈베이글 3,500 | 무화과 크림치즈 바게트 4,000 | 초코마들렌 3,200 | 시오버터빵(소금빵) 2,800 | 에그타르트 3,300 | 후르츠롤케이크 5,500 | 더블치즈베이글 3,600 | 올리브치즈치아바타 3,000 | 플레인베이글 3,000 | 시오버터베이글 3,500 | 말차팥롤케이크 6,000 | 레몬마들렌 2,600 | 커피번마들렌 3,000 | 바닐라마들렌 3,200 | 꿀식빵 4,500",
+       "petrolInfo": null,
+       "couponUrl": null,
+       "couponUrlMobile": null,
+       "hasCardBenefit": false,
+       "menuExist": "1",
+       "hasNaverBooking": false,
+       "naverBookingUrl": null,
+       "naverEasyOrderUrl": null,
+       "hasNaverSmartOrder": false,
+       "reservationLabel": {
+        "standard": false,
+        "preOrder": false,
+        "table": false,
+        "takeout": false
+       },
+       "reservation": {
+        "benefit": ""
+       },
+       "hasBroadcastInfo": false,
+       "broadcastInfo": null,
+       "shopWindowInfo": null,
+       "hasNPay": false,
+       "carWash": "0",
+       "parkingPrice": null,
+       "card": null,
+       "distance": "43833.12",
+       "marker": "nres://marker/00079-00145",
+       "markerSelected": "nres://marker/00079-00309",
+       "markerId": "220563",
+       "microReview": [
+        "소금빵이 선사하는 고소한 행복"
+       ],
+       "michelinGuide": null,
+       "indoor": null,
+       "markerLabel": null,
+       "subway": null,
+       "evChargerVendor": null,
+       "evChargerPublic": null,
+       "evChargerParking": null,
+       "evChargerInfo": null
+      },
+      {
+       "index": "2",
+       "rank": "3",
+       "id": "1301842463",
+       "name": "디저트39 동탄신리천점",
+       "tel": "031-376-1139",
+       "isCallLink": false,
+       "virtualTel": "",
+       "virtualTelDisplay": "",
+       "ppc": "1",
+       "category": [
+        "카페,디저트",
+        "카페"
+       ],
+       "categoryPath": [
+        [
+         "220036",
+         "220052",
+         "220576",
+         "230067"
+        ],
+        [
+         "1004760",
+         "1004542"
+        ]
+       ],
+       "rcode": "02597104",
+       "businessStatus": {
+        "requestTime": "202609021359",
+        "status": {
+         "code": 2,
+         "text": "영업 중",
+         "emphasis": false,
+         "description": "영업중",
+         "detailInfo": "22:00에 영업종료"
+        },
+        "businessHours": "202609020900~202609022200",
+        "breakTime": "",
+        "lastOrder": ""
+       },
+       "naviInfoText": null,
+       "naviInfo": null,
+       "address": "경기도 화성시 동탄구 오산동 1030-8 405",
+       "roadAddress": "경기도 화성시 동탄구 동탄대로14길 5-17 (오산동 405)",
+       "abbrAddress": "오산동 1030-8 405",
+       "shortAddress": [
+        "경기 화성시 동탄구",
+        "동탄대로14길 5-17",
+        "(오산동 405)"
+       ],
+       "display": "디저트39 <b>동탄신리천</b>점",
+       "telDisplay": "031-376-1139",
+       "context": [],
+       "reviewCount": 61,
+       "placeReviewCount": 291,
+       "ktCallMd": "387553683f5f8065434a6001166aadfd",
+       "coupon": "0",
+       "thumUrl": "https://ldb-phinf.pstatic.net/20200102_180/15779553329957ua8w_JPEG/c1qoWoMlrD3M81zXfwv8CRtn.jpg",
+       "thumUrls": [
+        "https://ldb-phinf.pstatic.net/20200102_180/15779553329957ua8w_JPEG/c1qoWoMlrD3M81zXfwv8CRtn.jpg",
+        "https://ldb-phinf.pstatic.net/20200102_63/1577955332518gOxVA_JPEG/M069mcbChH6v6hueIKNUIDFj.jpg",
+        "https://ldb-phinf.pstatic.net/20260703_189/17830527579730NHB3_JPEG/260402-%B9%F6%C5%CD%B6%B1-%C6%F7%BD%BA%C5%CD%28o%29-%B0%A1%B0%DD%BE%F8%C0%BD1%B4%EB1.jpg"
+       ],
+       "type": "s",
+       "isSite": "1",
+       "posExact": "1",
+       "x": "127.1020612",
+       "y": "37.1856354",
+       "itemLevel": "12",
+       "isAdultBusiness": false,
+       "streetPanorama": {
+        "id": "GmywErP83R6ac1g7Hq16tA==",
+        "pan": "18.77",
+        "tilt": "10.00",
+        "lng": "127.1020392",
+        "lat": "37.1855706",
+        "fov": "120"
+       },
+       "skyPanorama": {
+        "id": "v5VXzK9PiT3XZoumc7vPSQ==",
+        "pan": "50.56",
+        "tilt": "-30.00",
+        "lng": "127.1011960",
+        "lat": "37.1849230",
+        "fov": "124"
+       },
+       "insidePanorama": null,
+       "interiorPanorama": null,
+       "indoorPanorama": null,
+       "theme": null,
+       "poiInfo": {
+        "relation": null,
+        "hasRelation": false,
+        "road": {
+         "poiShapeType": "1",
+         "shapeKey": null,
+         "boundary": null,
+         "detail": null
+        },
+        "hasRoad": false,
+        "land": null,
+        "hasLand": false,
+        "polygon": null,
+        "hasPolygon": false
+       },
+       "homePage": "",
+       "description": "",
+       "entranceCoords": {
+        "car": [
+         {
+          "rep": true,
+          "x": 127.1020589,
+          "y": 37.1855896
+         }
+        ],
+        "walk": [
+         {
+          "rep": true,
+          "x": 127.1020589,
+          "y": 37.1855896
+         }
+        ]
+       },
+       "isPollingPlace": false,
+       "bizhourInfo": "영업 중",
+       "menuInfo": "할라피뇨 치즈 소시지 소금빵 5,800 | 쇼콜라 four 롤케이크 6,800 | 100% 생수박 주스 4,900 | 100% 생수박 주스 슈퍼 Size 6,500 | 100% 생수박 화채 9,800 | 양즈깐루 화채 12,800 | 양즈깐루 컵빙수 7,800 | 우베 컵빙수 6,800 | 내가 진짜 우베라떼 I.V 5,500 | 우베라떼 I.V 4,500 | 치즈 프로마쥬 우베 코코넛 카페라떼 6,800 | 우베 말차 라떼 I.V 5,800 | 우베 딸기 라떼 I.V 5,800 | 우베 버블 프라페 I.V 6,400 | 복숭아 히비스커스티 블랜딩 I.V 3,800 | 복숭아 스무디 4,800 | 벚꽃 블라썸 에이드 슈퍼size 5,800 | 로투스 비스코프 라떼 4,800 | 로투스 비스코프 프라페 5,800 | 아메리카노 (2샷) 2,900 | 버켓 아메리카노 4,800 | 바닐라라떼 4,800 | 돌체라떼 4,800 | 카라멜 마끼아또 4,800 | 카페모카 4,800 | 아인슈페너 5,400 | 아인슈페너 라떼 6,400 | 착한 콜드브루 1,900 | 돌체 콜드브루 4,800 | 바닐라크림 콜드브루 4,800 | 밀샷추 4,500 | 착한 바닐라라떼 2,800 | 0칼로리 복숭아 아이스티 2,300 | 복숭아 아이스티 코코넛 젤리 2,800 | 딸기 라떼 4,800 | 딸기 요거트 라떼 5,800 | 딸기 돌체 라떼 5,800 | 망고 라떼 4,800 | 망고 코코넛 라떼 5,800 | 리얼 생초코라떼 5,300 | 블루베리 라떼 4,500 | 프리미엄 로얄 밀크티 4,800 | 프리미엄 타로 라떼 5,800 | 17곡 영양 선식(프리미엄 미숫가루) 4,800 | 제주 말차 라떼 4,400 | 흑임자 크림 라떼 4,800 | 초코 퐁 라떼 3,800 | 흑당 퐁 라떼 3,800 | 바나나우유 라떼 2,800 | 버블 흑당 밀크티 4,800 | 치즈프로마쥬 초코라떼 4,800 | 치즈 프로마쥬 제주말차라떼 4,800 | 0칼로리 청포도 캐모마일티 블랜딩 2,900 | 0칼로리 허니자몽블랙티 블랜딩 4,800 | 애사비 0칼로리 청사과 탄산수 4,800 | 0칼로리 샹그리아 4,800 | 0칼로리 레몬 탄산수 4,800 | 0칼로리 깔라만시 탄산수 4,800 | 애사비 0칼로리 복숭아아이스티 탄산수 4,800 | 자바칩 프라페 5,500 | 딸기 스무디 5,100 | 딸기 크림 프라페 5,900 | 딸기 요거트 스무디 6,400 | 망고 스무디 5,100 | 망고 요거트 스무디 6,400 | 청포도 스무디 5,100 | 하와이안 코코넛 프라페 5,800 | 플레인 요거트 스무디 6,400 | 블루베리 요거트 스무디 6,400 | 정말 맛있는 자바칩 프로틴 쉐이크 7,800 | 정말 맛있는 프로틴 17곡 영양선식 5,800 | 정말 맛있는 프로틴 돌체라떼 6,800 | 정말 맛있는 흑임자 프로틴 쉐이크 7,800 | 정말 맛있는 프로틴 바나나 라떼 4,800 | 히비스커스티 3,900 | 캐모마일티 3,900 | 블랙퍼스트티 3,900 | 유자티 3,900 | 쌍화차 3,900 | 꿀생강차 3,900 | 꿀대추차 3,900 | 더진한 헛개수 2,900 | 내가 진짜 우베버터떡 SET 7,800 | 내가 진짜 버터떡 SET 7,500 | 내가 진짜 바질 버터떡 SET 7,800 | 우베 크로칸슈 5,300 | 커스타드 크로칸슈 4,900 | 크림치즈 크로칸슈 4,900 | 제주 말차 크로칸슈 5,800 | 내가 진짜 두쫀쿠 7,800 | 로투스 비스코프 두쫀쿠 5,800 | 오믈렛(커스터드/우유크림/녹차/초코) 1,000 | 오리지널 도쿄롤 5,600 | 녹차 도쿄롤 5,600 | 화이트 초코 도쿄롤 5,600 | 망고 도쿄롤 5,600 | 프렌치 쿠키 슈(순수 우유크림) 4,200 | 프렌치 쿠키 슈(밀크 크림치즈) 4,200 | 프렌치 쿠키 슈(완전 커스타드) 4,200 | 프렌치 쿠키 슈 (밀크쇼콜라) 4,200 | 도넛 (순수우유) 3,500 | 도넛 (바닐라) 3,500 | 도넛 (순수우유 팥) 3,500 | 미니 깨찰빵 (우유크림/커스터드) 3,200 | 프렌치 버터 소금식빵 4,800 | 모찌 소금식빵 5,800 | 말차크림 소금식빵 6,800 | 진짜 맛있는 찹쌀 핫도그 3,500 | 페스츄리 호두과자 (5개입) 5,800 | 더바삭 소금빵 3,800 | 아몬드 크루아상 4,500 | 소시지 크루아상 4,800 | 초코 크루아상 4,800 | 옥수수 중독빵 2,900 | 링고 파이 5,200 | 소프트 플레인 스콘 (딸기잼 포함) 4,300 | 소프트 얼그레이 스콘 (딸기잼 포함) 4,600 | 플레인 베이글 2,900 | 무화과 베이글 3,500 | 치즈 베이글 3,800 | 플레인 크림치즈 1,900 | 쿠키 1,900 | 프렌치 마카롱 2,800 | 이탈리안 오리지널 티라미수 9,800 | 쿠키앤크림 티라미수 10,500 | 인절미 오리지널 티라미수 10,500 | 저당 도쿄롤(s) 5,600 | 저당 크림치즈 크로칸슈 4,900 | 저당 티라미수 11,500 | 저당 바스크 치즈 케익 12,800 | 순수 우유 케익 6,500 | 당근 케익 6,800 | 레드 벨벳 케익 6,800 | 커스타드 슈크림(더블 크레이프) 7,500 | 내가 진짜 생초코 크레이프 7,500 | 티라미수 크레이프 7,500 | 쿠키앤크림 크레이프 7,500 | 완전 부드러운 오리지널 치즈 케익 6,800 | 정말 맛있는 순수 우유 고구마 케익 6,300 | 스페셜 월드 케익 변동가격(업주문의) | 추억의 학교 앞 떡볶이 3,900",
+       "petrolInfo": null,
+       "couponUrl": null,
+       "couponUrlMobile": null,
+       "hasCardBenefit": false,
+       "menuExist": "1",
+       "hasNaverBooking": false,
+       "naverBookingUrl": null,
+       "naverEasyOrderUrl": null,
+       "hasNaverSmartOrder": false,
+       "reservationLabel": {
+        "standard": false,
+        "preOrder": false,
+        "table": false,
+        "takeout": false
+       },
+       "reservation": {
+        "benefit": ""
+       },
+       "hasBroadcastInfo": false,
+       "broadcastInfo": null,
+       "shopWindowInfo": null,
+       "hasNPay": false,
+       "carWash": "0",
+       "parkingPrice": null,
+       "card": null,
+       "distance": "43783.65",
+       "marker": "nres://marker/00079-00145",
+       "markerSelected": "nres://marker/00079-00309",
+       "markerId": "230067",
+       "microReview": [],
+       "michelinGuide": null,
+       "indoor": null,
+       "markerLabel": null,
+       "subway": null,
+       "evChargerVendor": null,
+       "evChargerPublic": null,
+       "evChargerParking": null,
+       "evChargerInfo": null
+      },
+      {
+       "index": "3",
+       "rank": "4",
+       "id": "1773256582",
+       "name": "휘드헨느",
+       "tel": "0507-1492-7985",
+       "isCallLink": false,
+       "virtualTel": "0507-1492-7985",
+       "virtualTelDisplay": "0507-1492-7985",
+       "ppc": "1",
+       "category": [
+        "음식점",
+        "카페,디저트"
+       ],
+       "categoryPath": [
+        [
+         "220036",
+         "220052",
+         "220563"
+        ],
+        [
+         "1004760",
+         "1004380",
+         "1002043"
+        ]
+       ],
+       "rcode": "02597104",
+       "businessStatus": {
+        "requestTime": "202609021359",
+        "status": {
+         "code": 9,
+         "text": "오늘 휴무",
+         "emphasis": true,
+         "description": "정기휴무일 휴무",
+         "detailInfo": "매주 수요일 휴무"
+        },
+        "businessHours": "",
+        "breakTime": "",
+        "lastOrder": ""
+       },
+       "naviInfoText": null,
+       "naviInfo": null,
+       "address": "경기도 화성시 동탄구 오산동 1036-17 1층 휘드헨느",
+       "roadAddress": "경기도 화성시 동탄구 동탄대로14길 6-38 1층 휘드헨느",
+       "abbrAddress": "오산동 1036-17 1층 휘드헨느",
+       "shortAddress": [
+        "경기 화성시 동탄구",
+        "동탄대로14길 6-38",
+        "1층 휘드헨느"
+       ],
+       "display": "휘드헨느",
+       "telDisplay": "0507-1492-7985",
+       "context": [],
+       "reviewCount": 296,
+       "placeReviewCount": 408,
+       "ktCallMd": "fc413ecc5353dcf9db661e3e810cf021",
+       "coupon": "0",
+       "thumUrl": "https://ldb-phinf.pstatic.net/20250208_282/17389800128272LdVL_JPEG/KakaoTalk_20250207_114437943.jpg",
+       "thumUrls": [
+        "https://ldb-phinf.pstatic.net/20250208_282/17389800128272LdVL_JPEG/KakaoTalk_20250207_114437943.jpg",
+        "https://ldb-phinf.pstatic.net/20250208_253/1738980013226pXw7l_JPEG/KakaoTalk_20250207_114215794.jpg",
+        "https://ldb-phinf.pstatic.net/20250208_189/1738980012924y5DTi_JPEG/KakaoTalk_20250207_112950532.jpg"
+       ],
+       "type": "s",
+       "isSite": "1",
+       "posExact": "1",
+       "x": "127.1046056",
+       "y": "37.1840257",
+       "itemLevel": "12",
+       "isAdultBusiness": false,
+       "streetPanorama": {
+        "id": "UQ2ahRAG/ObxJu9a/Lck1Q==",
+        "pan": "177.46",
+        "tilt": "10.00",
+        "lng": "127.1045993",
+        "lat": "37.1841628",
+        "fov": "120"
+       },
+       "skyPanorama": {
+        "id": "ukiI/96zDEtV3Ko+1rJssA==",
+        "pan": "109.34",
+        "tilt": "-30.00",
+        "lng": "127.1037300",
+        "lat": "37.1843320",
+        "fov": "124"
+       },
+       "insidePanorama": null,
+       "interiorPanorama": null,
+       "indoorPanorama": null,
+       "theme": null,
+       "poiInfo": {
+        "relation": null,
+        "hasRelation": false,
+        "road": {
+         "poiShapeType": "1",
+         "shapeKey": null,
+         "boundary": null,
+         "detail": null
+        },
+        "hasRoad": false,
+        "land": null,
+        "hasLand": false,
+        "polygon": null,
+        "hasPolygon": false
+       },
+       "homePage": "https://www.instagram.com/rue_de_rennes_/",
+       "description": "",
+       "entranceCoords": {
+        "car": [
+         {
+          "rep": true,
+          "x": 127.1046235,
+          "y": 37.1841173
+         }
+        ],
+        "walk": [
+         {
+          "rep": true,
+          "x": 127.1046235,
+          "y": 37.1841173
+         }
+        ]
+       },
+       "isPollingPlace": false,
+       "bizhourInfo": "오늘 휴무",
+       "menuInfo": "봉봉 초콜릿 (클래식) 3,000 | 소금빵 3,000 | 뺑스위스 4,200 | 크로와상 4,500 | 뺑오쇼콜라 5,300 | 쇼숑오뽐므(애플파이) 5,000 | 마카롱 3,800 | 다쿠와즈 3,800 | 뉴욕치즈 케이크 조각 8,000 | 초코살구 케이크 조각 8,000 | 휘쫀쿠 9,500 | [선물] 마카롱 6개입 24,800 | [선물] 봉봉 초콜릿 12구 변동가격(업주문의) | [선물] 생초콜릿 (파베) 12구 33,000",
+       "petrolInfo": null,
+       "couponUrl": null,
+       "couponUrlMobile": null,
+       "hasCardBenefit": false,
+       "menuExist": "1",
+       "hasNaverBooking": false,
+       "naverBookingUrl": null,
+       "naverEasyOrderUrl": null,
+       "hasNaverSmartOrder": false,
+       "reservationLabel": {
+        "standard": false,
+        "preOrder": false,
+        "table": false,
+        "takeout": false
+       },
+       "reservation": {
+        "benefit": ""
+       },
+       "hasBroadcastInfo": false,
+       "broadcastInfo": null,
+       "shopWindowInfo": null,
+       "hasNPay": false,
+       "carWash": "0",
+       "parkingPrice": null,
+       "card": null,
+       "distance": "44013.54",
+       "marker": "nres://marker/00079-00145",
+       "markerSelected": "nres://marker/00079-00309",
+       "markerId": "220563",
+       "microReview": [
+        "봉봉 초콜릿의 특별한 선물 감성"
+       ],
+       "michelinGuide": null,
+       "indoor": null,
+       "markerLabel": null,
+       "subway": null,
+       "evChargerVendor": null,
+       "evChargerPublic": null,
+       "evChargerParking": null,
+       "evChargerInfo": null
+      }
+     ]
+    },
+    "bus": null
+   }
+  }
+ },
+ {
+  "url": "https://map.naver.com/p/api/ads/common-marker?stmsId=100400599&requestUrl=https:%2F%2Fmap.naver.com%2Fp%2Fsearch%2F%25EB%258F%2599%25ED%2583%2584%2520%25EC%258B%25A0%25EB%25A6%25AC%25EC%25B2%259C%2520%25EB%25B2%25A0%25EC%259D%25B4%25EC%25BB%25A4%25EB%25A6%25AC&longitude=126.9740657&latitude=37.566551&minX=126.97034279388805&minY=37.56200963700964&maxX=126.98497692627342&maxY=37.57119412983863",
+  "body": {
+   "items": []
+  }
+ },
+ {
+  "url": "https://map.naver.com/p/api/ads/common-marker?stmsId=100400599&requestUrl=https:%2F%2Fmap.naver.com%2Fp%2Fsearch%2F%25EB%258F%2599%25ED%2583%2584%2520%25EC%258B%25A0%25EB%25A6%25AC%25EC%25B2%259C%2520%25EB%25B2%25A0%25EC%259D%25B4%25EC%25BB%25A4%25EB%25A6%25AC%3Fc%3D15.00,0,0,0,dh&longitude=127.10059395393671&latitude=37.18401310000037&minX=127.09687104782023&minY=37.17944851778087&maxX=127.11150518020548&maxY=37.188679971892185",
+  "body": {
+   "items": []
+  }
+ }
+]

@@ -1,0 +1,94 @@
+location: 신리천 카페거리 (동탄)  (8 queries)
+resolving centre from: 신리천 카페거리
+  no place entries in response from https://map.naver.com/p/api/search/allSearch
+  http attempt failed (https://m.map.naver.com/search2/searchMore.naver): JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+  centre resolved from 8 result(s): 37.184793, 127.103619
+searching: 신리천 카페거리
+  no place entries in response from https://map.naver.com/p/api/search/allSearch
+  http attempt failed (https://m.map.naver.com/search2/searchMore.naver): JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+  http endpoints yielded nothing; trying browser fallback
+  8 raw place entries
+searching: 신리천 카페
+  no place entries in response from https://map.naver.com/p/api/search/allSearch
+  http attempt failed (https://m.map.naver.com/search2/searchMore.naver): JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+  http endpoints yielded nothing; trying browser fallback
+  20 raw place entries
+searching: 신리천 맛집
+  no place entries in response from https://map.naver.com/p/api/search/allSearch
+  http attempt failed (https://m.map.naver.com/search2/searchMore.naver): JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+  http endpoints yielded nothing; trying browser fallback
+  20 raw place entries
+searching: 동탄 신리천 카페거리
+  no place entries in response from https://map.naver.com/p/api/search/allSearch
+  http attempt failed (https://m.map.naver.com/search2/searchMore.naver): JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+  http endpoints yielded nothing; trying browser fallback
+  8 raw place entries
+searching: 동탄 신리천 베이커리
+  no place entries in response from https://map.naver.com/p/api/search/allSearch
+  http attempt failed (https://m.map.naver.com/search2/searchMore.naver): JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+  http endpoints yielded nothing; trying browser fallback
+  4 raw place entries
+searching: 동탄 신리천 브런치
+  no place entries in response from https://map.naver.com/p/api/search/allSearch
+  http attempt failed (https://m.map.naver.com/search2/searchMore.naver): JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+  http endpoints yielded nothing; trying browser fallback
+  1 raw place entries
+searching: 동탄 신리천 디저트
+  no place entries in response from https://map.naver.com/p/api/search/allSearch
+  http attempt failed (https://m.map.naver.com/search2/searchMore.naver): JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+  http endpoints yielded nothing; trying browser fallback
+  18 raw place entries
+searching: 동탄 신리천 레스토랑
+  no place entries in response from https://map.naver.com/p/api/search/allSearch
+  http attempt failed (https://m.map.naver.com/search2/searchMore.naver): JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+  http endpoints yielded nothing; trying browser fallback
+  1 raw place entries
+  rejected: non-food category x12, beyond 700m x7, excluded token x6
+
+verified targets for 신리천 카페거리 (동탄) (22):
+  - 포해피니스  id=2042448520  [22m]
+      경기도 화성시 동탄구 동탄대로14길 5-39 1층 포해피니스  ['음식점', '카페,디저트']
+  - 카시아 본관  id=1535542532  [37m]
+      경기도 화성시 동탄구 동탄대로14길 24 1층  ['음식점', '카페,디저트']
+  - 마카 교동집  id=2098182754  [38m]
+      경기도 화성시 동탄구 동탄대로14길 6-25 101호  ['한식', '돼지고기구이']
+  - 온무드커피  id=1136927442  [49m]
+      경기도 화성시 동탄구 동탄대로14길 27 1층  ['음식점', '카페,디저트']
+  - 오브느 동탄신리천점  id=1299353809  [50m]
+      경기도 화성시 동탄구 동탄대로14길 5-34 101호  ['음식점', '카페,디저트']
+  - 명태어장 쭈갑골 동탄점  id=1716140730  [68m]
+      경기도 화성시 동탄구 동탄대로14길 6-20  ['한식', '해물,생선요리']
+  - 실리  id=1347066332  [71m]
+      경기도 화성시 동탄구 동탄대로14길 6-28 1층  ['음식점', '카페,디저트']
+  - 신리천HOF  id=1204935590  [75m]
+      경기도 화성시 동탄구 동탄대로14길 15 신리천HOF  ['술집', '맥주,호프']
+  - 카시아 별관  id=1291299967  [79m]
+      경기도 화성시 동탄구 동탄대로14길 6-30 1층  ['음식점', '카페,디저트']
+  - 본가왕뼈감자탕 동탄신리천점  id=1812886986  [90m]
+      경기도 화성시 동탄구 동탄대로14길 14  ['한식', '감자탕']
+  - 다돈  id=1656895066  [93m]
+      경기도 화성시 동탄구 동탄대로14길 5-28  ['한식', '돼지고기구이']
+  - 써먼하우스  id=1383302532  [95m]
+      경기도 화성시 동탄구 동탄대로14길 6-14 1층  ['음식점', '카페,디저트']
+  - 세븐야드  id=1644625519  [107m]
+      경기도 화성시 동탄구 동탄대로14길 6-36 1층  ['음식점', '카페,디저트']
+  - 월남국수 동탄신리천점  id=1103961997  [107m]
+      경기도 화성시 동탄구 동탄대로14길 12-1 월남국수 동탄신리천점  ['음식점', '베트남음식']
+  - 수향진베이커리카페  id=1341178526  [108m]
+      경기도 화성시 동탄구 동탄대로14길 11-1 101호  ['음식점', '카페,디저트']
+  - 휘드헨느  id=1773256582  [122m]
+      경기도 화성시 동탄구 동탄대로14길 6-38 1층 휘드헨느  ['음식점', '카페,디저트']
+  - 91brick  id=1327037658  [134m]
+      경기도 화성시 동탄구 동탄대로14길 6-40 1층 91brick  ['음식점', '카페,디저트']
+  - 호식이두마리치킨 동탄2신도시신리천점  id=85208117  [154m]
+      경기도 화성시 동탄구 동탄대로14길 5-4 103호  ['음식점', '치킨,닭강정']
+  - 디저트39 동탄신리천점  id=1301842463  [167m]
+      경기도 화성시 동탄구 동탄대로14길 5-17 (오산동 405)  ['카페,디저트', '카페']
+  - 풍덕천두꺼비집 동탄신리천점  id=2046174420  [169m]
+      경기도 화성시 동탄구 동탄대로14길 6-46 1층  ['술집', '요리주점']
+  - 스타벅스 동탄신리천공원점  id=1860056596  [345m]
+      경기도 화성시 동탄구 동탄신리천로 264 (오산동)  ['카페,디저트', '카페']
+  - 카페바인즈 동탄점  id=1801109057  [490m]
+      경기도 화성시 동탄구 동탄신리천로 278 113호 카페바인즈  ['음식점', '카페,디저트']
+
+wrote 22 targets -> config/targets/sinlicheon.yaml
