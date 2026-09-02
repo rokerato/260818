@@ -92,11 +92,81 @@ records how each was found.
 
 ## Standing limitations
 
-- GraphQL pagination is captcha-blocked from datacenter IPs; ~20 reviews per
-  venue per run there. A residential-network run lifts this.
+- GraphQL pagination is sometimes challenged from datacenter IPs (a CAPTCHA
+  page on the POST), which caps a run at the server-rendered batch of ~25-40
+  reviews per venue. It is not always challenged -- the 신리천 crawl paged
+  freely -- so yield per run varies with runner IP and timing rather than
+  with anything the collector does.
 - The Claude Code sandbox itself still has no egress to naver.com; collection
   must run via the Actions workflow or a local machine.
 - `rating`, `review_text` and `review_date` are structurally incomplete on
   partial records -- downstream analysis must treat them as nullable.
 - Automated collection of Naver content is subject to Naver's terms of
   service; keep delays conservative and volumes modest.
+
+---
+
+# 신리천 카페거리, 동탄 (2026-09-02)
+
+Run 33593161153 collected **2,914 reviews across 21 of 22 venues**.
+
+| | |
+|---|---|
+| Venues verified / with data | 22 / 21 |
+| Reviews collected | 2,914 |
+| Unique reviewers | 1,999 (378 with more than one review) |
+| Visit-date span | 2019-02-25 - 2026-09-01 |
+| Duplicates removed | 553 |
+| Collection failures | 2 |
+
+Targets were verified by proximity rather than address: a centre resolved
+from Naver at run time (37.184793, 127.103619), venues within 700m, median
+distance 95m, 20 of 22 on 동탄대로14길. See `config/targets/sinlicheon.yaml`.
+
+## The GraphQL pager worked here
+
+This is the significant finding. **2,637 of the 2,914 reviews came from
+intercepted GraphQL responses** (326 archived), with only 277 from the
+server-rendered batch. No CAPTCHA appeared at any point; the single API
+failure was one HTTP 429.
+
+So the ~25-40 reviews per venue that bounded every Everland run was an
+artifact of those runs being challenged, **not a ceiling of the method**.
+The interception path built for that case works whenever Naver does not
+challenge the request, and engages by itself. Whether a run is challenged
+appears to track runner IP and timing rather than anything the collector
+does, so per-run yield is not fully predictable.
+
+Practical consequence: **the Everland dataset is worth re-collecting.** Its
+715 reviews came entirely from server-rendered batches; an unchallenged run
+should return substantially more.
+
+## Field availability (n=2,914)
+
+| Field | Coverage | Note |
+|---|---|---|
+| platform, place_*, visit_count, collected_at, raw_ref | 100% | |
+| review_id, reviewer_*, visit_date, helpful_count, verified_visit | 98.5% | 43 records carry no platform id |
+| review_date | 96% | |
+| keywords | 94% | |
+| review_text | 93% | far higher than Everland's 56% |
+| review_image_count/urls | 64% | |
+| rating | 25% | still the sparsest field |
+| menus | 0% | absent from every observed payload |
+
+Ordinary neighbourhood venues publish much more body text than Everland's
+in-park outlets (93% vs 56%), but `rating` stays sparse on both, so
+downstream code must keep treating it as optional.
+
+## Caveats on this dataset
+
+- **Ten venues stopped at exactly 200**, the configured per-venue cap rather
+  than exhaustion: 포해피니스, 카시아 본관, 오브느, 명태어장, 써먼하우스,
+  세븐야드, 월남국수, 휘드헨느, 91brick, 스타벅스. More reviews are available
+  for them at a higher `--max-reviews`.
+- **43 records (1.5%) have no platform `review_id`** and are de-duplicated by
+  content hash instead. They are otherwise complete.
+- **디저트39 동탄신리천점 returned nothing**, with one HTTP 429 recorded, so
+  this is rate limiting rather than a diagnosed absence of reviews.
+- Validated: all present `review_id`s unique, every date valid ISO, ratings
+  within 1.0-5.0, Korean intact through JSON and CSV.
