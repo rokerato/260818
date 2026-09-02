@@ -1,0 +1,23 @@
+{
+  "platform": "naver",
+  "target": {
+    "name": "디저트39 동탄신리천점",
+    "url": null,
+    "place_id": "1301842463",
+    "category": "restaurant"
+  },
+  "resolved": {
+    "place_id": "1301842463",
+    "place_url": "https://pcmap.place.naver.com/restaurant/1301842463/review/visitor",
+    "place_name": "디저트39 동탄신리천점"
+  },
+  "started_at": "2026-09-02T05:19:33+00:00",
+  "finished_at": "2026-09-02T05:19:41+00:00",
+  "duplicates_removed": 0,
+  "failures": [
+    "no reviews found via graphql interception or DOM fallback"
+  ],
+  "review_count": 0,
+  "reviews": [],
+  "raw_responses": []
+}

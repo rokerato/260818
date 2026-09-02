@@ -1,0 +1,196 @@
+<html lang="ko"><head>
+    <title>네이버 플레이스</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, shrink-to-fit=no, viewport-fit=cover">
+    <style>
+      :root {
+        --mapds-color-surface-primary: 255, 255, 255;
+        --mapds-color-surface-tertiary: 240, 240, 240;
+        --mapds-color-content-brand-green-primary: 3, 170, 90;
+        --mapds-color-surface-secondary: 247, 247, 247;
+        --mapds-color-content-quinary: 140, 140, 140;
+        --mapds-color-content-search-body: 89, 89, 89;
+        --mapds-color-content-primary: 28, 28, 28;
+        --mapds-color-static-black: 0, 0, 0;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root .pui__apply_darkmode {
+          --mapds-color-surface-primary: 31, 31, 31;
+          --mapds-color-surface-tertiary: 19, 19, 19;
+          --mapds-color-content-brand-green-primary: 3, 170, 90;
+          --mapds-color-surface-secondary: 45, 45, 45;
+          --mapds-color-content-quinary: 189, 189, 189;
+          --mapds-color-content-search-body: 220, 220, 220;
+          --mapds-color-content-primary: 248, 248, 248;
+          --mapds-color-static-black: 255, 255, 255;
+        }
+      }
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      svg {
+        display: inline-block;
+        vertical-align: top;
+      }
+      a,
+      [role='button'] {
+        cursor: pointer;
+        color: inherit;
+        text-decoration: none;
+      }
+      html,
+      body,
+      #app-root {
+        height: 100%;
+      }
+      html {
+        font-size: 10px;
+        line-height: 10px;
+      }
+      body {
+        background-color: rgb(var(--mapds-color-surface-tertiary));
+        font-family: -apple-system, BlinkMacSystemFont, helvetica, 'Apple SD Gothic Neo', sans-serif;
+        font-size: 1.6rem;
+        color: rgb(var(--mapds-color-static-black));
+        letter-spacing: -0.3px;
+        line-height: 2rem;
+        overflow-wrap: break-word;
+        -webkit-text-size-adjust: none;
+      }
+      .place_tab_shadow {
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+      }
+      .wrapper {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        background: rgb(var(--mapds-color-surface-primary));
+      }
+      .header {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 5000;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        background: rgb(var(--mapds-color-surface-primary));
+      }
+      .header .name {
+        padding: 0 6px 0 18px;
+        font-size: 2rem;
+        font-weight: 600;
+        color: rgb(var(--mapds-color-content-primary));
+        line-height: 5rem;
+      }
+      .main {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 51px;
+        box-sizing: border-box;
+        text-align: center;
+      }
+      .icon_area .icon {
+        fill: rgba(130, 136, 148, 0.38);
+        width: 48px;
+        height: 48px;
+      }
+      .title_area {
+        margin-top: 12px;
+        font-size: 1.6rem;
+        color: rgb(var(--mapds-color-content-search-body));
+        line-height: 2.3rem;
+      }
+      .text_area {
+        margin-top: 2px;
+        font-size: 1.5rem;
+        color: rgb(var(--mapds-color-content-quinary));
+        line-height: 2.2rem;
+      }
+      .button_area {
+        display: flex;
+        gap: 6px;
+        justify-content: center;
+        margin-top: 20px;
+      }
+      .button_area .button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        width: 120px;
+        padding: 7px 0;
+        border: 1px solid rgb(var(--mapds-color-surface-secondary));
+        border-radius: 4px;
+        font-size: 1.5rem;
+        color: rgb(var(--mapds-color-content-primary));
+        line-height: 2.2rem;
+      }
+      .button_area .icon_back,
+      .button_area .icon_refresh {
+        fill: rgb(var(--mapds-color-content-brand-green-primary));
+        height: 13px;
+      }
+      .button_area .icon_back {
+        width: 8px;
+      }
+      .button_area .icon_refresh {
+        width: 13px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app-root">
+      <div class="wrapper">
+        <header class="header place_tab_shadow" role="banner">
+          <h1 class="name">플레이스</h1>
+        </header>
+        <div class="main" role="main">
+          <div class="icon_area">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" class="icon" aria-hidden="true">
+              <path d="M47 24a23 23 0 10-46 0 23 23 0 0046 0zm1 0a24 24 0 11-48 0 24 24 0 0148 0zM23.3 12.5a.7.7 0 011.4 0V27a.7.7 0 01-1.4 0V12.5zm1.95 20.75c0 .69-.56 1.25-1.25 1.25a1.25 1.25 0 111.25-1.25z"></path>
+            </svg>
+          </div>
+          <div class="title_area">서비스 이용이 제한되었습니다.</div>
+          <div class="text_area">과도한 접근 요청으로 서비스 이용이 제한되었습니다.<br>잠시 후 다시 시도해주세요.<br>IP: 57.151.143.179(02/Sep/2026:14:19:34 +0900)</div>
+          <div class="button_area">
+            <a href="javascript:history.back()" role="button" class="button">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 21" class="icon_back" aria-hidden="true">
+                <path d="M10.5 20.9L.1 10.5 10.5.1l1.4 1.4-9 9 9 9z"></path>
+              </svg>
+              이전화면
+            </a>
+            <a href="javascript:location.reload()" role="button" class="button">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 15" class="icon_refresh" aria-hidden="true">
+                <path fill-rule="evenodd" d="M14 7.51a6.5 6.5 0 11-6.5-6.49 5.97 5.97 0 015.03 2.49H9.49v1H14V0h-1v2.5a7.94 7.94 0 00-.37-.4A6.97 6.97 0 007.5.03 7.5 7.5 0 000 7.52a7.5 7.5 0 0015-.01h-1z"></path>
+              </svg>
+              새로고침
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  <script>
+    window.addEventListener('load', function () {
+      if (!window.location) return
+
+      const hostname = window.location.hostname
+      const path = window.location.pathname
+
+      if (!/^(local-|qa-|stage-)?pcmap\.place\.naver\.com$/.test(hostname) || !window.parent) return
+
+      try {
+        const action = /(list|smartOrderList|rest)/.test(path) ? 'place-search-load' : 'place-detail-load'
+        window.parent.postMessage({ action }, '*')
+      } catch (err) {
+        console.error('fail to postMessage:', err)
+      }
+    })
+  </script>
+  <whale-quicksearch translate="no"></whale-quicksearch>
+
+</body></html>

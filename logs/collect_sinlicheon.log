@@ -1,0 +1,299 @@
+2026-09-02 05:04:59,631 INFO    everland_reviews.collectors.naver | [포해피니스] view 1 added 221 review(s): https://pcmap.place.naver.com/restaurant/2042448520/review/visitor
+2026-09-02 05:04:59,956 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_포해피니스_20260902T050358Z.json
+2026-09-02 05:04:59,968 INFO    everland_reviews.storage | wrote 200 normalized reviews -> data/normalized/reviews_20260902T050358Z.csv
+2026-09-02 05:05:54,222 INFO    everland_reviews.collectors.naver | [카시아 본관] view 1 added 216 review(s): https://pcmap.place.naver.com/restaurant/1535542532/review/visitor
+2026-09-02 05:05:54,486 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_카시아-본관_20260902T050358Z.json
+2026-09-02 05:05:54,500 INFO    everland_reviews.storage | wrote 400 normalized reviews -> data/normalized/reviews_20260902T050358Z.csv
+2026-09-02 05:06:05,554 INFO    everland_reviews.collectors.naver | [마카 교동집] view 1 added 3 review(s): https://pcmap.place.naver.com/restaurant/2098182754/review/visitor
+2026-09-02 05:06:16,086 INFO    everland_reviews.collectors.naver | [마카 교동집] view 2 added 0 review(s): https://pcmap.place.naver.com/restaurant/2098182754/review/visitor?reviewSort=recent
+2026-09-02 05:06:16,145 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_마카-교동집_20260902T050358Z.json
+2026-09-02 05:06:16,155 INFO    everland_reviews.storage | wrote 402 normalized reviews -> data/normalized/reviews_20260902T050358Z.csv
+2026-09-02 05:06:42,656 INFO    everland_reviews.collectors.naver | [온무드커피] view 1 added 64 review(s): https://pcmap.place.naver.com/restaurant/1136927442/review/visitor
+2026-09-02 05:06:53,959 INFO    everland_reviews.collectors.naver | [온무드커피] view 2 added 0 review(s): https://pcmap.place.naver.com/restaurant/1136927442/review/visitor?reviewSort=recent
+2026-09-02 05:06:54,144 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_온무드커피_20260902T050358Z.json
+2026-09-02 05:06:54,156 INFO    everland_reviews.storage | wrote 457 normalized reviews -> data/normalized/reviews_20260902T050358Z.csv
+2026-09-02 05:07:48,736 INFO    everland_reviews.collectors.naver | [오브느 동탄신리천점] view 1 added 218 review(s): https://pcmap.place.naver.com/restaurant/1299353809/review/visitor
+2026-09-02 05:07:48,997 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_오브느-동탄신리천점_20260902T050358Z.json
+2026-09-02 05:07:49,016 INFO    everland_reviews.storage | wrote 657 normalized reviews -> data/normalized/reviews_20260902T050358Z.csv
+2026-09-02 05:08:44,693 INFO    everland_reviews.collectors.naver | [명태어장 쭈갑골 동탄점] view 1 added 218 review(s): https://pcmap.place.naver.com/restaurant/1716140730/review/visitor
+2026-09-02 05:08:44,967 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_명태어장-쭈갑골-동탄점_20260902T050358Z.json
+2026-09-02 05:08:44,990 INFO    everland_reviews.storage | wrote 857 normalized reviews -> data/normalized/reviews_20260902T050358Z.csv
+2026-09-02 05:08:48,902 WARNING everland_reviews.collectors.base | [실리] unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=429 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<html lang="ko">\n  <head>\n    <title>네이버 플레이스</title>\n    <meta charset="utf-8" />\n    <meta\n      name="viewport"\n      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scal'
+2026-09-02 05:09:02,239 INFO    everland_reviews.collectors.naver | [실리] view 1 added 32 review(s): https://pcmap.place.naver.com/restaurant/1347066332/review/visitor
+2026-09-02 05:09:11,019 INFO    everland_reviews.collectors.naver | [실리] view 2 added 0 review(s): https://pcmap.place.naver.com/restaurant/1347066332/review/visitor?reviewSort=recent
+2026-09-02 05:09:11,064 INFO    everland_reviews.collectors.naver | wrote debug snapshot -> logs/debug_1347066332*
+2026-09-02 05:09:11,118 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_실리_20260902T050358Z.json
+2026-09-02 05:09:11,140 INFO    everland_reviews.storage | wrote 877 normalized reviews -> data/normalized/reviews_20260902T050358Z.csv
+2026-09-02 05:09:26,965 INFO    everland_reviews.collectors.naver | [신리천HOF] view 1 added 49 review(s): https://pcmap.place.naver.com/restaurant/1204935590/review/visitor
+2026-09-02 05:09:38,157 INFO    everland_reviews.collectors.naver | [신리천HOF] view 2 added 0 review(s): https://pcmap.place.naver.com/restaurant/1204935590/review/visitor?reviewSort=recent
+2026-09-02 05:09:38,265 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_신리천hof_20260902T050358Z.json
+2026-09-02 05:09:38,288 INFO    everland_reviews.storage | wrote 920 normalized reviews -> data/normalized/reviews_20260902T050358Z.csv
+2026-09-02 05:10:16,886 INFO    everland_reviews.collectors.naver | [카시아 별관] view 1 added 110 review(s): https://pcmap.place.naver.com/restaurant/1291299967/review/visitor
+2026-09-02 05:10:28,512 INFO    everland_reviews.collectors.naver | [카시아 별관] view 2 added 0 review(s): https://pcmap.place.naver.com/restaurant/1291299967/review/visitor?reviewSort=recent
+2026-09-02 05:10:28,740 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_카시아-별관_20260902T050358Z.json
+2026-09-02 05:10:28,766 INFO    everland_reviews.storage | wrote 1018 normalized reviews -> data/normalized/reviews_20260902T050358Z.csv
+2026-09-02 05:11:05,067 INFO    everland_reviews.collectors.naver | [본가왕뼈감자탕 동탄신리천점] view 1 added 99 review(s): https://pcmap.place.naver.com/restaurant/1812886986/review/visitor
+2026-09-02 05:11:16,492 INFO    everland_reviews.collectors.naver | [본가왕뼈감자탕 동탄신리천점] view 2 added 1 review(s): https://pcmap.place.naver.com/restaurant/1812886986/review/visitor?reviewSort=recent
+2026-09-02 05:11:16,681 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_본가왕뼈감자탕-동탄신리천점_20260902T050358Z.json
+2026-09-02 05:11:16,708 INFO    everland_reviews.storage | wrote 1113 normalized reviews -> data/normalized/reviews_20260902T050358Z.csv
+2026-09-02 05:12:14,015 INFO    everland_reviews.collectors.naver | [다돈] view 1 added 191 review(s): https://pcmap.place.naver.com/restaurant/1656895066/review/visitor
+2026-09-02 05:12:25,857 INFO    everland_reviews.collectors.naver | [다돈] view 2 added 0 review(s): https://pcmap.place.naver.com/restaurant/1656895066/review/visitor?reviewSort=recent
+2026-09-02 05:12:26,057 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_다돈_20260902T050358Z.json
+2026-09-02 05:12:26,090 INFO    everland_reviews.storage | wrote 1298 normalized reviews -> data/normalized/reviews_20260902T050358Z.csv
+2026-09-02 05:13:23,337 INFO    everland_reviews.collectors.naver | [써먼하우스] view 1 added 222 review(s): https://pcmap.place.naver.com/restaurant/1383302532/review/visitor
+2026-09-02 05:13:23,650 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_써먼하우스_20260902T050358Z.json
+2026-09-02 05:13:23,689 INFO    everland_reviews.storage | wrote 1498 normalized reviews -> data/normalized/reviews_20260902T050358Z.csv
+2026-09-02 05:14:20,979 INFO    everland_reviews.collectors.naver | [세븐야드] view 1 added 220 review(s): https://pcmap.place.naver.com/restaurant/1644625519/review/visitor
+2026-09-02 05:14:21,342 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_세븐야드_20260902T050358Z.json
+2026-09-02 05:14:21,386 INFO    everland_reviews.storage | wrote 1698 normalized reviews -> data/normalized/reviews_20260902T050358Z.csv
+2026-09-02 05:15:21,028 INFO    everland_reviews.collectors.naver | [월남국수 동탄신리천점] view 1 added 212 review(s): https://pcmap.place.naver.com/restaurant/1103961997/review/visitor
+2026-09-02 05:15:21,302 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_월남국수-동탄신리천점_20260902T050358Z.json
+2026-09-02 05:15:21,350 INFO    everland_reviews.storage | wrote 1898 normalized reviews -> data/normalized/reviews_20260902T050358Z.csv
+2026-09-02 05:16:12,326 INFO    everland_reviews.collectors.naver | [수향진베이커리카페] view 1 added 169 review(s): https://pcmap.place.naver.com/restaurant/1341178526/review/visitor
+2026-09-02 05:16:30,443 INFO    everland_reviews.collectors.naver | [수향진베이커리카페] view 2 added 0 review(s): https://pcmap.place.naver.com/restaurant/1341178526/review/visitor?reviewSort=recent
+2026-09-02 05:16:30,709 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_수향진베이커리카페_20260902T050358Z.json
+2026-09-02 05:16:30,759 INFO    everland_reviews.storage | wrote 2057 normalized reviews -> data/normalized/reviews_20260902T050358Z.csv
+2026-09-02 05:17:29,116 INFO    everland_reviews.collectors.naver | [휘드헨느] view 1 added 222 review(s): https://pcmap.place.naver.com/restaurant/1773256582/review/visitor
+2026-09-02 05:17:29,446 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_휘드헨느_20260902T050358Z.json
+2026-09-02 05:17:29,504 INFO    everland_reviews.storage | wrote 2257 normalized reviews -> data/normalized/reviews_20260902T050358Z.csv
+2026-09-02 05:18:26,832 INFO    everland_reviews.collectors.naver | [91brick] view 1 added 221 review(s): https://pcmap.place.naver.com/restaurant/1327037658/review/visitor
+2026-09-02 05:18:27,140 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_91brick_20260902T050358Z.json
+2026-09-02 05:18:27,311 INFO    everland_reviews.storage | wrote 2457 normalized reviews -> data/normalized/reviews_20260902T050358Z.csv
+2026-09-02 05:19:15,528 INFO    everland_reviews.collectors.naver | [호식이두마리치킨 동탄2신도시신리천점] view 1 added 192 review(s): https://pcmap.place.naver.com/restaurant/85208117/review/visitor
+2026-09-02 05:19:33,319 INFO    everland_reviews.collectors.naver | [호식이두마리치킨 동탄2신도시신리천점] view 2 added 1 review(s): https://pcmap.place.naver.com/restaurant/85208117/review/visitor?reviewSort=recent
+2026-09-02 05:19:33,455 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_호식이두마리치킨-동탄2신도시신리천점_20260902T050358Z.json
+2026-09-02 05:19:33,519 INFO    everland_reviews.storage | wrote 2641 normalized reviews -> data/normalized/reviews_20260902T050358Z.csv
+2026-09-02 05:19:40,953 INFO    everland_reviews.collectors.naver | [디저트39 동탄신리천점] view 1 added 0 review(s): https://pcmap.place.naver.com/restaurant/1301842463/review/visitor
+2026-09-02 05:19:40,953 INFO    everland_reviews.collectors.naver | [디저트39 동탄신리천점] base view empty; trying next path
+2026-09-02 05:19:41,003 INFO    everland_reviews.collectors.naver | wrote debug snapshot -> logs/debug_1301842463*
+2026-09-02 05:19:41,042 WARNING everland_reviews.collectors.base | [디저트39 동탄신리천점] no reviews found via graphql interception or DOM fallback
+2026-09-02 05:19:41,043 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_디저트39-동탄신리천점_20260902T050358Z.json
+2026-09-02 05:19:41,103 INFO    everland_reviews.storage | wrote 2641 normalized reviews -> data/normalized/reviews_20260902T050358Z.csv
+2026-09-02 05:19:52,646 INFO    everland_reviews.collectors.naver | [풍덕천두꺼비집 동탄신리천점] view 1 added 9 review(s): https://pcmap.place.naver.com/restaurant/2046174420/review/visitor
+2026-09-02 05:20:04,571 INFO    everland_reviews.collectors.naver | [풍덕천두꺼비집 동탄신리천점] view 2 added 0 review(s): https://pcmap.place.naver.com/restaurant/2046174420/review/visitor?reviewSort=recent
+2026-09-02 05:20:04,687 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_풍덕천두꺼비집-동탄신리천점_20260902T050358Z.json
+2026-09-02 05:20:04,748 INFO    everland_reviews.storage | wrote 2646 normalized reviews -> data/normalized/reviews_20260902T050358Z.csv
+2026-09-02 05:20:58,704 INFO    everland_reviews.collectors.naver | [스타벅스 동탄신리천공원점] view 1 added 217 review(s): https://pcmap.place.naver.com/restaurant/1860056596/review/visitor
+2026-09-02 05:20:58,961 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_스타벅스-동탄신리천공원점_20260902T050358Z.json
+2026-09-02 05:20:59,027 INFO    everland_reviews.storage | wrote 2846 normalized reviews -> data/normalized/reviews_20260902T050358Z.csv
+2026-09-02 05:21:27,629 INFO    everland_reviews.collectors.naver | [카페바인즈 동탄점] view 1 added 73 review(s): https://pcmap.place.naver.com/restaurant/1801109057/review/visitor
+2026-09-02 05:21:39,094 INFO    everland_reviews.collectors.naver | [카페바인즈 동탄점] view 2 added 0 review(s): https://pcmap.place.naver.com/restaurant/1801109057/review/visitor?reviewSort=recent
+2026-09-02 05:21:39,268 INFO    everland_reviews.storage | wrote raw payloads -> data/raw/naver_카페바인즈-동탄점_20260902T050358Z.json
+2026-09-02 05:21:39,333 INFO    everland_reviews.storage | wrote 2914 normalized reviews -> data/normalized/reviews_20260902T050358Z.csv
+
+Restaurant: 포해피니스
+Reviews collected: 200
+Reviews with text: 198
+Reviews with rating: 78
+Reviews with date: 200
+Duplicate reviews removed: 0
+Collection failures: 0
+
+Restaurant: 카시아 본관
+Reviews collected: 200
+Reviews with text: 191
+Reviews with rating: 4
+Reviews with date: 200
+Duplicate reviews removed: 0
+Collection failures: 0
+
+Restaurant: 마카 교동집
+Reviews collected: 2
+Reviews with text: 1
+Reviews with rating: 2
+Reviews with date: 1
+Duplicate reviews removed: 4
+Collection failures: 0
+
+Restaurant: 온무드커피
+Reviews collected: 55
+Reviews with text: 51
+Reviews with rating: 8
+Reviews with date: 51
+Duplicate reviews removed: 44
+Collection failures: 0
+
+Restaurant: 오브느 동탄신리천점
+Reviews collected: 200
+Reviews with text: 186
+Reviews with rating: 10
+Reviews with date: 200
+Duplicate reviews removed: 0
+Collection failures: 0
+
+Restaurant: 명태어장 쭈갑골 동탄점
+Reviews collected: 200
+Reviews with text: 195
+Reviews with rating: 5
+Reviews with date: 200
+Duplicate reviews removed: 0
+Collection failures: 0
+
+Restaurant: 실리
+Reviews collected: 20
+Reviews with text: 10
+Reviews with rating: 6
+Reviews with date: 10
+Duplicate reviews removed: 0
+Collection failures: 1
+  - unreadable graphql response https://pcmap-api.place.naver.com/graphql (method=POST status=429 type='text/html'): JSONDecodeError('Expecting value: line 1 column 1 (char 0)') body[:200]='<html lang="ko">\n  <head>\n    <title>네이버 플레이스</title>\n    <meta charset="utf-8" />\n    <meta\n      name="viewport"\n      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scal'
+
+Restaurant: 신리천HOF
+Reviews collected: 43
+Reviews with text: 25
+Reviews with rating: 0
+Reviews with date: 26
+Duplicate reviews removed: 41
+Collection failures: 0
+
+Restaurant: 카시아 별관
+Reviews collected: 98
+Reviews with text: 94
+Reviews with rating: 15
+Reviews with date: 97
+Duplicate reviews removed: 41
+Collection failures: 0
+
+Restaurant: 본가왕뼈감자탕 동탄신리천점
+Reviews collected: 95
+Reviews with text: 81
+Reviews with rating: 1
+Reviews with date: 84
+Duplicate reviews removed: 49
+Collection failures: 0
+
+Restaurant: 다돈
+Reviews collected: 185
+Reviews with text: 174
+Reviews with rating: 53
+Reviews with date: 175
+Duplicate reviews removed: 50
+Collection failures: 0
+
+Restaurant: 써먼하우스
+Reviews collected: 200
+Reviews with text: 199
+Reviews with rating: 172
+Reviews with date: 200
+Duplicate reviews removed: 0
+Collection failures: 0
+
+Restaurant: 세븐야드
+Reviews collected: 200
+Reviews with text: 191
+Reviews with rating: 5
+Reviews with date: 200
+Duplicate reviews removed: 0
+Collection failures: 0
+
+Restaurant: 월남국수 동탄신리천점
+Reviews collected: 200
+Reviews with text: 186
+Reviews with rating: 27
+Reviews with date: 193
+Duplicate reviews removed: 0
+Collection failures: 0
+
+Restaurant: 수향진베이커리카페
+Reviews collected: 159
+Reviews with text: 144
+Reviews with rating: 7
+Reviews with date: 149
+Duplicate reviews removed: 50
+Collection failures: 0
+
+Restaurant: 휘드헨느
+Reviews collected: 200
+Reviews with text: 198
+Reviews with rating: 21
+Reviews with date: 200
+Duplicate reviews removed: 0
+Collection failures: 0
+
+Restaurant: 91brick
+Reviews collected: 200
+Reviews with text: 200
+Reviews with rating: 192
+Reviews with date: 200
+Duplicate reviews removed: 0
+Collection failures: 0
+
+Restaurant: 호식이두마리치킨 동탄2신도시신리천점
+Reviews collected: 184
+Reviews with text: 133
+Reviews with rating: 54
+Reviews with date: 141
+Duplicate reviews removed: 59
+Collection failures: 0
+
+Restaurant: 디저트39 동탄신리천점
+Reviews collected: 0
+Reviews with text: 0
+Reviews with rating: 0
+Reviews with date: 0
+Duplicate reviews removed: 0
+Collection failures: 1
+  - no reviews found via graphql interception or DOM fallback
+
+Restaurant: 풍덕천두꺼비집 동탄신리천점
+Reviews collected: 5
+Reviews with text: 2
+Reviews with rating: 4
+Reviews with date: 2
+Duplicate reviews removed: 165
+Collection failures: 0
+
+Restaurant: 스타벅스 동탄신리천공원점
+Reviews collected: 200
+Reviews with text: 189
+Reviews with rating: 15
+Reviews with date: 200
+Duplicate reviews removed: 0
+Collection failures: 0
+
+Restaurant: 카페바인즈 동탄점
+Reviews collected: 68
+Reviews with text: 53
+Reviews with rating: 37
+Reviews with date: 58
+Duplicate reviews removed: 50
+Collection failures: 0
+
+============================================================
+Overall
+Restaurants processed: 22
+Restaurants with at least one review: 21
+Reviews collected: 2914
+Reviews with text: 2701
+Reviews with rating: 716
+Reviews with date: 2787
+Duplicate reviews removed: 553
+Collection failures: 2
+
+Field availability across the collected dataset:
+  platform                 2914 / 2914  (100.0%)
+  place_name               2914 / 2914  (100.0%)
+  place_id                 2914 / 2914  (100.0%)
+  place_url                2914 / 2914  (100.0%)
+  review_id                2871 / 2914  ( 98.5%)
+  reviewer_name            2871 / 2914  ( 98.5%)
+  reviewer_profile_id      2871 / 2914  ( 98.5%)
+  reviewer_profile_url     2871 / 2914  ( 98.5%)
+  rating                    716 / 2914  ( 24.6%)
+  review_text              2701 / 2914  ( 92.7%)
+  review_date              2787 / 2914  ( 95.6%)
+  visit_date               2871 / 2914  ( 98.5%)
+  visit_count              2913 / 2914  (100.0%)
+  review_image_count       1876 / 2914  ( 64.4%)
+  review_image_urls        1876 / 2914  ( 64.4%)
+  helpful_count            2871 / 2914  ( 98.5%)
+  keywords                 2727 / 2914  ( 93.6%)
+  menus                       0 / 2914  (  0.0%)
+  verified_visit           2871 / 2914  ( 98.5%)
+  collected_at             2914 / 2914  (100.0%)
+  raw_ref                  2914 / 2914  (100.0%)
+
+Validation warnings:
+  - 43 review(s) have no platform review_id
+
+Normalized CSV: data/normalized/reviews_20260902T050358Z.csv
