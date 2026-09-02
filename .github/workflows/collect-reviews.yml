@@ -6,9 +6,13 @@
 # raw + normalized outputs back to this branch for analysis.
 #
 # Triggering: workflow_dispatch works once this file is on the default
-# branch. Until then, a push to the collection branch whose commit message
-# contains the marker '[collect]' starts a run; the results commit the run
-# itself pushes carries no marker, so it cannot retrigger.
+# branch. Until then, a push to the collection branch drives it by commit
+# message marker:
+#     [collect]              full crawl of the default location (everland)
+#     [collect:sinlicheon]   full crawl of that location
+#     [discover:sinlicheon]  discovery only -- verify the venue list first,
+#                            without spending an hour collecting
+# The results commit the run pushes carries no marker, so it cannot retrigger.
 
 name: collect-reviews
 
@@ -18,6 +22,12 @@ on:
       - "claude/everland-review-collector-baii8v"
   workflow_dispatch:
     inputs:
+      location:
+        description: "Location key from config/locations.yaml"
+        default: "everland"
+      discover_only:
+        description: "Set to 'true' to stop after discovery"
+        default: "false"
       queries:
         description: "Comma-separated Naver Map search queries for target discovery"
         default: ""   # empty = the script's full default query set
@@ -46,11 +56,17 @@ concurrency:
 
 jobs:
   collect:
-    if: github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[collect]')
+    if: >-
+      github.event_name == 'workflow_dispatch'
+      || contains(github.event.head_commit.message, '[collect')
+      || contains(github.event.head_commit.message, '[discover')
     runs-on: ubuntu-latest
     timeout-minutes: 100
     env:
       IN_QUERIES: ${{ inputs.queries || '' }}
+      IN_LOCATION: ${{ inputs.location || '' }}
+      IN_DISCOVER_ONLY: ${{ inputs.discover_only || '' }}
+      COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
       IN_MAX_TARGETS: ${{ inputs.max_targets || '30' }}
       IN_ONLY: ${{ inputs.only || '' }}
       IN_MAX_REVIEWS: ${{ inputs.max_reviews || '200' }}
@@ -68,7 +84,28 @@ jobs:
           pip install -r requirements.txt
           playwright install --with-deps chromium
 
-      - name: Discover Everland targets
+      - name: Resolve location and mode
+        id: mode
+        run: |
+          location="$IN_LOCATION"
+          discover_only="$IN_DISCOVER_ONLY"
+          # A commit marker overrides the (empty) push-event inputs.
+          marker=$(printf '%s' "$COMMIT_MESSAGE" | head -1 \
+            | grep -oE '\[(collect|discover)(:[a-z0-9_-]+)?\]' | head -1 || true)
+          if [ -n "$marker" ]; then
+            kind=$(printf '%s' "$marker" | sed -E 's/^\[([a-z]+).*/\1/')
+            key=$(printf '%s' "$marker" | sed -E 's/^\[[a-z]+:?([a-z0-9_-]*)\]$/\1/')
+            [ -n "$key" ] && location="$key"
+            [ "$kind" = "discover" ] && discover_only=true
+          fi
+          location="${location:-everland}"
+          discover_only="${discover_only:-false}"
+          echo "location=$location"        >> "$GITHUB_OUTPUT"
+          echo "discover_only=$discover_only" >> "$GITHUB_OUTPUT"
+          echo "targets=config/targets/$location.yaml" >> "$GITHUB_OUTPUT"
+          echo "resolved: location=$location discover_only=$discover_only"
+
+      - name: Discover targets
         if: ${{ env.IN_SKIP_DISCOVERY != 'true' }}
         run: |
           mkdir -p logs
@@ -78,10 +115,14 @@ jobs:
             for q in "${QUERIES[@]}"; do ARGS+=(--query "$q"); done
           fi
           python scripts/discover_places.py "${ARGS[@]}" \
-            --max-targets "$IN_MAX_TARGETS" 2>&1 | tee logs/discovery.log
+            --location "${{ steps.mode.outputs.location }}" \
+            --config "${{ steps.mode.outputs.targets }}" \
+            --max-targets "$IN_MAX_TARGETS" \
+            2>&1 | tee "logs/discovery_${{ steps.mode.outputs.location }}.log"
 
       - name: Collect reviews
         id: collect
+        if: ${{ steps.mode.outputs.discover_only != 'true' }}
         run: |
           mkdir -p logs
           ONLY_ARGS=()
@@ -89,11 +130,12 @@ jobs:
             ONLY_ARGS=(--only "$IN_ONLY")
           fi
           python scripts/collect_reviews.py \
+            --config "${{ steps.mode.outputs.targets }}" \
             "${ONLY_ARGS[@]}" \
             --max-reviews "$IN_MAX_REVIEWS" \
             --delay "$IN_DELAY" \
             --time-budget 4200 \
-            --debug-dir logs 2>&1 | tee logs/collect.log
+            --debug-dir logs 2>&1 | tee "logs/collect_${{ steps.mode.outputs.location }}.log"
 
       - name: Commit results to branch
         if: always()
@@ -101,13 +143,15 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -f logs/ || true
-          git add config/restaurants.yaml || true
+          git add config/targets/ config/restaurants.yaml 2>/dev/null || true
           git add -f data/raw/*.json data/normalized/* 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "nothing to commit"
             exit 0
           fi
-          git commit -m "Collection run ${{ github.run_id }} (cap: $IN_MAX_REVIEWS)"
+          # No [collect]/[discover] marker here, so the results commit
+          # cannot retrigger the workflow.
+          git commit -m "${{ steps.mode.outputs.location }}: run ${{ github.run_id }}"
           # The branch can move while a run is collecting (another push, an
           # overlapping run). A plain push is then rejected and an hour of
           # collected data dies with the runner, so rebase onto whatever

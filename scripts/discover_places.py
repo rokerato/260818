@@ -1,20 +1,22 @@
 #!/usr/bin/env python3
-"""Discover real Everland restaurant/cafe targets from Naver Map search.
+"""Discover real venue targets for a configured location from Naver Map search.
 
-Meant to run from a machine with open egress to naver.com (e.g. the GitHub
-Actions workflow in .github/workflows/collect-reviews.yml) -- the Claude Code
-sandbox cannot reach Naver.
+Meant to run where egress to naver.com is open (the GitHub Actions workflow in
+.github/workflows/collect-reviews.yml) -- the Claude Code sandbox cannot reach
+Naver.
 
 Every candidate comes from Naver's own search responses; nothing is invented.
-A venue is accepted only when its returned address places it on Everland's
-street (에버랜드로, Yongin) and its category looks like food service. Raw search
-responses are archived under logs/ so a failed or surprising run can be
-diagnosed offline.
+A venue is accepted only when it verifiably belongs to the location, by the
+test that location configures in config/locations.yaml: proximity to a centre
+point (resolved from Naver at run time, so no coordinates are hand-written),
+an exact address substring, or both. Its category must also look like food
+service. Rejections are counted by reason, and raw search responses are
+archived under logs/, so a thin result set can be diagnosed offline.
 
 Usage:
-    python scripts/discover_places.py                       # default queries
-    python scripts/discover_places.py --query "에버랜드 카페" --max-targets 3
-    python scripts/discover_places.py --dry-run             # print, don't write
+    python scripts/discover_places.py --location sinlicheon
+    python scripts/discover_places.py --location everland --max-targets 30
+    python scripts/discover_places.py --location sinlicheon --dry-run
 """
 
 from __future__ import annotations
@@ -32,31 +34,78 @@ from typing import Any, Iterator
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
-#: Naver search returns a bounded result list per query, so coverage comes
-#: from asking several ways: generic food terms, outlet types, and the park's
-#: themed zones (each zone has its own restaurants and cafes).
-DEFAULT_QUERIES = [
-    "에버랜드 레스토랑",
-    "에버랜드 맛집",
-    "에버랜드 카페",
-    "에버랜드 식당",
-    "에버랜드 푸드코트",
-    "에버랜드 베이커리",
-    "에버랜드 스낵",
-    "에버랜드 커피",
-    "에버랜드 글로벌페어",
-    "에버랜드 아메리칸어드벤처",
-    "에버랜드 매직랜드",
-    "에버랜드 유러피언어드벤처",
-    "에버랜드 주토피아",
-]
-#: Everland's street address: 경기 용인시 처인구 포곡읍 에버랜드로 199.
-ADDRESS_MARKER = "에버랜드로"
+#: Fallback query set when a location defines none.
+DEFAULT_QUERIES = ["카페", "맛집", "레스토랑"]
+
 FOOD_TOKENS = (
     "음식", "식당", "레스토랑", "카페", "한식", "양식", "중식", "일식", "분식",
     "패스트푸드", "치킨", "피자", "버거", "베이커리", "디저트", "뷔페", "푸드",
+    "브런치", "커피", "차", "술집", "주점", "바",
 )
-EXCLUDE_TOKENS = ("테마파크", "놀이공원", "주차장", "호텔", "리조트", "동물원")
+DEFAULT_EXCLUDE_TOKENS = ("주차장",)
+
+EARTH_RADIUS_M = 6_371_000.0
+
+
+def haversine_m(lat1: float, lng1: float, lat2: float, lng2: float) -> float:
+    """Great-circle distance in metres."""
+    import math
+
+    p1, p2 = math.radians(lat1), math.radians(lat2)
+    dp = p2 - p1
+    dl = math.radians(lng2 - lng1)
+    a = math.sin(dp / 2) ** 2 + math.cos(p1) * math.cos(p2) * math.sin(dl / 2) ** 2
+    return 2 * EARTH_RADIUS_M * math.asin(min(1.0, math.sqrt(a)))
+
+
+def _as_number(value: Any) -> float | None:
+    try:
+        return float(value)
+    except (TypeError, ValueError):
+        return None
+
+
+#: South Korea's bounding box. A pair that lands outside it after scaling is
+#: a mis-read field, not a venue -- reject rather than guess.
+_LAT_RANGE = (32.0, 40.0)
+_LNG_RANGE = (124.0, 132.0)
+
+#: Naver returns coordinates as plain degrees, or as integers scaled by 1e7
+#: (``mapx``/``mapy``). Some legacy endpoints return a projected TM128 pair,
+#: which fits no scaling and is correctly discarded.
+_COORD_SCALES = (1.0, 1e-7, 1e-6, 1e-5)
+
+
+def extract_coords(node: dict[str, Any]) -> tuple[float, float] | None:
+    """Best-effort (lat, lng) from a place node, across observed key names.
+
+    The scaling is chosen by testing candidates against Korea's bounding box
+    and requiring *both* coordinates to fit under the same scale, so a
+    half-plausible reading cannot slip through.
+    """
+    candidates = [
+        (node.get("y"), node.get("x")),
+        (node.get("mapy"), node.get("mapx")),
+        (node.get("latitude"), node.get("longitude")),
+        (node.get("lat"), node.get("lng")),
+    ]
+    coord = node.get("coord") or node.get("coordinate")
+    if isinstance(coord, dict):
+        candidates.append((coord.get("y"), coord.get("x")))
+
+    for raw_lat, raw_lng in candidates:
+        lat, lng = _as_number(raw_lat), _as_number(raw_lng)
+        if lat is None or lng is None or (lat == 0 and lng == 0):
+            continue
+        for scale in _COORD_SCALES:
+            slat, slng = lat * scale, lng * scale
+            if (
+                _LAT_RANGE[0] < slat < _LAT_RANGE[1]
+                and _LNG_RANGE[0] < slng < _LNG_RANGE[1]
+            ):
+                return slat, slng
+    return None
+
 
 HEADERS = {
     "User-Agent": (
@@ -188,9 +237,65 @@ def search_browser(query: str, chromium_path: str | None) -> tuple[list[dict[str
     return places, captured
 
 
-def filter_everland_food(places: list[dict[str, Any]]) -> list[dict[str, Any]]:
+def resolve_center(
+    location: dict[str, Any], places: list[dict[str, Any]]
+) -> tuple[float, float] | None:
+    """Work out the centre point for a location.
+
+    An explicit ``center: [lat, lng]`` in the config wins. Otherwise the
+    centre is derived from Naver's own results for ``center_query`` by taking
+    the *median* coordinate, which ignores the one stray result a text search
+    usually drags in from another city. Nothing is hand-written, and the
+    resolved point is printed so it can be sanity-checked.
+    """
+    explicit = location.get("center")
+    if isinstance(explicit, (list, tuple)) and len(explicit) == 2:
+        lat, lng = float(explicit[0]), float(explicit[1])
+        print(f"  centre from config: {lat:.6f}, {lng:.6f}")
+        return lat, lng
+
+    coords = [c for c in (extract_coords(n) for n in places) if c]
+    if not coords:
+        return None
+    lats = sorted(c[0] for c in coords)
+    lngs = sorted(c[1] for c in coords)
+    mid = len(coords) // 2
+    center = (lats[mid], lngs[mid])
+    print(
+        f"  centre resolved from {len(coords)} result(s): "
+        f"{center[0]:.6f}, {center[1]:.6f}"
+    )
+    return center
+
+
+def filter_places(
+    places: list[dict[str, Any]],
+    location: dict[str, Any],
+    center: tuple[float, float] | None,
+) -> list[dict[str, Any]]:
+    """Keep food venues that verifiably belong to this location.
+
+    A venue must pass every test the location configures -- proximity to the
+    centre, and/or an address substring -- plus the food-category test. A
+    venue that cannot be verified is dropped and the reason printed, so a
+    thin result set is diagnosable rather than mysterious.
+    """
+    radius_m = location.get("radius_m")
+    address_contains = location.get("address_contains")
+    exclude = tuple(location.get("exclude_tokens") or DEFAULT_EXCLUDE_TOKENS)
+    if not radius_m and not address_contains:
+        raise SystemExit(
+            "location must set 'radius_m' (with a centre) or 'address_contains'; "
+            "without one of them there is no way to verify a venue belongs here"
+        )
+
     accepted: list[dict[str, Any]] = []
     seen: set[str] = set()
+    rejected: dict[str, int] = {}
+
+    def reject(reason: str) -> None:
+        rejected[reason] = rejected.get(reason, 0) + 1
+
     for node in places:
         place_id = str(node.get("id") or node.get("placeId") or node.get("sid"))
         if place_id in seen:
@@ -203,39 +308,68 @@ def filter_everland_food(places: list[dict[str, Any]]) -> list[dict[str, Any]]:
         categories = _categories(node)
         category_blob = " ".join(categories)
 
-        if ADDRESS_MARKER not in address:
+        if address_contains and address_contains not in address:
+            reject(f"address lacks {address_contains!r}")
             continue
-        if any(tok in category_blob or tok in name for tok in EXCLUDE_TOKENS):
-            continue
-        if categories and not any(tok in category_blob for tok in FOOD_TOKENS):
-            print(f"  skipped (non-food category {categories}): {name}")
+
+        distance = None
+        if radius_m:
+            if center is None:
+                reject("no centre resolved")
+                continue
+            coords = extract_coords(node)
+            if coords is None:
+                reject("no usable coordinates")
+                continue
+            distance = haversine_m(center[0], center[1], coords[0], coords[1])
+            if distance > float(radius_m):
+                reject(f"beyond {radius_m}m")
+                continue
+
+        if any(tok in category_blob or tok in name for tok in exclude):
+            reject("excluded token")
             continue
         if not categories:
-            print(f"  skipped (no category information): {name} [{place_id}]")
+            reject("no category information")
+            continue
+        if not any(tok in category_blob for tok in FOOD_TOKENS):
+            reject(f"non-food category")
             continue
 
         seen.add(place_id)
-        accepted.append(
-            {
-                "name": name,
-                "place_id": place_id,
-                # pcmap serves cafes and bakeries under /restaurant/ as
-                # well; the /cafe/ segment renders an empty document
-                # (run 33468327404: all 10 cafe-segment venues returned
-                # zero). The collector falls back across segments
-                # anyway, so start from the one known to work.
-                "category": "restaurant",
-                "address": address,
-                "naver_category": categories,
-            }
-        )
+        entry = {
+            "name": name,
+            "place_id": place_id,
+            # pcmap serves cafes and bakeries under /restaurant/ as well;
+            # the /cafe/ segment renders an empty document (run
+            # 33468327404). The collector falls back across segments anyway,
+            # so start from the one known to work.
+            "category": "restaurant",
+            "address": address,
+            "naver_category": categories,
+        }
+        if distance is not None:
+            entry["distance_m"] = round(distance)
+        accepted.append(entry)
+
+    if rejected:
+        print("  rejected: " + ", ".join(
+            f"{reason} x{count}" for reason, count in
+            sorted(rejected.items(), key=lambda kv: -kv[1])
+        ))
+    accepted.sort(key=lambda e: e.get("distance_m", 0))
     return accepted
 
 
 def merge_into_config(config_path: Path, targets: list[dict[str, Any]]) -> None:
     import yaml
 
-    document = yaml.safe_load(config_path.read_text(encoding="utf-8")) or {}
+    document = (
+        yaml.safe_load(config_path.read_text(encoding="utf-8")) or {}
+        if config_path.is_file()
+        else {}
+    )
+    # Preserve any hand-tuned settings block; replace only the target list.
     document["restaurants"] = targets
     config_path.write_text(
         yaml.safe_dump(document, allow_unicode=True, sort_keys=False),
@@ -243,49 +377,104 @@ def merge_into_config(config_path: Path, targets: list[dict[str, Any]]) -> None:
     )
 
 
+def load_location(path: Path, key: str) -> dict[str, Any]:
+    import yaml
+
+    document = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    locations = document.get("locations") or {}
+    if key not in locations:
+        raise SystemExit(
+            f"unknown location {key!r}; {path} defines: {sorted(locations)}"
+        )
+    return locations[key]
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
+        "--location", default="everland",
+        help="key from config/locations.yaml (default: everland)",
+    )
+    parser.add_argument("--locations-file", default=str(ROOT / "config/locations.yaml"))
+    parser.add_argument(
         "--query", action="append",
-        help=f"search query, repeatable (default: {DEFAULT_QUERIES})",
+        help="override the location's search queries (repeatable)",
     )
     parser.add_argument("--max-targets", type=int, default=30)
-    parser.add_argument("--config", default=str(ROOT / "config/restaurants.yaml"))
+    parser.add_argument(
+        "--config",
+        help="where to write the target list "
+             "(default: config/targets/<location>.yaml)",
+    )
     parser.add_argument("--chromium-path", default=None)
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args(argv)
 
+    location = load_location(Path(args.locations_file), args.location)
+    label = location.get("label", args.location)
+    queries = args.query or location.get("queries") or DEFAULT_QUERIES
+    print(f"location: {label}  ({len(queries)} queries)")
+
+    # --- resolve the centre, when this location verifies by proximity -----
+    center: tuple[float, float] | None = None
+    if location.get("radius_m"):
+        center_query = location.get("center_query") or label
+        print(f"resolving centre from: {center_query}")
+        seed, raw = search_http(center_query)
+        if not seed:
+            seed, raw = search_browser(center_query, args.chromium_path)
+        if raw is not None:
+            _archive(f"{args.location}_center", raw)
+        center = resolve_center(location, seed)
+        if center is None:
+            print(
+                "\ncould not resolve a centre for this location. Raw responses "
+                "are in logs/ for diagnosis; set an explicit 'center: [lat, lng]' "
+                "in the locations file to proceed.",
+                file=sys.stderr,
+            )
+            return 1
+
+    # --- search ------------------------------------------------------------
     all_places: list[dict[str, Any]] = []
-    for query in args.query or DEFAULT_QUERIES:
+    for query in queries:
         print(f"searching: {query}")
         places, raw = search_http(query)
         if not places:
             print("  http endpoints yielded nothing; trying browser fallback")
             places, raw = search_browser(query, args.chromium_path)
         if raw is not None:
-            _archive(re.sub(r"\W+", "-", query), raw)
+            slug = re.sub(r"\W+", "-", query)
+            _archive(f"{args.location}_{slug}", raw)
         print(f"  {len(places)} raw place entries")
         all_places.extend(places)
 
-    targets = filter_everland_food(all_places)[: args.max_targets]
+    targets = filter_places(all_places, location, center)[: args.max_targets]
     if not targets:
         print(
-            "\nNo verified Everland food venues found. Raw responses are in "
-            "logs/ for diagnosis. The config file was NOT modified.",
+            f"\nNo verified venues found for {label}. Raw responses are in "
+            "logs/ for diagnosis; the target file was NOT modified.",
             file=sys.stderr,
         )
         return 1
 
-    print(f"\nverified Everland targets ({len(targets)}):")
+    print(f"\nverified targets for {label} ({len(targets)}):")
     for target in targets:
-        print(f"  - {target['name']}  id={target['place_id']}")
+        distance = target.get("distance_m")
+        suffix = f"  [{distance}m]" if distance is not None else ""
+        print(f"  - {target['name']}  id={target['place_id']}{suffix}")
         print(f"      {target['address']}  {target['naver_category']}")
 
     if args.dry_run:
-        print("\n--dry-run: config not modified")
+        print("\n--dry-run: target file not modified")
         return 0
-    merge_into_config(Path(args.config), targets)
-    print(f"\nwrote {len(targets)} targets -> {args.config}")
+
+    config_path = Path(
+        args.config or (ROOT / "config/targets" / f"{args.location}.yaml")
+    )
+    config_path.parent.mkdir(parents=True, exist_ok=True)
+    merge_into_config(config_path, targets)
+    print(f"\nwrote {len(targets)} targets -> {config_path}")
     return 0
 
 

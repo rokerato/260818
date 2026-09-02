@@ -1,0 +1,61 @@
+# Locations to discover venues for.
+#
+# Adding a location is a config edit; the discovery and collection code is
+# location-agnostic. Each entry describes how to find the venues that belong
+# to a place, and nothing here invents a venue: every candidate still comes
+# from Naver's own search responses.
+#
+# Verification strategy, per location, in order of preference:
+#   center + radius_m  -- accept a venue whose Naver-returned coordinates fall
+#                         within radius_m of the centre. Works for a district,
+#                         a street or a strip. Leave `center` unset and the
+#                         centre is resolved at run time from `center_query`,
+#                         so no coordinates have to be guessed by hand.
+#   address_contains   -- accept only if the returned address contains this
+#                         string. Exact, but only usable when every venue
+#                         genuinely shares one address (a single complex).
+# Set either or both; both must pass when both are set.
+
+locations:
+  everland:
+    label: "에버랜드 (용인)"
+    # Every outlet inside the park shares the park's street address, so the
+    # address test alone is exact here -- this is how the 715-review dataset
+    # was verified.
+    address_contains: "에버랜드로"
+    queries:
+      - "에버랜드 레스토랑"
+      - "에버랜드 맛집"
+      - "에버랜드 카페"
+      - "에버랜드 식당"
+      - "에버랜드 푸드코트"
+      - "에버랜드 베이커리"
+      - "에버랜드 스낵"
+      - "에버랜드 커피"
+      - "에버랜드 글로벌페어"
+      - "에버랜드 아메리칸어드벤처"
+      - "에버랜드 매직랜드"
+      - "에버랜드 유러피언어드벤처"
+      - "에버랜드 주토피아"
+    exclude_tokens: ["테마파크", "놀이공원", "주차장", "호텔", "리조트", "동물원"]
+
+  sinlicheon:
+    label: "신리천 카페거리 (동탄)"
+    # A stretch of street, not one address, so venues are accepted by
+    # proximity. The centre is resolved from Naver at run time -- the
+    # coordinates are not hand-written, and the resolved point plus every
+    # venue's distance is printed so the result can be checked.
+    center_query: "신리천 카페거리"
+    # Generous enough to cover the strip; tighten once the first discovery
+    # run shows how the venues are actually spread.
+    radius_m: 700
+    queries:
+      - "신리천 카페거리"
+      - "신리천 카페"
+      - "신리천 맛집"
+      - "동탄 신리천 카페거리"
+      - "동탄 신리천 베이커리"
+      - "동탄 신리천 브런치"
+      - "동탄 신리천 디저트"
+      - "동탄 신리천 레스토랑"
+    exclude_tokens: ["주차장", "아파트", "학원", "부동산", "미용실", "병원"]
